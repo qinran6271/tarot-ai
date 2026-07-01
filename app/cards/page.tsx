@@ -56,7 +56,7 @@ export default function CardsPage() {
 
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
-      <div className="relative w-full max-w-[390px] min-h-screen bg-white px-6 py-10">
+      <div className="relative w-full max-w-[520px] min-h-screen bg-white px-6 py-10">
         <div className="mt-10 flex justify-end">
           <div className="max-w-[220px] rounded-full bg-black px-6 py-2 text-sm text-white">
             {question || "No question yet."}

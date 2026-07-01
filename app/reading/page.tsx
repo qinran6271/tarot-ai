@@ -5,26 +5,9 @@ import { useEffect, useState } from "react";
 import { useTarotStore } from "@/store/tarotStore";
 import type { Reading } from "@/types/reading";
 import { useRouter } from "next/navigation";
+import tarotKnowledge from "@/data/tarotKnowledge.json";
 
-const reading = {
-  question: "我的工作",
-  cards: [
-    { id: 1, name: "The Star", position: "Past" },
-    { id: 2, name: "The Hermit", position: "Present" },
-    { id: 3, name: "Justice", position: "Future" },
-  ],
-  keyInsight:
-    "You are not stuck. You are in a waiting period where preparation matters more than speed.",
-  interpretation:
-    "The cards suggest that your career path is moving slowly, but not without progress. The Star shows hope and renewal, The Hermit points to reflection and patience, and Justice reminds you that clear decisions and consistent effort will matter.",
-  advice:
-    "Focus on improving your portfolio, applying steadily, and reaching out to people instead of waiting for the perfect opportunity.",
-  followUps: [
-    "What is blocking my job search?",
-    "What should I focus on next?",
-    "Is a new opportunity coming soon?",
-  ],
-};
+
 
 export default function ReadingPage() {
   const router = useRouter();

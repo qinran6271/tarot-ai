@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
-      <div className="w-full max-w-[390px] min-h-screen bg-white flex flex-col items-center px-8 py-10">
+      <div className="w-full max-w-[520px] min-h-screen bg-white flex flex-col items-center px-8 py-10">
 
         <h1 className="text-xl font-medium mt-4">
           Today's Card

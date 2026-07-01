@@ -34,7 +34,7 @@ export default function QuestionPage() {
 
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
-      <div className="relative w-full max-w-[390px] min-h-screen bg-white px-6 py-10">
+      <div className="relative w-full max-w-[520px] min-h-screen bg-white px-6 py-10">
         <div className="mt-12">
           <p className="text-sm text-gray-500">Tarot AI</p>
 

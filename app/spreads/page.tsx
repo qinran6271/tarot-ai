@@ -19,7 +19,7 @@ export default function SpreadsPage() {
 
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
-      <div className="w-full max-w-[390px] min-h-screen bg-white px-6 py-10">
+      <div className="w-full max-w-[520px] min-h-screen bg-white px-6 py-10">
         <section className="mt-10">
           <p className="text-sm font-medium text-gray-500">Your question</p>
           <h1 className="mt-2 text-xl font-semibold text-gray-900">
