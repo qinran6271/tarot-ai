@@ -1,7 +1,9 @@
 "use client";
 import Link from "next/link";
 import TarotCard from "@/components/TarotCard";
+import { useEffect, useState } from "react";
 import { useTarotStore } from "@/store/tarotStore";
+import type { Reading } from "@/types/reading";
 
 const reading = {
   question: "我的工作",
@@ -26,6 +28,35 @@ const reading = {
 export default function ReadingPage() {
   const question = useTarotStore((state) => state.question);
   const cards = useTarotStore((state) => state.cards);
+
+  // Ai 返回结果
+  const [reading, setReading] = useState<Reading | null>(null);
+
+  // Fetch reading from API when question and cards are available
+  useEffect(() => {
+  async function getReading() {
+    const res = await fetch("/api/reading", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        question,
+        cards,
+      }),
+    });
+
+    const data = await res.json();
+
+    console.log("API returned:", data);
+
+    setReading(data);
+  }
+
+  if (question && cards.length === 3) {
+    getReading();
+  }
+  }, [question, cards]);
 
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
@@ -68,46 +99,55 @@ export default function ReadingPage() {
           </div>
         </section>
 
-        <section className="mt-8 rounded-[32px] bg-gray-100 px-6 py-6">
-          <h2 className="text-sm font-medium text-gray-900">✨ Key Insight</h2>
-          <p className="mt-3 text-sm leading-relaxed text-gray-700">
-            {reading.keyInsight}
-          </p>
-        </section>
+          {reading ? (
+            <>
+              <section className="mt-8 rounded-[32px] bg-gray-100 px-6 py-6">
+                <h2 className="text-sm font-medium text-gray-900">✨ Key Insight</h2>
+                <p className="mt-3 text-sm leading-relaxed text-gray-700">
+                  {reading.keyInsight}
+                </p>
+              </section>
 
-        <section className="mt-5 rounded-[32px] bg-gray-100 px-6 py-6">
-          <h2 className="text-sm font-medium text-gray-900">
-            📖 Interpretation
-          </h2>
-          <p className="mt-3 text-sm leading-relaxed text-gray-700">
-            {reading.interpretation}
-          </p>
-        </section>
+              <section className="mt-5 rounded-[32px] bg-gray-100 px-6 py-6">
+                <h2 className="text-sm font-medium text-gray-900">
+                  📖 Interpretation
+                </h2>
+                <p className="mt-3 text-sm leading-relaxed text-gray-700">
+                  {reading.interpretation}
+                </p>
+              </section>
 
-        <section className="mt-5 rounded-[32px] bg-gray-100 px-6 py-6">
-          <h2 className="text-sm font-medium text-gray-900">💡 Advice</h2>
-          <p className="mt-3 text-sm leading-relaxed text-gray-700">
-            {reading.advice}
-          </p>
-        </section>
+              <section className="mt-5 rounded-[32px] bg-gray-100 px-6 py-6">
+                <h2 className="text-sm font-medium text-gray-900">💡 Advice</h2>
+                <p className="mt-3 text-sm leading-relaxed text-gray-700">
+                  {reading.advice}
+                </p>
+              </section>
 
-        <section className="mt-5 rounded-[32px] bg-gray-100 px-6 py-6">
-          <h2 className="text-sm font-medium text-gray-900">
-            🔮 Continue Exploring
-          </h2>
+              <section className="mt-5 rounded-[32px] bg-gray-100 px-6 py-6">
+                <h2 className="text-sm font-medium text-gray-900">
+                  🔮 Continue Exploring
+                </h2>
 
-          <div className="mt-4 flex flex-col gap-3">
-            {reading.followUps.map((question) => (
-              <Link
-                key={question}
-                href="/question"
-                className="rounded-full bg-white px-5 py-3 text-left text-sm text-gray-700 transition hover:bg-gray-50"
-              >
-                {question}
-              </Link>
-            ))}
-          </div>
-        </section>
+                <div className="mt-4 flex flex-col gap-3">
+                  {(reading.followUps ?? []).map((question) => (
+                    <Link
+                      key={question}
+                      href="/question"
+                      className="rounded-full bg-white px-5 py-3 text-left text-sm text-gray-700 transition hover:bg-gray-50"
+                    >
+                      {question}
+                    </Link>
+                  ))}
+
+                </div>
+              </section>
+            </>
+          ) : (
+            <div className="mt-8 text-center text-gray-500">
+              Generating your tarot reading...
+            </div>
+          )}
 
         <div className="mt-8 flex flex-col gap-3 pb-8">
           <button className="h-12 rounded-full bg-black text-sm text-white">
@@ -115,7 +155,7 @@ export default function ReadingPage() {
           </button>
 
           <Link
-            href="/"
+            href="/question"
             className="flex h-12 items-center justify-center rounded-full border border-black text-sm text-black"
           >
             Start New Reading
