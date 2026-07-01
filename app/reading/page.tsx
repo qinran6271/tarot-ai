@@ -25,6 +25,7 @@ const reading = {
 
 export default function ReadingPage() {
   const question = useTarotStore((state) => state.question);
+  const cards = useTarotStore((state) => state.cards);
 
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
@@ -47,9 +48,18 @@ export default function ReadingPage() {
 
         <section className="mt-8">
           <div className="flex justify-between gap-3">
-            {reading.cards.map((card) => (
+            {cards.map((card, index) => (
               <div key={card.id} className="flex flex-col items-center gap-2">
-                <TarotCard position={card.position} />
+                <p className="text-xs text-gray-400">
+                  {["Past", "Present", "Future"][index]}
+                </p>
+
+                <TarotCard
+                  card={card}
+                  revealed={true}
+                  onClick={() => {}}
+                />
+
                 <p className="text-center text-xs font-medium text-gray-800">
                   {card.name}
                 </p>

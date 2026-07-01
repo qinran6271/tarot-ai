@@ -2,14 +2,18 @@
 
 import { useState } from "react";
 import { drawThreeCards, type TarotCardData } from "@/lib/tarot";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 import TarotCard from "@/components/TarotCard";
 import { useTarotStore } from "@/store/tarotStore";
 
 export default function CardsPage() {
-  const [selectedCards, setSelectedCards] = useState<TarotCardData[]>([]);
-  const [revealedCardIds, setRevealedCardIds] = useState<string[]>([]);
-  const question = useTarotStore((state) => state.question);
+    const router = useRouter();
+    const [selectedCards, setSelectedCards] = useState<TarotCardData[]>([]);
+    const [revealedCardIds, setRevealedCardIds] = useState<string[]>([]);
+    const question = useTarotStore((state) => state.question);
+    const setCards = useTarotStore((state) => state.setCards);
+
+
 
   function handleDrawCards() {
     const cards = drawThreeCards();
@@ -27,6 +31,11 @@ export default function CardsPage() {
       return [...prev, cardId];
     });
   }
+
+  function handleContinue() {
+  setCards(selectedCards);
+  router.push("/reading");
+}
 
   const allCardsRevealed =
     selectedCards.length === 3 && revealedCardIds.length === 3;
@@ -70,12 +79,12 @@ export default function CardsPage() {
 
         {allCardsRevealed && (
           <div className="absolute bottom-8 left-1/2 w-[85%] -translate-x-1/2">
-            <Link
-              href="/reading"
+            <button
+              onClick={handleContinue}
               className="flex h-12 w-full items-center justify-center rounded-full bg-black text-sm text-white transition hover:bg-gray-800"
             >
               Continue →
-            </Link>
+            </button>
           </div>
         )}
       </div>
