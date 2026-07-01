@@ -1,33 +1,46 @@
+
+/**
+ * Tarot deck data and helper functions.
+ *
+ * This file is responsible for:
+ * - Defining tarot card types
+ * - Storing the tarot deck
+ * - Drawing three random cards
+ */
+
+import tarotData from "@/data/tarot.json";
+
 export type TarotCardData = {
   id: string;
   name: string;
+  img: string;
+  number: number;
+  arcana: "Major Arcana" | "Minor Arcana";
+  suit: "Cups" | "Swords" | "Wands" | "Pentacles" | null;
 };
 
-export const tarotDeck: TarotCardData[] = [
-  { id: "the-fool", name: "The Fool" },
-  { id: "the-magician", name: "The Magician" },
-  { id: "the-high-priestess", name: "The High Priestess" },
-  { id: "the-empress", name: "The Empress" },
-  { id: "the-emperor", name: "The Emperor" },
-  { id: "the-hierophant", name: "The Hierophant" },
-  { id: "the-lovers", name: "The Lovers" },
-  { id: "the-chariot", name: "The Chariot" },
-  { id: "strength", name: "Strength" },
-  { id: "the-hermit", name: "The Hermit" },
-  { id: "wheel-of-fortune", name: "Wheel of Fortune" },
-  { id: "justice", name: "Justice" },
-  { id: "the-hanged-man", name: "The Hanged Man" },
-  { id: "death", name: "Death" },
-  { id: "temperance", name: "Temperance" },
-  { id: "the-devil", name: "The Devil" },
-  { id: "the-tower", name: "The Tower" },
-  { id: "the-star", name: "The Star" },
-  { id: "the-moon", name: "The Moon" },
-  { id: "the-sun", name: "The Sun" },
-  { id: "judgement", name: "Judgement" },
-  { id: "the-world", name: "The World" },
-];
+function toId(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/'/g, "")
+    .replace(/&/g, "and")
+    .replace(/\s+/g, "-");
+}
 
-export function drawThreeCards() {
-  return [...tarotDeck].sort(() => Math.random() - 0.5).slice(0, 3);
+export const tarotDeck: TarotCardData[] = tarotData.cards.map((card) => ({
+  id: toId(card.name),
+  name: card.name,
+  img: `/cards/${card.img}`,
+  number: Number(card.number),
+  arcana: card.arcana as TarotCardData["arcana"],
+  suit: card.suit as TarotCardData["suit"],
+}));
+
+/**
+ * Randomly draw three unique tarot cards.
+ * The original deck remains unchanged.
+ */
+export function drawThreeCards(): TarotCardData[] {
+  const shuffled = [...tarotDeck].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, 3);
 }

@@ -1,13 +1,37 @@
+import Image from "next/image";
+import { TarotCardData } from "@/lib/tarot";
+
 type TarotCardProps = {
-  position: string;
+  card: TarotCardData;
+  revealed: boolean;
+  onClick: () => void;
 };
 
-export default function TarotCard({ position }: TarotCardProps) {
+export default function TarotCard({
+  card,
+  revealed,
+  onClick,
+}: TarotCardProps) {
   return (
-    <button className="flex flex-col items-center gap-2">
-      <div className="h-36 w-24 rounded-xl bg-yellow-200 shadow-sm transition hover:-translate-y-1 hover:shadow-md" />
-
-      <span className="text-xs text-gray-500">{position}</span>
+    <button
+      onClick={onClick}
+      className="flex flex-col items-center gap-2"
+    >
+      <div className="overflow-hidden rounded-xl shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+        {revealed ? (
+          <Image
+            src={card.img}
+            alt={card.name}
+            width={120}
+            height={200}
+            className="h-36 w-24 object-cover"
+          />
+        ) : (
+          <div className="flex h-36 w-24 items-center justify-center bg-yellow-200">
+            {/* <span className="text-3xl"></span> */}
+          </div>
+        )}
+      </div>
     </button>
   );
 }
