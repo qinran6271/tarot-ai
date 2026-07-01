@@ -17,11 +17,13 @@ export async function POST(request: Request) {
     }
 
     const cardList = cards
-      .map(
-        (card: { name: string; position?: string }) =>
-          `${card.position ?? "Card"}: ${card.name}`
-      )
-      .join("\n");
+    .map(
+        (card: { name: string; position?: string; isReversed?: boolean }) =>
+        `${card.position ?? "Card"}: ${card.name} ${
+            card.isReversed ? "(Reversed)" : "(Upright)"
+        }`
+    )
+    .join("\n");
 
     const response = await client.responses.create({
       model: "gpt-4.1-mini",

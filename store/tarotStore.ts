@@ -1,13 +1,13 @@
 import { create } from "zustand";
-import type { TarotCardData } from "@/lib/tarot";
+import { DrawnCard } from "@/types/tarot";
 
 
 type TarotStore = {
   question: string;
   setQuestion: (question: string) => void;
 
-  cards: TarotCardData[];
-  setCards: (cards: TarotCardData[]) => void;
+  cards: DrawnCard[];
+  setCards: (cards:  DrawnCard[]) => void;
 };
 
 // export 出去所有页面都可以使用

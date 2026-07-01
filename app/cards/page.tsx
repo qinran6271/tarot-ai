@@ -5,22 +5,27 @@ import { drawThreeCards, type TarotCardData } from "@/lib/tarot";
 import { useRouter } from "next/navigation";
 import TarotCard from "@/components/TarotCard";
 import { useTarotStore } from "@/store/tarotStore";
+import { DrawnCard } from "@/types/tarot";
 
 export default function CardsPage() {
     const router = useRouter();
-    const [selectedCards, setSelectedCards] = useState<TarotCardData[]>([]);
+    const [selectedCards, setSelectedCards] = useState<DrawnCard[]>([]);
     const [revealedCardIds, setRevealedCardIds] = useState<string[]>([]);
     const question = useTarotStore((state) => state.question);
     const setCards = useTarotStore((state) => state.setCards);
 
 
 
-  function handleDrawCards() {
-    const cards = drawThreeCards();
+
+    function handleDrawCards() {
+    const cards = drawThreeCards().map((card) => ({
+        ...card,
+        isReversed: Math.random() < 0.5,
+    }));
 
     setSelectedCards(cards);
     setRevealedCardIds([]);
-  }
+    }
 
   function handleRevealCard(cardId: string) {
     setRevealedCardIds((prev) => {
