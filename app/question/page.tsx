@@ -27,7 +27,7 @@ export default function QuestionPage() {
     }
 
     setGlobalQuestion(question);
-    router.push("/cards");
+    router.push("/spreads");
     };   
 
     const isQuestionValid = question.trim().length > 0;

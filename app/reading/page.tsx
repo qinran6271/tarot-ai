@@ -4,6 +4,7 @@ import TarotCard from "@/components/TarotCard";
 import { useEffect, useState } from "react";
 import { useTarotStore } from "@/store/tarotStore";
 import type { Reading } from "@/types/reading";
+import { useRouter } from "next/navigation";
 
 const reading = {
   question: "我的工作",
@@ -26,37 +27,49 @@ const reading = {
 };
 
 export default function ReadingPage() {
+  const router = useRouter();
   const question = useTarotStore((state) => state.question);
   const cards = useTarotStore((state) => state.cards);
 
   // Ai 返回结果
   const [reading, setReading] = useState<Reading | null>(null);
 
+
+  // Redirect to question page if question or cards are missing
+  useEffect(() => {
+    if (!question.trim() || cards.length !== 3) {
+      router.replace("/question");
+    }
+  }, [question, cards.length, router]);
+
+
   // Fetch reading from API when question and cards are available
   useEffect(() => {
-  async function getReading() {
-    const res = await fetch("/api/reading", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        question,
-        cards,
-      }),
-    });
+    if (!question.trim() || cards.length !== 3) {
+      return;
+    }
 
-    const data = await res.json();
+    async function getReading() {
+      const res = await fetch("/api/reading", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          question,
+          cards,
+        }),
+      });
 
-    console.log("API returned:", data);
+      const data = await res.json();
+      console.log("API returned:", data);
+      setReading(data);
+    }
 
-    setReading(data);
-  }
-
-  if (question && cards.length === 3) {
     getReading();
-  }
   }, [question, cards]);
+
+
 
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
@@ -81,9 +94,9 @@ export default function ReadingPage() {
           <div className="flex justify-between gap-3">
             {cards.map((card, index) => (
               <div key={card.id} className="flex flex-col items-center gap-2">
-                <p className="text-xs text-gray-400">
+                {/* <p className="text-xs text-gray-400">
                   {["Past", "Present", "Future"][index]}
-                </p>
+                </p> */}
 
                 <TarotCard
                   card={card}

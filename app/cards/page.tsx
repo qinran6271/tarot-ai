@@ -1,11 +1,13 @@
 "use client";
 
-import { useState } from "react";
-import { drawThreeCards, type TarotCardData } from "@/lib/tarot";
+import { useEffect, useState } from "react";
+import { drawCards, type TarotCardData } from "@/lib/tarot";
 import { useRouter } from "next/navigation";
 import TarotCard from "@/components/TarotCard";
 import { useTarotStore } from "@/store/tarotStore";
 import { DrawnCard } from "@/types/tarot";
+import { tarotSpreads } from "@/lib/spreads";
+
 
 export default function CardsPage() {
     const router = useRouter();
@@ -13,13 +15,13 @@ export default function CardsPage() {
     const [revealedCardIds, setRevealedCardIds] = useState<string[]>([]);
     const question = useTarotStore((state) => state.question);
     const setCards = useTarotStore((state) => state.setCards);
-
-
+    const selectedSpread = useTarotStore((state) => state.selectedSpread);
 
 
     function handleDrawCards() {
-    const cards = drawThreeCards().map((card) => ({
+    const cards = drawCards(selectedSpread.cardCount).map((card, index) => ({
         ...card,
+        position: selectedSpread.positions[index],
         isReversed: Math.random() < 0.5,
     }));
 
@@ -42,8 +44,15 @@ export default function CardsPage() {
   router.push("/reading");
 }
 
-  const allCardsRevealed =
-    selectedCards.length === 3 && revealedCardIds.length === 3;
+    const allCardsRevealed =
+    selectedCards.length === selectedSpread.cardCount &&
+    revealedCardIds.length === selectedSpread.cardCount;
+
+    useEffect(() => {
+    if (!question.trim()) {
+        router.replace("/question");
+    }
+    }, [question, router]);
 
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
@@ -61,7 +70,7 @@ export default function CardsPage() {
             onClick={handleDrawCards}
             className="mt-6 rounded-xl bg-purple-600 px-6 py-3 font-medium text-white hover:bg-purple-700"
           >
-            Draw 3 Cards
+            Draw {selectedSpread.cardCount} Cards
           </button>
 
           <p className="mt-3 text-sm leading-relaxed text-gray-500">

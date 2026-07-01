@@ -40,7 +40,8 @@ export const tarotDeck: TarotCardData[] = tarotData.cards.map((card) => ({
  * Randomly draw three unique tarot cards.
  * The original deck remains unchanged.
  */
-export function drawThreeCards(): TarotCardData[] {
+export function drawCards(count: number) {
   const shuffled = [...tarotDeck].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, 3);
+
+  return shuffled.slice(0, count);
 }
