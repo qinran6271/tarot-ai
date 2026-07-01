@@ -1,5 +1,7 @@
+"use client";
 import Link from "next/link";
 import TarotCard from "@/components/TarotCard";
+import { useTarotStore } from "@/store/tarotStore";
 
 const reading = {
   question: "我的工作",
@@ -22,12 +24,14 @@ const reading = {
 };
 
 export default function ReadingPage() {
+  const question = useTarotStore((state) => state.question);
+
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
       <div className="w-full max-w-[520px] min-h-screen bg-white px-6 py-10">
         <div className="flex justify-end">
           <div className="max-w-[220px] rounded-full bg-black px-6 py-2 text-sm text-white">
-            {reading.question}
+            {question || "No question yet."}
           </div>
         </div>
 

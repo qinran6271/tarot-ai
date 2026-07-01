@@ -1,35 +1,89 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useTarotStore } from "@/store/tarotStore";
+
+const suggestions = [
+  "Will I find a new job this year?",
+  "What should I focus on in my relationship?",
+  "What is blocking my personal growth?",
+  "What energy surrounds me right now?",
+];
 
 export default function QuestionPage() {
+    const [question, setQuestion] = useState("");
+
+    // Zustand store to manage the global question state
+    const setGlobalQuestion = useTarotStore(
+    (state) => state.setQuestion
+    );
+
+    const router = useRouter();
+    const handleContinue = () => {
+    if (!question.trim()) {
+        return;
+    }
+
+    setGlobalQuestion(question);
+    router.push("/cards");
+    };   
+
+    const isQuestionValid = question.trim().length > 0;
+
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
       <div className="relative w-full max-w-[390px] min-h-screen bg-white px-6 py-10">
-        {/* User message */}
-        <div className="mt-10 flex justify-end">
-          <div className="max-w-[220px] rounded-full bg-black px-6 py-2 text-sm text-white">
-            我的工作
-          </div>
+        <div className="mt-12">
+          <p className="text-sm text-gray-500">Tarot AI</p>
+
+          <h1 className="mt-3 text-3xl font-semibold tracking-tight text-gray-900">
+            Ask your question
+          </h1>
+
+          <p className="mt-3 text-sm leading-relaxed text-gray-500">
+            Focus on one question you want guidance on.
+          </p>
+        </div>
+        <div className="mt-8">
+  <p className="mb-3 text-xs uppercase tracking-wide text-gray-400">
+    Need inspiration?
+  </p>
+
+    <div className="space-y-2 text-sm text-gray-400">
+        <p>Will I find a new job this year?</p>
+        <p>What should I focus on right now?</p>
+        <p>How can I improve my relationship?</p>
+        <p>What lesson is the universe teaching me?</p>
+    </div>
+    </div>
+
+        <div className="mt-10">
+          <textarea
+            value={question}
+            onChange={(event) => setQuestion(event.target.value)}
+            placeholder="For example: What should I know about my career path?"
+            className="h-40 w-full resize-none rounded-3xl border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-900 outline-none transition focus:border-gray-400 focus:bg-white"
+          />
         </div>
 
-        {/* AI message */}
-        <div className="mt-20 flex justify-start">
-          <div className="max-w-[280px] rounded-[32px] bg-gray-100 px-6 py-5 text-sm leading-relaxed text-gray-700">
-            <p className="mb-2 font-medium text-gray-900">🔮 Tarot AI</p>
-            <p>I understand.</p>
-            <p className="mt-2">
-              Focus on this question. When you're ready, choose three cards.
-            </p>
-          </div>
+        <div className="mt-4 text-right text-xs text-gray-400">
+          {question.length}/300
         </div>
 
-        {/* Continue button */}
         <div className="absolute bottom-8 left-1/2 w-[85%] -translate-x-1/2">
-          <Link
-            href="/cards"
-            className="flex h-12 w-full items-center justify-center rounded-full bg-black text-sm text-white transition hover:bg-gray-800"
-          >
+            <button
+            onClick={handleContinue}
+            disabled={!isQuestionValid}
+            className={`flex h-12 w-full items-center justify-center rounded-full text-sm text-white transition ${
+                isQuestionValid
+                ? "bg-black hover:bg-gray-800"
+                : "cursor-not-allowed bg-gray-300"
+            }`}
+            >
             Continue →
-          </Link>
+            </button>
         </div>
       </div>
     </main>
