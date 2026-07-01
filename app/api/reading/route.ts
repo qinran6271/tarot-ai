@@ -7,7 +7,7 @@ const client = new OpenAI({
 
 export async function POST(request: Request) {
   try {
-    const { question, cards } = await request.json();
+    const { question, cards, spread} = await request.json();
 
     if (!question || !cards || cards.length === 0) {
       return NextResponse.json(

@@ -30,14 +30,19 @@ export default function ReadingPage() {
   const router = useRouter();
   const question = useTarotStore((state) => state.question);
   const cards = useTarotStore((state) => state.cards);
+  const selectedSpread = useTarotStore(
+  (state) => state.selectedSpread
+  );
 
   // Ai 返回结果
   const [reading, setReading] = useState<Reading | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
 
   // Redirect to question page if question or cards are missing
   useEffect(() => {
-    if (!question.trim() || cards.length !== 3) {
+    if (!question.trim() || cards.length !== selectedSpread.cardCount) {
       router.replace("/question");
     }
   }, [question, cards.length, router]);
@@ -45,29 +50,46 @@ export default function ReadingPage() {
 
   // Fetch reading from API when question and cards are available
   useEffect(() => {
-    if (!question.trim() || cards.length !== 3) {
+    if (!question.trim() || cards.length !== selectedSpread.cardCount) {
       return;
     }
 
     async function getReading() {
-      const res = await fetch("/api/reading", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          question,
-          cards,
-        }),
-      });
+      setLoading(true);
+      setError(null);
 
-      const data = await res.json();
-      console.log("API returned:", data);
-      setReading(data);
+      try {
+        const res = await fetch("/api/reading", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            question,
+            spread: selectedSpread,
+            cards,
+          }),
+        });
+
+        if (!res.ok) {
+          throw new Error("Failed to generate reading.");
+        }
+
+        const data = await res.json();
+
+        console.log("API returned:", data);
+
+        setReading(data);
+      } catch (err) {
+        console.error(err);
+        setError("Something went wrong. Please try again.");
+      } finally {
+        setLoading(false);
+      }
     }
 
     getReading();
-  }, [question, cards]);
+  }, [question, cards, selectedSpread]);
 
 
 
@@ -112,7 +134,15 @@ export default function ReadingPage() {
           </div>
         </section>
 
-          {reading ? (
+          {loading ? (
+            <div className="mt-8 text-center text-gray-500">
+              ✨ Interpreting the cards...
+            </div>
+          ) : error ? (
+            <div className="mt-8 text-center text-red-500">
+              {error}
+            </div>
+          ) : reading ? (
             <>
               <section className="mt-8 rounded-[32px] bg-gray-100 px-6 py-6">
                 <h2 className="text-sm font-medium text-gray-900">✨ Key Insight</h2>
@@ -156,11 +186,7 @@ export default function ReadingPage() {
                 </div>
               </section>
             </>
-          ) : (
-            <div className="mt-8 text-center text-gray-500">
-              Generating your tarot reading...
-            </div>
-          )}
+          ) : null}
 
         <div className="mt-8 flex flex-col gap-3 pb-8">
           <button className="h-12 rounded-full bg-black text-sm text-white">
