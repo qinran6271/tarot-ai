@@ -66,12 +66,14 @@ export default function CardsPage() {
         <section className="mt-16 text-center">
           <p className="text-sm font-medium text-gray-900">🔮 Tarot AI</p>
 
+        {selectedCards.length === 0 && (
           <button
             onClick={handleDrawCards}
             className="mt-6 rounded-xl bg-purple-600 px-6 py-3 font-medium text-white hover:bg-purple-700"
           >
             Draw {selectedSpread.cardCount} Cards
           </button>
+        )}
 
           <p className="mt-3 text-sm leading-relaxed text-gray-500">
             Keep your question in mind.
