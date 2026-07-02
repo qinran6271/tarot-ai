@@ -99,7 +99,7 @@ export default function CardsPage() {
               onClick={handleContinue}
               className="flex h-12 w-full items-center justify-center rounded-full bg-black text-sm text-white transition hover:bg-gray-800"
             >
-              Continue →
+              Continue
             </button>
           </div>
         )}

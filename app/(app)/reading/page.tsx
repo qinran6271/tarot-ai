@@ -1,11 +1,12 @@
 "use client";
 import Link from "next/link";
 import TarotCard from "@/components/TarotCard";
-import { useEffect, useState } from "react";
 import { useTarotStore } from "@/store/tarotStore";
-import type { Reading } from "@/types/reading";
+import type { ReadingContent, Reading } from "@/types/reading";
 import { useRouter } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import tarotKnowledge from "@/data/tarotKnowledge.json";
+
 
 
 
@@ -13,31 +14,33 @@ export default function ReadingPage() {
   const router = useRouter();
   const question = useTarotStore((state) => state.question);
   const cards = useTarotStore((state) => state.cards);
-  const selectedSpread = useTarotStore(
-  (state) => state.selectedSpread
-  );
+  const selectedSpread = useTarotStore((state) => state.selectedSpread);
+  const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
+  const addHistory = useTarotStore((state) => state.addHistory);
 
   // Ai 返回结果
-  const [reading, setReading] = useState<Reading | null>(null);
+  const [reading, setReading] = useState<ReadingContent | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  const hasFetchedRef = useRef(false);
+  
 
-  // Redirect to question page if question or cards are missing
-  useEffect(() => {
-    if (!question.trim() || cards.length !== selectedSpread.cardCount) {
-      router.replace("/question");
-    }
-  }, [question, cards.length, router]);
+
 
 
   // Fetch reading from API when question and cards are available
   useEffect(() => {
+    if (hasFetchedRef.current) return;
     if (!question.trim() || cards.length !== selectedSpread.cardCount) {
+      router.replace("/question"); //  Redirect to question page if question or cards are missing
       return;
     }
 
+    hasFetchedRef.current = true;
+
     async function getReading() {
+      console.log("getReading()");
       setLoading(true);
       setError(null);
 
@@ -60,9 +63,24 @@ export default function ReadingPage() {
 
         const data = await res.json();
 
+        // Save the reading to the store and history
+        const newReading: Reading = {
+        id: crypto.randomUUID(),
+        createdAt: new Date().toISOString(),
+        question,
+        spread: "three-card",
+        cards,
+        content: data,
+        };
+
         console.log("API returned:", data);
 
         setReading(data);
+        setCurrentReading(newReading);
+        addHistory(newReading);
+        console.log("Saving reading:", newReading);
+
+
       } catch (err) {
         console.error(err);
         setError("Something went wrong. Please try again.");
@@ -73,8 +91,6 @@ export default function ReadingPage() {
 
     getReading();
   }, [question, cards, selectedSpread]);
-
-
 
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">

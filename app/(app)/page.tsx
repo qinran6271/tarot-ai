@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import {
   DailyReading,
   getDailyReading,
@@ -18,6 +18,8 @@ export default function Home() {
   const [isGenerating, setIsGenerating] = useState(false);
   const [showMore, setShowMore] = useState(false);
 
+  const isDrawingRef = useRef(false);
+
   useEffect(() => {
   const saved = getDailyReading();
 
@@ -29,8 +31,10 @@ export default function Home() {
   
 
   async function drawTodayCard() {
-    if (isGenerating) return;
+    console.log("drawTodayCard called");
+    if (isDrawingRef.current || isGenerating || reading) return;
 
+    isDrawingRef.current = true;
     setIsGenerating(true);
 
     const baseCard = drawCards(1)[0];
@@ -50,6 +54,7 @@ export default function Home() {
 
     // 先立刻显示卡
     setReading(tempReading);
+    saveDailyReading(tempReading);
 
     try {
       const response = await fetch("/api/reading", {
@@ -93,6 +98,7 @@ export default function Home() {
       setReading(failedReading);
     } finally {
       setIsGenerating(false);
+      isDrawingRef.current = false;
     }
   }
 
