@@ -1,19 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
 
-const suggestions = [
-  "Will I find a new job this year?",
-  "What should I focus on in my relationship?",
-  "What is blocking my personal growth?",
-  "What energy surrounds me right now?",
-];
+
 
 export default function QuestionPage() {
     const [question, setQuestion] = useState("");
+    const setCurrentReading = useTarotStore(
+    (state) => state.setCurrentReading
+  );
 
     // Zustand store to manage the global question state
     const setGlobalQuestion = useTarotStore(
@@ -22,13 +19,14 @@ export default function QuestionPage() {
 
     const router = useRouter();
     const handleContinue = () => {
-    if (!question.trim()) {
+      if (!question.trim()) {
         return;
-    }
+      }
 
-    setGlobalQuestion(question);
-    router.push("/spreads");
-    };   
+      setCurrentReading(null);
+      setGlobalQuestion(question);
+      router.push("/spreads");
+    };  
 
     const isQuestionValid = question.trim().length > 0;
 

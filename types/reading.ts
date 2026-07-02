@@ -1,5 +1,6 @@
-import type { TarotCardData } from "@/lib/tarot";
-// AI 生成内容
+import type { DrawnCard } from "@/types/tarot";
+import type { TarotSpread } from "@/lib/spreads";
+
 export type ReadingContent = {
   keyInsight: string;
   interpretation: string;
@@ -7,14 +8,26 @@ export type ReadingContent = {
   followUps: string[];
 };
 
+export type ReadingMessage = {
+  id: string;
+  role: "user" | "assistant";
+  content: string;
+  createdAt: string;
+};
 
 export type Reading = {
   id: string;
   createdAt: string;
-  question: string;
-  spread: "daily" | "single" | "three-card";
+  updatedAt: string;
 
-  cards: TarotCardData[];
+  focus: string;
+  spread: TarotSpread;
 
-  content: ReadingContent;
+  cards: DrawnCard[];
+  content: ReadingContent; // 第一次正解牌
+
+  conversation: ReadingMessage[]; //整个对话的记录
+
+  status: "active" | "completed";
+  summary?: string;
 };

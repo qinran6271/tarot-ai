@@ -54,6 +54,8 @@ export default function CardsPage() {
     }
     }, [question, router]);
 
+    
+
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
       <div className="relative w-full max-w-[520px] min-h-screen bg-white px-6 py-10">

@@ -6,6 +6,7 @@ import type { ReadingContent, Reading } from "@/types/reading";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import tarotKnowledge from "@/data/tarotKnowledge.json";
+import type { DrawnCard } from "@/types/tarot";
 
 
 
@@ -15,12 +16,17 @@ export default function ReadingPage() {
   const question = useTarotStore((state) => state.question);
   const cards = useTarotStore((state) => state.cards);
   const selectedSpread = useTarotStore((state) => state.selectedSpread);
+  const currentReading = useTarotStore((state) => state.currentReading);
+
+
   const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
   const addHistory = useTarotStore((state) => state.addHistory);
 
   // Ai 返回结果
-  const [reading, setReading] = useState<ReadingContent | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [reading, setReading] = useState<ReadingContent | null>(
+    currentReading?.content ?? null
+  );
+  const [loading, setLoading] = useState(!currentReading);
   const [error, setError] = useState<string | null>(null);
 
   const hasFetchedRef = useRef(false);
@@ -28,9 +34,14 @@ export default function ReadingPage() {
 
 
 
-
   // Fetch reading from API when question and cards are available
   useEffect(() => {
+    if (currentReading) {
+      setReading(currentReading.content);
+      setLoading(false);
+      return;
+    }
+
     if (hasFetchedRef.current) return;
     if (!question.trim() || cards.length !== selectedSpread.cardCount) {
       router.replace("/question"); //  Redirect to question page if question or cards are missing
@@ -64,13 +75,29 @@ export default function ReadingPage() {
         const data = await res.json();
 
         // Save the reading to the store and history
+        const now = new Date().toISOString();
+
         const newReading: Reading = {
-        id: crypto.randomUUID(),
-        createdAt: new Date().toISOString(),
-        question,
-        spread: "three-card",
-        cards,
-        content: data,
+          id: crypto.randomUUID(),
+          createdAt: now,
+          updatedAt: now,
+
+          focus: question,
+          spread: selectedSpread,
+
+          cards,
+          content: data,
+
+          conversation: [
+            {
+              id: crypto.randomUUID(),
+              role: "user",
+              content: question,
+              createdAt: now,
+            },
+          ],
+
+          status: "active",
         };
 
         console.log("API returned:", data);
@@ -90,19 +117,23 @@ export default function ReadingPage() {
     }
 
     getReading();
-  }, [question, cards, selectedSpread]);
+  }, [currentReading, question, cards, selectedSpread, router, setCurrentReading, addHistory]);
+
+  const displayQuestion = currentReading?.focus ?? question;
+  const displayCards = currentReading?.cards ?? cards;
+  const displayReading = currentReading?.content ?? reading;
 
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
       <div className="w-full max-w-[520px] min-h-screen bg-white px-6 py-10">
         <div className="flex justify-end">
           <div className="max-w-[220px] rounded-full bg-black px-6 py-2 text-sm text-white">
-            {question || "No question yet."}
+            {displayQuestion || "No question yet."}
           </div>
         </div>
 
         <section className="mt-10">
-          <p className="text-sm font-medium text-gray-900">🔮 Tarot AI</p>
+          <p className="text-sm text-gray-500">✨ WALAWALA</p>
           <h1 className="mt-3 text-2xl font-medium text-gray-900">
             Your Reading
           </h1>
@@ -113,7 +144,7 @@ export default function ReadingPage() {
 
         <section className="mt-8">
           <div className="flex justify-between gap-3">
-            {cards.map((card, index) => (
+            {displayCards.map((card, index) => (
               <div key={card.id} className="flex flex-col items-center gap-2">
                 {/* <p className="text-xs text-gray-400">
                   {["Past", "Present", "Future"][index]}
@@ -141,12 +172,12 @@ export default function ReadingPage() {
             <div className="mt-8 text-center text-red-500">
               {error}
             </div>
-          ) : reading ? (
+          ) : displayReading ? (
             <>
               <section className="mt-8 rounded-[32px] bg-gray-100 px-6 py-6">
                 <h2 className="text-sm font-medium text-gray-900">✨ Key Insight</h2>
                 <p className="mt-3 text-sm leading-relaxed text-gray-700">
-                  {reading.keyInsight}
+                  {displayReading.keyInsight}
                 </p>
               </section>
 
@@ -155,24 +186,24 @@ export default function ReadingPage() {
                   📖 Interpretation
                 </h2>
                 <p className="mt-3 text-sm leading-relaxed text-gray-700">
-                  {reading.interpretation}
+                  {displayReading.interpretation}
                 </p>
               </section>
 
               <section className="mt-5 rounded-[32px] bg-gray-100 px-6 py-6">
                 <h2 className="text-sm font-medium text-gray-900">💡 Advice</h2>
                 <p className="mt-3 text-sm leading-relaxed text-gray-700">
-                  {reading.advice}
+                  {displayReading.advice}
                 </p>
               </section>
 
               <section className="mt-5 rounded-[32px] bg-gray-100 px-6 py-6">
                 <h2 className="text-sm font-medium text-gray-900">
-                  🔮 Continue Exploring
+                  🧚‍♀️ Continue Exploring
                 </h2>
 
                 <div className="mt-4 flex flex-col gap-3">
-                  {(reading.followUps ?? []).map((question) => (
+                  {(displayReading.followUps ?? []).map((question) => (
                     <Link
                       key={question}
                       href="/question"

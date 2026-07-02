@@ -10,6 +10,9 @@ import { drawCards } from "@/lib/tarot";
 import Link from "next/link";
 import { saveDailyReading } from "@/lib/dailyReading";
 
+import { useRouter } from "next/navigation";
+import { useTarotStore } from "@/store/tarotStore";
+
 
 // Load today's saved reading from localStorage when the page first loads.
 // If a reading exists and was created today, display it on the homepage.
@@ -19,6 +22,8 @@ export default function Home() {
   const [showMore, setShowMore] = useState(false);
 
   const isDrawingRef = useRef(false);
+  const router = useRouter();
+  const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
 
   useEffect(() => {
   const saved = getDailyReading();
@@ -182,8 +187,12 @@ export default function Home() {
 
         </div>
 
-        <Link
-          href="/question"
+        <button
+          type="button"
+          onClick={() => {
+            setCurrentReading(null);
+            router.push("/question");
+          }}
           className="
             mt-auto
             mb-10
@@ -198,7 +207,7 @@ export default function Home() {
           "
         >
           开始旅程
-        </Link>
+        </button>
 
       </div>
     </main>
