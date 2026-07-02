@@ -7,6 +7,8 @@ import TarotCard from "@/components/TarotCard";
 import { useTarotStore } from "@/store/tarotStore";
 import { DrawnCard } from "@/types/tarot";
 import { tarotSpreads } from "@/lib/spreads";
+import { ChevronLeft } from "lucide-react";
+
 
 
 export default function CardsPage() {
@@ -59,6 +61,20 @@ export default function CardsPage() {
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
       <div className="relative w-full max-w-[520px] min-h-screen bg-white px-6 py-10">
+
+      <header className="flex items-center">
+        <button
+          type="button"
+          onClick={() => router.back()}
+          className="-ml-2 cursor-pointer p-1 text-gray-500 transition hover:text-black active:scale-95"
+          aria-label="Back"
+        >
+          <ChevronLeft size={24} strokeWidth={2.3} />
+        </button>
+      </header>
+
+
+
         <div className="mt-10 flex justify-end">
           <div className="max-w-[220px] rounded-full bg-black px-6 py-2 text-sm text-white">
             {question || "No question yet."}
@@ -66,12 +82,12 @@ export default function CardsPage() {
         </div>
 
         <section className="mt-16 text-center">
-          <p className="text-sm font-medium text-gray-900">🔮 Tarot AI</p>
+          <p className="text-sm text-gray-500">✨ WALAWALA</p>
 
         {selectedCards.length === 0 && (
           <button
             onClick={handleDrawCards}
-            className="mt-6 rounded-xl bg-purple-600 px-6 py-3 font-medium text-white hover:bg-purple-700"
+            className="mt-6 rounded-xl bg-yellow-300 px-6 py-3 font-medium text-white hover:bg-yellow-200"
           >
             Draw {selectedSpread.cardCount} Cards
           </button>

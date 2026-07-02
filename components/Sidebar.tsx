@@ -11,7 +11,8 @@ export default function Sidebar() {
       <button
         type="button"
         onClick={() => setIsOpen(true)}
-        className="fixed left-5 top-5 z-50 flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl shadow-sm"
+        className="cursor-pointer fixed left-5 top-5 z-50 flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl shadow-sm"
+            
       >
         ☰
       </button>
@@ -45,7 +46,7 @@ export default function Sidebar() {
             <button
               type="button"
               onClick={() => setIsOpen(false)}
-              className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-100 text-xl text-gray-500"
+              className="cursor-pointer flex h-9 w-9 items-center justify-center rounded-full bg-gray-100 text-xl text-gray-500"
             >
               ×
             </button>
