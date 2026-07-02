@@ -1,36 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔮 Walawala Tarot AI
 
-## Getting Started
+An AI-powered tarot reading web application that combines traditional tarot symbolism with modern large language models to provide personalized and interactive readings.
 
-First, run the development server:
+🌐 **Live Demo:** [https://YOUR-VERCEL-URL.vercel.app](https://walawala-tarot-khaki.vercel.app/)
+
+---
+
+## ✨ Features
+
+- 🔮 Daily Tarot Card Reading
+- 🃏 Multiple Tarot Spreads
+- 🤖 AI-generated Tarot Interpretations
+- 💡 Personalized insights based on the user's question
+- 💾 Daily reading persistence
+- 📱 Mobile-first responsive design
+- ⚡ Fast deployment with Vercel
+
+---
+
+## 📸 Screenshots
+
+> Screenshots coming soon.
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+### State Management
+- Zustand
+
+### AI
+- OpenAI API
+
+### Deployment
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+app/
+components/
+lib/
+public/
+store/
+types/
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/qinran6271/tarot-ai.git
+```
+
+Go into the project:
+
+```bash
+cd tarot-ai
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env.local` file:
+
+```env
+OPENAI_API_KEY=your_openai_api_key
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 How It Works
 
-To learn more about Next.js, take a look at the following resources:
+1. The user enters a tarot question.
+2. The user selects a tarot spread.
+3. Tarot cards are randomly drawn.
+4. Card information is sent to the OpenAI API.
+5. The AI generates:
+   - Key Insight
+   - Interpretation
+   - Advice
+6. The reading is displayed in a clean, mobile-friendly interface.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🗺 Roadmap
 
-## Deploy on Vercel
+### Completed
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [x] Responsive UI
+- [x] Multiple Tarot Spreads
+- [x] Random Card Drawing
+- [x] Daily Reading
+- [x] AI-generated Reading
+- [x] Vercel Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### In Progress
+
+- [ ] User Authentication
+- [ ] Reading History
+- [ ] Favorite Readings
+- [ ] Reverse Card Interpretation Improvements
+
+### Planned
+
+- [ ] Personalized AI Memory
+- [ ] Tarot Knowledge Base (RAG)
+- [ ] AI Chat Follow-up Questions
+- [ ] Custom Deck Themes
+- [ ] Social Sharing
+- [ ] Multi-language Support
+
+---
+
+## 💻 Tech Highlights
+
+- Built with the Next.js App Router.
+- Uses Zustand for lightweight global state management.
+- Integrates the OpenAI API for dynamic tarot interpretations.
+- Mobile-first UI designed with Tailwind CSS.
+- Automatically deployed through Vercel with GitHub integration.
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+Made with ❤️ using Next.js, OpenAI and Vercel.
