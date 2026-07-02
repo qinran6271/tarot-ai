@@ -39,13 +39,13 @@ export default function QuestionPage() {
           <p className="text-sm text-gray-500">✨ WALAWALA</p>
 
           <h1 className="mt-3 text-3xl font-semibold tracking-tight text-gray-900">
-            Ask your question
+            Set your focus
           </h1>
 
           <div className="mt-3 text-sm leading-relaxed text-gray-500">
-            <p>Focus on one question.</p>
-            <p>Clear your mind.</p>
-            <p>Discover your guidance.</p>
+            <p>Take a deep breath.</p>
+            <p>Focus on one intention.</p>
+            <p>Let's explore it together.</p>
           </div>
         </div>
         <div className="mt-8">
@@ -54,12 +54,12 @@ export default function QuestionPage() {
 
     <div className="absolute bottom-8 left-1/2 w-[85%] -translate-x-1/2">
         <p className="mb-3 text-xs uppercase tracking-wide text-gray-400">
-            Looking for inspiration?
+            Need a starting point?
         </p>
 
         <div  className="space-y-2 text-sm text-gray-400">
             <p>💼 Career</p>
-            <p>❤️ Love</p>
+            <p>❤️ Relationships</p>
             <p>🏡 Home</p>
             <p>🌙 Energy</p>
         </div>
