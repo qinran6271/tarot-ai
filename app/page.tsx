@@ -1,27 +1,179 @@
+"use client";
+import { useEffect, useState } from "react";
+import {
+  DailyReading,
+  getDailyReading,
+  isTodayReading,
+} from "@/lib/dailyReading";
+import TarotCard from "@/components/TarotCard";
+import { drawCards } from "@/lib/tarot";
 import Link from "next/link";
+import { saveDailyReading } from "@/lib/dailyReading";
 
 
+// Load today's saved reading from localStorage when the page first loads.
+// If a reading exists and was created today, display it on the homepage.
 export default function Home() {
+  const [reading, setReading] = useState<DailyReading | null>(null);
+  const [isGenerating, setIsGenerating] = useState(false);
+  const [showMore, setShowMore] = useState(false);
+
+  useEffect(() => {
+  const saved = getDailyReading();
+
+  if (saved && isTodayReading(saved)) {
+    setReading(saved);
+  }
+  }, []);
+
+  
+
+  async function drawTodayCard() {
+    if (isGenerating) return;
+
+    setIsGenerating(true);
+
+    const baseCard = drawCards(1)[0];
+
+    const card = {
+      ...baseCard,
+      isReversed: Math.random() < 0.5,
+    };
+
+    const tempReading = {
+      date: new Date().toDateString(),
+      card,
+      keyInsight: "",
+      interpretation: "",
+      advice: "",
+    };
+
+    // 先立刻显示卡
+    setReading(tempReading);
+
+    try {
+      const response = await fetch("/api/reading", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          question: "今天我需要注意什么？请给我一张今日塔罗指引。",
+          spread: "Daily Card",
+          cards: [
+            {
+              ...card,
+              position: "Today",
+            },
+          ],
+        }),
+      });
+
+      const data = await response.json();
+
+      const dailyReading = {
+        ...tempReading,
+        keyInsight: data.keyInsight,
+        interpretation: data.interpretation,
+        advice: data.advice,
+      };
+
+      setReading(dailyReading);
+      saveDailyReading(dailyReading);
+    } catch (error) {
+      console.error(error);
+
+      const failedReading = {
+        ...tempReading,
+        keyInsight: "Something went wrong.",
+        interpretation: "The reading could not be generated right now.",
+        advice: "Please try again in a moment.",
+      };
+
+      setReading(failedReading);
+    } finally {
+      setIsGenerating(false);
+    }
+  }
+
+  function resetDailyReadingForTest() {
+    localStorage.removeItem("dailyReading");
+    setReading(null);
+  }
+
   return (
-    <main className="min-h-screen bg-gray-100 flex justify-center">
-      <div className="w-full max-w-[520px] min-h-screen bg-white flex flex-col items-center px-8 py-10">
+  <main className="min-h-screen bg-gray-100 flex justify-center">
+  <div className="w-full max-w-[520px] min-h-screen bg-white flex flex-col items-center px-8 py-10">
+    <div className="mt-12">
+          <p className="text-sm text-gray-500">✨ WALAWALA</p>
+    </div>
 
-        <h1 className="text-xl font-medium mt-4">
-          Today's Card
-        </h1>
+    <h1 className="text-xl font-medium mt-4">
+      Today's Card
+    </h1>
 
-        <div className="w-44 h-64 bg-yellow-200 rounded-xl mt-10" />
+    <div className="mt-10 flex flex-col items-center">
 
-        <div className="mt-8 text-center">
-          <p className="font-medium">
-            今日运势：
-          </p>
+{reading ? (
+  <>
+    <TarotCard
+      card={reading.card}
+      revealed={true}
+      size="large"
+    />
 
-          <p className="text-gray-600 mt-2">
-            。。。。。。。。。。。
-            <br />
-            。。。。。。。。。。。
-          </p>
+    <h2 className="mt-6 text-lg font-medium">
+      {reading.card.name}
+      {reading.card.isReversed ? " (Reversed)" : ""}
+    </h2>
+
+    <p className="mt-6 text-gray-700">
+      {reading.keyInsight || "Receive Today's Message.."}
+    </p>
+
+    {reading.keyInsight && (
+      <button
+        onClick={() => setShowMore(!showMore)}
+        className="mt-4 text-sm font-medium text-gray-500 underline"
+      >
+        {showMore ? "⌃"  : "Reveal the Full Reading"}
+      </button>
+    )}
+
+    {showMore && (
+      <div className="mt-4 space-y-3 text-sm text-gray-600">
+        <p>
+          {reading.interpretation}
+        </p>
+
+        <p>
+          {reading.advice}
+        </p>
+      </div>
+    )}
+  </>
+  ) : (
+      <>
+    <TarotCard
+      revealed={false}
+      onClick={drawTodayCard}
+      disabled={isGenerating}
+      size="large"
+    />
+
+    <p className="mt-6 text-gray-500">
+      Tap the card to reveal today's guidance.
+    </p>
+  </>
+)}
+
+<button
+  onClick={resetDailyReadingForTest}
+  className="mt-6 text-sm text-gray-400 underline"
+>
+  Reset today reading
+</button>
+
         </div>
 
         <Link

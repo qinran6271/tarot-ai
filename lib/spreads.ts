@@ -21,7 +21,7 @@ export const tarotSpreads: TarotSpread[] = [
     id: "intuitive-three",
     name: "Intuitive Three-Card Reading",
     description:
-      "A holistic three-card reading without fixed past, present, or future positions.",
+      "Let your intuition guide the cards and reveal the message you need most.",
 
     cardCount: 3,
     positions: ["Card 1", "Card 2", "Card 3"],

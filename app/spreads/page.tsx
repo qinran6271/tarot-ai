@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { tarotSpreads } from "@/lib/spreads";
 import { useTarotStore } from "@/store/tarotStore";
+import { useEffect } from "react";
 
 export default function SpreadsPage() {
   const router = useRouter();
@@ -16,6 +17,12 @@ export default function SpreadsPage() {
     setSelectedSpread(spread);
     router.push("/cards");
   }
+
+    useEffect(() => {
+    if (!question.trim()) {
+        router.replace("/question");
+    }
+    }, [question, router]);
 
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">

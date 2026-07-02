@@ -36,43 +36,51 @@ export default function QuestionPage() {
     <main className="min-h-screen bg-gray-100 flex justify-center">
       <div className="relative w-full max-w-[520px] min-h-screen bg-white px-6 py-10">
         <div className="mt-12">
-          <p className="text-sm text-gray-500">Tarot AI</p>
+          <p className="text-sm text-gray-500">✨ WALAWALA</p>
 
           <h1 className="mt-3 text-3xl font-semibold tracking-tight text-gray-900">
             Ask your question
           </h1>
 
-          <p className="mt-3 text-sm leading-relaxed text-gray-500">
-            Focus on one question you want guidance on.
-          </p>
+          <div className="mt-3 text-sm leading-relaxed text-gray-500">
+            <p>Focus on one question.</p>
+            <p>Clear your mind.</p>
+            <p>Discover your guidance.</p>
+          </div>
         </div>
         <div className="mt-8">
-  <p className="mb-3 text-xs uppercase tracking-wide text-gray-400">
-    Need inspiration?
-  </p>
 
-    <div className="space-y-2 text-sm text-gray-400">
-        <p>Will I find a new job this year?</p>
-        <p>What should I focus on right now?</p>
-        <p>How can I improve my relationship?</p>
-        <p>What lesson is the universe teaching me?</p>
-    </div>
-    </div>
 
-        <div className="mt-10">
+
+    <div className="absolute bottom-8 left-1/2 w-[85%] -translate-x-1/2">
+        <p className="mb-3 text-xs uppercase tracking-wide text-gray-400">
+            Looking for inspiration?
+        </p>
+
+        <div  className="space-y-2 text-sm text-gray-400">
+            <p>💼 Career</p>
+            <p>❤️ Love</p>
+            <p>🏡 Home</p>
+            <p>🌙 Energy</p>
+        </div>
+    
+
+
+        <div className="mt-6">
           <textarea
             value={question}
             onChange={(event) => setQuestion(event.target.value)}
-            placeholder="For example: What should I know about my career path?"
-            className="h-40 w-full resize-none rounded-3xl border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-900 outline-none transition focus:border-gray-400 focus:bg-white"
+            placeholder="For example: Will England win the championship?"
+            className="h-20 w-full resize-none rounded-3xl border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-900 outline-none transition focus:border-gray-400 focus:bg-white"
           />
+            <div className="mt-2 text-right text-xs text-gray-400">
+            {question.length}/300
+            </div>
         </div>
 
-        <div className="mt-4 text-right text-xs text-gray-400">
-          {question.length}/300
-        </div>
 
-        <div className="absolute bottom-8 left-1/2 w-[85%] -translate-x-1/2">
+
+       
             <button
             onClick={handleContinue}
             disabled={!isQuestionValid}
@@ -82,8 +90,9 @@ export default function QuestionPage() {
                 : "cursor-not-allowed bg-gray-300"
             }`}
             >
-            Continue →
+            Continue
             </button>
+        </div>
         </div>
       </div>
     </main>
