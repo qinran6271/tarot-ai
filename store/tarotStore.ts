@@ -19,6 +19,7 @@ type TarotStore = {
     addHistory: (reading: Reading) => void;
     removeHistory: (id: string) => void;
     clearHistory: () => void;
+    updateHistory: (reading: Reading) => void;
 };
 
 export const useTarotStore = create<TarotStore>()(
@@ -46,6 +47,14 @@ export const useTarotStore = create<TarotStore>()(
         })),
 
       clearHistory: () => set({ history: [] }),
+      updateHistory: (reading) =>
+        set((state) => ({
+            history: state.history.map((item) =>
+            item.id === reading.id ? reading : item
+            ),
+        })),
+
+      
     }),
     {
       name: "tarot-storage",
