@@ -204,9 +204,10 @@ export default function Home() {
             hover:bg-black
             hover:text-white
             transition
+            cursor-pointer
           "
         >
-          开始旅程
+          Start Your Journey
         </button>
 
       </div>

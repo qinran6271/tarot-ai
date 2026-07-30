@@ -87,7 +87,7 @@ export default function CardsPage() {
         {selectedCards.length === 0 && (
           <button
             onClick={handleDrawCards}
-            className="mt-6 rounded-xl bg-yellow-300 px-6 py-3 font-medium text-white hover:bg-yellow-200"
+            className="mt-6 rounded-xl bg-yellow-300 px-6 py-3 font-medium text-white hover:bg-yellow-200 cursor-pointer"
           >
             Draw {selectedSpread.cardCount} Cards
           </button>
@@ -115,7 +115,7 @@ export default function CardsPage() {
           <div className="absolute bottom-8 left-1/2 w-[85%] -translate-x-1/2">
             <button
               onClick={handleContinue}
-              className="flex h-12 w-full items-center justify-center rounded-full bg-black text-sm text-white transition hover:bg-gray-800"
+              className="cursor-pointer flex h-12 w-full items-center justify-center rounded-full bg-black text-sm text-white transition hover:bg-gray-800"
             >
               Continue
             </button>

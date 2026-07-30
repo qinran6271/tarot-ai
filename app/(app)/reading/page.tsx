@@ -11,7 +11,6 @@ import ReadingHeader from "@/components/reading/ReadingHeader";
 import EndChatModal from "@/components/reading/EndChatModal";
 import ChatInput from "@/components/reading/ChatInput";
 import MessageList from "@/components/reading/MessageList";
-import { drawCards } from "@/lib/tarot";
 import { drawAvailableCard } from "@/lib/tarot";
 
 
@@ -286,6 +285,7 @@ if (!drawnCard) {
       setError(null);
 
       try {
+        console.log(cards);
         const res = await fetch("/api/reading", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
