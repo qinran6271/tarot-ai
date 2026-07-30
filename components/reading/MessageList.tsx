@@ -12,17 +12,19 @@ type MessageListProps = {
   reading: ReadingContent | null;
   scrollRef: RefObject<HTMLDivElement | null>;
   onSelectFollowUp: (question: string) => void;
+onDrawClarificationCard: (message: ReadingMessage) => void;
 };
 
 export default function MessageList({
-  loading,
-  chatLoading,
-  error,
-  conversation,
-  cards,
-  reading,
-  scrollRef,
-  onSelectFollowUp,
+    loading,
+    chatLoading,
+    error,
+    conversation,
+    cards,
+    reading,
+    scrollRef,
+    onSelectFollowUp,
+    onDrawClarificationCard,
 }: MessageListProps) {
   return (
     <section className="flex-1 overflow-y-auto px-6 py-5">
@@ -52,7 +54,9 @@ export default function MessageList({
                   </p>
 
                   <div className="flex justify-between gap-3">
-                    {cards.map((card) => (
+                    {cards
+                    .filter((card) => card.position !== "Clarification")
+                    .map((card) => (
                       <div
                         key={card.id}
                         className="flex flex-1 flex-col items-center gap-2"
@@ -75,11 +79,71 @@ export default function MessageList({
                 </div>
               ) : null}
 
-              {message.content.split("\n").map((line, lineIndex) => (
-                <p key={lineIndex} className={lineIndex === 0 ? "" : "mt-3"}>
-                  {line}
-                </p>
-              ))}
+<div>
+  {message.content.split("\n").map((line, lineIndex) => (
+    <p key={lineIndex} className={lineIndex === 0 ? "" : "mt-3"}>
+      {line}
+    </p>
+  ))}
+
+{message.role === "assistant" &&
+message.clarificationSuggestion ? (
+  <div className="mt-5 rounded-[22px] border border-gray-200 bg-white p-4">
+    <p className="text-xs font-medium uppercase tracking-wide text-gray-400">
+      Clarification Card
+    </p>
+
+    <p className="mt-3 text-sm leading-relaxed text-gray-600">
+      {message.clarificationSuggestion.reason}
+    </p>
+
+    <p className="mt-3 text-sm font-medium leading-relaxed text-gray-900">
+      {message.clarificationSuggestion.question}
+    </p>
+
+    {message.clarificationSuggestion.status ===
+    "pending" ? (
+      <button
+        type="button"
+        onClick={() =>
+          onDrawClarificationCard(message)
+        }
+        className="mt-4 w-full cursor-pointer rounded-full bg-black px-4 py-3 text-sm font-medium text-white transition hover:bg-gray-800 active:scale-[0.99]"
+      >
+        Draw a Clarification Card
+      </button>
+    ) : null}
+
+    {message.clarificationSuggestion.status ===
+      "drawn" &&
+    message.clarificationSuggestion.card ? (
+      <div className="mt-5 flex flex-col items-center">
+        <div className="scale-[0.8]">
+          <TarotCard
+            card={
+              message.clarificationSuggestion.card
+            }
+            revealed={true}
+            onClick={() => {}}
+          />
+        </div>
+
+        <p className="-mt-3 text-center text-sm font-medium text-gray-800">
+          {
+            message.clarificationSuggestion.card
+              .name
+          }
+          {message.clarificationSuggestion.card
+            .isReversed
+            ? " Reversed"
+            : ""}
+        </p>
+      </div>
+    ) : null}
+  </div>
+) : null}
+
+</div>
             </div>
           ))}
 

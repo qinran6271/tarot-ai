@@ -20,6 +20,7 @@ type TarotStore = {
     removeHistory: (id: string) => void;
     clearHistory: () => void;
     updateHistory: (reading: Reading) => void;
+    updateCurrentReading: (updates: Partial<Reading>) => void;
 };
 
 export const useTarotStore = create<TarotStore>()(
@@ -46,7 +47,12 @@ export const useTarotStore = create<TarotStore>()(
           history: state.history.filter((reading) => reading.id !== id),
         })),
 
-      clearHistory: () => set({ history: [] }),
+      clearHistory: () =>
+        set({
+          history: [],
+          currentReading: null,
+        }),
+
       updateHistory: (reading) =>
         set((state) => ({
             history: state.history.map((item) =>
@@ -54,6 +60,28 @@ export const useTarotStore = create<TarotStore>()(
             ),
         })),
 
+    updateCurrentReading: (updates) =>
+         set((state) => {
+          if (!state.currentReading) {
+            return state;
+          }
+
+          const updatedReading: Reading = {
+            ...state.currentReading,
+            ...updates,
+            updatedAt: new Date().toISOString(),
+          };
+
+          return {
+            currentReading: updatedReading,
+
+            history: state.history.map((reading) =>
+              reading.id === updatedReading.id
+                ? updatedReading
+                : reading
+            ),
+          };
+        }),
       
     }),
     {

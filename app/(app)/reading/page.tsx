@@ -11,6 +11,10 @@ import ReadingHeader from "@/components/reading/ReadingHeader";
 import EndChatModal from "@/components/reading/EndChatModal";
 import ChatInput from "@/components/reading/ChatInput";
 import MessageList from "@/components/reading/MessageList";
+import { drawCards } from "@/lib/tarot";
+import { drawAvailableCard } from "@/lib/tarot";
+
+
 
 
 export default function ReadingPage() {
@@ -69,8 +73,172 @@ export default function ReadingPage() {
   // 用于聊天自动滚动到底部
   const scrollRef = useRef<HTMLDivElement | null>(null);
 
+  // 处理补充牌卡
 
+async function handleDrawClarificationCard(
+  message: ReadingMessage
+) {
+  if (!currentReading) return;
 
+  const clarificationSuggestion =
+    message.clarificationSuggestion;
+
+  if (!clarificationSuggestion) {
+    console.log("No clarification suggestion");
+    return;
+  }
+
+  const clarificationQuestion =
+    clarificationSuggestion.question;
+
+  if (!clarificationQuestion) {
+    console.log("No clarification question");
+    return;
+  }
+
+  // 防止用户重复点击已经抽过的补充牌
+  if (clarificationSuggestion.status === "drawn") {
+    return;
+  }
+
+const excludedCardIds = currentReading.cards.map(
+  (card) => card.id
+);
+
+const drawnCard = drawAvailableCard(excludedCardIds);
+
+if (!drawnCard) {
+  console.log("No available card was drawn");
+  return;
+}
+
+  const clarificationCard: Reading["cards"][number] = {
+    ...drawnCard,
+    position: "Clarification",
+    isReversed: Math.random() < 0.5,
+  };
+
+  // 更新触发这次补充牌的 Assistant Message
+  const updatedConversation = conversation.map((item) => {
+    if (
+      item.id !== message.id ||
+      !item.clarificationSuggestion
+    ) {
+      return item;
+    }
+
+    return {
+      ...item,
+      clarificationSuggestion: {
+        ...item.clarificationSuggestion,
+        status: "drawn" as const,
+        card: clarificationCard,
+      },
+    };
+  });
+
+  // 先立即显示抽到的牌
+  const updatedReading: Reading = {
+    ...currentReading,
+    cards: [
+      ...currentReading.cards,
+      clarificationCard,
+    ],
+    conversation: updatedConversation,
+    updatedAt: new Date().toISOString(),
+  };
+
+  setConversation(updatedConversation);
+  setCurrentReading(updatedReading);
+  updateHistory(updatedReading);
+  setChatLoading(true);
+
+  try {
+    const res = await fetch("/api/reading-chat", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        reading: updatedReading,
+
+        clarification: {
+          question: clarificationQuestion,
+          card: clarificationCard,
+        },
+
+        disableClarificationSuggestion: true,
+      }),
+    });
+
+    if (!res.ok) {
+      throw new Error(
+        "Failed to interpret clarification card."
+      );
+    }
+
+    const data = await res.json();
+
+    const interpretationMessage: ReadingMessage = {
+      id: crypto.randomUUID(),
+      role: "assistant",
+      content: data.message,
+      createdAt: new Date().toISOString(),
+    };
+
+    const finalConversation = [
+      ...updatedConversation,
+      interpretationMessage,
+    ];
+
+    const finalReading: Reading = {
+      ...updatedReading,
+      conversation: finalConversation,
+      content: {
+        ...updatedReading.content,
+        followUps:
+          data.followUps ??
+          updatedReading.content.followUps,
+      },
+      updatedAt: new Date().toISOString(),
+    };
+
+    setConversation(finalConversation);
+    setCurrentReading(finalReading);
+    setReadingContent(finalReading.content);
+    updateHistory(finalReading);
+  } catch (error) {
+    console.error(
+      "Clarification interpretation error:",
+      error
+    );
+
+    const errorMessage: ReadingMessage = {
+      id: crypto.randomUUID(),
+      role: "assistant",
+      content:
+        "Sorry, I couldn't interpret this clarification card right now. Please try again.",
+      createdAt: new Date().toISOString(),
+    };
+
+    const errorConversation = [
+      ...updatedConversation,
+      errorMessage,
+    ];
+
+    const errorReading: Reading = {
+      ...updatedReading,
+      conversation: errorConversation,
+      updatedAt: new Date().toISOString(),
+    };
+
+    setConversation(errorConversation);
+    setCurrentReading(errorReading);
+    updateHistory(errorReading);
+  } finally {
+    setChatLoading(false);
+  }
+}
   // ======================================
   // Initial Reading
   //
@@ -314,6 +482,15 @@ async function handleSend(message?: string) {
       role: "assistant",
       content: data.message,
       createdAt: new Date().toISOString(),
+
+      clarificationSuggestion:
+      data.shouldDrawClarificationCard
+        ? {
+            reason: data.clarificationReason,
+            question: data.clarificationQuestion,
+            status: "pending",
+          }
+        : undefined,
     };
 
     // ----------------------------------
@@ -434,6 +611,7 @@ async function handleSend(message?: string) {
           reading={displayReading}
           scrollRef={scrollRef}
           onSelectFollowUp={(followUp) => setInput(followUp)}
+          onDrawClarificationCard={handleDrawClarificationCard}
         />
 
         <ChatInput

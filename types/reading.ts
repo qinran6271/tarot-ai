@@ -8,11 +8,21 @@ export type ReadingContent = {
   followUps: string[];
 };
 
+export type ClarificationSuggestion = {
+  reason: string;
+  question: string;
+  status: "pending" | "drawn";
+  card?: DrawnCard;
+};
+
 export type ReadingMessage = {
   id: string;
   role: "user" | "assistant";
   content: string;
   createdAt: string;
+
+  clarificationSuggestion?: ClarificationSuggestion;
+  clarificationCard?: DrawnCard;
 };
 
 export type Reading = {

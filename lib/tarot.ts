@@ -45,3 +45,17 @@ export function drawCards(count: number) {
 
   return shuffled.slice(0, count);
 }
+
+export function drawAvailableCard(excludedCardIds: string[]) {
+  const availableCards = tarotDeck.filter(
+    (card) => !excludedCardIds.includes(card.id)
+  );
+
+  if (availableCards.length === 0) {
+    return null;
+  }
+
+  const randomIndex = Math.floor(Math.random() * availableCards.length);
+
+  return availableCards[randomIndex];
+}
