@@ -15,6 +15,7 @@ import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
 
 
+
 // Load today's saved reading from localStorage when the page first loads.
 // If a reading exists and was created today, display it on the homepage.
 export default function Home() {

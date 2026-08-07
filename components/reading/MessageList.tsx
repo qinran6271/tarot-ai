@@ -105,6 +105,7 @@ message.clarificationSuggestion ? (
     "pending" ? (
       <button
         type="button"
+        disabled={chatLoading}
         onClick={() =>
           onDrawClarificationCard(message)
         }

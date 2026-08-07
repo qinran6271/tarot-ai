@@ -29,15 +29,12 @@ import type {
 type UseReadingChatParams = {
   currentReading: Reading | null;
   conversation: ReadingMessage[];
-  chatLoading: boolean;
   setConversation: Dispatch<
     SetStateAction<ReadingMessage[]>
   >;
-  setChatLoading: Dispatch<
-    SetStateAction<boolean>
-  >;
 };
-// Hook返回类型
+
+// Hook返回的 AI 回复类型
 type ReadingChatResponse = {
   message: string;
   followUps?: string[];
@@ -50,13 +47,11 @@ export function useReadingChat({
   currentReading,
   conversation,
   setConversation,
-  chatLoading,
-  setChatLoading,
 }: UseReadingChatParams) {
 
     // Hook内部管理
     const [input, setInput] = useState(""); // 保存聊天输入框内容。
-    // const [chatLoading, setChatLoading] = useState(false); // 表示是否正在等待后续 AI回复。
+    const [chatLoading, setChatLoading] = useState(false); // 表示是否正在等待后续 AI回复。
     // 从 Store读取 updateCurrentReading
     const updateCurrentReading = useTarotStore(
         (state) => state.updateCurrentReading
@@ -94,10 +89,7 @@ export function useReadingChat({
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
-                    reading: {
-                        ...currentReading,
-                        conversation: conversationWithUser,
-                    },
+                    reading: currentReading,
                     message: text,
     
                 }),
@@ -177,6 +169,7 @@ export function useReadingChat({
     return {
         input,
         setInput,
+        chatLoading,
         sendMessage,
     };
 }
