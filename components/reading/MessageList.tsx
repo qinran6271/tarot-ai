@@ -38,7 +38,7 @@ export default function MessageList({
         </div>
       ) : (
         <div className="flex flex-col gap-4">
-          {conversation.map((message, index) => (
+          {conversation.map((message) => (
             <div
               key={message.id}
               className={
@@ -47,7 +47,7 @@ export default function MessageList({
                   : "mr-auto max-w-[92%] rounded-[28px] bg-gray-100 px-5 py-4 text-sm leading-relaxed text-gray-800"
               }
             >
-              {message.role === "assistant" && index === 1 ? (
+              {message.kind === "initial-reading" ? (
                 <div className="mb-5">
                   <p className="mb-3 text-xs uppercase tracking-wide text-gray-400">
                     Your Cards

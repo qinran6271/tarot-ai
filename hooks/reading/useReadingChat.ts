@@ -65,6 +65,7 @@ export function useReadingChat({
         const userMessage: ReadingMessage = {
             id: crypto.randomUUID(),
             role: "user",
+            kind: "follow-up",
             content: text,
             createdAt: new Date().toISOString(),
         };
@@ -109,6 +110,7 @@ export function useReadingChat({
             const assistantMessage: ReadingMessage = {
                 id: crypto.randomUUID(),
                 role: "assistant",
+                kind: "follow-up",
                 content: data.message,
                 createdAt: new Date().toISOString(),
                 clarificationSuggestion: data.shouldDrawClarificationCard
@@ -148,6 +150,7 @@ export function useReadingChat({
             const errorMessage: ReadingMessage = {
                 id: crypto.randomUUID(),
                 role: "assistant",
+                kind: "error",
                 content:
                     "Sorry, I couldn't generate a follow-up right now. Please try again.",
                 createdAt: new Date().toISOString(),

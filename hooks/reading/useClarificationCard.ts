@@ -186,6 +186,7 @@ export function useClarificationCard({
       const interpretationMessage: ReadingMessage = {
         id: crypto.randomUUID(),
         role: "assistant",
+        kind: "clarification-reading",
         content: data.message,
         createdAt: new Date().toISOString(),
       };
@@ -220,6 +221,7 @@ export function useClarificationCard({
       const errorMessage: ReadingMessage = {
         id: crypto.randomUUID(),
         role: "assistant",
+        kind: "error",
         content:
           "Sorry, I couldn't interpret this clarification card right now. Please try again.",
         createdAt: new Date().toISOString(),

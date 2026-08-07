@@ -15,9 +15,17 @@ export type ClarificationSuggestion = {
   card?: DrawnCard;
 };
 
+export type ReadingMessageKind =
+  | "question"
+  | "initial-reading"
+  | "follow-up"
+  | "clarification-reading"
+  | "error";
+
 export type ReadingMessage = {
   id: string;
   role: "user" | "assistant";
+  kind: ReadingMessageKind; // 这条消息是什么
   content: string;
   createdAt: string;
 

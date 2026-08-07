@@ -128,12 +128,14 @@ export function useReadingSession({
             {
               id: crypto.randomUUID(),
               role: "user",
+              kind: "question",
               content: question,
               createdAt: now,
             },
             {
               id: crypto.randomUUID(),
               role: "assistant",
+              kind: "initial-reading",
               content:
                 formatInitialReading(data),
               createdAt: now,
