@@ -30,7 +30,7 @@ export default function ChatInput({
           onChange={(e) => setInput(e.target.value)}
           disabled={disabled}
           placeholder="Ask a follow-up..."
-          className="min-w-0 flex-1 bg-transparent text-sm text-gray-900 outline-none placeholder:text-gray-400"
+          className="min-w-0 flex-1 bg-transparent text-base text-gray-900 outline-none placeholder:text-gray-400"
         />
 
         <button
