@@ -30,7 +30,6 @@ export type ReadingMessage = {
   createdAt: string;
 
   clarificationSuggestion?: ClarificationSuggestion;
-  clarificationCard?: DrawnCard;
 };
 
 export type Reading = {
