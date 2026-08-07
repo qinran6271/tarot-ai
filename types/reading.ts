@@ -11,7 +11,7 @@ export type ReadingContent = {
 export type ClarificationSuggestion = {
   reason: string;
   question: string;
-  status: "pending" | "drawn";
+  status: "pending" | "drawn" | "failed";
   card?: DrawnCard;
 };
 
@@ -19,8 +19,7 @@ export type ReadingMessageKind =
   | "question"
   | "initial-reading"
   | "follow-up"
-  | "clarification-reading"
-  | "error";
+  | "clarification-reading";
 
 export type ReadingMessage = {
   id: string;

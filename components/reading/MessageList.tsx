@@ -8,6 +8,7 @@ type MessageListProps = {
   chatLoading: boolean; // followup 回答loading
   error: string | null;
   chatError?: string | null;
+  clarificationError?: string | null;
   conversation: ReadingMessage[];
   cards: DrawnCard[];
   reading: ReadingContent | null;
@@ -21,6 +22,7 @@ export default function MessageList({
   chatLoading,
   error,
   chatError,
+  clarificationError,
   conversation,
   cards,
   reading,
@@ -114,7 +116,7 @@ export default function MessageList({
                       </button>
                     ) : null}
 
-                    {message.clarificationSuggestion.status === "drawn" &&
+                    {message.clarificationSuggestion.status !== "pending" &&
                     message.clarificationSuggestion.card ? (
                       <div className="mt-5 flex flex-col items-center">
                         <div className="scale-[0.8]">
@@ -132,6 +134,17 @@ export default function MessageList({
                             : ""}
                         </p>
                       </div>
+                    ) : null}
+
+                    {message.clarificationSuggestion.status === "failed" ? (
+                      <button
+                        type="button"
+                        disabled={chatLoading}
+                        onClick={() => onDrawClarificationCard(message)}
+                        className="mt-4 w-full cursor-pointer rounded-full bg-black px-4 py-3 text-sm font-medium text-white transition hover:bg-gray-800 active:scale-[0.99] disabled:cursor-not-allowed disabled:bg-gray-300"
+                      >
+                        Retry Interpretation
+                      </button>
                     ) : null}
                   </div>
                 ) : null}
@@ -151,6 +164,15 @@ export default function MessageList({
               className="mr-auto max-w-[92%] rounded-[28px] bg-red-50 px-5 py-4 text-sm text-red-500"
             >
               {chatError}
+            </div>
+          ) : null}
+
+          {clarificationError ? (
+            <div
+              role="alert"
+              className="mr-auto max-w-[92%] rounded-[28px] bg-red-50 px-5 py-4 text-sm text-red-500"
+            >
+              {clarificationError}
             </div>
           ) : null}
 

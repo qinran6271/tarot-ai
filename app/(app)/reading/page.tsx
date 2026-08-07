@@ -96,7 +96,11 @@ export default function ReadingPage() {
   // - 请求补充牌解释
   // - 更新卡牌与 Conversation
   // ========================================
-  const { clarificationLoading, drawClarificationCard } = useClarificationCard({
+  const {
+    clarificationLoading,
+    clarificationError,
+    drawClarificationCard,
+  } = useClarificationCard({
     currentReading,
     conversation,
     setConversation,
@@ -129,7 +133,7 @@ export default function ReadingPage() {
 
   useEffect(() => {
     scrollRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [conversation, loading]);
+  }, [conversation, loading, chatError, clarificationError]);
 
   // ========================================
   // 9. 页面展示数据
@@ -173,6 +177,7 @@ export default function ReadingPage() {
           chatLoading={isAssistantLoading}
           error={error}
           chatError={chatError}
+          clarificationError={clarificationError}
           conversation={conversation}
           cards={displayCards}
           reading={displayReading}

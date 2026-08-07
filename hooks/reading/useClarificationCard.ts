@@ -51,13 +51,15 @@ export function useClarificationCard({
   conversation,
   setConversation,
 }: UseClarificationCardParams) {
-
   const [clarificationLoading, setClarificationLoading] = useState(false); // 表示是否正在等待补充牌解释。
+  const [clarificationError, setClarificationError] = useState<string | null>(
+    null
+  );
 
   // 从 Store读取 updateCurrentReading
   const updateCurrentReading = useTarotStore(
     (state) => state.updateCurrentReading
-  ); 
+  );
 
   async function drawClarificationCard(
     message: ReadingMessage
@@ -84,54 +86,54 @@ export function useClarificationCard({
       return;
     }
 
-    // 排除已经抽过的卡牌
-    const excludedCardIds =
-      currentReading.cards.map(
-        (card) => card.id
-      );
+    let clarificationCard: Reading["cards"][number];
+    let updatedCards = currentReading.cards;
 
-    const drawnCard =
-      drawAvailableCard(excludedCardIds);
+    // failed 表示牌已经抽过，只需要重新请求解释。
+    if (suggestion.status === "failed" && suggestion.card) {
+      clarificationCard = suggestion.card;
+    } else {
+      // pending 表示第一次抽补充牌。
+      const excludedCardIds = currentReading.cards.map((card) => card.id);
 
-    if (!drawnCard) {
-      console.error(
-        "No available clarification card."
-      );
-      return;
-    }
+      const drawnCard = drawAvailableCard(excludedCardIds);
 
-    const clarificationCard: Reading["cards"][number] =
-      {
+      if (!drawnCard) {
+        console.error("No available clarification card.");
+        return;
+      }
+
+      clarificationCard = {
         ...drawnCard,
         position: "Clarification",
         isReversed: Math.random() < 0.5,
       };
 
-    // 更新 Conversation，将建议状态从 pending 改为 drawn，并添加补充牌。
-    const updatedConversation =
-      conversation.map((item) => {
-        if (
-          item.id !== message.id ||
-          !item.clarificationSuggestion
-        ) {
-          return item;
-        }
+      updatedCards = [
+        ...currentReading.cards,
+        clarificationCard,
+      ];
+    }
 
-        return {
-          ...item,
-          clarificationSuggestion: {
-            ...item.clarificationSuggestion,
-            status: "drawn" as const,
-            card: clarificationCard,
-          },
-        };
-      });
+    // 无论是首次抽牌还是失败重试，
+    // 请求开始时都进入 drawn 状态。
+    const updatedConversation = conversation.map((item) => {
+      if (
+        item.id !== message.id ||
+        !item.clarificationSuggestion
+      ) {
+        return item;
+      }
 
-
-    const updatedCards = [
-      ...currentReading.cards,
-      clarificationCard,
-    ];
+      return {
+        ...item,
+        clarificationSuggestion: {
+          ...item.clarificationSuggestion,
+          status: "drawn" as const,
+          card: clarificationCard,
+        },
+      };
+    });
 
     const updatedReading: Reading = {
       ...currentReading,
@@ -149,6 +151,7 @@ export function useClarificationCard({
       conversation: updatedConversation,
     });
 
+    setClarificationError(null);
     setClarificationLoading(true);
 
     // 调用 /api/reading-chat
@@ -218,25 +221,36 @@ export function useClarificationCard({
         error
       );
 
-      const errorMessage: ReadingMessage = {
-        id: crypto.randomUUID(),
-        role: "assistant",
-        kind: "error",
-        content:
-          "Sorry, I couldn't interpret this clarification card right now. Please try again.",
-        createdAt: new Date().toISOString(),
-      };
+      const failedConversation =
+        updatedConversation.map((item) => {
+          if (
+            item.id !== message.id ||
+            !item.clarificationSuggestion
+          ) {
+            return item;
+          }
 
-      const errorConversation = [
-        ...updatedConversation,
-        errorMessage,
-      ];
+          return {
+            ...item,
+            clarificationSuggestion: {
+              ...item.clarificationSuggestion,
+              status: "failed" as const,
+            },
+          };
+        });
 
-      setConversation(errorConversation);
+      // 保留已经抽出的牌，但标记解释失败。
+      setConversation(failedConversation);
 
+      // 同步 Reading 和 History，但不保存错误消息。
       updateCurrentReading({
-        conversation: errorConversation,
+        conversation: failedConversation,
       });
+
+      // 错误只作为临时 UI 状态存在。
+      setClarificationError(
+        "Sorry, I couldn't interpret this clarification card right now. Please try again."
+      );
     } finally {
       setClarificationLoading(false);
     }
@@ -244,6 +258,7 @@ export function useClarificationCard({
 
   return {
     clarificationLoading,
+    clarificationError,
     drawClarificationCard,
   };
 }
