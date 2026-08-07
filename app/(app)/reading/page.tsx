@@ -14,10 +14,6 @@ import { useReadingChat } from "@/hooks/reading/useReadingChat";
 import { useClarificationCard } from "@/hooks/reading/useClarificationCard";
 import { useReadingSession } from "@/hooks/reading/useReadingSession";
 
-
-
-
-
 export default function ReadingPage() {
   const router = useRouter();
 
@@ -37,8 +33,9 @@ export default function ReadingPage() {
   const cards = useTarotStore((state) => state.cards);
   const selectedSpread = useTarotStore((state) => state.selectedSpread);
   const currentReading = useTarotStore((state) => state.currentReading);
-  const updateCurrentReading = useTarotStore((state) => state.updateCurrentReading);
-
+  const updateCurrentReading = useTarotStore(
+    (state) => state.updateCurrentReading,
+  );
 
   // ========================================
   // 2. 页面共享的对话状态
@@ -55,7 +52,7 @@ export default function ReadingPage() {
   // ========================================
 
   const [conversation, setConversation] = useState<ReadingMessage[]>(
-    currentReading?.conversation ?? []
+    currentReading?.conversation ?? [],
   );
 
   // ========================================
@@ -67,10 +64,7 @@ export default function ReadingPage() {
   // - 请求首次 AI 解读
   // - 创建并保存完整 Reading
   // ========================================
-    const {
-    loading,
-    error,
-  } = useReadingSession({
+  const { loading, error } = useReadingSession({
     currentReading,
     question,
     cards,
@@ -87,16 +81,12 @@ export default function ReadingPage() {
   // - 保存 AI 回复
   // - 更新 Conversation
   // ========================================
-  const { 
-    input, 
-    setInput,
-    chatLoading,
-    sendMessage,
-  } = useReadingChat({
-    currentReading,
-    conversation,
-    setConversation,
-  });
+  const { input, setInput, chatLoading, chatError, sendMessage } =
+    useReadingChat({
+      currentReading,
+      conversation,
+      setConversation,
+    });
 
   // ========================================
   // 5. 补充牌流程
@@ -106,10 +96,7 @@ export default function ReadingPage() {
   // - 请求补充牌解释
   // - 更新卡牌与 Conversation
   // ========================================
-  const {
-    clarificationLoading,
-    drawClarificationCard,
-  } = useClarificationCard({
+  const { clarificationLoading, drawClarificationCard } = useClarificationCard({
     currentReading,
     conversation,
     setConversation,
@@ -129,8 +116,7 @@ export default function ReadingPage() {
   // 普通聊天和补充牌解释不能同时进行。
   // 任意请求进行时，统一禁用相关操作。
   // ========================================
-  const isAssistantLoading =
-    chatLoading || clarificationLoading;
+  const isAssistantLoading = chatLoading || clarificationLoading;
 
   // ========================================
   // 8. 聊天自动滚动
@@ -155,7 +141,6 @@ export default function ReadingPage() {
   const displayCards = currentReading?.cards ?? cards;
   const displayReading = currentReading?.content ?? null;
 
-
   // ========================================
   // 10. 结束咨询
   //
@@ -163,10 +148,10 @@ export default function ReadingPage() {
   // updateCurrentReading 会同步更新 History
   // 和浏览器本地持久化数据。
   // ========================================
-  
+
   function handleEndChat() {
     if (currentReading) {
-       updateCurrentReading({
+      updateCurrentReading({
         status: "completed",
       });
     }
@@ -187,6 +172,7 @@ export default function ReadingPage() {
           loading={loading}
           chatLoading={isAssistantLoading}
           error={error}
+          chatError={chatError}
           conversation={conversation}
           cards={displayCards}
           reading={displayReading}
@@ -207,7 +193,6 @@ export default function ReadingPage() {
           onCancel={() => setShowEndConfirm(false)}
           onConfirm={handleEndChat}
         />
-
       </div>
     </main>
   );
