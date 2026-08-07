@@ -15,6 +15,7 @@ type MessageListProps = {
   scrollRef: RefObject<HTMLDivElement | null>;
   onSelectFollowUp: (question: string) => void;
   onDrawClarificationCard: (message: ReadingMessage) => void;
+  onRetryInitialReading: () => void;
 };
 
 export default function MessageList({
@@ -29,6 +30,7 @@ export default function MessageList({
   scrollRef,
   onSelectFollowUp,
   onDrawClarificationCard,
+  onRetryInitialReading,
 }: MessageListProps) {
   return (
     <section className="flex-1 overflow-y-auto px-6 py-5">
@@ -38,7 +40,15 @@ export default function MessageList({
         </div>
       ) : error ? (
         <div className="rounded-[28px] bg-red-50 px-5 py-4 text-sm text-red-500">
-          {error}
+          <p>{error}</p>
+
+          <button
+            type="button"
+            onClick={onRetryInitialReading}
+            className="mt-4 rounded-full bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:bg-gray-800 active:scale-[0.99]"
+          >
+            Retry Reading
+          </button>
         </div>
       ) : (
         <div className="flex flex-col gap-4">

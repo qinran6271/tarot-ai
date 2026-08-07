@@ -62,11 +62,24 @@ export function useReadingSession({
     string | null
   >(null);
 
+  const [retryCount, setRetryCount] = useState(0);
+
   const hasFetchedRef = useRef(false);
 
   const createReading = useTarotStore(
     (state) => state.createReading
   );
+
+  function retryInitialReading() {
+    if (currentReading || loading) {
+      return;
+    }
+
+    hasFetchedRef.current = false;
+    setError(null);
+    setLoading(true);
+    setRetryCount((count) => count + 1);
+  }
 
   useEffect(() => {
     // 已有 currentReading，说明用户从 History
@@ -185,11 +198,13 @@ export function useReadingSession({
     router,
     createReading,
     setConversation,
+    retryCount,
   ]);
 
   return {
     loading,
     error,
+    retryInitialReading,
   };
 }
 

@@ -64,7 +64,7 @@ export default function ReadingPage() {
   // - 请求首次 AI 解读
   // - 创建并保存完整 Reading
   // ========================================
-  const { loading, error } = useReadingSession({
+  const { loading, error, retryInitialReading } = useReadingSession({
     currentReading,
     question,
     cards,
@@ -184,6 +184,7 @@ export default function ReadingPage() {
           scrollRef={scrollRef}
           onSelectFollowUp={(followUp) => setInput(followUp)}
           onDrawClarificationCard={drawClarificationCard}
+          onRetryInitialReading={retryInitialReading}
         />
 
         <ChatInput
