@@ -108,7 +108,7 @@ export default function QuestionPage() {
             onChange={(event) => setQuestion(event.target.value)}
             maxLength={300}
             placeholder="For example: Will England win the championship?"
-            className="h-20 w-full resize-none rounded-3xl border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-900 outline-none transition focus:border-gray-400 focus:bg-white"
+            className="h-20 w-full resize-none rounded-3xl border border-gray-200 bg-gray-50 px-5 py-4 text-base text-gray-900 outline-none transition focus:border-gray-400 focus:bg-white"
           />
             <div className="mt-2 text-right text-xs text-gray-400">
             {question.length}/300
