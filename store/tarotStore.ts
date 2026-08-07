@@ -29,61 +29,66 @@ type TarotStore = {
 export const useTarotStore = create<TarotStore>()(
   persist(
     (set) => ({
-      question: "",
-      cards: [],
-      selectedSpread: tarotSpreads[0],
-      currentReading: null,
-      history: [],
+        question: "",
+        cards: [],
+        selectedSpread: tarotSpreads[0],
+        currentReading: null,
+        history: [],
 
-      setQuestion: (question) => set({ question }),
-      setCards: (cards) => set({ cards }),
-      setSelectedSpread: (spread) => set({ selectedSpread: spread }),
-      setCurrentReading: (reading) => set({ currentReading: reading }),
+        setQuestion: (question) => set({ question }),
+        setCards: (cards) => set({ cards }),
+        setSelectedSpread: (spread) => set({ selectedSpread: spread }),
+        setCurrentReading: (reading) => set({ currentReading: reading }),
 
-      createReading: (reading) =>
+        createReading: (reading) =>
+            set((state) => ({
+                currentReading: reading,
+                history: [
+                reading,
+                ...state.history.filter((item) => item.id !== reading.id),
+                ],
+            })),
+
+
+        removeHistory: (id) =>
         set((state) => ({
-            currentReading: reading,
-            history: [
-            reading,
-            ...state.history.filter((item) => item.id !== reading.id),
-            ],
-        })),
-
-
-      removeHistory: (id) =>
-        set((state) => ({
-          history: state.history.filter((reading) => reading.id !== id),
-        })),
-
-      clearHistory: () =>
-        set({
-          history: [],
-          currentReading: null,
-        }),
-
-
-    updateCurrentReading: (updates) =>
-         set((state) => {
-          if (!state.currentReading) {
-            return state;
-          }
-
-          const updatedReading: Reading = {
-            ...state.currentReading,
-            ...updates,
-            updatedAt: new Date().toISOString(),
-          };
-
-          return {
-            currentReading: updatedReading,
-
-            history: state.history.map((reading) =>
-              reading.id === updatedReading.id
-                ? updatedReading
-                : reading
+            history: state.history.filter(
+            (reading) => reading.id !== id
             ),
-          };
-        }),
+            currentReading:
+            state.currentReading?.id === id
+                ? null
+                : state.currentReading,
+        })),
+
+        clearHistory: () =>
+            set({
+            history: [],
+            currentReading: null,
+            }),
+
+        updateCurrentReading: (updates) =>
+            set((state) => {
+            if (!state.currentReading) {
+                return state;
+            }
+
+            const updatedReading: Reading = {
+                ...state.currentReading,
+                ...updates,
+                updatedAt: new Date().toISOString(),
+            };
+
+            return {
+                currentReading: updatedReading,
+
+                history: state.history.map((reading) =>
+                reading.id === updatedReading.id
+                    ? updatedReading
+                    : reading
+                ),
+            };
+            }),
       
     }),
 
