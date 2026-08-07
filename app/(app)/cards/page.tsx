@@ -1,14 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { drawCards, type TarotCardData } from "@/lib/tarot";
+import { drawCards } from "@/lib/tarot";
 import { useRouter } from "next/navigation";
 import TarotCard from "@/components/TarotCard";
 import { useTarotStore } from "@/store/tarotStore";
 import { DrawnCard } from "@/types/tarot";
-import { tarotSpreads } from "@/lib/spreads";
-import { ChevronLeft } from "lucide-react";
-
+import PageHeader from "@/components/PageHeader";
 
 
 export default function CardsPage() {
@@ -62,18 +60,9 @@ export default function CardsPage() {
     <main className="min-h-screen bg-gray-100 flex justify-center">
       <div className="relative w-full max-w-[520px] min-h-screen bg-white px-6 py-10">
 
-      <header className="flex items-center">
-        <button
-          type="button"
-          onClick={() => router.back()}
-          className="-ml-2 cursor-pointer p-1 text-gray-500 transition hover:text-black active:scale-95"
-          aria-label="Back"
-        >
-          <ChevronLeft size={24} strokeWidth={2.3} />
-        </button>
-      </header>
-
-
+      <PageHeader
+        onBack={() => router.back()}
+      />
 
         <div className="mt-10 flex justify-end">
           <div className="max-w-[220px] rounded-full bg-black px-6 py-2 text-sm text-white">

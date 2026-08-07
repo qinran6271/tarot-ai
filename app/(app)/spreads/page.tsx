@@ -4,7 +4,8 @@ import { useRouter } from "next/navigation";
 import { tarotSpreads } from "@/lib/spreads";
 import { useTarotStore } from "@/store/tarotStore";
 import { useEffect } from "react";
-import { ChevronLeft, ChevronRight, Heart, Scale, Sparkles } from "lucide-react";
+import { ChevronRight, Heart, Scale, Sparkles } from "lucide-react";
+import PageHeader from "@/components/PageHeader";
 
 export default function SpreadsPage() {
   const router = useRouter();
@@ -33,16 +34,9 @@ export default function SpreadsPage() {
     <main className="flex min-h-screen justify-center bg-gray-100">
       <div className="min-h-screen w-full max-w-[520px] bg-white px-6 py-8">
         
-      <header className="flex items-center">
-        <button
-          type="button"
-          onClick={() => router.back()}
-          className="-ml-2 cursor-pointer p-1 text-gray-500 transition hover:text-black active:scale-95"
-          aria-label="Back"
-        >
-          <ChevronLeft size={24} strokeWidth={2.3} />
-        </button>
-      </header>
+      <PageHeader
+        onBack={() => router.back()}
+      />
 
       <section className="mt-12">
         <p className="text-sm text-gray-500">

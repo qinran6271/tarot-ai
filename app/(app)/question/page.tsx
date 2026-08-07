@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
-import { ChevronLeft } from "lucide-react";
+import PageHeader from "@/components/PageHeader";
 
 
 
@@ -35,16 +35,9 @@ export default function QuestionPage() {
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
       <div className="relative w-full max-w-[520px] min-h-screen bg-white px-6 py-10">
-        <header className="flex items-center">
-        <button
-          type="button"
-          onClick={() => router.back()}
-          className="-ml-2 cursor-pointer p-1 text-gray-500 transition hover:text-black active:scale-95"
-          aria-label="Back"
-        >
-          <ChevronLeft size={24} strokeWidth={2.3} />
-        </button>
-      </header>
+        <PageHeader
+          onBack={() => router.back()}
+        />
         <div className="mt-12">
           <p className="text-sm text-gray-500">✨ WALAWALA</p>
 

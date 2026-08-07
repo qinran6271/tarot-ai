@@ -3,7 +3,7 @@ import { useTarotStore } from "@/store/tarotStore";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
-import type { ReadingContent, Reading, ReadingMessage } from "@/types/reading";
+import type { ReadingMessage } from "@/types/reading";
 
 import ReadingHeader from "@/components/reading/ReadingHeader";
 import EndChatModal from "@/components/reading/EndChatModal";
@@ -21,29 +21,52 @@ import { useReadingSession } from "@/hooks/reading/useReadingSession";
 export default function ReadingPage() {
   const router = useRouter();
 
-  // ======================================
-  // Global State (Zustand)
-  // 从 Store 获取当前 Reading 所需的数据
-  // ======================================
+  // ========================================
+  // 1. 全局业务状态
+  //
+  // question、cards、selectedSpread：
+  // 创建新咨询时产生的临时流程数据。
+  //
+  // currentReading：
+  // 已经完成首次解读的完整咨询。
+  //
+  // updateCurrentReading：
+  // 更新当前咨询，并同步更新 History。
+  // ========================================
   const question = useTarotStore((state) => state.question);
   const cards = useTarotStore((state) => state.cards);
   const selectedSpread = useTarotStore((state) => state.selectedSpread);
   const currentReading = useTarotStore((state) => state.currentReading);
-  const createReading = useTarotStore((state) => state.createReading);
   const updateCurrentReading = useTarotStore((state) => state.updateCurrentReading);
 
 
-  // 页面共享的 Conversation。
+  // ========================================
+  // 2. 页面共享的对话状态
   //
-  // 新咨询时初始值为空，首次解读 Hook
-  // 会在请求成功后填入消息。
+  // 三个 Reading Hook 都需要读取或修改
+  // Conversation，因此暂时由页面统一持有。
   //
-  // 从 History进入时，直接使用已保存的消息。
+  // 新咨询：
+  // 初始值为空，首次解读完成后由
+  // useReadingSession 填入初始消息。
+  //
+  // 历史咨询：
+  // 直接使用 currentReading 中已保存的消息。
+  // ========================================
+
   const [conversation, setConversation] = useState<ReadingMessage[]>(
     currentReading?.conversation ?? []
   );
 
-  // hook for first reading content (keyInsight, interpretation, advice)
+  // ========================================
+  // 3. 首次解读与会话初始化
+  //
+  // 负责：
+  // - 判断是新咨询还是已有咨询
+  // - 验证新咨询流程数据
+  // - 请求首次 AI 解读
+  // - 创建并保存完整 Reading
+  // ========================================
     const {
     loading,
     error,
@@ -55,7 +78,15 @@ export default function ReadingPage() {
     setConversation,
   });
 
-  // hook for managing chat input and sending messages
+  // ========================================
+  // 4. 普通后续聊天
+  //
+  // 负责：
+  // - 管理聊天输入
+  // - 发送用户的后续问题
+  // - 保存 AI 回复
+  // - 更新 Conversation
+  // ========================================
   const { 
     input, 
     setInput,
@@ -67,7 +98,14 @@ export default function ReadingPage() {
     setConversation,
   });
 
-  // hook for managing clarification card drawing and interpretation
+  // ========================================
+  // 5. 补充牌流程
+  //
+  // 负责：
+  // - 抽取不重复的补充牌
+  // - 请求补充牌解释
+  // - 更新卡牌与 Conversation
+  // ========================================
   const {
     clarificationLoading,
     drawClarificationCard,
@@ -77,43 +115,54 @@ export default function ReadingPage() {
     setConversation,
   });
 
-  // 是否显示 End Chat Modal
+  // ========================================
+  // 6. 页面局部 UI 状态
+  //
+  // 该状态只控制结束咨询确认弹窗，
+  // 不属于 Reading 业务数据。
+  // ========================================
   const [showEndConfirm, setShowEndConfirm] = useState(false);
 
-
-  // ======================================
-  // Refs
-  // ======================================
-
-  // 防止第一次 Reading 重复请求 API
-  const hasFetchedRef = useRef(false);
-
-  // 用于聊天自动滚动到底部
-  const scrollRef = useRef<HTMLDivElement | null>(null);
-  const isAssistantLoading =
-  chatLoading || clarificationLoading;
-
-
-
-
-  // ======================================
-  // Auto Scroll
+  // ========================================
+  // 7. Assistant 请求状态
   //
-  // 每当聊天内容增加时，自动滚动到最底部。
-  // ======================================
+  // 普通聊天和补充牌解释不能同时进行。
+  // 任意请求进行时，统一禁用相关操作。
+  // ========================================
+  const isAssistantLoading =
+    chatLoading || clarificationLoading;
+
+  // ========================================
+  // 8. 聊天自动滚动
+  //
+  // scrollRef 指向消息列表底部。
+  // Conversation 或首次 Loading 变化后，
+  // 将页面滚动到最新内容。
+  // ========================================
+  const scrollRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     scrollRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [conversation, loading]);
 
-  // 新咨询建立前使用临时流程状态；
-  // Reading建立后以 currentReading为准。
+  // ========================================
+  // 9. 页面展示数据
+  //
+  // 新咨询建立 Reading 之前，使用临时流程数据。
+  // Reading 建立后，以 currentReading 为准。
+  // ========================================
   const displayQuestion = currentReading?.focus ?? question;
   const displayCards = currentReading?.cards ?? cards;
   const displayReading = currentReading?.content ?? null;
 
 
-
+  // ========================================
+  // 10. 结束咨询
+  //
+  // 将当前咨询标记为 completed。
+  // updateCurrentReading 会同步更新 History
+  // 和浏览器本地持久化数据。
+  // ========================================
   
   function handleEndChat() {
     if (currentReading) {
@@ -162,12 +211,4 @@ export default function ReadingPage() {
       </div>
     </main>
   );
-}
-
-function formatInitialReading(data: ReadingContent) {
-  return [
-    `✨ Key Insight\n${data.keyInsight}`,
-    `📖 Interpretation\n${data.interpretation}`,
-    `💡 Advice\n${data.advice}`,
-  ].join("\n\n");
 }
