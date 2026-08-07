@@ -3,6 +3,7 @@ import { TarotCardData } from "@/lib/tarot";
 export type DrawnCard = TarotCardData & {
   isReversed: boolean;
   position?: string;
+  source: "spread" | "clarification" | "daily";
 };
 
 export type TarotKnowledgeCard = {

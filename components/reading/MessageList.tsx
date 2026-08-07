@@ -69,7 +69,7 @@ export default function MessageList({
 
                   <div className="flex justify-between gap-3">
                     {cards
-                      .filter((card) => card.position !== "Clarification")
+                      .filter((card) => card.source === "spread")
                       .map((card) => (
                         <div
                           key={card.id}

@@ -36,7 +36,16 @@ export function getDailyReading(): DailyReading | null {
 
   if (!data) return null;
 
-  return JSON.parse(data);
+  const reading = JSON.parse(data) as DailyReading;
+
+  // 兼容 source 字段引入前保存的今日一牌。
+  return {
+    ...reading,
+    card: {
+      ...reading.card,
+      source: reading.card.source ?? "daily",
+    },
+  };
 }
 
 export function isTodayReading(reading: DailyReading) {
@@ -46,4 +55,3 @@ export function isTodayReading(reading: DailyReading) {
 export function clearDailyReading() {
   localStorage.removeItem(STORAGE_KEY);
 }
-

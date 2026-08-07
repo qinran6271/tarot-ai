@@ -107,6 +107,7 @@ export function useClarificationCard({
         ...drawnCard,
         position: "Clarification",
         isReversed: Math.random() < 0.5,
+        source: "clarification",
       };
 
       updatedCards = [

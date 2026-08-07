@@ -23,6 +23,7 @@ export default function CardsPage() {
         ...card,
         position: selectedSpread.positions[index],
         isReversed: Math.random() < 0.5,
+        source: "spread" as const,
     }));
 
     setSelectedCards(cards);

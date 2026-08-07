@@ -49,6 +49,7 @@ export default function Home() {
     const card = {
       ...baseCard,
       isReversed: Math.random() < 0.5,
+      source: "daily" as const,
     };
 
     const tempReading = {
