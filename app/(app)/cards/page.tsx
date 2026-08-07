@@ -89,7 +89,13 @@ export default function CardsPage() {
           </p>
         </section>
 
-        <section className="mt-14 flex justify-center gap-6">
+        <section
+        className={`mx-auto mt-14 flex flex-wrap justify-center gap-4 ${
+          selectedSpread.cardCount === 4
+            ? "max-w-[208px]"
+            : "max-w-[320px]"
+        }`}
+        >
           {selectedCards.map((card) => (
             <TarotCard
               key={card.id}
