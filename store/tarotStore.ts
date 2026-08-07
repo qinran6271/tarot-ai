@@ -4,6 +4,12 @@ import { TarotSpread, tarotSpreads } from "@/lib/spreads";
 import type { Reading } from "@/types/reading";
 import { persist } from "zustand/middleware";
 
+type ReadingUpdates = Partial<
+  Pick<
+    Reading,
+    "cards" | "content" | "conversation" | "status" | "summary"
+  >
+>;
 type TarotStore = {
     question: string; // The user's question for the tarot reading
     cards: DrawnCard[]; // The cards drawn for the reading
@@ -18,7 +24,7 @@ type TarotStore = {
     setCurrentReading: (reading: Reading | null) => void; //选择和清空
 
     createReading: (reading: Reading) => void; //创建新的咨询并保存到当前咨询和历史记录中
-    updateCurrentReading: (updates: Partial<Reading>) => void; //修改当前咨询并同步更新历史记录中对应的咨询
+    updateCurrentReading: (updates: ReadingUpdates) => void; //修改当前咨询并同步更新历史记录中对应的咨询
 
     removeHistory: (id: string) => void;
     clearHistory: () => void;
