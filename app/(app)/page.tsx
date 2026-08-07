@@ -4,11 +4,12 @@ import {
   DailyReading,
   getDailyReading,
   isTodayReading,
+  saveDailyReading,
+  clearDailyReading
 } from "@/lib/dailyReading";
 import TarotCard from "@/components/TarotCard";
 import { drawCards } from "@/lib/tarot";
 import Link from "next/link";
-import { saveDailyReading } from "@/lib/dailyReading";
 
 import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
@@ -108,7 +109,7 @@ export default function Home() {
   }
 
   function resetDailyReadingForTest() {
-    localStorage.removeItem("dailyReading");
+    clearDailyReading();
     setReading(null);
   }
 

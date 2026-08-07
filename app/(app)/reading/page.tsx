@@ -28,9 +28,9 @@ export default function ReadingPage() {
   const selectedSpread = useTarotStore((state) => state.selectedSpread);
   const currentReading = useTarotStore((state) => state.currentReading);
 
-  const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
-  const addHistory = useTarotStore((state) => state.addHistory);
-  const updateHistory = useTarotStore((state) => state.updateHistory);
+  const createReading = useTarotStore((state) => state.createReading);
+
+  const updateCurrentReading = useTarotStore((state) => state.updateCurrentReading);
 
   // ======================================
   // Local UI State
@@ -148,8 +148,10 @@ if (!drawnCard) {
   };
 
   setConversation(updatedConversation);
-  setCurrentReading(updatedReading);
-  updateHistory(updatedReading);
+  updateCurrentReading({
+    cards: updatedReading.cards,
+    conversation: updatedConversation,
+  });
   setChatLoading(true);
 
   try {
@@ -203,9 +205,11 @@ if (!drawnCard) {
     };
 
     setConversation(finalConversation);
-    setCurrentReading(finalReading);
     setReadingContent(finalReading.content);
-    updateHistory(finalReading);
+    updateCurrentReading({
+    conversation: finalConversation,
+    content: finalReading.content,
+    });
   } catch (error) {
     console.error(
       "Clarification interpretation error:",
@@ -232,8 +236,9 @@ if (!drawnCard) {
     };
 
     setConversation(errorConversation);
-    setCurrentReading(errorReading);
-    updateHistory(errorReading);
+    updateCurrentReading({
+      conversation: errorConversation,
+    });
   } finally {
     setChatLoading(false);
   }
@@ -356,10 +361,7 @@ if (!drawnCard) {
         // 更新当前页面
         setReadingContent(data);
         setConversation(newConversation);
-        // 保存到 Zustand
-        setCurrentReading(newReading);
-        // 保存到 History
-        addHistory(newReading);
+        createReading(newReading);
       } catch (err) {
         console.error(err);
         setError("Something went wrong. Please try again.");
@@ -375,8 +377,7 @@ if (!drawnCard) {
     cards,
     selectedSpread,
     router,
-    setCurrentReading,
-    addHistory,
+    createReading,
   ]);
 
   // ======================================
@@ -545,9 +546,12 @@ async function handleSend(message?: string) {
     // readingContent：当前页面显示的解牌内容
     // history：同步更新 History 中对应的 Reading
     // ----------------------------------
-    setCurrentReading(updatedReading);
+    // setCurrentReading(updatedReading);
     setReadingContent(updatedReading.content);
-    updateHistory(updatedReading);
+    updateCurrentReading({
+    conversation: finalConversation,
+    content: updatedReading.content,
+  });
 
   } catch (err) {
     console.error(err);
@@ -583,10 +587,8 @@ async function handleSend(message?: string) {
     const now = new Date().toISOString();
 
     if (currentReading) {
-      setCurrentReading({
-        ...currentReading,
+       updateCurrentReading({
         status: "completed",
-        updatedAt: now,
       });
     }
 

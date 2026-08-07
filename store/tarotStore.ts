@@ -15,12 +15,15 @@ type TarotStore = {
     setQuestion: (question: string) => void;
     setCards: (cards: DrawnCard[]) => void;
     setSelectedSpread: (spread: TarotSpread) => void;
-    setCurrentReading: (reading: Reading | null) => void;
-    addHistory: (reading: Reading) => void;
+    setCurrentReading: (reading: Reading | null) => void; //选择和清空
+
+    createReading: (reading: Reading) => void; //创建新的咨询并保存到当前咨询和历史记录中
+    updateCurrentReading: (updates: Partial<Reading>) => void; //修改当前咨询并同步更新历史记录中对应的咨询
+
     removeHistory: (id: string) => void;
     clearHistory: () => void;
-    updateHistory: (reading: Reading) => void;
-    updateCurrentReading: (updates: Partial<Reading>) => void;
+   
+    
 };
 
 export const useTarotStore = create<TarotStore>()(
@@ -37,10 +40,15 @@ export const useTarotStore = create<TarotStore>()(
       setSelectedSpread: (spread) => set({ selectedSpread: spread }),
       setCurrentReading: (reading) => set({ currentReading: reading }),
 
-      addHistory: (reading) =>
+      createReading: (reading) =>
         set((state) => ({
-          history: [reading, ...state.history],
+            currentReading: reading,
+            history: [
+            reading,
+            ...state.history.filter((item) => item.id !== reading.id),
+            ],
         })),
+
 
       removeHistory: (id) =>
         set((state) => ({
@@ -53,12 +61,6 @@ export const useTarotStore = create<TarotStore>()(
           currentReading: null,
         }),
 
-      updateHistory: (reading) =>
-        set((state) => ({
-            history: state.history.map((item) =>
-            item.id === reading.id ? reading : item
-            ),
-        })),
 
     updateCurrentReading: (updates) =>
          set((state) => {
@@ -84,9 +86,10 @@ export const useTarotStore = create<TarotStore>()(
         }),
       
     }),
+
     {
       name: "tarot-storage",
-      partialize: (state) => ({
+      partialize: (state) => ({ // 把需要持久化的状态属性放在这里
         history: state.history,
         currentReading: state.currentReading,
       }),
