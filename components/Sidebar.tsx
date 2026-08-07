@@ -1,18 +1,142 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
+
+const BUTTON_SIZE = 40;
+const VIEWPORT_MARGIN = 12;
+
+type Position = {
+  x: number;
+  y: number;
+};
+
+type DragState = {
+  pointerId: number;
+  startX: number;
+  startY: number;
+  originX: number;
+  originY: number;
+  moved: boolean;
+};
+
+function clampToViewport({ x, y }: Position): Position {
+  return {
+    x: Math.min(
+      Math.max(VIEWPORT_MARGIN, x),
+      Math.max(VIEWPORT_MARGIN, window.innerWidth - BUTTON_SIZE - VIEWPORT_MARGIN),
+    ),
+    y: Math.min(
+      Math.max(VIEWPORT_MARGIN, y),
+      Math.max(VIEWPORT_MARGIN, window.innerHeight - BUTTON_SIZE - VIEWPORT_MARGIN),
+    ),
+  };
+}
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDragging, setIsDragging] = useState(false);
+  const [position, setPosition] = useState<Position>({ x: 20, y: 20 });
+  const dragState = useRef<DragState | null>(null);
+  const suppressClick = useRef(false);
+
+  useEffect(() => {
+    const keepButtonOnScreen = () => {
+      setPosition((current) => clampToViewport(current));
+    };
+
+    const moveButton = (event: globalThis.PointerEvent) => {
+      const drag = dragState.current;
+      if (!drag || drag.pointerId !== event.pointerId) return;
+
+      const deltaX = event.clientX - drag.startX;
+      const deltaY = event.clientY - drag.startY;
+
+      if (Math.hypot(deltaX, deltaY) > 4) drag.moved = true;
+      if (!drag.moved) return;
+
+      setPosition(
+        clampToViewport({
+          x: drag.originX + deltaX,
+          y: drag.originY + deltaY,
+        }),
+      );
+    };
+
+    const finishDragging = (event: globalThis.PointerEvent) => {
+      const drag = dragState.current;
+      if (!drag || drag.pointerId !== event.pointerId) return;
+
+      suppressClick.current = drag.moved;
+      dragState.current = null;
+      setIsDragging(false);
+
+      if (drag.moved) {
+        const releasedPosition = clampToViewport({
+          x: drag.originX + event.clientX - drag.startX,
+          y: drag.originY + event.clientY - drag.startY,
+        });
+        const rightEdge = Math.max(
+          VIEWPORT_MARGIN,
+          window.innerWidth - BUTTON_SIZE - VIEWPORT_MARGIN,
+        );
+
+        setPosition({
+          x:
+            releasedPosition.x + BUTTON_SIZE / 2 < window.innerWidth / 2
+              ? VIEWPORT_MARGIN
+              : rightEdge,
+          y: releasedPosition.y,
+        });
+      }
+    };
+
+    window.addEventListener("resize", keepButtonOnScreen);
+    window.addEventListener("pointermove", moveButton);
+    window.addEventListener("pointerup", finishDragging);
+    window.addEventListener("pointercancel", finishDragging);
+
+    return () => {
+      window.removeEventListener("resize", keepButtonOnScreen);
+      window.removeEventListener("pointermove", moveButton);
+      window.removeEventListener("pointerup", finishDragging);
+      window.removeEventListener("pointercancel", finishDragging);
+    };
+  }, []);
+
+  const handlePointerDown = (event: ReactPointerEvent<HTMLButtonElement>) => {
+    event.preventDefault();
+    setIsDragging(true);
+    dragState.current = {
+      pointerId: event.pointerId,
+      startX: event.clientX,
+      startY: event.clientY,
+      originX: position.x,
+      originY: position.y,
+      moved: false,
+    };
+  };
+
+  const handleButtonClick = () => {
+    if (suppressClick.current) {
+      suppressClick.current = false;
+      return;
+    }
+
+    setIsOpen((current) => !current);
+  };
 
   return (
     <>
       <button
         type="button"
-        onClick={() => setIsOpen(true)}
-        className="cursor-pointer fixed left-5 top-5 z-50 flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl shadow-sm"
-            
+        aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
+        onClick={handleButtonClick}
+        onPointerDown={handlePointerDown}
+        style={{ left: position.x, top: position.y, touchAction: "none" }}
+        className={`fixed z-50 flex h-10 w-10 cursor-grab select-none items-center justify-center rounded-full bg-white text-xl shadow-sm active:cursor-grabbing ${
+          isDragging ? "" : "transition-[left,top] duration-200 ease-out"
+        }`}
       >
         ☰
       </button>

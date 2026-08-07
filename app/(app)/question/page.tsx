@@ -1,15 +1,36 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
 import PageHeader from "@/components/PageHeader";
 
-
-
+const STARTING_QUESTIONS = [
+  {
+    label: "Career",
+    icon: "💼",
+    question: "What should I focus on in my career right now?",
+  },
+  {
+    label: "Relationships",
+    icon: "❤️",
+    question: "What do I need to understand about my relationships right now?",
+  },
+  {
+    label: "Home",
+    icon: "🏡",
+    question: "What energy is surrounding my home life right now?",
+  },
+  {
+    label: "Energy",
+    icon: "🌙",
+    question: "What is influencing my energy right now?",
+  },
+];
 
 export default function QuestionPage() {
     const [question, setQuestion] = useState("");
+    const questionInputRef = useRef<HTMLTextAreaElement>(null);
     const setCurrentReading = useTarotStore(
     (state) => state.setCurrentReading
   );
@@ -32,6 +53,11 @@ export default function QuestionPage() {
 
     const isQuestionValid = question.trim().length > 0;
 
+    const handleStartingQuestion = (startingQuestion: string) => {
+      setQuestion(startingQuestion);
+      questionInputRef.current?.focus();
+    };
+
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
       <div className="relative w-full max-w-[520px] min-h-screen bg-white px-6 py-10">
@@ -48,7 +74,7 @@ export default function QuestionPage() {
           <div className="mt-3 text-sm leading-relaxed text-gray-500">
             <p>Take a deep breath.</p>
             <p>Focus on one intention.</p>
-            <p>Let's explore it together.</p>
+            <p>Let&apos;s explore it together.</p>
           </div>
         </div>
         <div className="mt-8">
@@ -60,19 +86,27 @@ export default function QuestionPage() {
             Need a starting point?
         </p>
 
-        <div  className="space-y-2 text-sm text-gray-400">
-            <p>💼 Career</p>
-            <p>❤️ Relationships</p>
-            <p>🏡 Home</p>
-            <p>🌙 Energy</p>
+        <div className="space-y-1 text-sm text-gray-400">
+          {STARTING_QUESTIONS.map((item) => (
+            <button
+              key={item.label}
+              type="button"
+              onClick={() => handleStartingQuestion(item.question)}
+              className="block w-full rounded-xl px-2 py-1.5 text-left transition-colors hover:bg-gray-100 hover:text-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-400"
+            >
+              <span aria-hidden="true">{item.icon}</span> {item.label}
+            </button>
+          ))}
         </div>
     
 
 
         <div className="mt-6">
           <textarea
+            ref={questionInputRef}
             value={question}
             onChange={(event) => setQuestion(event.target.value)}
+            maxLength={300}
             placeholder="For example: Will England win the championship?"
             className="h-20 w-full resize-none rounded-3xl border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-900 outline-none transition focus:border-gray-400 focus:bg-white"
           />
