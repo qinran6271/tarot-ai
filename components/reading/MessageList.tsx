@@ -15,6 +15,7 @@ type MessageListProps = {
   scrollRef: RefObject<HTMLDivElement | null>;
   onSelectFollowUp: (question: string) => void;
   onDrawClarificationCard: (message: ReadingMessage) => void;
+  onDrawManualClarificationCard: () => void;
   onRetryInitialReading: () => void;
 };
 
@@ -30,8 +31,15 @@ export default function MessageList({
   scrollRef,
   onSelectFollowUp,
   onDrawClarificationCard,
+  onDrawManualClarificationCard,
   onRetryInitialReading,
 }: MessageListProps) {
+  const hasActionableClarificationSuggestion = conversation.some(
+    (message) =>
+      message.clarificationSuggestion?.status === "pending" ||
+      message.clarificationSuggestion?.status === "failed",
+  );
+
   return (
     <section className="flex-1 overflow-y-auto px-6 py-5">
       {loading ? (
@@ -120,7 +128,7 @@ export default function MessageList({
                         type="button"
                         disabled={chatLoading}
                         onClick={() => onDrawClarificationCard(message)}
-                        className="mt-4 w-full cursor-pointer rounded-full bg-black px-4 py-3 text-sm font-medium text-white transition hover:bg-gray-800 active:scale-[0.99]"
+                        className="mt-4 w-full rounded-full border border-gray-200 bg-white px-4 py-2.5 text-sm font-medium text-gray-600 transition hover:border-gray-300 hover:bg-gray-50 active:scale-[0.99] disabled:bg-gray-100 disabled:text-gray-400"
                       >
                         Draw a Clarification Card
                       </button>
@@ -151,7 +159,7 @@ export default function MessageList({
                         type="button"
                         disabled={chatLoading}
                         onClick={() => onDrawClarificationCard(message)}
-                        className="mt-4 w-full cursor-pointer rounded-full bg-black px-4 py-3 text-sm font-medium text-white transition hover:bg-gray-800 active:scale-[0.99] disabled:cursor-not-allowed disabled:bg-gray-300"
+                        className="mt-4 w-full rounded-full border border-gray-200 bg-white px-4 py-2.5 text-sm font-medium text-gray-600 transition hover:border-gray-300 hover:bg-gray-50 active:scale-[0.99] disabled:bg-gray-100 disabled:text-gray-400"
                       >
                         Retry Interpretation
                       </button>
@@ -205,6 +213,17 @@ export default function MessageList({
                 ))}
               </div>
             </section>
+          ) : null}
+
+          {reading && !hasActionableClarificationSuggestion ? (
+            <button
+              type="button"
+              disabled={chatLoading}
+              onClick={onDrawManualClarificationCard}
+              className="mx-auto mt-1 text-xs text-gray-400 underline decoration-gray-300 underline-offset-4 transition hover:text-gray-600 disabled:text-gray-300"
+            >
+              Need more clarity? Draw another card.
+            </button>
           ) : null}
 
           <div ref={scrollRef} />

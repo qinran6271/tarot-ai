@@ -100,6 +100,7 @@ export default function ReadingPage() {
     clarificationLoading,
     clarificationError,
     drawClarificationCard,
+    drawManualClarificationCard,
   } = useClarificationCard({
     currentReading,
     conversation,
@@ -184,6 +185,7 @@ export default function ReadingPage() {
           scrollRef={scrollRef}
           onSelectFollowUp={(followUp) => setInput(followUp)}
           onDrawClarificationCard={drawClarificationCard}
+          onDrawManualClarificationCard={drawManualClarificationCard}
           onRetryInitialReading={retryInitialReading}
         />
 

@@ -62,7 +62,8 @@ export function useClarificationCard({
   );
 
   async function drawClarificationCard(
-    message: ReadingMessage
+    message: ReadingMessage,
+    baseConversation: ReadingMessage[] = conversation,
   ) {
     if (!currentReading || clarificationLoading) {
       return;
@@ -118,7 +119,7 @@ export function useClarificationCard({
 
     // 无论是首次抽牌还是失败重试，
     // 请求开始时都进入 drawn 状态。
-    const updatedConversation = conversation.map((item) => {
+    const updatedConversation = baseConversation.map((item) => {
       if (
         item.id !== message.id ||
         !item.clarificationSuggestion
@@ -257,9 +258,33 @@ export function useClarificationCard({
     }
   }
 
+  function drawManualClarificationCard() {
+    if (!currentReading || clarificationLoading) {
+      return;
+    }
+
+    const message: ReadingMessage = {
+      id: crypto.randomUUID(),
+      role: "assistant",
+      kind: "clarification-reading",
+      content: "Let's draw one more card for an additional layer of insight.",
+      createdAt: new Date().toISOString(),
+      clarificationSuggestion: {
+        reason: "Use an extra card whenever you want more detail or a fresh perspective.",
+        question: `What additional insight can clarify: ${currentReading.focus}`,
+        status: "pending",
+      },
+    };
+
+    const conversationWithPrompt = [...conversation, message];
+    setConversation(conversationWithPrompt);
+    void drawClarificationCard(message, conversationWithPrompt);
+  }
+
   return {
     clarificationLoading,
     clarificationError,
     drawClarificationCard,
+    drawManualClarificationCard,
   };
 }
