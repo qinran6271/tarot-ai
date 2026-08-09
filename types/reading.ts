@@ -15,6 +15,17 @@ export type ClarificationSuggestion = {
   card?: DrawnCard;
 };
 
+export type PersistedClarificationSuggestion = Omit<
+  ClarificationSuggestion,
+  "card"
+> & {
+  readingCardId?: string;
+};
+
+export type ReadingMessageMetadata = Partial<ReadingContent> & {
+  clarificationSuggestion?: PersistedClarificationSuggestion;
+};
+
 export type ReadingMessageKind =
   | "question"
   | "initial-reading"
