@@ -27,7 +27,7 @@ export default function HistoryPage() {
               tabIndex={0}
               onClick={() => {
                 setCurrentReading(reading);
-                router.push("/reading");
+                router.push(`/reading/${reading.id}`);
               }}
               className="group w-full cursor-pointer rounded-2xl border border-gray-200 bg-white p-5 text-left transition-all duration-200 hover:-translate-y-0.5 hover:border-gray-300 hover:bg-gray-50 hover:shadow-md active:scale-[0.99]"
             >

@@ -1,6 +1,6 @@
 "use client";
 import { useTarotStore } from "@/store/tarotStore";
-import { useRouter } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
 import type { ReadingMessage } from "@/types/reading";
@@ -16,6 +16,7 @@ import { useReadingSession } from "@/hooks/reading/useReadingSession";
 
 export default function ReadingPage() {
   const router = useRouter();
+  const { readingId } = useParams<{ readingId: string }>();
 
   // ========================================
   // 1. 全局业务状态
@@ -33,9 +34,22 @@ export default function ReadingPage() {
   const cards = useTarotStore((state) => state.cards);
   const selectedSpread = useTarotStore((state) => state.selectedSpread);
   const currentReading = useTarotStore((state) => state.currentReading);
+  const history = useTarotStore((state) => state.history);
+  const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
   const updateCurrentReading = useTarotStore(
     (state) => state.updateCurrentReading,
   );
+
+  const routeReading =
+    currentReading?.id === readingId
+      ? currentReading
+      : (history.find((reading) => reading.id === readingId) ?? null);
+
+  useEffect(() => {
+    if (routeReading && currentReading?.id !== routeReading.id) {
+      setCurrentReading(routeReading);
+    }
+  }, [currentReading?.id, routeReading, setCurrentReading]);
 
   // ========================================
   // 2. 页面共享的对话状态
@@ -52,7 +66,7 @@ export default function ReadingPage() {
   // ========================================
 
   const [conversation, setConversation] = useState<ReadingMessage[]>(
-    currentReading?.conversation ?? [],
+    routeReading?.conversation ?? [],
   );
 
   // ========================================
@@ -65,7 +79,8 @@ export default function ReadingPage() {
   // - 创建并保存完整 Reading
   // ========================================
   const { loading, error, retryInitialReading } = useReadingSession({
-    currentReading,
+    readingId,
+    currentReading: routeReading,
     question,
     cards,
     selectedSpread,
@@ -83,7 +98,7 @@ export default function ReadingPage() {
   // ========================================
   const { input, setInput, chatLoading, chatError, sendMessage } =
     useReadingChat({
-      currentReading,
+      currentReading: routeReading,
       conversation,
       setConversation,
     });
@@ -102,7 +117,7 @@ export default function ReadingPage() {
     drawClarificationCard,
     drawManualClarificationCard,
   } = useClarificationCard({
-    currentReading,
+    currentReading: routeReading,
     conversation,
     setConversation,
   });
@@ -142,9 +157,9 @@ export default function ReadingPage() {
   // 新咨询建立 Reading 之前，使用临时流程数据。
   // Reading 建立后，以 currentReading 为准。
   // ========================================
-  const displayQuestion = currentReading?.focus ?? question;
-  const displayCards = currentReading?.cards ?? cards;
-  const displayReading = currentReading?.content ?? null;
+  const displayQuestion = routeReading?.focus ?? question;
+  const displayCards = routeReading?.cards ?? cards;
+  const displayReading = routeReading?.content ?? null;
 
   // ========================================
   // 10. 结束咨询
@@ -155,7 +170,7 @@ export default function ReadingPage() {
   // ========================================
 
   function handleEndChat() {
-    if (currentReading) {
+    if (routeReading) {
       updateCurrentReading({
         status: "completed",
       });

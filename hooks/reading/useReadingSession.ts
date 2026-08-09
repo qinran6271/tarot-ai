@@ -34,6 +34,7 @@ import type { DrawnCard } from "@/types/tarot";
 import type { TarotSpread } from "@/lib/spreads";
 
 type UseReadingSessionParams = {
+  readingId: string; // URL 中为本次咨询预先生成或已保存的 ID
   currentReading: Reading | null; // 当前完整咨询（原始问题，牌阵，卡牌，以及解读，当前推荐问题）
   question: string; // 用户输入的问题
   cards: DrawnCard[]; // 用户抽取的卡牌
@@ -46,6 +47,7 @@ type UseReadingSessionParams = {
 };
 
 export function useReadingSession({
+  readingId,
   currentReading,
   question,
   cards,
@@ -156,7 +158,7 @@ export function useReadingSession({
           ];
 
         const newReading: Reading = {
-          id: crypto.randomUUID(),
+          id: readingId,
           createdAt: now,
           updatedAt: now,
 
@@ -192,6 +194,7 @@ export function useReadingSession({
     generateInitialReading();
   }, [
     currentReading,
+    readingId,
     question,
     cards,
     selectedSpread,

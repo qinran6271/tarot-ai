@@ -41,9 +41,11 @@ export default function CardsPage() {
   }
 
   function handleContinue() {
-  setCards(selectedCards);
-  router.push("/reading");
-}
+    const readingId = crypto.randomUUID();
+
+    setCards(selectedCards);
+    router.push(`/reading/${readingId}`);
+  }
 
     const allCardsRevealed =
     selectedCards.length === selectedSpread.cardCount &&
