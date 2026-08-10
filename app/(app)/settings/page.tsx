@@ -1,3 +1,5 @@
+"use client";
+
 import {
   ChevronRight,
   CircleUserRound,
@@ -7,6 +9,8 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import type { ReactNode } from "react";
+
+import { authClient } from "@/lib/auth/client";
 
 type SettingsSectionProps = {
   icon: ReactNode;
@@ -125,6 +129,8 @@ function ComingSoonRow({
 } */
 
 export default function SettingsPage() {
+  const { data: session } = authClient.useSession();
+
   return (
     <main className="mx-auto flex min-h-screen max-w-md flex-col px-6 pb-10 pt-8">
       <div className="mb-8">
@@ -135,16 +141,18 @@ export default function SettingsPage() {
       </div>
 
       <div className="space-y-8">
-        <SettingsSection
-          icon={<CircleUserRound size={15} />}
-          title="Account"
-        >
-          <SettingsRow
-            label="Account"
-            description="Manage your sign-in and security settings."
-            href="/settings/account"
-          />
-        </SettingsSection>
+        {session?.user ? (
+          <SettingsSection
+            icon={<CircleUserRound size={15} />}
+            title="Account"
+          >
+            <SettingsRow
+              label="Account"
+              description="Manage your sign-in and security settings."
+              href="/settings/account"
+            />
+          </SettingsSection>
+        ) : null}
 
         <section>
           <h2 className="mb-3 px-1 text-xs font-semibold uppercase tracking-[0.16em] text-gray-400">
