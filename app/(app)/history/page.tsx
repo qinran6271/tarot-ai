@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
+import GuestReadingImport from "@/components/reading/GuestReadingImport";
 
 export default function HistoryPage() {
   const router = useRouter();
@@ -16,6 +17,8 @@ export default function HistoryPage() {
   return (
     <main className="mx-auto max-w-md p-6">
       <h1 className="mb-6 text-2xl font-bold">Reading History</h1>
+
+      <GuestReadingImport />
 
       {!storageReady ? (
         <p className="text-sm text-gray-500">Loading readings…</p>
