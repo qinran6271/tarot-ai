@@ -8,27 +8,25 @@ import { useTarotStore } from "@/store/tarotStore";
 import { DrawnCard } from "@/types/tarot";
 import PageHeader from "@/components/PageHeader";
 
-
 export default function CardsPage() {
-    const router = useRouter();
-    const [selectedCards, setSelectedCards] = useState<DrawnCard[]>([]);
-    const [revealedCardIds, setRevealedCardIds] = useState<string[]>([]);
-    const question = useTarotStore((state) => state.question);
-    const setCards = useTarotStore((state) => state.setCards);
-    const selectedSpread = useTarotStore((state) => state.selectedSpread);
+  const router = useRouter();
+  const [selectedCards, setSelectedCards] = useState<DrawnCard[]>([]);
+  const [revealedCardIds, setRevealedCardIds] = useState<string[]>([]);
+  const question = useTarotStore((state) => state.question);
+  const setCards = useTarotStore((state) => state.setCards);
+  const selectedSpread = useTarotStore((state) => state.selectedSpread);
 
-
-    function handleDrawCards() {
+  function handleDrawCards() {
     const cards = drawCards(selectedSpread.cardCount).map((card, index) => ({
-        ...card,
-        position: selectedSpread.positions[index],
-        isReversed: Math.random() < 0.5,
-        source: "spread" as const,
+      ...card,
+      position: selectedSpread.positions[index],
+      isReversed: Math.random() < 0.5,
+      source: "spread" as const,
     }));
 
     setSelectedCards(cards);
     setRevealedCardIds([]);
-    }
+  }
 
   function handleRevealCard(cardId: string) {
     setRevealedCardIds((prev) => {
@@ -47,25 +45,20 @@ export default function CardsPage() {
     router.push(`/reading/${readingId}`);
   }
 
-    const allCardsRevealed =
+  const allCardsRevealed =
     selectedCards.length === selectedSpread.cardCount &&
     revealedCardIds.length === selectedSpread.cardCount;
 
-    useEffect(() => {
+  useEffect(() => {
     if (!question.trim()) {
-        router.replace("/question");
+      router.replace("/question");
     }
-    }, [question, router]);
-
-    
+  }, [question, router]);
 
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center">
       <div className="relative w-full max-w-[520px] min-h-screen bg-white px-6 py-10">
-
-      <PageHeader
-        onBack={() => router.back()}
-      />
+        <PageHeader onBack={() => router.back()} />
 
         <div className="mt-10 flex justify-end">
           <div className="max-w-[220px] rounded-full bg-black px-6 py-2 text-sm text-white">
@@ -76,14 +69,14 @@ export default function CardsPage() {
         <section className="mt-16 text-center">
           <p className="text-sm text-gray-500">✨ WALAWALA</p>
 
-        {selectedCards.length === 0 && (
-          <button
-            onClick={handleDrawCards}
-            className="mt-6 rounded-xl bg-yellow-300 px-6 py-3 font-medium text-white hover:bg-yellow-200 cursor-pointer"
-          >
-            Draw {selectedSpread.cardCount} Cards
-          </button>
-        )}
+          {selectedCards.length === 0 && (
+            <button
+              onClick={handleDrawCards}
+              className="mt-6 rounded-xl bg-yellow-300 px-6 py-3 font-medium text-white hover:bg-yellow-200 cursor-pointer"
+            >
+              Draw {selectedSpread.cardCount} Cards
+            </button>
+          )}
 
           <p className="mt-3 text-sm leading-relaxed text-gray-500">
             Keep your question in mind.
@@ -93,19 +86,21 @@ export default function CardsPage() {
         </section>
 
         <section
-        className={`mx-auto mt-14 flex flex-wrap justify-center gap-4 ${
-          selectedSpread.cardCount === 4
-            ? "max-w-[208px]"
-            : "max-w-[320px]"
-        }`}
+          className={`mx-auto mt-14 flex flex-wrap justify-center gap-4 ${
+            selectedSpread.cardCount === 4 ? "max-w-[208px]" : "max-w-[320px]"
+          }`}
         >
           {selectedCards.map((card) => (
-            <TarotCard
-              key={card.id}
-              card={card}
-              revealed={revealedCardIds.includes(card.id)}
-              onClick={() => handleRevealCard(card.id)}
-            />
+            <div key={card.id} className="flex w-24 flex-col items-center">
+              <TarotCard
+                card={card}
+                revealed={revealedCardIds.includes(card.id)}
+                onClick={() => handleRevealCard(card.id)}
+              />
+              <p className="mt-2 text-center text-xs font-medium leading-snug text-gray-500">
+                {card.position}
+              </p>
+            </div>
           ))}
         </section>
 

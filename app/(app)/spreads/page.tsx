@@ -24,6 +24,16 @@ export default function SpreadsPage() {
     return <Scale size={18} />;
   }
 
+  function getSpreadIconColor(index: number) {
+    if (index === 0) {
+      return "bg-gray-100 text-gray-800 group-hover:bg-yellow-100 group-hover:text-yellow-700";
+    }
+    if (index === 1) {
+      return "bg-gray-100 text-gray-800 group-hover:bg-pink-100 group-hover:text-pink-600";
+    }
+    return "bg-gray-100 text-gray-800 group-hover:bg-blue-100 group-hover:text-blue-600";
+  }
+
   useEffect(() => {
     if (!question.trim()) {
       router.replace("/question");
@@ -33,28 +43,19 @@ export default function SpreadsPage() {
   return (
     <main className="flex min-h-screen justify-center bg-gray-100">
       <div className="min-h-screen w-full max-w-[520px] bg-white px-6 py-8">
-        
-      <PageHeader
-        onBack={() => router.back()}
-      />
+        <PageHeader onBack={() => router.back()} />
 
-      <section className="mt-12">
-        <p className="text-sm text-gray-500">
-          ✨ WALAWALA
-        </p>
+        <section className="mt-12">
+          <p className="text-sm text-gray-500">✨ WALAWALA</p>
 
-        <h1 className="mt-3 text-3xl font-semibold tracking-tight text-gray-900">
-          Choose your reading
-        </h1>
+          <h1 className="mt-3 text-3xl font-semibold tracking-tight text-gray-900">
+            Choose your reading
+          </h1>
 
-        <p className="mt-8 text-lg font-medium text-gray-900">
-          {question}
-        </p>
-
-      </section>
+          <p className="mt-8 text-lg font-medium text-gray-900">{question}</p>
+        </section>
 
         <section className="mt-10">
-          
           <p className="mt-3 text-sm leading-relaxed text-gray-500">
             Each spread offers a different way to understand your question.
           </p>
@@ -68,7 +69,9 @@ export default function SpreadsPage() {
                 className="group cursor-pointer rounded-[28px] border border-gray-200 bg-white px-5 py-5 text-left transition duration-150 hover:-translate-y-0.5 hover:border-gray-300 hover:shadow-sm active:scale-[0.99]"
               >
                 <div className="flex items-start gap-4">
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gray-100 text-gray-800 transition group-hover:bg-black group-hover:text-white">
+                  <div
+                    className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full transition-colors ${getSpreadIconColor(index)}`}
+                  >
                     {getSpreadIcon(index)}
                   </div>
 

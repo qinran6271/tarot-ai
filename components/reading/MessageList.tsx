@@ -91,7 +91,10 @@ export default function MessageList({
                             />
                           </div>
 
-                          <p className="-mt-4 text-center text-[10px] font-medium leading-snug text-gray-600">
+                          <p className="-mt-4 text-center text-[10px] font-semibold leading-snug text-gray-700">
+                            {card.position}
+                          </p>
+                          <p className="text-center text-[10px] leading-snug text-gray-500">
                             {card.name}
                             {card.isReversed ? " Reversed" : ""}
                           </p>

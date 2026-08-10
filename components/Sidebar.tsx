@@ -3,7 +3,12 @@
 import Link from "next/link";
 import { Heart } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type PointerEvent as ReactPointerEvent,
+} from "react";
 
 import { authClient } from "@/lib/auth/client";
 
@@ -28,11 +33,17 @@ function clampToViewport({ x, y }: Position): Position {
   return {
     x: Math.min(
       Math.max(VIEWPORT_MARGIN, x),
-      Math.max(VIEWPORT_MARGIN, window.innerWidth - BUTTON_SIZE - VIEWPORT_MARGIN),
+      Math.max(
+        VIEWPORT_MARGIN,
+        window.innerWidth - BUTTON_SIZE - VIEWPORT_MARGIN,
+      ),
     ),
     y: Math.min(
       Math.max(VIEWPORT_MARGIN, y),
-      Math.max(VIEWPORT_MARGIN, window.innerHeight - BUTTON_SIZE - VIEWPORT_MARGIN),
+      Math.max(
+        VIEWPORT_MARGIN,
+        window.innerHeight - BUTTON_SIZE - VIEWPORT_MARGIN,
+      ),
     ),
   };
 }
@@ -171,14 +182,19 @@ export default function Sidebar() {
       >
         <div className="flex h-full flex-col">
           <div className="mb-10 flex items-center justify-between">
-            <div>
+            <Link
+              href="/"
+              onClick={() => setIsOpen(false)}
+              className="rounded-xl outline-none transition-opacity hover:opacity-70 focus-visible:ring-2 focus-visible:ring-yellow-200"
+              aria-label="Go to home"
+            >
               <p className="text-xs uppercase tracking-[0.25em] text-gray-400">
                 WALAWALA
               </p>
               <h2 className="mt-2 text-xl font-semibold text-gray-900">
                 Tarot
               </h2>
-            </div>
+            </Link>
 
             <button
               type="button"
@@ -227,11 +243,7 @@ export default function Sidebar() {
               onClick={() => setIsOpen(false)}
               className="flex items-center gap-2 rounded-2xl px-4 py-3 hover:bg-gray-100"
             >
-              <Heart
-                size={15}
-                fill="currentColor"
-                className="text-red-500"
-              />
+              <Heart size={15} fill="currentColor" className="text-red-500" />
               Favorites
             </Link>
           </nav>
