@@ -9,7 +9,10 @@ import {
 } from "@/lib/dailyReading";
 import TarotCard from "@/components/TarotCard";
 import { drawCards } from "@/lib/tarot";
-import Link from "next/link";
+import GuestJourneyPrompt, {
+  shouldSkipGuestJourneyPrompt,
+} from "@/components/reading/GuestJourneyPrompt";
+import { authClient } from "@/lib/auth/client";
 
 import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
@@ -22,16 +25,34 @@ export default function Home() {
   const [reading, setReading] = useState<DailyReading | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
   const [showMore, setShowMore] = useState(false);
+  const [showGuestPrompt, setShowGuestPrompt] = useState(false);
 
   const isDrawingRef = useRef(false);
   const router = useRouter();
+  const { data: session, isPending: sessionPending } = authClient.useSession();
   const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
+
+  function beginJourney() {
+    setCurrentReading(null);
+    router.push("/question");
+  }
+
+  function handleStartJourney() {
+    if (sessionPending) return;
+
+    if (session?.user || shouldSkipGuestJourneyPrompt()) {
+      beginJourney();
+      return;
+    }
+
+    setShowGuestPrompt(true);
+  }
 
   useEffect(() => {
   const saved = getDailyReading();
 
   if (saved && isTodayReading(saved)) {
-    setReading(saved);
+    queueMicrotask(() => setReading(saved));
   }
   }, []);
 
@@ -123,7 +144,7 @@ export default function Home() {
     </div>
 
     <h1 className="text-xl font-medium mt-4">
-      Today's Card
+      Today&apos;s Card
     </h1>
 
     <div className="mt-10 flex flex-col items-center">
@@ -176,7 +197,7 @@ export default function Home() {
     />
 
     <p className="mt-6 text-gray-500">
-      Tap the card to reveal today's guidance.
+      Tap the card to reveal today&apos;s guidance.
     </p>
   </>
 )}
@@ -192,10 +213,8 @@ export default function Home() {
 
         <button
           type="button"
-          onClick={() => {
-            setCurrentReading(null);
-            router.push("/question");
-          }}
+          onClick={handleStartJourney}
+          disabled={sessionPending}
           className="
             mt-auto
             mb-10
@@ -208,10 +227,22 @@ export default function Home() {
             hover:text-white
             transition
             cursor-pointer
+            disabled:cursor-wait
+            disabled:opacity-50
           "
         >
           Start Your Journey
         </button>
+
+        <GuestJourneyPrompt
+          open={showGuestPrompt}
+          onClose={() => setShowGuestPrompt(false)}
+          onContinueAsGuest={() => {
+            setShowGuestPrompt(false);
+            beginJourney();
+          }}
+          onSignIn={() => router.push("/auth/sign-in")}
+        />
 
       </div>
     </main>

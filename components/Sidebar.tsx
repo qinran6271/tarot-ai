@@ -229,19 +229,21 @@ export default function Sidebar() {
             {sessionPending ? (
               <p className="text-xs text-gray-400">Checking account…</p>
             ) : session?.user ? (
-              <div>
-                <p className="truncate text-sm font-medium text-gray-900">
-                  {session.user.name}
-                </p>
-                <p className="mt-1 truncate text-xs text-gray-400">
-                  {session.user.email}
-                </p>
+              <div className="flex items-start justify-between gap-3">
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-sm font-medium text-gray-900">
+                    {session.user.name}
+                  </p>
+                  <p className="mt-1 truncate text-xs text-gray-400">
+                    {session.user.email}
+                  </p>
+                </div>
                 <button
                   type="button"
                   onClick={handleSignOut}
                   aria-label="Sign out"
                   title="Sign out"
-                  className="mt-4 flex h-9 w-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900"
+                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900"
                 >
                   <svg
                     aria-hidden="true"
