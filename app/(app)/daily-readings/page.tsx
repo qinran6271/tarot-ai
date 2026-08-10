@@ -69,7 +69,7 @@ export default function DailyReadingsPage() {
 
   return (
     <main className="mx-auto max-w-md p-6">
-      <h1 className="text-2xl font-bold">Daily Readings</h1>
+      <h1 className="text-2xl font-bold">☀️ Daily Readings</h1>
       <p className="mt-2 text-sm text-gray-500">
         A record of the guidance you received each day.
       </p>
