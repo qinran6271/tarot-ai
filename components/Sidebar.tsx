@@ -246,31 +246,34 @@ export default function Sidebar() {
               <Heart size={15} fill="currentColor" className="text-red-500" />
               Favorites
             </Link>
+
+            <Link
+              href="/settings"
+              onClick={() => setIsOpen(false)}
+              className="block rounded-2xl px-4 py-3 hover:bg-gray-100"
+            >
+              ⚙️ Settings
+            </Link>
           </nav>
-
-          <div className="mt-10 border-t border-gray-100 pt-6">
-            <p className="mb-3 text-xs uppercase tracking-[0.2em] text-gray-400">
-              Coming Soon
-            </p>
-
-            <div className="space-y-2 text-sm text-gray-400">
-              <p className="rounded-2xl px-4 py-3">⚙ Settings</p>
-            </div>
-          </div>
 
           <div className="mt-auto border-t border-gray-100 pt-5">
             {sessionPending ? (
               <p className="text-xs text-gray-400">Checking account…</p>
             ) : session?.user ? (
               <div className="flex items-start justify-between gap-3">
-                <div className="min-w-0 flex-1">
+                <Link
+                  href="/settings/account"
+                  onClick={() => setIsOpen(false)}
+                  className="min-w-0 flex-1 rounded-lg outline-none transition-opacity hover:opacity-65 focus-visible:ring-2 focus-visible:ring-yellow-200"
+                  aria-label="Open account settings"
+                >
                   <p className="truncate text-sm font-medium text-gray-900">
                     {session.user.name}
                   </p>
                   <p className="mt-1 truncate text-xs text-gray-400">
                     {session.user.email}
                   </p>
-                </div>
+                </Link>
                 <button
                   type="button"
                   onClick={handleSignOut}

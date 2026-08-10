@@ -17,7 +17,7 @@ export default async function AuthPage({
   const { path } = await params;
 
   return (
-    <AuthPageGuard>
+    <AuthPageGuard allowSignedIn={path === authViewPaths.RESET_PASSWORD}>
       <Sidebar />
       <main className="flex min-h-screen items-center justify-center bg-gray-100 px-5 py-12">
         <section className="w-full max-w-md rounded-[32px] bg-white px-6 py-8 shadow-sm">

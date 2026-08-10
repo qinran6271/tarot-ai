@@ -8,7 +8,10 @@ import {
   fetchDatabaseReading,
   fetchDatabaseReadings,
   ReadingApiError,
+  saveDatabaseReading,
 } from "@/lib/readings/client";
+import { readGuestReadings } from "@/lib/readings/guest";
+import { dailyCardSpread } from "@/lib/spreads";
 import {
   activateAuthenticatedReadingStorage,
   activateGuestReadingStorage,
@@ -33,11 +36,41 @@ export default function ReadingStorageProvider({
     async function selectStorage() {
       if (userId) {
         try {
-          const readings = readingId
+          let readings = readingId
             ? await fetchDatabaseReading(readingId).then((reading) =>
                 reading ? [reading] : [],
               )
             : await fetchDatabaseReadings();
+
+          if (!readingId) {
+            const today = new Date().toDateString();
+            const hasDatabaseDailyReading = readings.some(
+              (reading) =>
+                reading.spread.id === dailyCardSpread.id &&
+                new Date(reading.createdAt).toDateString() === today,
+            );
+
+            if (!hasDatabaseDailyReading) {
+              const localDailyReading = readGuestReadings().find(
+                (reading) =>
+                  reading.spread.id === dailyCardSpread.id &&
+                  new Date(reading.createdAt).toDateString() === today,
+              );
+
+              if (localDailyReading) {
+                try {
+                  await saveDatabaseReading(localDailyReading);
+                  readings = await fetchDatabaseReadings();
+                } catch (error) {
+                  console.warn(
+                    "Failed to sync today's local daily reading:",
+                    error,
+                  );
+                }
+              }
+            }
+          }
+
           if (!cancelled) activateAuthenticatedReadingStorage(readings);
         } catch (error) {
           if (error instanceof ReadingApiError && error.status === 401) {

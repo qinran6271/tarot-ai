@@ -14,6 +14,7 @@ import GuestJourneyPrompt, {
 } from "@/components/reading/GuestJourneyPrompt";
 import { authClient } from "@/lib/auth/client";
 import { dailyCardSpread } from "@/lib/spreads";
+import { readGuestReadings } from "@/lib/readings/guest";
 import type { Reading, ReadingContent, ReadingMessage } from "@/types/reading";
 
 import { useRouter } from "next/navigation";
@@ -60,11 +61,18 @@ export default function Home() {
   useEffect(() => {
     if (sessionPending || !storageReady) return;
 
-    const savedReading = history.find(
+    const todayDailyReadings = history.filter(
       (item) =>
         item.spread.id === dailyCardSpread.id &&
         new Date(item.createdAt).toDateString() === new Date().toDateString(),
     );
+    const guestReadingIds = userId
+      ? new Set(readGuestReadings().map((item) => item.id))
+      : null;
+    const savedReading =
+      todayDailyReadings.find(
+        (item) => !guestReadingIds?.has(item.id),
+      ) ?? todayDailyReadings[0];
 
     if (savedReading?.cards[0]) {
       queueMicrotask(() => {

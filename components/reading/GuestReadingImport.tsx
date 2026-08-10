@@ -8,6 +8,7 @@ import {
   saveDatabaseReading,
 } from "@/lib/readings/client";
 import { readGuestReadings } from "@/lib/readings/guest";
+import { dailyCardSpread } from "@/lib/spreads";
 import {
   activateAuthenticatedReadingStorage,
   useTarotStore,
@@ -32,9 +33,25 @@ export default function GuestReadingImport() {
     () => new Set(history.map((reading) => reading.id)),
     [history],
   );
-  const readingsToImport = guestReadings.filter(
-    (reading) => !databaseReadingIds.has(reading.id),
+  const databaseDailyReadingDates = useMemo(
+    () =>
+      new Set(
+        history
+          .filter((reading) => reading.spread.id === dailyCardSpread.id)
+          .map((reading) => new Date(reading.createdAt).toDateString()),
+      ),
+    [history],
   );
+  const readingsToImport = guestReadings.filter((reading) => {
+    if (databaseReadingIds.has(reading.id)) return false;
+
+    return !(
+      reading.spread.id === dailyCardSpread.id &&
+      databaseDailyReadingDates.has(
+        new Date(reading.createdAt).toDateString(),
+      )
+    );
+  });
 
   if (
     !session?.user ||
