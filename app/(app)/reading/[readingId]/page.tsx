@@ -6,7 +6,6 @@ import { useEffect, useRef, useState } from "react";
 import type { ReadingMessage } from "@/types/reading";
 
 import ReadingHeader from "@/components/reading/ReadingHeader";
-import EndChatModal from "@/components/reading/EndChatModal";
 import ChatInput from "@/components/reading/ChatInput";
 import MessageList from "@/components/reading/MessageList";
 
@@ -121,15 +120,7 @@ export default function ReadingPage() {
   });
 
   // ========================================
-  // 6. 页面局部 UI 状态
-  //
-  // 该状态只控制结束咨询确认弹窗，
-  // 不属于 Reading 业务数据。
-  // ========================================
-  const [showEndConfirm, setShowEndConfirm] = useState(false);
-
-  // ========================================
-  // 7. Assistant 请求状态
+  // 6. Assistant 请求状态
   //
   // 普通聊天和补充牌解释不能同时进行。
   // 任意请求进行时，统一禁用相关操作。
@@ -137,7 +128,7 @@ export default function ReadingPage() {
   const isAssistantLoading = chatLoading || clarificationLoading;
 
   // ========================================
-  // 8. 聊天自动滚动
+  // 7. 聊天自动滚动
   //
   // scrollRef 指向消息列表底部。
   // Conversation 或首次 Loading 变化后，
@@ -150,7 +141,7 @@ export default function ReadingPage() {
   }, [conversation, loading, chatError, clarificationError]);
 
   // ========================================
-  // 9. 页面展示数据
+  // 8. 页面展示数据
   //
   // 新咨询建立 Reading 之前，使用临时流程数据。
   // Reading 建立后，以 currentReading 为准。
@@ -159,25 +150,12 @@ export default function ReadingPage() {
   const displayCards = routeReading?.cards ?? cards;
   const displayReading = routeReading?.content ?? null;
 
-  // ========================================
-  // 10. 结束咨询
-  //
-  // 将当前咨询标记为 completed。
-  // updateCurrentReading 会同步更新 History
-  // 和浏览器本地持久化数据。
-  // ========================================
-
-  function handleEndChat() {
-    router.push("/history");
-  }
-
   return (
     <main className="flex h-screen justify-center bg-gray-100">
       <div className="relative flex h-screen w-full max-w-[520px] flex-col bg-white">
         <ReadingHeader
           subtitle={displayQuestion || "No question yet."}
-          onBack={() => router.back()}
-          onEnd={() => setShowEndConfirm(true)}
+          onExit={() => router.push("/history")}
         />
 
         <MessageList
@@ -203,11 +181,6 @@ export default function ReadingPage() {
           disabled={isAssistantLoading}
         />
 
-        <EndChatModal
-          open={showEndConfirm}
-          onCancel={() => setShowEndConfirm(false)}
-          onConfirm={handleEndChat}
-        />
       </div>
     </main>
   );

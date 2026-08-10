@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 type ChatInputProps = {
   input: string;
   setInput: (value: string) => void;
@@ -42,12 +40,6 @@ export default function ChatInput({
         </button>
       </form>
 
-      <Link
-        href="/question"
-        className="mt-3 flex h-11 items-center justify-center rounded-full border border-black text-sm text-black"
-      >
-        Start New Reading
-      </Link>
     </footer>
   );
 }
