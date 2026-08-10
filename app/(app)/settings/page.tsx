@@ -11,6 +11,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 
 import { authClient } from "@/lib/auth/client";
+import { version as appVersion } from "@/package.json";
 
 type SettingsSectionProps = {
   icon: ReactNode;
@@ -215,7 +216,7 @@ export default function SettingsPage() {
           <SettingsRow label="Terms of use" />
           <SettingsRow
             label="Version"
-            value="0.1.0"
+            value={appVersion}
             trailing={<span className="w-[17px]" />}
           />
         </SettingsSection> */}
@@ -226,7 +227,7 @@ export default function SettingsPage() {
           <MoonStar size={14} />
           <span>Made for quiet moments of reflection</span>
         </p>
-        <p className="mt-3">WALAWALA Tarot · v0.1.0</p>
+        <p className="mt-3">WALAWALA Tarot · v{appVersion}</p>
       </footer>
     </main>
   );

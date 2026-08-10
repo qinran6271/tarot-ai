@@ -30,6 +30,7 @@ export function saveDailyReading(
       date: getToday(),
     })
   );
+  window.dispatchEvent(new Event("daily-reading-updated"));
 }
 
 export function getDailyReading(): DailyReading | null {
@@ -55,4 +56,5 @@ export function isTodayReading(reading: DailyReading) {
 
 export function clearDailyReading() {
   localStorage.removeItem(STORAGE_KEY);
+  window.dispatchEvent(new Event("daily-reading-updated"));
 }
