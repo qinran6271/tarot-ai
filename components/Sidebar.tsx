@@ -342,11 +342,11 @@ export default function Sidebar() {
           className={`relative block h-[50px] w-[34px] transition-all duration-300 group-active:scale-105 ${
             isDragging
               ? "scale-105 drop-shadow-[0_0_10px_rgba(242,211,103,0.58)]"
-              : "drop-shadow-[0_3px_5px_rgba(83,63,24,0.18)] group-hover:scale-[1.03]"
+              : "drop-shadow-[0_3px_5px_rgba(75,85,99,0.18)] group-hover:scale-[1.03]"
           }`}
         >
           {(isOpen || isDragging) && todayCard ? (
-            <span className="absolute inset-0 overflow-hidden rounded-[5px] bg-[#fcfaf3]">
+            <span className="absolute inset-0 overflow-hidden rounded-[5px] bg-[#fafafa]">
               <Image
                 src={todayCard.img}
                 alt=""
@@ -357,14 +357,14 @@ export default function Sidebar() {
               />
             </span>
           ) : (
-            <span className="absolute inset-0 overflow-hidden rounded-[5px] bg-[#fcfaf3]">
-              <svg viewBox="0 0 68 100" className="h-full w-full text-[#d2ba7d]" role="presentation">
-                <rect x="3" y="3" width="62" height="94" rx="7" fill="#fcfaf3" stroke="currentColor" strokeWidth="1.5" />
+            <span className="absolute inset-0 overflow-hidden rounded-[5px] bg-[#fafafa]">
+              <svg viewBox="0 0 68 100" className="h-full w-full text-[#9ca3af]" role="presentation">
+                <rect x="3" y="3" width="62" height="94" rx="7" fill="#fafafa" stroke="currentColor" strokeWidth="1.5" />
                 <path d="M34 22v56M12 50h44M18 34l32 32M50 34L18 66" stroke="currentColor" strokeWidth="0.6" opacity="0.48" />
                 <circle cx="34" cy="50" r="21" fill="none" stroke="currentColor" strokeWidth="1" />
                 <circle cx="34" cy="50" r="12" fill="none" stroke="currentColor" strokeWidth="0.7" />
                 <path d="M34 35l3.8 11.2L49 50l-11.2 3.8L34 65l-3.8-11.2L19 50l11.2-3.8z" fill="currentColor" />
-                <circle cx="34" cy="50" r="3" fill="#fcfaf3" />
+                <circle cx="34" cy="50" r="3" fill="#fafafa" />
               </svg>
             </span>
           )}
