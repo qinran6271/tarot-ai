@@ -1,5 +1,6 @@
 "use client";
 
+import { Heart } from "lucide-react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
@@ -13,6 +14,7 @@ export default function HistoryPage() {
   const history = useTarotStore((state) => state.history);
   const storageReady = useTarotStore((state) => state.storageReady);
   const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
+  const updateReading = useTarotStore((state) => state.updateReading);
   const removeHistory = useTarotStore((state) => state.removeHistory);
   const regularReadings = history.filter(
     (reading) => reading.spread.id !== dailyCardSpread.id,
@@ -56,27 +58,58 @@ export default function HistoryPage() {
                   </p>
                 </div>
 
-                <button
-                  type="button"
-                  onClick={(event) => {
-                    event.stopPropagation();
-
-                    if (confirmDeleteId === reading.id) {
-                      removeHistory(reading.id);
-                      setConfirmDeleteId(null);
-                    } else {
-                      setConfirmDeleteId(reading.id);
+                <div className="flex shrink-0 items-center gap-1">
+                  <button
+                    type="button"
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      updateReading(reading.id, {
+                        favoritedAt: reading.favoritedAt
+                          ? undefined
+                          : new Date().toISOString(),
+                      });
+                    }}
+                    className={`rounded-full p-2 transition-colors ${
+                      reading.favoritedAt
+                        ? "text-red-500"
+                        : "text-gray-400 hover:bg-red-50 hover:text-red-500"
+                    }`}
+                    aria-label={
+                      reading.favoritedAt
+                        ? "Remove from favorites"
+                        : "Add to favorites"
                     }
-                  }}
-                  className={
-                    confirmDeleteId === reading.id
-                      ? "shrink-0 rounded-full bg-red-50 px-3 py-2 text-xs font-medium text-red-500"
-                      : "shrink-0 rounded-full p-2 text-gray-400 transition-colors hover:bg-red-50 hover:text-red-500"
-                  }
-                  aria-label="Delete reading"
-                >
-                  {confirmDeleteId === reading.id ? "Delete?" : "🗑️"}
-                </button>
+                    aria-pressed={Boolean(reading.favoritedAt)}
+                  >
+                    <Heart
+                      size={18}
+                      strokeWidth={1.8}
+                      fill={reading.favoritedAt ? "currentColor" : "none"}
+                    />
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={(event) => {
+                      event.stopPropagation();
+
+                      if (confirmDeleteId === reading.id) {
+                        removeHistory(reading.id);
+                        setConfirmDeleteId(null);
+                      } else {
+                        setConfirmDeleteId(reading.id);
+                      }
+                    }}
+                    className={
+                      confirmDeleteId === reading.id
+                        ? "rounded-full bg-red-50 px-3 py-2 text-xs font-medium text-red-500"
+                        : "rounded-full p-2 text-gray-400 transition-colors hover:bg-red-50 hover:text-red-500"
+                    }
+                    aria-label="Delete reading"
+                  >
+                    {confirmDeleteId === reading.id ? "Delete?" : "🗑️"}
+                  </button>
+                </div>
               </div>
             </div>
           ))}

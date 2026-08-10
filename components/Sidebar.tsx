@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Heart } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
 
@@ -220,6 +221,19 @@ export default function Sidebar() {
             >
               📜 Readings
             </Link>
+
+            <Link
+              href="/favorites"
+              onClick={() => setIsOpen(false)}
+              className="flex items-center gap-2 rounded-2xl px-4 py-3 hover:bg-gray-100"
+            >
+              <Heart
+                size={15}
+                fill="currentColor"
+                className="text-red-500"
+              />
+              Favorites
+            </Link>
           </nav>
 
           <div className="mt-10 border-t border-gray-100 pt-6">
@@ -228,7 +242,6 @@ export default function Sidebar() {
             </p>
 
             <div className="space-y-2 text-sm text-gray-400">
-              <p className="rounded-2xl px-4 py-3">♡ Favorites</p>
               <p className="rounded-2xl px-4 py-3">⚙ Settings</p>
             </div>
           </div>

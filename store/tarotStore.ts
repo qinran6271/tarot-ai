@@ -42,6 +42,7 @@ type TarotStore = {
   replaceReadings: (readings: Reading[]) => void;
   setStorageReady: (ready: boolean) => void;
   createReading: (reading: Reading) => void;
+  updateReading: (id: string, updates: ReadingUpdates) => void;
   updateCurrentReading: (updates: ReadingUpdates) => void;
   removeHistory: (id: string) => void;
   clearHistory: () => void;
@@ -91,6 +92,33 @@ export const useTarotStore = create<TarotStore>()(
         if (get().persistenceMode === "authenticated") {
           void saveDatabaseReading(reading).catch((error) =>
             reportPersistenceError("save", error),
+          );
+        }
+      },
+
+      updateReading: (id, updates) => {
+        const reading = get().history.find((item) => item.id === id);
+        if (!reading) return;
+
+        const updatedReading: Reading = {
+          ...reading,
+          ...updates,
+          updatedAt: new Date().toISOString(),
+        };
+
+        set((state) => ({
+          currentReading:
+            state.currentReading?.id === id
+              ? updatedReading
+              : state.currentReading,
+          history: state.history.map((item) =>
+            item.id === id ? updatedReading : item,
+          ),
+        }));
+
+        if (get().persistenceMode === "authenticated") {
+          void saveDatabaseReading(updatedReading).catch((error) =>
+            reportPersistenceError("update", error),
           );
         }
       },

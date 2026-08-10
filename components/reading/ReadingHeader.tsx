@@ -1,19 +1,22 @@
 "use client";
 
-import { useState } from "react";
 import { Heart } from "lucide-react";
 
 type ReadingHeaderProps = {
   subtitle?: string;
+  favorited: boolean;
+  favoriteDisabled?: boolean;
   onExit: () => void;
+  onFavoriteToggle: () => void;
 };
 
 export default function ReadingHeader({
   subtitle,
+  favorited,
+  favoriteDisabled = false,
   onExit,
+  onFavoriteToggle,
 }: ReadingHeaderProps) {
-  const [favorited, setFavorited] = useState(false);
-
   return (
     <header className="shrink-0 border-b border-gray-100 bg-white px-5 py-4">
       <div className="flex items-center justify-between">
@@ -47,11 +50,14 @@ export default function ReadingHeader({
 
         <button
           type="button"
-          onClick={() => setFavorited((current) => !current)}
+          onClick={onFavoriteToggle}
+          disabled={favoriteDisabled}
           aria-label={favorited ? "Remove from favorites" : "Add to favorites"}
           aria-pressed={favorited}
-          className={`flex h-8 w-10 cursor-pointer items-center justify-end transition-colors active:scale-95 ${
-            favorited ? "text-red-500" : "text-gray-400 hover:text-gray-600"
+          className={`flex h-8 w-10 items-center justify-end transition-colors active:scale-95 disabled:cursor-default disabled:opacity-40 ${
+            favorited
+              ? "cursor-pointer text-red-500"
+              : "cursor-pointer text-gray-400 hover:text-gray-600"
           }`}
         >
           <Heart

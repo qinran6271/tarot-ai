@@ -36,6 +36,9 @@ export default function ReadingPage() {
   const history = useTarotStore((state) => state.history);
   const storageReady = useTarotStore((state) => state.storageReady);
   const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
+  const updateCurrentReading = useTarotStore(
+    (state) => state.updateCurrentReading,
+  );
   const routeReading =
     currentReading?.id === readingId
       ? currentReading
@@ -155,7 +158,19 @@ export default function ReadingPage() {
       <div className="relative flex h-screen w-full max-w-[520px] flex-col bg-white">
         <ReadingHeader
           subtitle={displayQuestion || "No question yet."}
+          favorited={Boolean(routeReading?.favoritedAt)}
+          favoriteDisabled={!routeReading}
           onExit={() => router.push("/history")}
+          onFavoriteToggle={() => {
+            if (!routeReading) return;
+
+            setCurrentReading(routeReading);
+            updateCurrentReading({
+              favoritedAt: routeReading.favoritedAt
+                ? undefined
+                : new Date().toISOString(),
+            });
+          }}
         />
 
         <MessageList
