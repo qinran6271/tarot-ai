@@ -206,11 +206,19 @@ export default function Sidebar() {
             </Link>
 
             <Link
+              href="/daily-readings"
+              onClick={() => setIsOpen(false)}
+              className="block rounded-2xl px-4 py-3 hover:bg-gray-100"
+            >
+              ☀️ Daily Readings
+            </Link>
+
+            <Link
               href="/history"
               onClick={() => setIsOpen(false)}
               className="block rounded-2xl px-4 py-3 hover:bg-gray-100"
             >
-              📜 Reading History
+              📜 Readings
             </Link>
           </nav>
 

@@ -16,6 +16,17 @@ export type TarotSpread = {
   interpretationGuide: string;
 };
 
+export const dailyCardSpread: TarotSpread = {
+  id: "daily-card",
+  name: "Daily Card",
+  description: "A single card offering guidance for the day.",
+  cardCount: 1,
+  positions: ["Today"],
+  holistic: true,
+  interpretationGuide:
+    "Interpret this card as grounded guidance for the user's day. Avoid certainty or prediction.",
+};
+
 export const tarotSpreads: TarotSpread[] = [
   {
     id: "intuitive-three",

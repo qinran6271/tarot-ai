@@ -13,6 +13,8 @@ import GuestJourneyPrompt, {
   shouldSkipGuestJourneyPrompt,
 } from "@/components/reading/GuestJourneyPrompt";
 import { authClient } from "@/lib/auth/client";
+import { dailyCardSpread } from "@/lib/spreads";
+import type { Reading, ReadingContent, ReadingMessage } from "@/types/reading";
 
 import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
@@ -30,7 +32,13 @@ export default function Home() {
   const isDrawingRef = useRef(false);
   const router = useRouter();
   const { data: session, isPending: sessionPending } = authClient.useSession();
+  const userId = session?.user?.id;
   const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
+  const createReading = useTarotStore((state) => state.createReading);
+  const removeHistory = useTarotStore((state) => state.removeHistory);
+  const history = useTarotStore((state) => state.history);
+  const storageReady = useTarotStore((state) => state.storageReady);
+  const [dailyReadingId, setDailyReadingId] = useState<string | null>(null);
 
   function beginJourney() {
     setCurrentReading(null);
@@ -49,12 +57,41 @@ export default function Home() {
   }
 
   useEffect(() => {
-  const saved = getDailyReading();
+    if (sessionPending || !storageReady) return;
 
-  if (saved && isTodayReading(saved)) {
-    queueMicrotask(() => setReading(saved));
-  }
-  }, []);
+    const savedReading = history.find(
+      (item) =>
+        item.spread.id === dailyCardSpread.id &&
+        new Date(item.createdAt).toDateString() === new Date().toDateString(),
+    );
+
+    if (savedReading?.cards[0]) {
+      queueMicrotask(() => {
+        setDailyReadingId(savedReading.id);
+        setReading({
+          date: new Date(savedReading.createdAt).toDateString(),
+          card: savedReading.cards[0],
+          keyInsight: savedReading.content.keyInsight,
+          interpretation: savedReading.content.interpretation,
+          advice: savedReading.content.advice,
+        });
+      });
+      return;
+    }
+
+    if (!userId) {
+      const saved = getDailyReading();
+      if (saved && isTodayReading(saved)) {
+        queueMicrotask(() => setReading(saved));
+        return;
+      }
+    }
+
+    queueMicrotask(() => {
+      setDailyReadingId(null);
+      setReading(null);
+    });
+  }, [history, sessionPending, storageReady, userId]);
 
   
 
@@ -83,7 +120,7 @@ export default function Home() {
 
     // 先立刻显示卡
     setReading(tempReading);
-    saveDailyReading(tempReading);
+    if (!userId) saveDailyReading(tempReading);
 
     try {
       const response = await fetch("/api/reading", {
@@ -103,7 +140,7 @@ export default function Home() {
         }),
       });
 
-      const data = await response.json();
+      const data = (await response.json()) as ReadingContent;
 
       const dailyReading = {
         ...tempReading,
@@ -113,7 +150,43 @@ export default function Home() {
       };
 
       setReading(dailyReading);
-      saveDailyReading(dailyReading);
+      if (!userId) saveDailyReading(dailyReading);
+
+      const now = new Date().toISOString();
+      const readingId = crypto.randomUUID();
+      const conversation: ReadingMessage[] = [
+        {
+          id: crypto.randomUUID(),
+          role: "user",
+          kind: "question",
+          content: "What guidance do I need today?",
+          createdAt: now,
+        },
+        {
+          id: crypto.randomUUID(),
+          role: "assistant",
+          kind: "initial-reading",
+          content: [
+            `✨ Key Insight\n${data.keyInsight}`,
+            `📖 Interpretation\n${data.interpretation}`,
+            `💡 Advice\n${data.advice}`,
+          ].join("\n\n"),
+          createdAt: now,
+        },
+      ];
+      const persistedReading: Reading = {
+        id: readingId,
+        createdAt: now,
+        updatedAt: now,
+        focus: "What guidance do I need today?",
+        spread: dailyCardSpread,
+        cards: [{ ...card, position: "Today" }],
+        content: data,
+        conversation,
+      };
+
+      setDailyReadingId(readingId);
+      createReading(persistedReading);
     } catch (error) {
       console.error(error);
 
@@ -133,6 +206,8 @@ export default function Home() {
 
   function resetDailyReadingForTest() {
     clearDailyReading();
+    if (dailyReadingId) removeHistory(dailyReadingId);
+    setDailyReadingId(null);
     setReading(null);
   }
 
@@ -192,7 +267,7 @@ export default function Home() {
     <TarotCard
       revealed={false}
       onClick={drawTodayCard}
-      disabled={isGenerating}
+      disabled={isGenerating || sessionPending || !storageReady}
       size="large"
     />
 
@@ -202,12 +277,14 @@ export default function Home() {
   </>
 )}
 
-<button
-  onClick={resetDailyReadingForTest}
-  className="mt-6 text-sm text-gray-400 underline"
->
-  Reset today reading
-</button>
+{process.env.NODE_ENV === "development" ? (
+  <button
+    onClick={resetDailyReadingForTest}
+    className="mt-6 text-sm text-gray-400 underline"
+  >
+    Reset today reading
+  </button>
+) : null}
 
         </div>
 

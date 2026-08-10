@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
 import GuestReadingImport from "@/components/reading/GuestReadingImport";
+import { dailyCardSpread } from "@/lib/spreads";
 
 export default function HistoryPage() {
   const router = useRouter();
@@ -13,6 +14,9 @@ export default function HistoryPage() {
   const storageReady = useTarotStore((state) => state.storageReady);
   const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
   const removeHistory = useTarotStore((state) => state.removeHistory);
+  const regularReadings = history.filter(
+    (reading) => reading.spread.id !== dailyCardSpread.id,
+  );
 
   return (
     <main className="mx-auto max-w-md p-6">
@@ -22,11 +26,11 @@ export default function HistoryPage() {
 
       {!storageReady ? (
         <p className="text-sm text-gray-500">Loading readings…</p>
-      ) : history.length === 0 ? (
+      ) : regularReadings.length === 0 ? (
         <p className="text-sm text-gray-500">No readings yet.</p>
       ) : (
         <div className="space-y-4">
-          {history.map((reading) => (
+          {regularReadings.map((reading) => (
             <div
               key={reading.id}
               role="button"
