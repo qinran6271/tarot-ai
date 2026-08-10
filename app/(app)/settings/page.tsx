@@ -1,4 +1,4 @@
-import { ChevronRight, CircleUserRound } from "lucide-react";
+import { ChevronRight, CircleUserRound, MoonStar } from "lucide-react";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
@@ -93,7 +93,7 @@ function SettingsRow({
 
 export default function SettingsPage() {
   return (
-    <main className="mx-auto max-w-md px-6 pb-12 pt-8">
+    <main className="mx-auto flex min-h-screen max-w-md flex-col px-6 pb-10 pt-8">
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-gray-900">Settings</h1>
         <p className="mt-2 text-sm leading-relaxed text-gray-500">
@@ -162,10 +162,13 @@ export default function SettingsPage() {
         </SettingsSection> */}
       </div>
 
-      {/* <div className="mt-10 flex items-center justify-center gap-2 text-xs text-gray-300">
-        <MoonStar size={14} />
-        <span>Made for quiet moments of reflection</span>
-      </div> */}
+      <footer className="mt-auto pt-16 text-center text-xs text-gray-300">
+        <p className="flex items-center justify-center gap-2">
+          <MoonStar size={14} />
+          <span>Made for quiet moments of reflection</span>
+        </p>
+        <p className="mt-3">WALAWALA Tarot · v0.1.0</p>
+      </footer>
     </main>
   );
 }

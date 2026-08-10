@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Heart } from "lucide-react";
+import { Heart, Settings } from "lucide-react";
 import { useRouter } from "next/navigation";
 import {
   useEffect,
@@ -246,72 +246,77 @@ export default function Sidebar() {
               <Heart size={15} fill="currentColor" className="text-red-500" />
               Favorites
             </Link>
+          </nav>
 
+          <div className="-mx-6 -mb-7 mt-auto bg-gray-50 px-6 pb-7 pt-3">
             <Link
               href="/settings"
               onClick={() => setIsOpen(false)}
-              className="block rounded-2xl px-4 py-3 hover:bg-gray-100"
+              className="flex items-center gap-2.5 rounded-2xl px-3 py-2.5 text-sm font-medium text-gray-600 transition-colors hover:bg-white hover:text-gray-900"
             >
-              ⚙️ Settings
+              <Settings size={16} strokeWidth={1.8} />
+              Settings
             </Link>
-          </nav>
 
-          <div className="mt-auto border-t border-gray-100 pt-5">
-            {sessionPending ? (
-              <p className="text-xs text-gray-400">Checking account…</p>
-            ) : session?.user ? (
-              <div className="flex items-start justify-between gap-3">
-                <Link
-                  href="/settings/account"
-                  onClick={() => setIsOpen(false)}
-                  className="min-w-0 flex-1 rounded-lg outline-none transition-opacity hover:opacity-65 focus-visible:ring-2 focus-visible:ring-yellow-200"
-                  aria-label="Open account settings"
-                >
-                  <p className="truncate text-sm font-medium text-gray-900">
-                    {session.user.name}
-                  </p>
-                  <p className="mt-1 truncate text-xs text-gray-400">
-                    {session.user.email}
-                  </p>
-                </Link>
-                <button
-                  type="button"
-                  onClick={handleSignOut}
-                  aria-label="Sign out"
-                  title="Sign out"
-                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900"
-                >
-                  <svg
-                    aria-hidden="true"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.8"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5"
-                  >
-                    <path d="M10 4H5.75A1.75 1.75 0 0 0 4 5.75v12.5C4 19.22 4.78 20 5.75 20H10" />
-                    <path d="M14 8l4 4-4 4" />
-                    <path d="M18 12H8" />
-                  </svg>
-                </button>
-              </div>
-            ) : (
-              <div>
-                <p className="text-xs leading-relaxed text-gray-400">
-                  Sign in to sync readings across devices. Guest readings stay
-                  on this device.
+            <div className="mx-2 mt-2 px-1 pt-2">
+              {sessionPending ? (
+                <p className="px-1 py-2 text-xs text-gray-400">
+                  Checking account…
                 </p>
-                <Link
-                  href="/auth/sign-in"
-                  onClick={() => setIsOpen(false)}
-                  className="mt-4 inline-flex text-sm font-medium text-gray-700 transition-colors hover:text-black"
-                >
-                  Sign in
-                </Link>
-              </div>
-            )}
+              ) : session?.user ? (
+                <div className="flex items-start justify-between gap-3">
+                  <Link
+                    href="/settings/account"
+                    onClick={() => setIsOpen(false)}
+                    className="min-w-0 flex-1 rounded-lg px-1 py-1 outline-none transition-opacity hover:opacity-65 focus-visible:ring-2 focus-visible:ring-yellow-200"
+                    aria-label="Open account settings"
+                  >
+                    <p className="truncate text-sm font-medium text-gray-900">
+                      {session.user.name}
+                    </p>
+                    <p className="mt-1 truncate text-xs text-gray-400">
+                      {session.user.email}
+                    </p>
+                  </Link>
+                  <button
+                    type="button"
+                    onClick={handleSignOut}
+                    aria-label="Sign out"
+                    title="Sign out"
+                    className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-gray-400 transition-colors hover:bg-white hover:text-gray-900 hover:shadow-sm"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.8"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="h-5 w-5"
+                    >
+                      <path d="M10 4H5.75A1.75 1.75 0 0 0 4 5.75v12.5C4 19.22 4.78 20 5.75 20H10" />
+                      <path d="M14 8l4 4-4 4" />
+                      <path d="M18 12H8" />
+                    </svg>
+                  </button>
+                </div>
+              ) : (
+                <div className="px-1 pb-1">
+                  <p className="text-xs leading-relaxed text-gray-400">
+                    Sign in to sync readings across devices. Guest readings
+                    stay on this device.
+                  </p>
+                  <Link
+                    href="/auth/sign-in"
+                    onClick={() => setIsOpen(false)}
+                    className="mt-3 inline-flex text-sm font-medium text-gray-700 transition-colors hover:text-black"
+                  >
+                    Sign in
+                  </Link>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </aside>

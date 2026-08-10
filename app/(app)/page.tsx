@@ -20,6 +20,13 @@ import type { Reading, ReadingContent, ReadingMessage } from "@/types/reading";
 import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
 
+function timeBasedGreeting() {
+  const hour = new Date().getHours();
+  if (hour < 12) return "Good morning";
+  if (hour < 18) return "Good afternoon";
+  return "Good evening";
+}
+
 
 
 // Load today's saved reading from localStorage when the page first loads.
@@ -214,18 +221,36 @@ export default function Home() {
     setReading(null);
   }
 
+  const displayName = session?.user?.name?.trim();
+  const greeting = displayName
+    ? reading
+      ? `Welcome back, ${displayName} ✨`
+      : `${timeBasedGreeting()}, ${displayName} ✨`
+    : "Welcome to WALAWALA ✨";
+  const greetingMessage = displayName
+    ? reading
+      ? `Your card for today is ${reading.card.name}.`
+      : "Your daily guidance is waiting."
+    : reading
+      ? `Your card for today is ${reading.card.name}.`
+      : "Take a quiet moment for yourself.";
+
   return (
   <main className="min-h-screen bg-gray-100 flex justify-center">
   <div className="w-full max-w-[520px] min-h-screen bg-white flex flex-col items-center px-8 py-10">
-    <div className="mt-12">
-          <p className="text-sm text-gray-500">✨ WALAWALA</p>
+    <div className="mt-12 w-full text-center">
+      <p className="text-sm text-gray-500">WALAWALA</p>
+      <h1 className="mt-4 text-2xl font-semibold tracking-tight text-gray-900">
+        {greeting}
+      </h1>
+      <p className="mt-2 text-sm text-gray-500">{greetingMessage}</p>
     </div>
 
-    <h1 className="text-xl font-medium mt-4">
+    <h2 className="mt-10 text-xl font-medium">
       Today&apos;s Card
-    </h1>
+    </h2>
 
-    <div className="mt-10 flex flex-col items-center">
+    <div className="mt-8 flex flex-col items-center">
 
 {reading ? (
   <>

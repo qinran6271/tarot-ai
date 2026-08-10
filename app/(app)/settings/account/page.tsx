@@ -228,7 +228,11 @@ export default function AccountSettingsPage() {
             <AccountRow
               icon={<Mail size={18} />}
               label="Email"
-              description="Manage the email connected to your account."
+              description={
+                session?.user?.email ||
+                "Manage the email connected to your account."
+              }
+              href="/settings/account/email"
             />
             <AccountRow
               icon={<KeyRound size={18} />}
