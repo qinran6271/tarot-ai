@@ -10,6 +10,7 @@ import {
   deleteDatabaseReading,
   saveDatabaseReading,
 } from "@/lib/readings/client";
+import { deleteGuestReading } from "@/lib/readings/guest";
 import type { Reading } from "@/types/reading";
 import type { DrawnCard } from "@/types/tarot";
 
@@ -153,6 +154,8 @@ export const useTarotStore = create<TarotStore>()(
           currentReading:
             state.currentReading?.id === id ? null : state.currentReading,
         }));
+
+        deleteGuestReading(id);
 
         if (get().persistenceMode === "authenticated") {
           void deleteDatabaseReading(id).catch((error) =>
