@@ -8,6 +8,7 @@ import { DrawnCard } from "@/types/tarot";
 const STORAGE_KEY = "daily-reading";
 
 export type DailyReading = {
+  readingId?: string;
   date: string;
   card: DrawnCard;
   keyInsight: string;

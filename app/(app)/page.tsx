@@ -30,6 +30,7 @@ export default function Home() {
   const [showGuestPrompt, setShowGuestPrompt] = useState(false);
 
   const isDrawingRef = useRef(false);
+  const hasMigratedGuestDailyRef = useRef(false);
   const router = useRouter();
   const { data: session, isPending: sessionPending } = authClient.useSession();
   const userId = session?.user?.id;
@@ -82,7 +83,25 @@ export default function Home() {
     if (!userId) {
       const saved = getDailyReading();
       if (saved && isTodayReading(saved)) {
-        queueMicrotask(() => setReading(saved));
+        const readingId = saved.readingId ?? crypto.randomUUID();
+        queueMicrotask(() => {
+          setDailyReadingId(readingId);
+          setReading({ ...saved, readingId });
+
+          if (!saved.readingId) {
+            saveDailyReading({ ...saved, readingId });
+          }
+
+          if (
+            saved.keyInsight &&
+            !hasMigratedGuestDailyRef.current
+          ) {
+            hasMigratedGuestDailyRef.current = true;
+            createReading(
+              buildDailyReadingRecord({ ...saved, readingId }, readingId),
+            );
+          }
+        });
         return;
       }
     }
@@ -91,7 +110,7 @@ export default function Home() {
       setDailyReadingId(null);
       setReading(null);
     });
-  }, [history, sessionPending, storageReady, userId]);
+  }, [createReading, history, sessionPending, storageReady, userId]);
 
   
 
@@ -103,6 +122,7 @@ export default function Home() {
     setIsGenerating(true);
 
     const baseCard = drawCards(1)[0];
+    const readingId = crypto.randomUUID();
 
     const card = {
       ...baseCard,
@@ -111,6 +131,7 @@ export default function Home() {
     };
 
     const tempReading = {
+      readingId,
       date: new Date().toDateString(),
       card,
       keyInsight: "",
@@ -153,37 +174,11 @@ export default function Home() {
       if (!userId) saveDailyReading(dailyReading);
 
       const now = new Date().toISOString();
-      const readingId = crypto.randomUUID();
-      const conversation: ReadingMessage[] = [
-        {
-          id: crypto.randomUUID(),
-          role: "user",
-          kind: "question",
-          content: "What guidance do I need today?",
-          createdAt: now,
-        },
-        {
-          id: crypto.randomUUID(),
-          role: "assistant",
-          kind: "initial-reading",
-          content: [
-            `✨ Key Insight\n${data.keyInsight}`,
-            `📖 Interpretation\n${data.interpretation}`,
-            `💡 Advice\n${data.advice}`,
-          ].join("\n\n"),
-          createdAt: now,
-        },
-      ];
-      const persistedReading: Reading = {
-        id: readingId,
-        createdAt: now,
-        updatedAt: now,
-        focus: "What guidance do I need today?",
-        spread: dailyCardSpread,
-        cards: [{ ...card, position: "Today" }],
-        content: data,
-        conversation,
-      };
+      const persistedReading = buildDailyReadingRecord(
+        dailyReading,
+        readingId,
+        now,
+      );
 
       setDailyReadingId(readingId);
       createReading(persistedReading);
@@ -324,4 +319,48 @@ export default function Home() {
       </div>
     </main>
   );
+}
+
+function buildDailyReadingRecord(
+  dailyReading: DailyReading,
+  readingId: string,
+  createdAt = new Date().toISOString(),
+): Reading {
+  const content: ReadingContent = {
+    keyInsight: dailyReading.keyInsight,
+    interpretation: dailyReading.interpretation,
+    advice: dailyReading.advice,
+    followUps: [],
+  };
+  const conversation: ReadingMessage[] = [
+    {
+      id: crypto.randomUUID(),
+      role: "user",
+      kind: "question",
+      content: "What guidance do I need today?",
+      createdAt,
+    },
+    {
+      id: crypto.randomUUID(),
+      role: "assistant",
+      kind: "initial-reading",
+      content: [
+        `✨ Key Insight\n${content.keyInsight}`,
+        `📖 Interpretation\n${content.interpretation}`,
+        `💡 Advice\n${content.advice}`,
+      ].join("\n\n"),
+      createdAt,
+    },
+  ];
+
+  return {
+    id: readingId,
+    createdAt,
+    updatedAt: createdAt,
+    focus: "What guidance do I need today?",
+    spread: dailyCardSpread,
+    cards: [{ ...dailyReading.card, position: "Today" }],
+    content,
+    conversation,
+  };
 }
