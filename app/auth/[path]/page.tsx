@@ -1,6 +1,7 @@
 import { AuthView } from "@neondatabase/auth-ui";
 import { authViewPaths } from "@neondatabase/auth-ui/server";
 import Sidebar from "@/components/Sidebar";
+import AuthPageGuard from "@/components/auth/AuthPageGuard";
 
 export const dynamicParams = false;
 
@@ -16,7 +17,7 @@ export default async function AuthPage({
   const { path } = await params;
 
   return (
-    <>
+    <AuthPageGuard>
       <Sidebar />
       <main className="flex min-h-screen items-center justify-center bg-gray-100 px-5 py-12">
         <section className="w-full max-w-md rounded-[32px] bg-white px-6 py-8 shadow-sm">
@@ -30,6 +31,6 @@ export default async function AuthPage({
           <AuthView path={path} />
         </section>
       </main>
-    </>
+    </AuthPageGuard>
   );
 }

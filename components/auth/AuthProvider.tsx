@@ -19,7 +19,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       onSessionChange={() => router.refresh()}
       redirectTo="/"
       defaultTheme="light"
-      credentials={{ forgotPassword: false }}
+      credentials={{ forgotPassword: true }}
     >
       {children}
     </NeonAuthUIProvider>
