@@ -9,6 +9,7 @@ export default function HistoryPage() {
   const [confirmDeleteId, setConfirmDeleteId] = useState<string | null>(null);
 
   const history = useTarotStore((state) => state.history);
+  const storageReady = useTarotStore((state) => state.storageReady);
   const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
   const removeHistory = useTarotStore((state) => state.removeHistory);
 
@@ -16,7 +17,9 @@ export default function HistoryPage() {
     <main className="mx-auto max-w-md p-6">
       <h1 className="mb-6 text-2xl font-bold">Reading History</h1>
 
-      {history.length === 0 ? (
+      {!storageReady ? (
+        <p className="text-sm text-gray-500">Loading readings…</p>
+      ) : history.length === 0 ? (
         <p className="text-sm text-gray-500">No readings yet.</p>
       ) : (
         <div className="space-y-4">

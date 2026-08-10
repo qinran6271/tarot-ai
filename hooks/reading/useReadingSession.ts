@@ -36,6 +36,7 @@ import type { TarotSpread } from "@/lib/spreads";
 type UseReadingSessionParams = {
   readingId: string; // URL 中为本次咨询预先生成或已保存的 ID
   currentReading: Reading | null; // 当前完整咨询（原始问题，牌阵，卡牌，以及解读，当前推荐问题）
+  storageReady: boolean;
   question: string; // 用户输入的问题
   cards: DrawnCard[]; // 用户抽取的卡牌
   selectedSpread: TarotSpread; // 用户选择的牌阵
@@ -49,6 +50,7 @@ type UseReadingSessionParams = {
 export function useReadingSession({
   readingId,
   currentReading,
+  storageReady,
   question,
   cards,
   selectedSpread,
@@ -57,7 +59,7 @@ export function useReadingSession({
   const router = useRouter();
 
   const [loading, setLoading] = useState(
-    !currentReading
+    !currentReading || !storageReady
   );
 
   const [error, setError] = useState<
@@ -84,9 +86,17 @@ export function useReadingSession({
   }
 
   useEffect(() => {
+    if (!storageReady) {
+      return;
+    }
+
     // 已有 currentReading，说明用户从 History
     // 打开咨询，或者首次解读已经创建完成。
     if (currentReading) {
+      queueMicrotask(() => {
+        setConversation(currentReading.conversation);
+        setLoading(false);
+      });
       return;
     }
 
@@ -168,8 +178,6 @@ export function useReadingSession({
 
           content: data,
           conversation: initialConversation,
-
-          status: "active",
         };
 
         // 立即更新页面聊天记录。
@@ -194,6 +202,7 @@ export function useReadingSession({
     generateInitialReading();
   }, [
     currentReading,
+    storageReady,
     readingId,
     question,
     cards,

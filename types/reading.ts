@@ -55,6 +55,6 @@ export type Reading = {
 
   conversation: ReadingMessage[]; //整个对话的记录，为了方便后续的追问和澄清，记录了用户和 AI 的对话内容
 
-  status: "active" | "completed"; //咨询状态，active 表示咨询仍在进行中，completed 表示咨询已完成
-  summary?: string; //可选总结
+  favoritedAt?: string;
+  archivedAt?: string;
 };

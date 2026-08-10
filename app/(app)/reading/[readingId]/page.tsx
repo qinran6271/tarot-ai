@@ -35,11 +35,8 @@ export default function ReadingPage() {
   const selectedSpread = useTarotStore((state) => state.selectedSpread);
   const currentReading = useTarotStore((state) => state.currentReading);
   const history = useTarotStore((state) => state.history);
+  const storageReady = useTarotStore((state) => state.storageReady);
   const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
-  const updateCurrentReading = useTarotStore(
-    (state) => state.updateCurrentReading,
-  );
-
   const routeReading =
     currentReading?.id === readingId
       ? currentReading
@@ -81,6 +78,7 @@ export default function ReadingPage() {
   const { loading, error, retryInitialReading } = useReadingSession({
     readingId,
     currentReading: routeReading,
+    storageReady,
     question,
     cards,
     selectedSpread,
@@ -170,12 +168,6 @@ export default function ReadingPage() {
   // ========================================
 
   function handleEndChat() {
-    if (routeReading) {
-      updateCurrentReading({
-        status: "completed",
-      });
-    }
-
     router.push("/history");
   }
 

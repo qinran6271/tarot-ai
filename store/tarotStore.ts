@@ -1,109 +1,180 @@
 import { create } from "zustand";
-import { DrawnCard } from "@/types/tarot";
-import { TarotSpread, tarotSpreads } from "@/lib/spreads";
-import type { Reading } from "@/types/reading";
-import { persist } from "zustand/middleware";
+import {
+  createJSONStorage,
+  persist,
+  type StateStorage,
+} from "zustand/middleware";
 
+import { tarotSpreads, type TarotSpread } from "@/lib/spreads";
+import {
+  deleteDatabaseReading,
+  saveDatabaseReading,
+} from "@/lib/readings/client";
+import type { Reading } from "@/types/reading";
+import type { DrawnCard } from "@/types/tarot";
+
+type PersistenceMode = "pending" | "guest" | "authenticated";
+type PersistedTarotState = Pick<TarotStore, "history" | "currentReading">;
 type ReadingUpdates = Partial<
   Pick<
     Reading,
-    "cards" | "content" | "conversation" | "status" | "summary"
+    | "cards"
+    | "content"
+    | "conversation"
+    | "favoritedAt"
+    | "archivedAt"
   >
 >;
+
 type TarotStore = {
-    question: string; // The user's question for the tarot reading
-    cards: DrawnCard[]; // The cards drawn for the reading
-    selectedSpread: TarotSpread; // The selected tarot spread for the reading
-    currentReading: Reading | null; // The current reading being viewed or analyzed
-    history: Reading[]; // The history of past readings
+  question: string;
+  cards: DrawnCard[];
+  selectedSpread: TarotSpread;
+  currentReading: Reading | null;
+  history: Reading[];
+  persistenceMode: PersistenceMode;
+  storageReady: boolean;
 
-
-    setQuestion: (question: string) => void;
-    setCards: (cards: DrawnCard[]) => void;
-    setSelectedSpread: (spread: TarotSpread) => void;
-    setCurrentReading: (reading: Reading | null) => void; //选择和清空
-
-    createReading: (reading: Reading) => void; //创建新的咨询并保存到当前咨询和历史记录中
-    updateCurrentReading: (updates: ReadingUpdates) => void; //修改当前咨询并同步更新历史记录中对应的咨询
-
-    removeHistory: (id: string) => void;
-    clearHistory: () => void;
-   
-    
+  setQuestion: (question: string) => void;
+  setCards: (cards: DrawnCard[]) => void;
+  setSelectedSpread: (spread: TarotSpread) => void;
+  setCurrentReading: (reading: Reading | null) => void;
+  replaceReadings: (readings: Reading[]) => void;
+  setStorageReady: (ready: boolean) => void;
+  createReading: (reading: Reading) => void;
+  updateCurrentReading: (updates: ReadingUpdates) => void;
+  removeHistory: (id: string) => void;
+  clearHistory: () => void;
 };
 
+let guestPersistenceEnabled = false;
+
+const guestStorage: StateStorage = {
+  getItem: (name) => localStorage.getItem(name),
+  setItem: (name, value) => {
+    if (guestPersistenceEnabled) localStorage.setItem(name, value);
+  },
+  removeItem: (name) => localStorage.removeItem(name),
+};
+
+function reportPersistenceError(action: string, error: unknown) {
+  console.error(`Failed to ${action} database reading:`, error);
+}
+
 export const useTarotStore = create<TarotStore>()(
-  persist(
-    (set) => ({
-        question: "",
-        cards: [],
-        selectedSpread: tarotSpreads[0],
-        currentReading: null,
-        history: [],
+  persist<TarotStore, [], [], PersistedTarotState>(
+    (set, get) => ({
+      question: "",
+      cards: [],
+      selectedSpread: tarotSpreads[0],
+      currentReading: null,
+      history: [],
+      persistenceMode: "pending",
+      storageReady: false,
 
-        setQuestion: (question) => set({ question }),
-        setCards: (cards) => set({ cards }),
-        setSelectedSpread: (spread) => set({ selectedSpread: spread }),
-        setCurrentReading: (reading) => set({ currentReading: reading }),
+      setQuestion: (question) => set({ question }),
+      setCards: (cards) => set({ cards }),
+      setSelectedSpread: (selectedSpread) => set({ selectedSpread }),
+      setCurrentReading: (currentReading) => set({ currentReading }),
+      replaceReadings: (history) => set({ history, currentReading: null }),
+      setStorageReady: (storageReady) => set({ storageReady }),
 
-        createReading: (reading) =>
-            set((state) => ({
-                currentReading: reading,
-                history: [
-                reading,
-                ...state.history.filter((item) => item.id !== reading.id),
-                ],
-            })),
-
-
-        removeHistory: (id) =>
+      createReading: (reading) => {
         set((state) => ({
-            history: state.history.filter(
-            (reading) => reading.id !== id
-            ),
-            currentReading:
-            state.currentReading?.id === id
-                ? null
-                : state.currentReading,
-        })),
+          currentReading: reading,
+          history: [
+            reading,
+            ...state.history.filter((item) => item.id !== reading.id),
+          ],
+        }));
 
-        clearHistory: () =>
-            set({
-            history: [],
-            currentReading: null,
-            }),
+        if (get().persistenceMode === "authenticated") {
+          void saveDatabaseReading(reading).catch((error) =>
+            reportPersistenceError("save", error),
+          );
+        }
+      },
 
-        updateCurrentReading: (updates) =>
-            set((state) => {
-            if (!state.currentReading) {
-                return state;
-            }
+      updateCurrentReading: (updates) => {
+        const currentReading = get().currentReading;
+        if (!currentReading) return;
 
-            const updatedReading: Reading = {
-                ...state.currentReading,
-                ...updates,
-                updatedAt: new Date().toISOString(),
-            };
+        const updatedReading: Reading = {
+          ...currentReading,
+          ...updates,
+          updatedAt: new Date().toISOString(),
+        };
 
-            return {
-                currentReading: updatedReading,
+        set((state) => ({
+          currentReading: updatedReading,
+          history: state.history.map((reading) =>
+            reading.id === updatedReading.id ? updatedReading : reading,
+          ),
+        }));
 
-                history: state.history.map((reading) =>
-                reading.id === updatedReading.id
-                    ? updatedReading
-                    : reading
-                ),
-            };
-            }),
-      
+        if (get().persistenceMode === "authenticated") {
+          void saveDatabaseReading(updatedReading).catch((error) =>
+            reportPersistenceError("update", error),
+          );
+        }
+      },
+
+      removeHistory: (id) => {
+        set((state) => ({
+          history: state.history.filter((reading) => reading.id !== id),
+          currentReading:
+            state.currentReading?.id === id ? null : state.currentReading,
+        }));
+
+        if (get().persistenceMode === "authenticated") {
+          void deleteDatabaseReading(id).catch((error) =>
+            reportPersistenceError("delete", error),
+          );
+        }
+      },
+
+      clearHistory: () => {
+        const readingIds = get().history.map((reading) => reading.id);
+        set({ history: [], currentReading: null });
+
+        if (get().persistenceMode === "authenticated") {
+          void Promise.all(readingIds.map(deleteDatabaseReading)).catch(
+            (error) => reportPersistenceError("clear", error),
+          );
+        }
+      },
     }),
-
     {
       name: "tarot-storage",
-      partialize: (state) => ({ // 把需要持久化的状态属性放在这里
+      storage: createJSONStorage<PersistedTarotState>(() => guestStorage),
+      skipHydration: true,
+      partialize: (state) => ({
         history: state.history,
         currentReading: state.currentReading,
       }),
-    }
-  )
+    },
+  ),
 );
+
+export async function activateGuestReadingStorage() {
+  guestPersistenceEnabled = false;
+  useTarotStore.setState({
+    persistenceMode: "guest",
+    storageReady: false,
+    history: [],
+    currentReading: null,
+  });
+  guestPersistenceEnabled = true;
+  await useTarotStore.persist.rehydrate();
+  useTarotStore.setState({ storageReady: true });
+}
+
+export function activateAuthenticatedReadingStorage(readings: Reading[]) {
+  guestPersistenceEnabled = false;
+  useTarotStore.setState({
+    persistenceMode: "authenticated",
+    storageReady: true,
+    history: readings,
+    currentReading: null,
+  });
+}
