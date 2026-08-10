@@ -1,9 +1,10 @@
 "use client";
 
-import { Check, ChevronDown, Heart } from "lucide-react";
+import { Heart } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
+import ReadingTimeFilter from "@/components/ReadingTimeFilter";
 import { useTarotStore } from "@/store/tarotStore";
 import type { Reading } from "@/types/reading";
 
@@ -35,7 +36,6 @@ export default function FavoritesPage() {
   const router = useRouter();
   const [confirmRemoveId, setConfirmRemoveId] = useState<string | null>(null);
   const [selectedRange, setSelectedRange] = useState("all");
-  const [rangeMenuOpen, setRangeMenuOpen] = useState(false);
   const history = useTarotStore((state) => state.history);
   const storageReady = useTarotStore((state) => state.storageReady);
   const setCurrentReading = useTarotStore((state) => state.setCurrentReading);
@@ -48,19 +48,6 @@ export default function FavoritesPage() {
       ),
     ),
   ).sort((a, b) => b - a);
-  const rangeOptions = [
-    { value: "all", label: "All time" },
-    { value: "today", label: "Today" },
-    { value: "week", label: "This week" },
-    { value: "30-days", label: "Last 30 days" },
-    ...availableYears.map((year) => ({
-      value: `year-${year}`,
-      label: String(year),
-    })),
-  ];
-  const selectedRangeLabel =
-    rangeOptions.find((option) => option.value === selectedRange)?.label ??
-    "All time";
   const now = new Date();
   const startOfToday = new Date(
     now.getFullYear(),
@@ -83,6 +70,13 @@ export default function FavoritesPage() {
     if (selectedRange === "30-days") return readingDate >= startOfLast30Days;
     if (selectedRange.startsWith("year-")) {
       return readingDate.getFullYear() === Number(selectedRange.slice(5));
+    }
+    if (selectedRange.startsWith("month-")) {
+      const [, year, month] = selectedRange.split("-");
+      return (
+        readingDate.getFullYear() === Number(year) &&
+        readingDate.getMonth() === Number(month) - 1
+      );
     }
 
     return true;
@@ -120,69 +114,12 @@ export default function FavoritesPage() {
         </p>
       ) : (
         <div>
-          <div
-            className="relative mb-8"
-            onBlur={(event) => {
-              if (!event.currentTarget.contains(event.relatedTarget)) {
-                setRangeMenuOpen(false);
-              }
-            }}
-            onKeyDown={(event) => {
-              if (event.key === "Escape") setRangeMenuOpen(false);
-            }}
-          >
-            <button
-              type="button"
-              onClick={() => setRangeMenuOpen((open) => !open)}
-              className="flex h-12 w-full items-center justify-between rounded-2xl border border-gray-200 bg-white px-4 text-sm font-medium text-gray-700 outline-none transition-colors hover:border-gray-300 focus-visible:border-yellow-300 focus-visible:ring-2 focus-visible:ring-yellow-100"
-              aria-haspopup="listbox"
-              aria-expanded={rangeMenuOpen}
-              aria-controls="favorite-range-menu"
-            >
-              <span>{selectedRangeLabel}</span>
-              <ChevronDown
-                size={17}
-                className={`text-gray-400 transition-transform ${
-                  rangeMenuOpen ? "rotate-180" : ""
-                }`}
-              />
-            </button>
-
-            {rangeMenuOpen ? (
-              <div
-                id="favorite-range-menu"
-                role="listbox"
-                aria-label="Filter favorites by time range"
-                className="absolute left-0 right-0 top-14 z-30 overflow-hidden rounded-2xl border border-gray-100 bg-white p-1.5 shadow-[0_12px_35px_rgba(15,23,42,0.10)]"
-              >
-                {rangeOptions.map((option) => {
-                  const selected = option.value === selectedRange;
-
-                  return (
-                    <button
-                      key={option.value}
-                      type="button"
-                      role="option"
-                      aria-selected={selected}
-                      onClick={() => {
-                        setSelectedRange(option.value);
-                        setRangeMenuOpen(false);
-                      }}
-                      className={`flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-left text-sm transition-colors ${
-                        selected
-                          ? "bg-yellow-50 font-medium text-gray-900"
-                          : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
-                      }`}
-                    >
-                      <span>{option.label}</span>
-                      {selected ? (
-                        <Check size={15} className="text-yellow-600" />
-                      ) : null}
-                    </button>
-                  );
-                })}
-              </div>
-            ) : null}
+          <div className="mb-8">
+            <ReadingTimeFilter
+              availableYears={availableYears}
+              selectedRange={selectedRange}
+              onRangeChange={setSelectedRange}
+            />
           </div>
 
           {visibleFavoriteReadings.length === 0 ? (

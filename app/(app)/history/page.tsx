@@ -1,10 +1,11 @@
 "use client";
 
-import { Check, ChevronDown, Heart, Trash2, X } from "lucide-react";
+import { Check, Heart, Trash2, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
 import GuestReadingImport from "@/components/reading/GuestReadingImport";
+import ReadingTimeFilter from "@/components/ReadingTimeFilter";
 import { dailyCardSpread } from "@/lib/spreads";
 import type { Reading } from "@/types/reading";
 
@@ -36,7 +37,6 @@ export default function HistoryPage() {
   const router = useRouter();
   const [confirmDeleteId, setConfirmDeleteId] = useState<string | null>(null);
   const [selectedRange, setSelectedRange] = useState("all");
-  const [rangeMenuOpen, setRangeMenuOpen] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
   const [selectedReadingIds, setSelectedReadingIds] = useState<Set<string>>(
     () => new Set(),
@@ -92,19 +92,6 @@ export default function HistoryPage() {
       ),
     ),
   ).sort((a, b) => b - a);
-  const rangeOptions = [
-    { value: "all", label: "All time" },
-    { value: "today", label: "Today" },
-    { value: "week", label: "This week" },
-    { value: "30-days", label: "Last 30 days" },
-    ...availableYears.map((year) => ({
-      value: `year-${year}`,
-      label: String(year),
-    })),
-  ];
-  const selectedRangeLabel =
-    rangeOptions.find((option) => option.value === selectedRange)?.label ??
-    "All time";
   const now = new Date();
   const startOfToday = new Date(
     now.getFullYear(),
@@ -127,6 +114,13 @@ export default function HistoryPage() {
     if (selectedRange === "30-days") return groupDate >= startOfLast30Days;
     if (selectedRange.startsWith("year-")) {
       return groupDate.getFullYear() === Number(selectedRange.slice(5));
+    }
+    if (selectedRange.startsWith("month-")) {
+      const [, year, month] = selectedRange.split("-");
+      return (
+        groupDate.getFullYear() === Number(year) &&
+        groupDate.getMonth() === Number(month) - 1
+      );
     }
 
     return true;
@@ -190,17 +184,7 @@ export default function HistoryPage() {
         <p className="text-sm text-gray-500">No readings yet.</p>
       ) : (
         <div>
-          <div
-            className="relative mb-8"
-            onBlur={(event) => {
-              if (!event.currentTarget.contains(event.relatedTarget)) {
-                setRangeMenuOpen(false);
-              }
-            }}
-            onKeyDown={(event) => {
-              if (event.key === "Escape") setRangeMenuOpen(false);
-            }}
-          >
+          <div className="mb-8">
             {isEditing ? (
               <div className="mb-3 flex items-center justify-between px-1">
                 <p className="text-sm font-medium text-gray-700">
@@ -228,58 +212,11 @@ export default function HistoryPage() {
                 </button>
               </div>
             ) : null}
-            <button
-              type="button"
-              onClick={() => setRangeMenuOpen((open) => !open)}
-              className="flex h-12 w-full items-center justify-between rounded-2xl border border-gray-200 bg-white px-4 text-sm font-medium text-gray-700 outline-none transition-colors hover:border-gray-300 focus-visible:border-yellow-300 focus-visible:ring-2 focus-visible:ring-yellow-100"
-              aria-haspopup="listbox"
-              aria-expanded={rangeMenuOpen}
-              aria-controls="reading-range-menu"
-            >
-              <span>{selectedRangeLabel}</span>
-              <ChevronDown
-                size={17}
-                className={`text-gray-400 transition-transform ${
-                  rangeMenuOpen ? "rotate-180" : ""
-                }`}
-              />
-            </button>
-
-            {rangeMenuOpen ? (
-              <div
-                id="reading-range-menu"
-                role="listbox"
-                aria-label="Filter readings by time range"
-                className="absolute left-0 right-0 top-14 z-30 overflow-hidden rounded-2xl border border-gray-100 bg-white p-1.5 shadow-[0_12px_35px_rgba(15,23,42,0.10)]"
-              >
-                {rangeOptions.map((option) => {
-                  const selected = option.value === selectedRange;
-
-                  return (
-                    <button
-                      key={option.value}
-                      type="button"
-                      role="option"
-                      aria-selected={selected}
-                      onClick={() => {
-                        setSelectedRange(option.value);
-                        setRangeMenuOpen(false);
-                      }}
-                      className={`flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-left text-sm transition-colors ${
-                        selected
-                          ? "bg-yellow-50 font-medium text-gray-900"
-                          : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
-                      }`}
-                    >
-                      <span>{option.label}</span>
-                      {selected ? (
-                        <Check size={15} className="text-yellow-600" />
-                      ) : null}
-                    </button>
-                  );
-                })}
-              </div>
-            ) : null}
+            <ReadingTimeFilter
+              availableYears={availableYears}
+              selectedRange={selectedRange}
+              onRangeChange={setSelectedRange}
+            />
           </div>
 
           {visibleReadingGroups.length === 0 ? (
