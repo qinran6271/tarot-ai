@@ -7,6 +7,7 @@ import { authClient } from "@/lib/auth/client";
 import {
   fetchDatabaseReading,
   fetchDatabaseReadings,
+  ReadingApiError,
 } from "@/lib/readings/client";
 import {
   activateAuthenticatedReadingStorage,
@@ -39,6 +40,11 @@ export default function ReadingStorageProvider({
             : await fetchDatabaseReadings();
           if (!cancelled) activateAuthenticatedReadingStorage(readings);
         } catch (error) {
+          if (error instanceof ReadingApiError && error.status === 401) {
+            if (!cancelled) await activateGuestReadingStorage();
+            return;
+          }
+
           console.error("Failed to load database readings:", error);
           if (!cancelled) activateAuthenticatedReadingStorage([]);
         }

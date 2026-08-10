@@ -2,12 +2,25 @@ import type { Reading } from "@/types/reading";
 
 const saveQueues = new Map<string, Promise<void>>();
 
+export class ReadingApiError extends Error {
+  constructor(
+    message: string,
+    public readonly status: number,
+  ) {
+    super(message);
+    this.name = "ReadingApiError";
+  }
+}
+
 async function parseResponse<T>(response: Response): Promise<T> {
   if (!response.ok) {
     const body = (await response.json().catch(() => null)) as
       | { error?: string }
       | null;
-    throw new Error(body?.error ?? "Reading request failed.");
+    throw new ReadingApiError(
+      body?.error ?? "Reading request failed.",
+      response.status,
+    );
   }
 
   return response.json() as Promise<T>;
