@@ -1,4 +1,10 @@
-import { ChevronRight, CircleUserRound, MoonStar } from "lucide-react";
+import {
+  ChevronRight,
+  CircleUserRound,
+  MoonStar,
+  Palette,
+  Sparkles,
+} from "lucide-react";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
@@ -74,6 +80,33 @@ function SettingsRow({
   );
 }
 
+function ComingSoonRow({
+  icon,
+  label,
+  description,
+}: {
+  icon: ReactNode;
+  label: string;
+  description: string;
+}) {
+  return (
+    <div className="flex items-center gap-3 px-4 py-4">
+      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white text-gray-400">
+        {icon}
+      </span>
+      <div className="min-w-0 flex-1">
+        <p className="text-sm font-medium text-gray-600">{label}</p>
+        <p className="mt-1 text-xs leading-relaxed text-gray-400">
+          {description}
+        </p>
+      </div>
+      <span className="shrink-0 rounded-full bg-white px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-gray-400">
+        Soon
+      </span>
+    </div>
+  );
+}
+
 /* function StaticSwitch({ enabled }: { enabled: boolean }) {
   return (
     <span
@@ -112,6 +145,24 @@ export default function SettingsPage() {
             href="/settings/account"
           />
         </SettingsSection>
+
+        <section>
+          <h2 className="mb-3 px-1 text-xs font-semibold uppercase tracking-[0.16em] text-gray-400">
+            Coming soon
+          </h2>
+          <div className="divide-y divide-white overflow-hidden rounded-2xl bg-gray-50">
+            <ComingSoonRow
+              icon={<Sparkles size={17} />}
+              label="Reading preferences"
+              description="Choose card and reading defaults."
+            />
+            <ComingSoonRow
+              icon={<Palette size={17} />}
+              label="Appearance"
+              description="Personalize theme and text size."
+            />
+          </div>
+        </section>
 
         {/* <SettingsSection icon={<Sparkles size={15} />} title="Reading">
           <SettingsRow label="Reading style" value="Balanced" />
