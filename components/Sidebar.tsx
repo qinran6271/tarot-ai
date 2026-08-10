@@ -1,7 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
+
+import { authClient } from "@/lib/auth/client";
 
 const BUTTON_SIZE = 40;
 const VIEWPORT_MARGIN = 12;
@@ -34,6 +37,8 @@ function clampToViewport({ x, y }: Position): Position {
 }
 
 export default function Sidebar() {
+  const router = useRouter();
+  const { data: session, isPending: sessionPending } = authClient.useSession();
   const [isOpen, setIsOpen] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [position, setPosition] = useState<Position>({ x: 20, y: 20 });
@@ -126,6 +131,13 @@ export default function Sidebar() {
     setIsOpen((current) => !current);
   };
 
+  const handleSignOut = async () => {
+    await authClient.signOut();
+    setIsOpen(false);
+    router.push("/");
+    router.refresh();
+  };
+
   return (
     <>
       <button
@@ -182,7 +194,7 @@ export default function Sidebar() {
               onClick={() => setIsOpen(false)}
               className="block rounded-2xl px-4 py-3 hover:bg-gray-100"
             >
-              ✨ Daily Card
+              ✨ Home
             </Link>
 
             <Link
@@ -213,9 +225,56 @@ export default function Sidebar() {
             </div>
           </div>
 
-          <p className="mt-auto text-xs leading-relaxed text-gray-400">
-            Your readings are saved locally on this device.
-          </p>
+          <div className="mt-auto border-t border-gray-100 pt-5">
+            {sessionPending ? (
+              <p className="text-xs text-gray-400">Checking account…</p>
+            ) : session?.user ? (
+              <div>
+                <p className="truncate text-sm font-medium text-gray-900">
+                  {session.user.name}
+                </p>
+                <p className="mt-1 truncate text-xs text-gray-400">
+                  {session.user.email}
+                </p>
+                <button
+                  type="button"
+                  onClick={handleSignOut}
+                  aria-label="Sign out"
+                  title="Sign out"
+                  className="mt-4 flex h-9 w-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900"
+                >
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="h-5 w-5"
+                  >
+                    <path d="M10 4H5.75A1.75 1.75 0 0 0 4 5.75v12.5C4 19.22 4.78 20 5.75 20H10" />
+                    <path d="M14 8l4 4-4 4" />
+                    <path d="M18 12H8" />
+                  </svg>
+                </button>
+              </div>
+            ) : (
+              <div>
+                <p className="text-xs leading-relaxed text-gray-400">
+                  Sign in to sync readings across devices. Guest readings stay
+                  on this device.
+                </p>
+                <Link
+                  href="/auth/sign-in"
+                  onClick={() => setIsOpen(false)}
+                  className="mt-4 inline-flex text-sm font-medium text-gray-700 transition-colors hover:text-black"
+                >
+                  Sign in
+                </Link>
+              </div>
+            )}
+          </div>
         </div>
       </aside>
     </>
