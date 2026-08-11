@@ -21,6 +21,7 @@ export const auth = createNeonAuth({
   baseUrl,
   cookies: {
     secret: cookieSecret,
+    sessionDataTtl: 30,
   },
 });
 
