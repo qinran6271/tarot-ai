@@ -41,6 +41,7 @@ export type TarotKnowledgeResult = {
   cardName: string;
   cardType: string;
   knowledgeType: string;
+  topic: string;
   orientation: string;
   meaning: string;
   description: string;
@@ -51,7 +52,7 @@ export async function searchTarotKnowledge({
   query,
   cardId,
   orientation,
-  limit = 3,
+  limit = 5,
 }: SearchTarotKnowledgeParams): Promise<TarotKnowledgeResult[]> {
   const normalizedQuery = query.trim();
   const normalizedCardId = cardId.trim();
@@ -90,7 +91,7 @@ export async function searchTarotKnowledge({
         {
           key: "orientation",
           match: {
-            value: orientation,
+            any: [orientation, "neutral"],
           },
         },
       ],
@@ -107,6 +108,7 @@ export async function searchTarotKnowledge({
       cardName: String(payload.cardName ?? ""),
       cardType: String(payload.cardType ?? ""),
       knowledgeType: String(payload.knowledgeType ?? ""),
+      topic: String(payload.topic ?? ""),
       orientation: String(payload.orientation ?? ""),
       meaning: String(payload.meaning ?? ""),
       description: String(payload.description ?? ""),
