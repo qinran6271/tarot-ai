@@ -31,6 +31,7 @@ type TarotStore = {
   question: string;
   cards: DrawnCard[];
   selectedSpread: TarotSpread;
+  pendingReadingId: string | null;
   currentReading: Reading | null;
   history: Reading[];
   persistenceMode: PersistenceMode;
@@ -39,6 +40,7 @@ type TarotStore = {
   setQuestion: (question: string) => void;
   setCards: (cards: DrawnCard[]) => void;
   setSelectedSpread: (spread: TarotSpread) => void;
+  setPendingReadingId: (readingId: string | null) => void;
   setCurrentReading: (reading: Reading | null) => void;
   replaceReadings: (readings: Reading[]) => void;
   setStorageReady: (ready: boolean) => void;
@@ -69,6 +71,7 @@ export const useTarotStore = create<TarotStore>()(
       question: "",
       cards: [],
       selectedSpread: tarotSpreads[0],
+      pendingReadingId: null,
       currentReading: null,
       history: [],
       persistenceMode: "pending",
@@ -77,12 +80,17 @@ export const useTarotStore = create<TarotStore>()(
       setQuestion: (question) => set({ question }),
       setCards: (cards) => set({ cards }),
       setSelectedSpread: (selectedSpread) => set({ selectedSpread }),
+      setPendingReadingId: (pendingReadingId) => set({ pendingReadingId }),
       setCurrentReading: (currentReading) => set({ currentReading }),
       replaceReadings: (history) => set({ history, currentReading: null }),
       setStorageReady: (storageReady) => set({ storageReady }),
 
       createReading: (reading) => {
         set((state) => ({
+          pendingReadingId:
+            state.pendingReadingId === reading.id
+              ? null
+              : state.pendingReadingId,
           currentReading: reading,
           history: [
             reading,

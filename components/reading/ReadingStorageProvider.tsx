@@ -36,11 +36,16 @@ export default function ReadingStorageProvider({
     async function selectStorage() {
       if (userId) {
         try {
-          let readings = readingId
-            ? await fetchDatabaseReading(readingId).then((reading) =>
-                reading ? [reading] : [],
-              )
-            : await fetchDatabaseReadings();
+          const isPendingNewReading =
+            Boolean(readingId) &&
+            readingId === useTarotStore.getState().pendingReadingId;
+          let readings = isPendingNewReading
+            ? []
+            : readingId
+              ? await fetchDatabaseReading(readingId).then((reading) =>
+                  reading ? [reading] : [],
+                )
+              : await fetchDatabaseReadings();
 
           if (!readingId) {
             const today = new Date().toDateString();

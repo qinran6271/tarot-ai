@@ -14,6 +14,9 @@ export default function CardsPage() {
   const [revealedCardIds, setRevealedCardIds] = useState<string[]>([]);
   const question = useTarotStore((state) => state.question);
   const setCards = useTarotStore((state) => state.setCards);
+  const setPendingReadingId = useTarotStore(
+    (state) => state.setPendingReadingId,
+  );
   const selectedSpread = useTarotStore((state) => state.selectedSpread);
 
   function handleDrawCards() {
@@ -42,6 +45,7 @@ export default function CardsPage() {
     const readingId = crypto.randomUUID();
 
     setCards(selectedCards);
+    setPendingReadingId(readingId);
     router.push(`/reading/${readingId}`);
   }
 
