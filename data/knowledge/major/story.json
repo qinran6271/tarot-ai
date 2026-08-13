@@ -1,0 +1,115 @@
+{
+  "id": "major-arcana-journey",
+  "name": {
+    "zh": "大阿尔克纳牌的故事",
+    "en": "Major Arcana Journey"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/story.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "major-journey-overview",
+      "topic": "journey_overview",
+      "content": "该来源把大阿尔克纳理解为一条连续的人生成长路径：从愚人的开放和未知开始，经过能力、直觉、关系、责任、选择、情绪管理、改变、恐惧、创造和觉醒，最终在世界牌中形成整合与完成。世界之后又重新回到愚人，因此整个过程更接近循环，而不是一次性的线性终点。"
+    },
+    {
+      "id": "major-journey-fool-magician-priestess",
+      "topic": "journey_stage",
+      "stage": "beginning",
+      "cards": ["fool", "magician", "high-priestess"],
+      "content": "大阿尔克纳旅程的最初阶段从愚人的开放和未知开始。魔术师让个人发现自己的能力、资源和行动力量，而女教皇进一步发展直觉、接受性和内在理解。这个阶段表现从单纯进入世界，到逐渐形成外在能力和内在感知。"
+    },
+    {
+      "id": "major-journey-empress-emperor-hierophant",
+      "topic": "journey_stage",
+      "stage": "foundation",
+      "cards": ["empress", "emperor", "hierophant"],
+      "content": "女皇、皇帝和教皇共同构成成长中的基础结构。女皇发展情感、身体、照顾和现实体验；皇帝带来纪律、责任和社会结构；教皇进一步加入传统、教育、信仰和外部指导。"
+    },
+    {
+      "id": "major-journey-lovers-chariot-strength",
+      "topic": "journey_stage",
+      "stage": "individualization",
+      "cards": ["lovers", "chariot", "strength"],
+      "content": "恋人、战车和力量表现个人逐渐形成自主性的过程。恋人要求作出自己的选择，战车要求控制和协调冲突力量，而力量进一步把控制转化为接纳、整合和真正的内在稳定。"
+    },
+    {
+      "id": "major-journey-hermit-wheel-justice",
+      "topic": "journey_stage",
+      "stage": "reflection",
+      "cards": ["hermit", "wheel-of-fortune", "justice"],
+      "content": "隐士、命运之轮和正义把注意力带向反省和因果理解。隐士通过独处理解自身道路，命运之轮认识生命的变化和循环，正义进一步观察个人选择如何参与形成当前结果。"
+    },
+    {
+      "id": "major-journey-hanged-death-temperance",
+      "topic": "journey_stage",
+      "stage": "transformation",
+      "cards": ["hanged-man", "death", "temperance"],
+      "content": "悬吊者、死亡和节制形成明显的转变阶段。悬吊者要求暂停并重新观察，死亡要求真正结束和放下旧阶段，而节制则在变化之后重新整合不同力量，建立新的平衡和方向。"
+    },
+    {
+      "id": "major-journey-devil-tower-star",
+      "topic": "journey_stage",
+      "stage": "liberation",
+      "cards": ["devil", "tower", "star"],
+      "content": "魔鬼、高塔和星星描述从束缚走向释放的过程。魔鬼表现限制性信念、欲望和控制，高塔打破维持这些束缚的失效结构，而星星则在清理之后重新带来希望、自由、创造力和未来可能。"
+    },
+    {
+      "id": "major-journey-moon-sun-judgement",
+      "topic": "journey_stage",
+      "stage": "awakening",
+      "cards": ["moon", "sun", "judgement"],
+      "content": "月亮、太阳和审判表现更深层的觉醒过程。月亮要求面对潜意识、恐惧和想象；太阳在这些内容被看见之后恢复清晰和自由表达；审判则进一步回顾整段经验，并形成更加完整的人生判断。"
+    },
+    {
+      "id": "major-journey-world",
+      "topic": "journey_stage",
+      "stage": "completion",
+      "cards": ["world"],
+      "content": "世界代表大阿尔克纳旅程中的整合与完成。此前分别发展出的能力、情绪、理性、直觉、责任、改变经验和自我认识开始更加协调。完成并不意味着停止，而是形成足够完整的基础进入新的成长周期。"
+    },
+    {
+      "id": "major-journey-world-fool-cycle",
+      "topic": "cycle",
+      "cards": ["world", "fool"],
+      "content": "世界与愚人形成循环关系。世界完成一个阶段并整合过去经验，而愚人重新带着开放进入新的未知。大阿尔克纳因此可以被理解为不断重复但层次逐渐变化的成长循环。"
+    },
+    {
+      "id": "major-journey-control-to-integration",
+      "topic": "cross_card_theme",
+      "cards": ["chariot", "strength", "temperance"],
+      "content": "战车、力量和节制可以形成一条关于内在力量发展的线索：战车首先通过意志控制相互冲突的力量，力量进一步通过接纳和勇气整合本能，节制则把这些不同部分协调成能够服务长期方向的稳定行动。"
+    },
+    {
+      "id": "major-journey-choice-responsibility",
+      "topic": "cross_card_theme",
+      "cards": ["lovers", "justice", "judgement"],
+      "content": "恋人、正义和审判共同发展选择与责任的主题。恋人强调作出自己的选择，正义强调理解选择产生的后果并承担责任，审判则从更长时间尺度总结这些选择如何塑造了个人的人生。"
+    },
+    {
+      "id": "major-journey-change-sequence",
+      "topic": "cross_card_theme",
+      "cards": ["hanged-man", "death", "temperance", "devil", "tower", "star"],
+      "content": "从悬吊者到星星形成一条明显的转变路线：先暂停并重新观察，再结束旧阶段，重新建立平衡；如果新的状态再次受到恐惧、欲望或限制性信念束缚，高塔会打破失效结构，而星星则在释放之后重新恢复希望和创造力。"
+    },
+    {
+      "id": "major-journey-subconscious-sequence",
+      "topic": "cross_card_theme",
+      "cards": ["high-priestess", "star", "moon", "sun"],
+      "content": "女教皇、星星、月亮和太阳可以构成一条与内在世界有关的发展线。女教皇首先感受到尚未完全理解的潜意识内容，星星开始直接接触并创造性运用这些资源，月亮进一步面对其中的恐惧和复杂想象，而太阳则在这些内容被处理后重新获得清晰和自由表达。"
+    },
+    {
+      "id": "major-journey-completion-not-ending",
+      "topic": "completion",
+      "content": "该来源强调，完成并不等于停止成长。即使世界代表一个周期的圆满，新的愚人阶段仍会再次出现，因此每一次完成都可能成为下一段学习的起点。"
+    }
+  ]
+}

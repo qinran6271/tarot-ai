@@ -1,0 +1,152 @@
+{
+  "cardId": "the-hermit",
+  "cardNumber": 9,
+  "name": {
+    "zh": "隐士",
+    "en": "The Hermit"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/09-hermit.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "hermit-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "隐士正位代表反省、独处和暂时退出外部世界，以重新理解自己的人生方向。当前可能比立即采取行动更需要安静下来，整理过去的经验，并确认真正重要的事情。"
+    },
+    {
+      "id": "hermit-upright-reflection",
+      "orientation": "upright",
+      "topic": "reflection",
+      "content": "隐士强调行动之后的反思。通过回顾哪些行动真正有效、哪些只是重复或浪费，一个人可以从过去的经验中形成更清晰的判断，并决定未来应该如何行动。"
+    },
+    {
+      "id": "hermit-upright-solitude",
+      "orientation": "upright",
+      "topic": "solitude",
+      "content": "隐士正位中的独处是一种主动创造的内在空间，而不等同于孤独。减少外界干扰可以帮助一个人听见自己的需求、思想和内在召唤，并形成更成熟的理解。"
+    },
+    {
+      "id": "hermit-upright-direction",
+      "orientation": "upright",
+      "topic": "direction",
+      "content": "隐士与重新确认人生方向有关。它鼓励思考自己从哪里来、现在处于什么位置，以及真正希望前往哪里。答案可能不会一次完整出现，而是随着反思和经历逐渐清晰。"
+    },
+    {
+      "id": "hermit-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及是否应该立即采取行动时，隐士正位通常倾向于先暂停、观察和思考。当前更重要的可能是弄清楚行动的原因和方向，而不是因为压力或焦虑而快速作出决定。"
+    },
+    {
+      "id": "hermit-upright-uncertainty",
+      "orientation": "upright",
+      "topic": "uncertainty",
+      "content": "隐士的灯只能照亮前方有限的距离，象征未来不需要一次全部看清。即使无法确定整条道路，也可以根据当前已经获得的理解走下一步，并随着经验继续调整方向。"
+    },
+    {
+      "id": "hermit-upright-growth",
+      "orientation": "upright",
+      "topic": "personal_growth",
+      "content": "隐士可以表示通过独自经历和深入反思获得成熟与内在成功。成长来自真正理解自己的经验，而不是单纯依靠外界评价或不断增加外部活动。"
+    },
+    {
+      "id": "hermit-upright-leaving",
+      "orientation": "upright",
+      "topic": "transition",
+      "content": "隐士可能表示离开一个已经无法继续满足自己的环境或状态，并开始寻找更加符合内在需求的方向。新的道路无法得到完全保证，但旧状态已经提供了足够经验，让个人开始认真探索其他可能。"
+    },
+    {
+      "id": "hermit-upright-guidance",
+      "orientation": "upright",
+      "topic": "guidance",
+      "content": "隐士与智慧、指导和更深入的理解有关。个人可以通过朋友、老师、咨询者或其他可信赖的人获得新的视角，但这些建议最终需要通过自己的反思和经验转化为个人理解。"
+    },
+    {
+      "id": "hermit-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，隐士正位可能表示需要暂时把更多注意力放回自己，重新确认自己的需求以及关系未来的方向。这种空间不一定表示关系结束，而可能是为了更清楚地理解自己在关系中的位置。"
+    },
+    {
+      "id": "hermit-upright-independence",
+      "orientation": "upright",
+      "topic": "independence",
+      "content": "隐士可以强调关系和生活中的独立性。一个人可能需要一定程度的个人空间和独处时间，才能维持对自身需求、价值和方向的清晰认识。"
+    },
+    {
+      "id": "hermit-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "隐士逆位可能表示逃避真正的内在探索。一个人可能通过忙碌、工作或不断安排活动避免面对孤独、改变或对当前生活的不满。"
+    },
+    {
+      "id": "hermit-reversed-busyness",
+      "orientation": "reversed",
+      "topic": "avoidance",
+      "content": "隐士逆位可能表现为故意让自己持续忙碌，使自己没有时间面对真实需求。过长的工作时间或不断填满空闲时间能够暂时提供逃避，但也会阻碍对人生方向的深入思考。"
+    },
+    {
+      "id": "hermit-reversed-loneliness",
+      "orientation": "reversed",
+      "topic": "loneliness",
+      "content": "隐士逆位可能表示害怕承认自己的孤独，因此通过工作、活动或其他形式的忙碌避免真正的社交和情感连接。问题并不只是一个人待着，而是没有诚实面对自己对连接的需求。"
+    },
+    {
+      "id": "hermit-reversed-change",
+      "orientation": "reversed",
+      "topic": "change",
+      "content": "隐士逆位可能表示因为害怕改变、失去安全感或需要放弃某些熟悉事物，而选择继续留在一个缺乏成长的状态。熟悉并不一定等于真正适合自己。"
+    },
+    {
+      "id": "hermit-reversed-action",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "隐士逆位提醒停止用不断行动来替代思考。当前可能需要真正停下来，重新审视自己为什么沿着现在的道路前进，以及这条道路是否仍然符合真实需求。"
+    },
+    {
+      "id": "hermit-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在关系问题中，隐士逆位可能表示因为害怕孤独而留在并不满足自己的关系或状态，也可能通过保持距离和忙碌避免真正的情感接近。核心问题是区分真实选择与由孤独恐惧驱动的选择。"
+    },
+    {
+      "id": "hermit-symbolism-lantern",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "隐士的灯只能照亮有限的距离，象征人生方向往往只能逐步被理解。一个人无需在开始之前确定整个未来，而可以依靠当前能够看见的部分继续探索。"
+    },
+    {
+      "id": "hermit-symbolism-silence",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "隐士牌安静、缺乏鲜艳色彩的环境强化了减少外部刺激和观察细微内在信息的主题。心智越安静，就越有可能注意到平常被日常噪音掩盖的需求和理解。"
+    },
+    {
+      "id": "hermit-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将隐士与处女座联系起来，并把学习如何独处而不陷入寂寞视为这一对应关系的重要课题。这属于该来源采用的塔罗与占星体系。"
+    },
+    {
+      "id": "hermit-strength-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，力量牌建立面对恐惧和欲望所需要的内在勇气，而隐士进一步运用这种内在稳定离开外界干扰，独自探索真正的人生方向。力量提供面对自己的勇气，隐士则创造理解自己的空间。"
+    },
+    {
+      "id": "hermit-eight-of-cups-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源把圣杯八与隐士联系起来：圣杯八表现离开一个已经无法带来满足的状态并独自前进，而隐士则像是到达更高处之后停下来反思这段旅程，理解自己为何离开以及接下来应该前往哪里。"
+    }
+  ]
+}

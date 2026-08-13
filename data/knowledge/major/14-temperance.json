@@ -1,0 +1,164 @@
+{
+  "cardId": "temperance",
+  "cardNumber": 14,
+  "name": {
+    "zh": "节制",
+    "en": "Temperance"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/14-temperance.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "temperance-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "节制正位代表整合、平衡和有目的的行动。它强调将情绪、理性、本能、理想和现实协调起来，使个人能够以更加稳定而适当的方式回应当前情况。"
+    },
+    {
+      "id": "temperance-upright-integration",
+      "orientation": "upright",
+      "topic": "integration",
+      "content": "节制强调不同力量之间的融合，而不是压制其中一方。情绪与理性、激情与判断、现实需求与长期理想可以共同存在，并通过调整形成更完整的行动方式。"
+    },
+    {
+      "id": "temperance-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "节制是一张强调适当行动的牌。当前重点不是行动得更多或更快，而是根据具体情境判断什么回应最合适，并让行动同时符合现实条件、内在感受和长期方向。"
+    },
+    {
+      "id": "temperance-upright-balance",
+      "orientation": "upright",
+      "topic": "balance",
+      "content": "节制正位表示内在不同部分正在逐渐取得平衡。真正的平衡不是维持静止，而是在变化中不断调整，使各种需求不会彼此破坏。"
+    },
+    {
+      "id": "temperance-upright-purpose",
+      "orientation": "upright",
+      "topic": "purpose",
+      "content": "节制与明确的长期方向有关。当一个人知道自己真正希望走向哪里时，更容易管理短期欲望和选择，并让不同的行动共同服务于长期目标。"
+    },
+    {
+      "id": "temperance-upright-inner-peace",
+      "orientation": "upright",
+      "topic": "inner_peace",
+      "content": "节制正位可能带来内在平静，因为行动和情绪不再彼此冲突。个人能够理解自己的感受，同时以符合现实和长期目标的方式行动。"
+    },
+    {
+      "id": "temperance-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，节制可以表示把不同能力、经验和现实条件整合起来，并以稳定而有方向的方式发展。它也可能与教学、指导、学习或把已有知识转化为实际应用有关。"
+    },
+    {
+      "id": "temperance-upright-teaching",
+      "orientation": "upright",
+      "topic": "teaching",
+      "content": "该来源将节制与教学联系起来。教学不一定发生在正式课堂中，也可以通过实践、示范、经验分享或技能指导完成。"
+    },
+    {
+      "id": "temperance-upright-learning",
+      "orientation": "upright",
+      "topic": "learning",
+      "content": "节制与学习和成长有关，尤其强调将理解转化为实际能力。知识的价值不仅在于知道某件事情，也在于能够根据不同情境灵活运用。"
+    },
+    {
+      "id": "temperance-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "该来源认为节制有时可以代表旅行。在明确涉及移动、异地学习、共同出行或旅行经验的问题中，可以考虑这一层牌义。"
+    },
+    {
+      "id": "temperance-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，节制正位代表双方能够通过关系共同成长和学习，并逐渐协调各自的情绪、现实需求和长期方向。关系中的稳定来自调和，而不是要求双方完全相同。"
+    },
+    {
+      "id": "temperance-upright-relationship-growth",
+      "orientation": "upright",
+      "topic": "relationship_dynamic",
+      "content": "节制可以表示一段具有明显成长性质的关系。双方能够保持各自的真实性，同时发展共同方向，使激情、情感连接和更深层价值逐渐形成协调。"
+    },
+    {
+      "id": "temperance-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "节制逆位可能表示失去平衡、内在不同部分发生分裂，或者行动缺少清晰目的。个人可能被即时欲望、情绪或外部刺激带动，而无法把这些力量整合到稳定方向中。"
+    },
+    {
+      "id": "temperance-reversed-excess",
+      "orientation": "reversed",
+      "topic": "excess",
+      "content": "节制逆位可能表现为毫无节制或过度追求某种满足。当一个需求长期压倒其他部分时，生活容易失去平衡，并产生更多不稳定。"
+    },
+    {
+      "id": "temperance-reversed-extremes",
+      "orientation": "reversed",
+      "topic": "extremes",
+      "content": "节制逆位可能表示从一个极端快速转向另一个极端。与其不断进行剧烈调整，更需要寻找能够长期维持的中间状态和稳定节奏。"
+    },
+    {
+      "id": "temperance-reversed-purpose",
+      "orientation": "reversed",
+      "topic": "purpose",
+      "content": "节制逆位可能表示行动失去目的。一个人可能非常忙碌或持续追求新的目标，却并不清楚这些行动最终服务于什么，因此需要先重新确定真正的方向。"
+    },
+    {
+      "id": "temperance-reversed-goal-seeking",
+      "orientation": "reversed",
+      "topic": "goals",
+      "content": "节制逆位可能表现为不断设定新的目标，希望通过下一个成就获得满足，却在实现之后继续感到失望。问题可能不是缺少目标，而是目标与真正的内在需求没有形成连接。"
+    },
+    {
+      "id": "temperance-reversed-action",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "当节制逆位出现时，在开始更多行动之前可能需要先明确目的。行动本身不能自动解决方向混乱，重新理解自己为什么要做这件事可能比立即执行更加重要。"
+    },
+    {
+      "id": "temperance-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在关系中，节制逆位可能表示双方的情绪、欲望、现实需求或长期方向难以协调。关系可能在不同极端之间摇摆，需要重新建立共同目标和更稳定的互动方式。"
+    },
+    {
+      "id": "temperance-symbolism-water-land",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "节制中的天使一脚站在水中、一脚站在陆地，象征连接潜意识和情感世界与现实生活。成熟的行动需要同时听见内在感受，并考虑现实条件。"
+    },
+    {
+      "id": "temperance-symbolism-cups",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "两个杯子之间不断流动的水象征不同力量之间持续调整和交换。平衡并不是固定状态，而是一种不断根据情况进行调节的过程。"
+    },
+    {
+      "id": "temperance-symbolism-path",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面通往远方的道路象征长期方向和目标。节制的调整不是为了单纯维持舒服，而是为了使当前行动逐渐靠近更加清晰的人生方向。"
+    },
+    {
+      "id": "temperance-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将节制与射手座联系起来，并强调明确长期目标、协调本能与更高层次追求是这一对应关系的重要课题。这属于该来源采用的塔罗与占星体系。"
+    },
+    {
+      "id": "temperance-death-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，死亡要求真正放下旧阶段并接受改变，而节制进一步要求在变化后的新状态中重新整合不同部分，建立新的平衡和方向。死亡偏向结束与清理，节制偏向重新组合与协调。"
+    }
+  ]
+}

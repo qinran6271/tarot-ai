@@ -1,0 +1,146 @@
+{
+  "cardId": "wheel-of-fortune",
+  "cardNumber": 10,
+  "name": {
+    "zh": "命运之轮",
+    "en": "The Wheel of Fortune"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/10-wheel-of-fortune.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "wheel-of-fortune-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "命运之轮正位代表境遇发生变化，并提醒个人观察变化带来的新机会和发展方向。当前环境可能正在向更有利的方向转动，但真正重要的是愿意适应变化，而不是试图让一切保持原样。"
+    },
+    {
+      "id": "wheel-of-fortune-upright-change",
+      "orientation": "upright",
+      "topic": "change",
+      "content": "命运之轮强调生命本身具有变化和循环的性质。好的阶段和困难的阶段都不会永久持续，因此面对变化时需要保持灵活，并根据新的现实条件调整方向。"
+    },
+    {
+      "id": "wheel-of-fortune-upright-opportunity",
+      "orientation": "upright",
+      "topic": "opportunity",
+      "content": "命运之轮正位可能表示新的机会正在随着环境变化出现。某个最初不符合计划的事件也可能间接开启新的道路，因此当前适合观察变化之后出现的可能性，而不是只关注原本被打乱的计划。"
+    },
+    {
+      "id": "wheel-of-fortune-upright-perspective",
+      "orientation": "upright",
+      "topic": "perspective",
+      "content": "命运之轮提醒不要过早把当前事件定义为绝对的好运或坏运。一个事件真正的意义可能需要经过一段时间才能看清，因此扩大时间视角往往比立即评价结果更加重要。"
+    },
+    {
+      "id": "wheel-of-fortune-upright-patterns",
+      "orientation": "upright",
+      "topic": "patterns",
+      "content": "命运之轮与观察生命中的循环和模式有关。当前的变化不仅值得关注其结果，也值得思考它是否与过去的经历、选择或反复出现的主题存在联系。"
+    },
+    {
+      "id": "wheel-of-fortune-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及如何面对变化时，命运之轮正位倾向于建议适应环境、观察新的可能，并利用当前正在发生的转变。与其抗拒变化，不如判断其中有哪些条件可以被转化为机会。"
+    },
+    {
+      "id": "wheel-of-fortune-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，命运之轮正位可能表示工作或事业环境开始发生有利变化，原本停滞的局面可能逐渐打开。即使某个变化最初并不理想，也可能间接推动新的工作、事业或收入机会。"
+    },
+    {
+      "id": "wheel-of-fortune-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，命运之轮正位可能表示关系改善或进入更加充实阶段的机会正在增加。双方现实环境的变化也可能为关系创造新的发展条件。"
+    },
+    {
+      "id": "wheel-of-fortune-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "命运之轮逆位可能表示当前正在经历较困难的变化，或者个人对不可避免的变化产生明显抗拒。逆位并不一定意味着最终结果一定负面，而是表示当前阶段较难理解和接受。"
+    },
+    {
+      "id": "wheel-of-fortune-reversed-resistance",
+      "orientation": "reversed",
+      "topic": "resistance",
+      "content": "命运之轮逆位可能表示努力维持一个正在自然改变的状态。环境中存在超出个人完全控制范围的力量，过度抵抗可能增加挫折，因此需要重新判断哪些事情可以影响，哪些变化需要适应。"
+    },
+    {
+      "id": "wheel-of-fortune-reversed-patterns",
+      "orientation": "reversed",
+      "topic": "patterns",
+      "content": "命运之轮逆位尤其可能表示类似的问题或情境反复出现。重复的挑战可以提示过去的某个课题尚未真正理解，因此当前适合检查自己是否一直使用相同方式回应相同类型的问题。"
+    },
+    {
+      "id": "wheel-of-fortune-reversed-reflection",
+      "orientation": "reversed",
+      "topic": "reflection",
+      "content": "面对命运之轮逆位时，回顾过去可能比盲目继续前进更有价值。通过分析过去哪些选择有效、哪些模式不断制造相似结果，可以更清楚地理解当前变化要求自己学习什么。"
+    },
+    {
+      "id": "wheel-of-fortune-reversed-letting-go",
+      "orientation": "reversed",
+      "topic": "letting_go",
+      "content": "命运之轮逆位可能表示需要放下已经不再支持个人成长的事物。旧的习惯、关系模式、目标或生活结构如果已经失去作用，继续抓住它们可能使变化更加困难。"
+    },
+    {
+      "id": "wheel-of-fortune-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，命运之轮逆位可能表示环境发生不利或令人不舒服的变化，例如机会减少、计划受阻或原有稳定性下降。重点是观察这些变化是否暴露了一个早已存在的问题，并根据新的现实条件调整方向。"
+    },
+    {
+      "id": "wheel-of-fortune-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在关系问题中，命运之轮逆位可能表示相似的问题正在再次出现，或关系进入较困难的转变阶段。与其只把问题归结为运气不好，更值得检查双方是否重复了过去尚未解决的互动模式。"
+    },
+    {
+      "id": "wheel-of-fortune-symbolism-wheel",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "不断转动的轮盘象征生命的无常和循环。任何位置都只是暂时状态，因此无论当前处于上升还是下降阶段，都不应被理解为永久不变的结果。"
+    },
+    {
+      "id": "wheel-of-fortune-symbolism-four-elements",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "命运之轮四角的四种形象对应水、火、土、空气四种元素以及不同面对生命的方式。它们已经被认识，但尚未完全整合，并将在世界牌中以更加完整的形式再次出现。"
+    },
+    {
+      "id": "wheel-of-fortune-symbolism-death-rebirth",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "该来源通过轮盘上下降与上升的神话形象表现衰败、结束、新生和重新开始之间的循环。一个阶段的结束可能同时成为另一个阶段开始的条件。"
+    },
+    {
+      "id": "wheel-of-fortune-symbolism-sphinx",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "轮盘上方的狮身人面兽与洞察事件表象背后的原因有关。它强调当前发生的事情可能包含值得理解的知识，而真正的理解来自观察事件如何形成，而不仅仅关注眼前结果。"
+    },
+    {
+      "id": "wheel-of-fortune-hermit-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，隐士通过回顾和独处理解自己过去的经历，而命运之轮进一步让个人看见这些经历如何形成循环和变化模式。隐士偏向反省个人道路，命运之轮偏向观察人生不断变化的整体节奏。"
+    },
+    {
+      "id": "wheel-of-fortune-reversed-hermit-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源特别把逆位命运之轮重新连接到隐士：当相同模式再次出现或变化迫使旧事物离开时，需要回到反省状态，重新判断生命中哪些东西仍然有价值，哪些已经应该放下。"
+    }
+  ]
+}

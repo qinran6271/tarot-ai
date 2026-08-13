@@ -1,0 +1,140 @@
+{
+  "cardId": "justice",
+  "cardNumber": 11,
+  "name": {
+    "zh": "正义",
+    "en": "Justice"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/11-justice.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "justice-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "正义正位代表责任、公平、诚实以及行为产生相应结果。当前境遇可能与过去的决定和行动有关，而现在作出的选择也会继续影响未来。"
+    },
+    {
+      "id": "justice-upright-responsibility",
+      "orientation": "upright",
+      "topic": "responsibility",
+      "content": "正义强调为自己能够控制的选择和行为承担责任。责任并不意味着把所有问题都归咎于自己，而是诚实辨认自己在当前局面中确实参与形成和能够改变的部分。"
+    },
+    {
+      "id": "justice-upright-cause-effect",
+      "orientation": "upright",
+      "topic": "cause_and_effect",
+      "content": "正义与因果和后果有关。过去的行动会参与形成现在的处境，而当前的决定也会成为未来结果的一部分，因此理解行为与结果之间的联系是这张牌的重要课题。"
+    },
+    {
+      "id": "justice-upright-decision",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "当问题涉及重要选择时，正义正位要求根据事实、后果、公平性和长期影响作出判断。当前更适合清晰衡量不同因素，而不是完全根据短期情绪或愿望决定。"
+    },
+    {
+      "id": "justice-upright-honesty",
+      "orientation": "upright",
+      "topic": "honesty",
+      "content": "正义要求对自己和他人保持诚实。只有准确面对事实、动机和过去的选择，才能真正理解目前的局面，并作出能够改变未来的决定。"
+    },
+    {
+      "id": "justice-upright-balance",
+      "orientation": "upright",
+      "topic": "balance",
+      "content": "正义的天平象征衡量和平衡。处理问题时需要考虑多个因素、不同立场和相应后果，并尽可能寻找公平而合理的处理方式。"
+    },
+    {
+      "id": "justice-upright-legal",
+      "orientation": "upright",
+      "topic": "legal",
+      "content": "正义正位可能与法律、法规、正式程序、争议解决、合同或文件签署有关。它可以象征事情有机会得到公平处理，但不能用于保证诉讼、签证、合同或其他法律事项的具体结果。"
+    },
+    {
+      "id": "justice-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，正义正位可能表示过去的努力、决定和责任开始产生相应结果。认可、晋升或其他成果如果出现，更可能与此前持续投入和选择有关，而不是单纯依赖运气。"
+    },
+    {
+      "id": "justice-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，正义正位强调坦诚、公平和责任。它可能表示双方正在解决争议、重新建立平衡，或更加成熟地面对自己在关系中的责任和真实需求。"
+    },
+    {
+      "id": "justice-upright-commitment",
+      "orientation": "upright",
+      "topic": "commitment",
+      "content": "该来源认为正义在特定关系牌组合中可能与婚姻或正式承诺有关。更广泛地说，它象征把关系中的承诺从情感层面落实到明确责任、规则或正式决定。"
+    },
+    {
+      "id": "justice-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "正义逆位可能表示不公平、失衡、责任混乱或缺乏诚实。事情可能没有以预期的公平方式发展，或者某个问题因为没有真正解决而持续存在。"
+    },
+    {
+      "id": "justice-reversed-blame",
+      "orientation": "reversed",
+      "topic": "blame",
+      "content": "正义逆位可能表现为把当前困境完全归咎于其他人，而不愿意检查自己在事件中的选择和作用。牌面提醒既不要承担不属于自己的责任，也不要逃避确实属于自己的部分。"
+    },
+    {
+      "id": "justice-reversed-honesty",
+      "orientation": "reversed",
+      "topic": "honesty",
+      "content": "正义逆位可能表示对自己或他人缺乏诚实，或者不愿追溯当前问题的真正原因。回避事实会使个人失去理解和改变问题的机会。"
+    },
+    {
+      "id": "justice-reversed-legal",
+      "orientation": "reversed",
+      "topic": "legal",
+      "content": "在法律或正式程序相关问题中，正义逆位可能象征延误、争议、失衡或令人不满意的处理过程。这是象征性牌义，不能用于预测任何具体案件或法律决定。"
+    },
+    {
+      "id": "justice-reversed-patterns",
+      "orientation": "reversed",
+      "topic": "patterns",
+      "content": "正义逆位可能表示某个尚未解决的问题以相似形式重复出现。持续出现的模式提示需要回顾过去的选择、责任和冲突，并真正解决其原因，而不是只处理表面结果。"
+    },
+    {
+      "id": "justice-reversed-self-help",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "正义逆位强调主动面对自己可以改变的部分，而不是等待别人替自己解决所有问题。理解过去事件、承担适当责任并改变当前行为，是打破重复模式的重要方向。"
+    },
+    {
+      "id": "justice-symbolism-sword",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "正义牌中的剑象征清晰判断、看穿表象和作出决定。双刃也表现选择具有多个方向，而每个决定都可能带来相应后果。"
+    },
+    {
+      "id": "justice-symbolism-scales",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "天平象征公平、权衡和平衡。它提醒在作出判断之前，需要考虑事实、不同立场以及行动可能产生的结果。"
+    },
+    {
+      "id": "justice-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将正义与天秤座联系起来，并把作出公平决定、承担责任和思考如何处理当前问题视为这一对应关系的重要课题。这属于该来源采用的塔罗与占星体系。"
+    },
+    {
+      "id": "justice-wheel-of-fortune-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，命运之轮让个人观察变化、循环和重复模式，而正义进一步要求理解自己的选择如何参与形成这些结果，并对未来的决定承担责任。命运之轮偏向观察变化，正义偏向理解因果并作出负责的选择。"
+    }
+  ]
+}

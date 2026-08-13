@@ -1,0 +1,170 @@
+{
+  "cardId": "judgement",
+  "cardNumber": 20,
+  "name": {
+    "zh": "审判",
+    "en": "Judgement"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/20-judgement.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "judgement-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "审判正位代表清晰判断、回顾过去和理解经验所产生的结果。个人已经积累了足够的信息，可以更加完整地认识当前处境，并决定如何进入下一阶段。"
+    },
+    {
+      "id": "judgement-upright-review",
+      "orientation": "upright",
+      "topic": "reflection",
+      "content": "审判强调总结过去的经验。当前适合回顾哪些选择形成了今天的自己、哪些模式不断重复，以及过去的行动究竟带来了什么结果。"
+    },
+    {
+      "id": "judgement-upright-decision",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "当问题涉及重要决定时，审判正位通常表示个人已经拥有形成成熟判断所需要的重要经验。当前选择可以建立在过去学到的内容、现实结果和未来可能后果之上，而不是只根据短期情绪决定。"
+    },
+    {
+      "id": "judgement-upright-responsibility",
+      "orientation": "upright",
+      "topic": "responsibility",
+      "content": "审判要求诚实认识自己能够负责的选择和行为，并理解这些行为如何参与形成现在的局面。责任意味着认识自己的影响力，而不是把所有遭遇都归咎于自己。"
+    },
+    {
+      "id": "judgement-upright-calling",
+      "orientation": "upright",
+      "topic": "calling",
+      "content": "审判可能表示一种越来越清晰的内在召唤。过去的生活方式、身份或目标已经不再完全符合个人需求，因此开始出现走向更加真实、有意义方向的要求。"
+    },
+    {
+      "id": "judgement-upright-purpose",
+      "orientation": "upright",
+      "topic": "purpose",
+      "content": "审判正位可以表示更加清楚地理解自己的长期方向。过去的挑战不再只是零散事件，而逐渐被整合成对于自己真正重视什么、未来希望如何生活的认识。"
+    },
+    {
+      "id": "judgement-upright-transition",
+      "orientation": "upright",
+      "topic": "transition",
+      "content": "审判可以表示一个人生章节即将完成。结束并不只是离开过去，而是已经理解这个阶段所带来的经验，因此能够以更加成熟的状态进入下一阶段。"
+    },
+    {
+      "id": "judgement-upright-patterns",
+      "orientation": "upright",
+      "topic": "patterns",
+      "content": "审判正位帮助识别过去和现在之间的联系。通过观察重复的选择、行为和结果，可以更清楚地知道哪些模式值得延续，哪些已经需要改变。"
+    },
+    {
+      "id": "judgement-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，审判正位可能表示到了重新评估职业经验和方向的阶段。过去的工作、成功和挫折已经提供了足够信息，可以判断当前道路是否仍然符合长期目标，以及下一步应该如何发展。"
+    },
+    {
+      "id": "judgement-upright-career-decision",
+      "orientation": "upright",
+      "topic": "career_decision",
+      "content": "当涉及换工作、转型或重要职业选择时，审判强调综合过去经验作出决定。如果某种职业方向已经反复证明不再适合，而另一种方向与个人长期价值更加一致，现在可能是认真回应这种认识的时候。"
+    },
+    {
+      "id": "judgement-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，审判正位表示关系能够帮助个人认识自己的模式、需求和责任。当前适合观察双方过去的行为产生了什么结果，并据此判断关系应该如何继续发展。"
+    },
+    {
+      "id": "judgement-upright-relationship-growth",
+      "orientation": "upright",
+      "topic": "relationship_dynamic",
+      "content": "审判可以表示关系中的重要成长发生在理解层面。即使外部生活暂时没有巨大变化，双方对关系意义、过去模式以及未来方向的认识可能已经发生明显改变。"
+    },
+    {
+      "id": "judgement-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "审判逆位可能表示判断不够清晰，或者个人正在抗拒已经出现的内在认识。某个方向可能越来越明确，却因为恐惧、现实压力或对未知的不安而被持续推迟。"
+    },
+    {
+      "id": "judgement-reversed-calling",
+      "orientation": "reversed",
+      "topic": "calling",
+      "content": "审判逆位可能表示忽视自己的内在召唤。个人知道某些事情需要改变，却不断说服自己继续维持旧状态，因此长期可能产生更明显的空虚或失去方向感。"
+    },
+    {
+      "id": "judgement-reversed-avoidance",
+      "orientation": "reversed",
+      "topic": "avoidance",
+      "content": "审判逆位可能表现为不断寻找外部活动、成就或刺激来填补内在的不满足。如果真正的问题来自价值和方向失去连接，仅仅增加外部事物通常无法彻底解决这种状态。"
+    },
+    {
+      "id": "judgement-reversed-clarity",
+      "orientation": "reversed",
+      "topic": "clarity",
+      "content": "审判逆位可能表示个人暂时无法从过去经验中形成清楚结论。重复分析、寻找借口或回避不舒服的事实，都可能阻碍对当前局面的完整理解。"
+    },
+    {
+      "id": "judgement-reversed-patterns",
+      "orientation": "reversed",
+      "topic": "patterns",
+      "content": "审判逆位可能表示旧模式仍在重复，因为过去经验尚未被真正整合。当前需要重新检查行为和结果之间的联系，而不是只关注每次事件表面的不同。"
+    },
+    {
+      "id": "judgement-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，审判逆位可能表示已经感觉现有方向缺少意义，却迟迟不愿重新评估。继续维持熟悉状态可能暂时安全，但也可能加深对职业方向的不满足。"
+    },
+    {
+      "id": "judgement-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在关系问题中，审判逆位可能表示双方或其中一方不愿面对已经清楚出现的关系模式。只有真正承认过去行为产生的结果，才有可能决定关系需要修复、改变还是结束某种旧的互动方式。"
+    },
+    {
+      "id": "judgement-symbolism-resurrection",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "审判牌中人物从墓穴中站起，可以象征旧的理解和身份结束后出现新的觉察。它表现的重点不是肉体复活，而是重新看待自己和人生。"
+    },
+    {
+      "id": "judgement-symbolism-trumpet",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "天使吹响号角象征一种无法继续忽视的召唤。某种认识已经足够清晰，个人需要决定是否回应，并把理解转化为新的行动。"
+    },
+    {
+      "id": "judgement-safety-health",
+      "orientation": "neutral",
+      "topic": "safety",
+      "content": "审判牌不能用于确认拒绝医学检查、治疗或专业建议是否正确，也不能用于解释疾病的真实病因。涉及健康问题时，塔罗只能用于象征性反思。"
+    },
+    {
+      "id": "judgement-safety-trauma",
+      "orientation": "neutral",
+      "topic": "safety",
+      "content": "严重创伤、虐待和身体疾病不应被解释为个人因果、精神课题或自己过去选择造成的结果。塔罗可以帮助反思感受和恢复方向，但不能把受害责任归给经历伤害的人。"
+    },
+    {
+      "id": "judgement-sun-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，太阳表现清晰、自我表达和对生命的积极体验，而审判进一步要求回顾整段旅程，理解这些经验如何塑造了自己，并根据这种整体认识作出下一阶段的重要判断。"
+    },
+    {
+      "id": "judgement-justice-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "正义和审判都涉及责任与结果，但正义更强调当前选择、事实和行为后果之间的平衡，审判则更强调从更长时间尺度回顾整段人生经验，并形成最终总结和新的方向。"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "cardId": "the-hanged-man",
+  "cardNumber": 12,
+  "name": {
+    "zh": "悬吊者",
+    "en": "The Hanged Man"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/12-hanged-man.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "hanged-man-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "悬吊者正位代表暂停、接受和重新观察当前处境。当前阶段未必适合强行推进事情，更有价值的可能是利用暂时的停顿反省自己，并从不同角度理解问题。"
+    },
+    {
+      "id": "hanged-man-upright-surrender",
+      "orientation": "upright",
+      "topic": "surrender",
+      "content": "悬吊者所代表的顺从并不是彻底放弃，而是接受当前暂时无法控制的部分。继续挣扎可能只会消耗更多能量，因此适当放下控制反而能够为更深的理解留下空间。"
+    },
+    {
+      "id": "hanged-man-upright-perspective",
+      "orientation": "upright",
+      "topic": "perspective",
+      "content": "悬吊者强调改变视角。当惯常的方法已经无法提供答案时，暂停并从不同角度观察熟悉的问题，可能帮助发现过去被忽略、误解或视为理所当然的部分。"
+    },
+    {
+      "id": "hanged-man-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及是否应该立即行动时，悬吊者正位通常倾向于暂缓推进。当前重点可能不是做更多，而是理解为什么事情停在这里，以及下一步真正值得投入的方向是什么。"
+    },
+    {
+      "id": "hanged-man-upright-waiting",
+      "orientation": "upright",
+      "topic": "waiting",
+      "content": "悬吊者正位可以表示当前处于暂时等待的阶段。等待并非毫无意义，只要主动利用这段时间反思、观察和调整方向，它就可能成为之后更有效行动的准备期。"
+    },
+    {
+      "id": "hanged-man-upright-letting-go",
+      "orientation": "upright",
+      "topic": "letting_go",
+      "content": "悬吊者可能表示需要放下某些已经拥有但不再适合自己的事物。放弃旧模式、旧目标或熟悉的安全感，可以为更符合内在方向的新可能腾出空间。"
+    },
+    {
+      "id": "hanged-man-upright-independence",
+      "orientation": "upright",
+      "topic": "independence",
+      "content": "悬吊者正位鼓励根据自己的真实体验和内在感受生活，即使这种方式不符合周围人的期待。当前的独立更多意味着忠实面对自己，而不是单纯反抗别人。"
+    },
+    {
+      "id": "hanged-man-upright-peace",
+      "orientation": "upright",
+      "topic": "inner_peace",
+      "content": "悬吊者可以表示经历困难之后逐渐形成的内在平静。外部问题可能尚未完全解决，但个人已经减少无意义的挣扎，并开始更加稳定地接受当前现实。"
+    },
+    {
+      "id": "hanged-man-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，悬吊者正位可能表示暂时退后一些，把注意力放回自己的需求、人生方向和关系的深层意义。这不一定意味着关系结束，而可能是一段需要更多空间、耐心和理解的反省期。"
+    },
+    {
+      "id": "hanged-man-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "悬吊者逆位可能表示抗拒当前需要的暂停和反省，或者继续按照外界期待生活，而忽略自己的真实方向。"
+    },
+    {
+      "id": "hanged-man-reversed-social-pressure",
+      "orientation": "reversed",
+      "topic": "social_pressure",
+      "content": "悬吊者逆位可能表示受到社会期待、传统角色或他人评价的限制。一个人可能根据别人认为正确的方式生活，而不是直接体验和判断什么真正适合自己。"
+    },
+    {
+      "id": "hanged-man-reversed-resistance",
+      "orientation": "reversed",
+      "topic": "resistance",
+      "content": "悬吊者逆位可能表示抗拒内在需求或变化。个人可能明白当前状态需要重新思考，却因为害怕失去安全感、物质条件或熟悉生活而努力维持现状。"
+    },
+    {
+      "id": "hanged-man-reversed-control",
+      "orientation": "reversed",
+      "topic": "control",
+      "content": "逆位悬吊者可能表现为在受到限制时拼命试图恢复控制，但当前时机尚未成熟。越是急于摆脱暂时状态，越可能忽略这段经历真正要求理解的内容。"
+    },
+    {
+      "id": "hanged-man-reversed-delay",
+      "orientation": "reversed",
+      "topic": "delay",
+      "content": "如果应该处理的反省长期被忽略，悬吊者逆位可能表示停滞被进一步延长。当前没有完成的理解可能在以后以类似情境再次出现。"
+    },
+    {
+      "id": "hanged-man-reversed-patterns",
+      "orientation": "reversed",
+      "topic": "patterns",
+      "content": "悬吊者逆位可能表示重复旧模式，因为个人一直没有真正停下来重新理解自己的方向。打破循环需要接受暂时的不舒服，并认真检视旧方法为什么已经无法继续。"
+    },
+    {
+      "id": "hanged-man-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在关系中，悬吊者逆位可能表示为了符合外部期待而维持某种关系模式，或者明知关系需要重新思考却拒绝面对。重点是区分真正的承诺与单纯因为害怕改变而维持现状。"
+    },
+    {
+      "id": "hanged-man-symbolism-upside-down",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "悬吊者倒置的姿势象征通过改变观察位置重新理解世界。原本熟悉的现实在新的视角下可能显现出不同意义，因此暂停本身可以成为获得洞察的方法。"
+    },
+    {
+      "id": "hanged-man-symbolism-halo",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "悬吊者头部周围的光环象征理解和觉察。外部活动暂时减少后，注意力转向内在，使个人有机会形成新的认识。"
+    },
+    {
+      "id": "hanged-man-justice-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，正义要求理解过去选择产生的结果并承担责任，而悬吊者进一步要求停止强行控制结果，接受暂时无法改变的处境，并从新的角度重新理解自己。正义偏向负责判断，悬吊者偏向暂停与重新观看。"
+    }
+  ]
+}

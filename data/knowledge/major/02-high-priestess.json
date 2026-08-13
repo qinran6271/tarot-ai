@@ -1,0 +1,98 @@
+{
+  "cardId": "the-high-priestess",
+  "cardNumber": 2,
+  "name": {
+    "zh": "女教皇",
+    "en": "The High Priestess"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/02-high-priestess.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "high-priestess-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "女教皇正位代表向内探索、沉思、等待和暂时按兵不动。当前阶段的重点可能不是立即采取外在行动，而是通过观察、独处和反思理解自己的内在状态，并为下一阶段的发展做准备。"
+    },
+    {
+      "id": "high-priestess-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及是否应该立即行动时，女教皇正位倾向于建议暂时观察和等待。与其急于推动事情发展，不如先理解当前经验、倾听内在感受，并在获得更充分的理解后再决定下一步。"
+    },
+    {
+      "id": "high-priestess-upright-intuition",
+      "orientation": "upright",
+      "topic": "intuition",
+      "content": "女教皇强调直觉、想象力和接受性。有些信息可能已经被感受到，却尚未被完全理解，因此答案不一定只能通过逻辑分析获得，也需要给直觉和内在感受留下空间。"
+    },
+    {
+      "id": "high-priestess-upright-inner-growth",
+      "orientation": "upright",
+      "topic": "inner_growth",
+      "content": "女教皇可以表示一段内在发展的时期。通过沉思、独处和消化过去的经历，一个人能够逐渐形成新的理解，并为人生下一阶段播下种子。"
+    },
+    {
+      "id": "high-priestess-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，女教皇正位强调反求诸己、接受性和内在发展。在充分理解一段关系给予自己的经验之前，可能需要先理解自己的需求和感受。它也可能代表一段具有较强精神或心灵成长性质的关系，两个人能够共同学习和成长。"
+    },
+    {
+      "id": "high-priestess-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "女教皇逆位可能表示一段独处、沉思或内在发展的阶段正在结束，现在需要重新进入外部世界，并把此前形成的理解带入现实生活中进行实践和验证。"
+    },
+    {
+      "id": "high-priestess-reversed-action",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "女教皇逆位可以表示现在已经不再适合持续停留在内在探索中。相比继续等待或独处，此时更适合主动寻找机会、接触外部世界，并通过实际行动和与他人的互动获得新的发展。"
+    },
+    {
+      "id": "high-priestess-reversed-social",
+      "orientation": "reversed",
+      "topic": "social",
+      "content": "女教皇逆位可能鼓励扩大社交和认识新的人。新的连接可能带来新的工作机会、感情可能性或不同的理解，因此与他人的合作和互动可能比继续独自思考带来更多收获。"
+    },
+    {
+      "id": "high-priestess-reversed-intuition",
+      "orientation": "reversed",
+      "topic": "intuition",
+      "content": "女教皇逆位可能表示忽略直觉，并过度依赖头脑或理性分析。解读时可以关注当事人是否因为过度分析而忽视已经感受到但尚未完全解释清楚的信息。"
+    },
+    {
+      "id": "high-priestess-symbolism-water",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "女教皇身后被布幔遮住的水象征能够被感受到、却尚未得到充分理解的内在知识或经验。这强化了女教皇关于潜意识、直觉和隐藏理解的主题。"
+    },
+    {
+      "id": "high-priestess-symbolism-moon",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "女教皇脚旁的月亮与想象力以及超越眼前事物进行感知的能力有关，进一步强调直觉和内在感受在这张牌中的重要性。"
+    },
+    {
+      "id": "high-priestess-symbolism-pillars",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "女教皇两侧的柱子表现二元和对立力量，包括逻辑与直觉、务实与想象、力量与接受性。牌面强调这些相对力量并非必须互相排斥，而可以通过适当整合形成平衡。"
+    },
+    {
+      "id": "high-priestess-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源在关系解读中将女教皇与双鱼座的人联系起来。这个对应属于特定来源的塔罗解释体系，不应被视为所有塔罗传统共同采用的固定对应关系。"
+    }
+  ]
+}

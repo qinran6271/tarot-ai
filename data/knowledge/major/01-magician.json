@@ -1,0 +1,98 @@
+{
+  "cardId": "the-magician",
+  "cardNumber": 1,
+  "name": {
+    "zh": "魔术师",
+    "en": "The Magician"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/01-magician.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "magician-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "魔术师正位代表行动、创造、实现潜能，以及把想法转化为具体成果的能力。它意味着当前拥有较好的条件去开始新的计划，不应只停留在可能性、构想或等待之中，而是需要主动运用已有的资源、能力和意志，让想法真正进入现实。"
+    },
+    {
+      "id": "magician-upright-decision",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "在选择和行动相关的问题中，魔术师正位通常倾向于主动推进。当前可能已经具备较合适的时机、资源、动机和方向，与其继续等待，不如开始执行计划。它强调成功并非单纯依靠机会，而来自明确目标、正确动机、清晰计划、持续热情和实际执行之间的配合。"
+    },
+    {
+      "id": "magician-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业和工作问题中，魔术师正位是适合启动新项目、争取机会或把创意落实为成果的信号。它表示个人能力和现有资源有机会被有效整合，只要方向明确并愿意执行，就可能创造实际进展。与单纯等待机会相比，这张牌更强调主动性、执行力和对自身能力的运用。"
+    },
+    {
+      "id": "magician-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，魔术师正位代表一种主动并能够落实到现实中的关系。双方可能形成互补，一方提供想法、方向或灵感，另一方帮助将这些想法落实为具体生活。这张牌强调关系不仅存在吸引力或想象，也具有实际发展和共同创造的能力。"
+    },
+    {
+      "id": "magician-upright-person",
+      "orientation": "upright",
+      "topic": "person",
+      "content": "当魔术师正位代表一个人时，这个人通常具有较强的意志力、行动能力和目标感。他知道自己希望实现什么，也倾向于主动寻找方法把想法变成现实。他可能思路清晰、接受新观念，同时懂得调动已有资源来推进自己的目标。"
+    },
+    {
+      "id": "magician-upright-inner-growth",
+      "orientation": "upright",
+      "topic": "inner_growth",
+      "content": "从个人成长角度看，魔术师代表认识并实际运用自己的潜能。拥有能力或可能性本身并不足够，真正重要的是能否把灵感、知识和愿望转化为现实行动。它也提醒人意识到力量可以经由自己被表达和运用，但不应因此产生对自身能力的夸大或控制一切的幻觉。"
+    },
+    {
+      "id": "magician-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "魔术师逆位表示潜能与现实成果之间出现断裂。可能拥有想法、能力或能量，却缺少正确的动机、明确的计划、持续的热情或实际执行，因此难以把愿望真正落实。它也可能表现为漫无目标、缺乏自律、不切实际，或虽然不断行动却无法形成有效成果。"
+    },
+    {
+      "id": "magician-reversed-decision",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "在选择和行动问题中，魔术师逆位提醒先检查执行条件，而不是仅凭意愿推进。问题可能并非完全没有机会，而是目标、动机、计划、资源或执行方式中存在缺口。此时需要找出究竟是哪一环没有连接起来，再决定是否行动，否则容易出现想法很多却无法落实，或投入大量精力却得不到预期结果的情况。"
+    },
+    {
+      "id": "magician-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，魔术师逆位可能表示能力没有得到有效发挥，计划缺乏执行基础，或工作方向与真正目标脱节。它也可能提醒注意为了结果而操控他人、夸大能力或采取缺乏诚信的方法。比起继续强行推进，此时更需要重新建立明确目标、现实计划和可执行的步骤。"
+    },
+    {
+      "id": "magician-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，魔术师逆位可能表示关系中的主动性被错误使用，例如操控、隐瞒、误导，或利用自己的影响力让对方按照自己的意愿行动。另一种可能是双方虽然有想法或吸引力，却缺少把关系落实到现实中的条件和行动。需要区分真正的主动经营与试图控制对方之间的差别。"
+    },
+    {
+      "id": "magician-reversed-person",
+      "orientation": "reversed",
+      "topic": "person",
+      "content": "当魔术师逆位代表一个人时，可能描述一个能力没有被健康运用的人。他可能缺乏方向、自律或现实感，也可能具有较强的影响力，却倾向于操纵、欺骗或控制别人。判断重点不只是这个人是否有能力，而是他的能力、动机和行为是否保持一致，以及这种力量最终被用于创造还是控制。"
+    },
+    {
+      "id": "magician-symbolism",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "魔术师一手指向天空、一手指向土地，象征把灵感、意图或抽象能量带入现实。桌上的圣杯、宝剑、权杖和五角星代表实现目标所需要的不同条件，包括正确的动机、清晰的计划、持续的热情和实际执行。红玫瑰强化热情与行动力，白百合强调动机的纯粹，而无限符号与首尾相接的蛇则强化持续能量和循环的主题。"
+    },
+    {
+      "id": "magician-major-arcana-journey",
+      "orientation": "neutral",
+      "topic": "major_arcana_journey",
+      "content": "在大阿尔克纳的整体旅程中，魔术师承接愚人的潜能与未知。愚人带着经验和可能性进入旅程，而魔术师开始意识到自己拥有可以使用的工具，并学习如何主动运用它们。这个阶段的核心课题是从单纯拥有潜能走向有意识地创造，通过适当的条件、目标和行动，把可能性转化为现实成果。"
+    }
+  ]
+}

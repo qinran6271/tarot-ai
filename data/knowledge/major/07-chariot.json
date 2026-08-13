@@ -1,0 +1,134 @@
+{
+  "cardId": "the-chariot",
+  "cardNumber": 7,
+  "name": {
+    "zh": "战车",
+    "en": "The Chariot"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/07-chariot.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "chariot-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "战车正位代表意志力、自我控制、坚持和向目标持续前进。即使当前存在互相冲突的力量，只要能够保持清晰方向并有效协调它们，就有取得成功的可能。"
+    },
+    {
+      "id": "chariot-upright-perseverance",
+      "orientation": "upright",
+      "topic": "perseverance",
+      "content": "战车的重要讯息是不要放弃。当前道路可能存在压力、矛盾或阻力，但这些困难并不等于失败。持续保持方向、纪律和控制能力，是最终取得进展的重要条件。"
+    },
+    {
+      "id": "chariot-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及下一步行动时，战车正位支持继续向目标推进，但要求行动具有明确方向和自我控制。重点不是盲目加速，而是确保不同需求、情绪和现实因素都被协调到同一个方向。"
+    },
+    {
+      "id": "chariot-upright-conflict",
+      "orientation": "upright",
+      "topic": "conflict",
+      "content": "战车可能表示一个人正在面对彼此矛盾的力量，例如理智与情绪、恐惧与欲望或不同现实需求。解决方法不是简单消灭其中一方，而是理解这些力量，并通过意志和判断让它们不再彼此拉扯。"
+    },
+    {
+      "id": "chariot-upright-emotional-control",
+      "orientation": "upright",
+      "topic": "emotional_control",
+      "content": "战车强调承认情绪存在，同时保持清晰判断。真正的情绪控制并不是否定或压抑感受，而是在理解情绪之后，不让它们完全决定自己的方向和行动。"
+    },
+    {
+      "id": "chariot-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业和商业问题中，战车正位可以表示通过坚持、明确方向和有效控制复杂局面取得成功。面对竞争、压力或相互冲突的要求时，保持判断力并持续执行尤其重要。"
+    },
+    {
+      "id": "chariot-upright-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "战车正位是一张与通过坚持取得成功有关的牌。它也可能象征重要的事业发展或具有明显意义的成果，但成功通常建立在持续努力、自我控制以及对复杂局面的协调之上。"
+    },
+    {
+      "id": "chariot-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，战车正位强调管理情绪和处理冲突。恐惧、欲望、过去经验和当前需求可能彼此拉扯，但只要能够看清这些力量、调整旧模式并保持方向，关系仍然可能继续发展。"
+    },
+    {
+      "id": "chariot-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "战车有时具有直接的现实含义，可以代表车辆、乘车或旅行。在明确涉及交通、移动和出行的问题中，可以考虑这一层解释。"
+    },
+    {
+      "id": "chariot-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "战车逆位可能表示原本互相冲突的力量失去协调，使人难以保持清晰方向和控制。情绪、过去经验或内部矛盾可能开始明显干扰当前判断。"
+    },
+    {
+      "id": "chariot-reversed-emotional-control",
+      "orientation": "reversed",
+      "topic": "emotional_control",
+      "content": "战车逆位可能表示情绪正在蒙蔽判断，或者长期未处理的感受已经大量积压。单纯压制情绪并不能解决问题，需要找到新的方式理解、表达和处理这些感受。"
+    },
+    {
+      "id": "chariot-reversed-past",
+      "orientation": "reversed",
+      "topic": "past",
+      "content": "战车逆位可能表示过去尚未解决的经历仍然影响现在。怀旧、旧伤或未完成的情绪可能使人无法清楚判断当前情况，因此需要区分过去形成的感受和现在真实发生的事情。"
+    },
+    {
+      "id": "chariot-reversed-patterns",
+      "orientation": "reversed",
+      "topic": "patterns",
+      "content": "战车逆位提醒不要继续依赖已经无效的旧应对模式。如果过去处理冲突或情绪的方法没有真正解决问题，继续重复相同方式可能只会让压力不断积累。"
+    },
+    {
+      "id": "chariot-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，战车逆位可能表示过去的情感经历、未解决的恐惧或积压的感受正在影响当前关系。问题的重点可能不是立即决定留下或离开，而是先看清哪些反应来自现在，哪些来自过去。"
+    },
+    {
+      "id": "chariot-symbolism-sphinxes",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "战车前方一黑一白的狮身人面兽象征生命中互相对立的力量。如果没有明确的意志和方向，这些力量可能把人拉向不同方向；如果能够协调它们，则可以共同形成向前推进的力量。"
+    },
+    {
+      "id": "chariot-symbolism-water-land",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "战车同时处于水与陆地之间，象征一个人需要同时面对情感世界和现实世界。它强调既不能完全被情绪带走，也不能通过否认情绪来维持表面的现实控制。"
+    },
+    {
+      "id": "chariot-symbolism-integration",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "战车牌包含多张此前大阿尔克纳的象征元素，表现出整合此前经验并继续前进的主题。它要求将已经获得的能力、知识、纪律和选择整合起来，用于控制自己的方向。"
+    },
+    {
+      "id": "chariot-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将战车与巨蟹座联系起来，并把学习如何承认情感存在、同时以理智管理情绪视为这一对应关系的重要课题。这属于该来源采用的塔罗与占星对应体系。"
+    },
+    {
+      "id": "chariot-lovers-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，恋人要求在不同可能性之间作出选择，而战车进一步要求在作出选择之后控制相互冲突的力量，坚持既定方向并真正向前推进。恋人偏向选择方向，战车偏向驾驭力量并持续行动。"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "cardId": "the-emperor",
+  "cardNumber": 4,
+  "name": {
+    "zh": "皇帝",
+    "en": "The Emperor"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/04-emperor.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "emperor-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "皇帝正位代表自律、结构、秩序、稳定以及通过实际努力取得成功。当前更适合采取务实而有纪律的方法，在现实条件和规则范围内持续推进目标。"
+    },
+    {
+      "id": "emperor-upright-discipline",
+      "orientation": "upright",
+      "topic": "discipline",
+      "content": "皇帝强调自我训练的重要性。在有效领导他人或获得他人尊重之前，需要先学会管理自己的脾气、精力、情感和思想。稳定的自我控制是承担更大责任和实现长期目标的重要基础。"
+    },
+    {
+      "id": "emperor-upright-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "皇帝所代表的成功来自纪律、训练和持续的现实投入，而不是偶然或单纯依靠热情。即使环境存在限制，只要理解规则并在现实条件允许的范围内努力，目标仍然可能实现。"
+    },
+    {
+      "id": "emperor-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及下一步应该如何行动时，皇帝正位建议采取务实、有组织和有纪律的方法。先明确现实限制和规则，再建立结构并持续执行，比冲动行动更符合这张牌的方向。"
+    },
+    {
+      "id": "emperor-upright-authority",
+      "orientation": "upright",
+      "topic": "authority",
+      "content": "皇帝与权威、制度和维持秩序的人有关，可能代表法官、警察、雇主、房东、父亲或其他拥有正式权力的人。当问题涉及权力关系时，需要理解规则、责任以及双方所处的位置。"
+    },
+    {
+      "id": "emperor-upright-legal",
+      "orientation": "upright",
+      "topic": "legal",
+      "content": "皇帝可能出现在涉及法律、制度、规则或正式权力的问题中，并表示当事人需要在既有制度和现实限制范围内处理事情。这是塔罗中的象征性含义，不应作为具体法律结果的预测或法律建议。"
+    },
+    {
+      "id": "emperor-upright-person",
+      "orientation": "upright",
+      "topic": "person",
+      "content": "当皇帝正位代表一个人时，这个人通常务实、重视公平和秩序、纪律严谨，并倾向根据自己的实际经验作出判断。他可能比较武断，但通常认真看待承诺，并期望别人同样履行自己的责任。"
+    },
+    {
+      "id": "emperor-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，皇帝正位可能代表稳定、责任和现实层面的支持。一个人可能通过工作、物质保障和具体行动表达自己的投入，但不一定擅长直接表达情绪或理解伴侣较抽象的情感需求。"
+    },
+    {
+      "id": "emperor-upright-relationship-dynamic",
+      "orientation": "upright",
+      "topic": "relationship_dynamic",
+      "content": "皇帝在关系中可能表现为领导者或父亲式角色，希望通过掌控现实条件、提供物质稳定和维持秩序来保护关系。如果这种角色过强，而伴侣更加需要情感交流，双方可能因为对爱的表达方式不同而产生矛盾。"
+    },
+    {
+      "id": "emperor-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "皇帝逆位可能表示缺乏自律、训练或持续执行，使原本可以实现的目标难以完成。问题可能不是缺少能力或热情，而是缺少稳定地控制和运用这些能量的方法。"
+    },
+    {
+      "id": "emperor-reversed-discipline",
+      "orientation": "reversed",
+      "topic": "discipline",
+      "content": "皇帝逆位可能表现为面对困难选择或长期目标时缺乏坚持所需要的训练。一个人可能具有热情，却无法稳定控制自己的行动，因此容易在现实挑战面前退缩。"
+    },
+    {
+      "id": "emperor-reversed-person",
+      "orientation": "reversed",
+      "topic": "person",
+      "content": "当皇帝逆位代表一个人时，他可能比正位皇帝更加宽容、较少武断，并能够表现出更多同情心。因此逆位也可能意味着原本过度严格、控制或僵硬的特质有所减弱。"
+    },
+    {
+      "id": "emperor-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，皇帝逆位可能表示缺乏承诺、自律或持续投入关系的能力。它可能表现为逃避长期责任、无法稳定投入一段关系，或关系中存在多个伴侣等不稳定状态。"
+    },
+    {
+      "id": "emperor-reversed-relationship-dynamic",
+      "orientation": "reversed",
+      "topic": "relationship_dynamic",
+      "content": "该来源认为逆位皇帝有时可能表现为一种类似母子关系的失衡互动，其中一方承担过多照顾和控制责任，另一方则没有充分承担自己的责任。核心问题是关系中的自主性、责任和权力分配失去平衡。"
+    },
+    {
+      "id": "emperor-symbolism-armor",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "皇帝隐藏在衣服下的铁甲象征持续的准备和防御意识，表现出他面对现实世界时保持警觉、纪律和随时应对挑战的态度。"
+    },
+    {
+      "id": "emperor-symbolism-father",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "皇帝具有原型父亲的象征意义，与社会中的律法、结构、稳定、责任和权威有关。结构既可能形成限制，也能够提供稳定的环境，让个人在明确边界之内发展。"
+    },
+    {
+      "id": "emperor-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源通过牌面中的公羊将皇帝与牧羊座（Aries）联系起来，并以自律作为这一对应关系的重要课题。这属于特定来源采用的占星与塔罗对应体系。"
+    },
+    {
+      "id": "emperor-empress-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，女皇强调热情、感官、情感和现实体验，而皇帝进一步要求对这些力量进行训练和组织。皇帝因此可以表现为从体验和热情进入自律、结构、责任和现实秩序的阶段。"
+    }
+  ]
+}

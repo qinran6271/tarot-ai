@@ -1,0 +1,116 @@
+{
+  "cardId": "the-empress",
+  "cardNumber": 3,
+  "name": {
+    "zh": "女皇",
+    "en": "The Empress"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/03-empress.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "empress-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "女皇正位与成长、丰盛、生产力、情感满足以及现实经验有关。它强调通过实际生活、感官和情感去体验世界，而不是只停留在思想或理想层面。"
+    },
+    {
+      "id": "empress-upright-progress",
+      "orientation": "upright",
+      "topic": "progress",
+      "content": "女皇正位可以表示一个计划已经逐渐成熟，并准备进入下一个自然的发展阶段。事情正在从潜在可能走向实际成果，因此可以继续顺着当前的发展向目标推进。"
+    },
+    {
+      "id": "empress-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及下一步行动时，女皇正位倾向于支持顺应已经成熟的发展条件，采取实际而自然的下一步。重点不是强行推动，而是让已经形成的成果继续成长。"
+    },
+    {
+      "id": "empress-upright-family",
+      "orientation": "upright",
+      "topic": "family",
+      "content": "女皇正位与家庭环境中的稳定、和谐、爱和情感交流有关。家庭中的满足更依赖真实的关心、情感投入和日常生活中的实际付出，而不仅是对理想家庭状态的想象。"
+    },
+    {
+      "id": "empress-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，女皇正位通常表示关系具有成长、活力和稳定发展的潜力，并可能自然进入下一阶段。它强调通过真实的情感、欢乐、亲密体验和日常投入维持关系，而不是只从理性或理想化的角度理解爱情。"
+    },
+    {
+      "id": "empress-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，该来源认为女皇可能表示工作与家庭有关，或者以家作为工作的基地。它也可以体现一个事业计划逐渐成熟，并准备向下一个实际阶段发展的主题。"
+    },
+    {
+      "id": "empress-upright-nature",
+      "orientation": "upright",
+      "topic": "wellbeing",
+      "content": "女皇与自然、休息和恢复平衡有关。当生活失去平衡时，它可能象征通过休息、接触自然以及重新关注身体和感官体验来恢复自己的状态。"
+    },
+    {
+      "id": "empress-upright-fertility",
+      "orientation": "upright",
+      "topic": "fertility",
+      "content": "该来源将女皇与怀孕、生育和生产力联系起来，并认为某些牌面组合可能强化这一象征意义。这类内容只能作为传统塔罗象征理解，不应被用于判断怀孕状态、妊娠结果、生产时间或其他医学问题。"
+    },
+    {
+      "id": "empress-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "女皇逆位可能表示原本应该成长或发展的事情遇到阻碍，例如计划难以实现、家庭状态失衡或关系发展出现困难。"
+    },
+    {
+      "id": "empress-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，女皇逆位可能表示难以真正投入维持关系所需要的日常情感和现实努力。一个人可能对爱情存在理想化或过度知性的理解，却难以把这种想法转化为持续的关心、付出和共同生活。"
+    },
+    {
+      "id": "empress-reversed-plans",
+      "orientation": "reversed",
+      "topic": "progress",
+      "content": "女皇逆位可能表示计划无法顺利成熟或进入下一阶段。此时可以重新检查现实条件，以及理想和实际执行之间是否存在差距。"
+    },
+    {
+      "id": "empress-reversed-decision",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "女皇逆位的一个可能方向是暂时减少情绪驱动，冷静审视现有选择，并通过理性分析寻找解决问题的方法。"
+    },
+    {
+      "id": "empress-reversed-fertility",
+      "orientation": "reversed",
+      "topic": "fertility",
+      "content": "该来源把逆位女皇与部分怀孕、生产或妊娠变化的情境联系起来。这属于特定塔罗体系的象征性解释，不具有医学预测能力，也不应被用于判断流产、生产或任何健康结果。"
+    },
+    {
+      "id": "empress-symbolism-nature",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "女皇周围的流水、树木、草地和成熟麦穗象征生命力、成长、丰盛和生产力。成熟的麦穗也强化了计划已经从潜在阶段逐渐走向成熟的主题。"
+    },
+    {
+      "id": "empress-symbolism-venus",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "女皇牌中的维纳斯符号与爱、女性以及心灵和物质世界之间的联系有关，强调通过爱、身体、感官和现实经验表达内在情感。"
+    },
+    {
+      "id": "empress-high-priestess-contrast",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的体系中，女教皇偏向梦想、内在探索和精神层面的理解，而女皇更加脚踏实地，强调通过身体、感官、情感和现实经验认识世界。女皇因此可以被理解为把内在的可能性进一步带入现实生活。"
+    }
+  ]
+}

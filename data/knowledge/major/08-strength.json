@@ -1,0 +1,140 @@
+{
+  "cardId": "strength",
+  "cardNumber": 8,
+  "name": {
+    "zh": "力量",
+    "en": "Strength"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/08-strength.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "strength-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "力量正位代表内在力量、勇气、自信和面对困难的能力。真正的勇气并不是没有恐惧，而是在恐惧仍然存在时，依然愿意面对现实、承担责任并继续前进。"
+    },
+    {
+      "id": "strength-upright-courage",
+      "orientation": "upright",
+      "topic": "courage",
+      "content": "力量正位强调一种来自内部的勇气。一个人不需要等到完全不害怕之后才行动，而可以在承认恐惧存在的同时，根据自己的价值和目标继续采取行动。"
+    },
+    {
+      "id": "strength-upright-inner-strength",
+      "orientation": "upright",
+      "topic": "inner_strength",
+      "content": "力量所代表的稳定来自内在，而不只是外在表现出的强势或自信。现实中的挑战可以成为确认自身能力的过程，使一个人逐渐发现自己拥有比想象中更大的韧性和力量。"
+    },
+    {
+      "id": "strength-upright-emotional-integration",
+      "orientation": "upright",
+      "topic": "emotional_control",
+      "content": "力量强调理解和整合恐惧、欲望、激情和情绪，而不是压制它们。真正的自我掌控来自允许这些感受存在，同时不让它们自动决定自己的行为。"
+    },
+    {
+      "id": "strength-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及是否有能力面对某件困难的事情时，力量正位通常表示当事人已经拥有所需要的内在资源。行动方式更适合建立在耐心、勇气和稳定上，而不是强迫、对抗或过度控制。"
+    },
+    {
+      "id": "strength-upright-change",
+      "orientation": "upright",
+      "topic": "change",
+      "content": "力量正位可以表示一个人具有改变现状所需要的希望、勇气和内在能量。即使改变意味着面对恐惧或不确定，也并不代表自己没有能力处理接下来发生的事情。"
+    },
+    {
+      "id": "strength-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，力量正位表示具备发展真实亲密感所需要的勇气。双方能够表达和倾听感受，而不需要通过控制对方或被对方控制来获得安全感。"
+    },
+    {
+      "id": "strength-upright-intimacy",
+      "orientation": "upright",
+      "topic": "intimacy",
+      "content": "力量正位与亲密关系中的开放和脆弱有关。真正的亲密需要允许另一个人靠近自己，并相信自己有能力面对关系中可能出现的不确定、冲突和情绪风险。"
+    },
+    {
+      "id": "strength-upright-compassion",
+      "orientation": "upright",
+      "topic": "compassion",
+      "content": "力量并不是通过强硬征服获得控制，而是通过爱、耐心和同情处理强烈的情绪与本能。温柔并不等于软弱，它可以建立在非常稳定的内在力量之上。"
+    },
+    {
+      "id": "strength-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "力量逆位可能表示勇气、希望或内在稳定感下降，使人产生无力、被击倒或无法应对当前挑战的感觉。"
+    },
+    {
+      "id": "strength-reversed-fear",
+      "orientation": "reversed",
+      "topic": "fear",
+      "content": "力量逆位可能表示一个人开始害怕自己的激情、欲望或强烈情绪会失去控制。因为害怕这些感受带来的改变，可能转而追求过度安全、熟悉或可控制的生活状态。"
+    },
+    {
+      "id": "strength-reversed-avoidance",
+      "orientation": "reversed",
+      "topic": "avoidance",
+      "content": "力量逆位可能表现为通过忙碌、工作或其他活动回避内在需求。把时间填满可以暂时避免面对情绪和欲望，但没有真正解决造成不安的问题。"
+    },
+    {
+      "id": "strength-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业相关问题中，力量逆位有时可能表示把工作或传统事业道路当作逃避内在不安的安全结构。事业本身未必有问题，但需要辨别投入是否来自真正的选择，还是为了避免面对其他重要需求。"
+    },
+    {
+      "id": "strength-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在关系中，力量逆位可能表现为因为缺乏内在安全感而走向控制或过度顺从。一个人可能试图支配伴侣以恢复力量感，也可能为了避免冲突而放弃自己的需求。"
+    },
+    {
+      "id": "strength-reversed-control",
+      "orientation": "reversed",
+      "topic": "control",
+      "content": "当一个人感觉自己缺乏力量时，可能通过控制外部的人和事来补偿这种无力感。力量逆位提醒，长期稳定的力量需要从内部恢复，而不能依赖支配他人来获得。"
+    },
+    {
+      "id": "strength-symbolism-lion",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "力量牌中的狮子象征感觉、恐惧、欲望和激情。女人没有消灭或强迫狮子，而是通过温柔、爱和内在稳定与它互动，表现出整合本能而非压制本能的主题。"
+    },
+    {
+      "id": "strength-symbolism-infinity",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "女人头顶的无限符号象征持续而深层的内在力量来源，强调真正的力量不是一次性的外部优势，而是可以不断从内部获得的稳定能量。"
+    },
+    {
+      "id": "strength-health-symbolism",
+      "orientation": "neutral",
+      "topic": "health_symbolism",
+      "content": "该来源将力量牌与心脏、脊椎以及恢复力量联系起来。这只能作为传统塔罗象征理解，不应用于判断疾病、诊断健康问题或预测治疗与康复结果。"
+    },
+    {
+      "id": "strength-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将力量牌与狮子座联系起来，并强调从内部发现力量、学习以爱而非控制面对人生是这一对应关系的重要课题。这属于该来源采用的塔罗与占星体系。"
+    },
+    {
+      "id": "strength-chariot-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，战车主要通过理智、意志和控制协调冲突力量，而力量进一步要求面对这些情绪和欲望本身，并以接纳、爱和勇气与它们共处。战车偏向驾驭，力量偏向整合。"
+    }
+  ]
+}

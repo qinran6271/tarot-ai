@@ -1,0 +1,134 @@
+{
+  "cardId": "the-tower",
+  "cardNumber": 16,
+  "name": {
+    "zh": "高塔",
+    "en": "The Tower"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/16-tower.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "tower-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "高塔正位代表突然、强烈而难以忽视的改变。原有结构、信念或生活方式可能已经无法继续支持成长，因此现实迫使个人面对并重新调整。"
+    },
+    {
+      "id": "tower-upright-sudden-change",
+      "orientation": "upright",
+      "topic": "change",
+      "content": "高塔正位强调快速而明显的变化。事情可能没有留下充分准备时间，因此重点通常已经从避免改变转向如何有效应对已经开始发生的新现实。"
+    },
+    {
+      "id": "tower-upright-false-structure",
+      "orientation": "upright",
+      "topic": "structure",
+      "content": "高塔可能表示某个看似稳定的结构实际上建立在已经失效的价值、假设或模式上。变化的目的不是单纯破坏，而是暴露原有结构无法继续支持发展的事实。"
+    },
+    {
+      "id": "tower-upright-release",
+      "orientation": "upright",
+      "topic": "release",
+      "content": "高塔具有释放作用。当旧结构被打破时，过去因为习惯、恐惧或限制性信念而看不见的选择可能重新出现，因此突发改变也可能带来新的自由和发展空间。"
+    },
+    {
+      "id": "tower-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当高塔正位出现时，当前往往已经不是继续拖延或维持旧状态的时候。更适合迅速评估现实、处理已经发生的变化，并判断哪些旧结构应该被放弃而不是继续修补。"
+    },
+    {
+      "id": "tower-upright-adaptation",
+      "orientation": "upright",
+      "topic": "adaptation",
+      "content": "高塔正位要求快速适应。改变本身可能无法控制，但个人仍然可以决定如何回应、保留什么、放弃什么，以及接下来建立怎样的新结构。"
+    },
+    {
+      "id": "tower-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，高塔正位可能表示工作、公司、团队或职业结构发生突然变化。它可能表现为组织调整、岗位变化或原有职业安排被打破，但不应被直接等同于必然裁员。"
+    },
+    {
+      "id": "tower-upright-career-rebuild",
+      "orientation": "upright",
+      "topic": "career_transition",
+      "content": "事业中的高塔也可能表示原有职业路径已经难以继续维持。突然变化虽然带来压力，却可能迫使个人重新考虑更符合当前能力和需求的发展方向。"
+    },
+    {
+      "id": "tower-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，高塔正位表示关系发生重大而突然的变化，原有互动方式无法继续保持原样。它可能表现为分离、冲突、真相显现或关系结构被迫重新调整。"
+    },
+    {
+      "id": "tower-upright-relationship-rebuild",
+      "orientation": "upright",
+      "topic": "relationship_dynamic",
+      "content": "高塔并不必然意味着关系永久结束。它更明确地表示原有关系结构无法继续。如果双方愿意面对暴露出来的问题，关系可能在旧模式被打破之后建立新的形式。"
+    },
+    {
+      "id": "tower-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "高塔逆位仍然与改变有关，但变化可能被延缓、压制或控制，因此表面冲击比正位小。核心问题通常仍然存在，只是尚未被完全处理。"
+    },
+    {
+      "id": "tower-reversed-resistance",
+      "orientation": "reversed",
+      "topic": "resistance",
+      "content": "高塔逆位可能表示明知某个结构已经不适合，却仍然试图维持原状。对变化的控制可以暂时减少痛苦，但也可能延迟真正需要发生的调整。"
+    },
+    {
+      "id": "tower-reversed-stagnation",
+      "orientation": "reversed",
+      "topic": "stagnation",
+      "content": "高塔逆位可能表现为停留在一个已经失去作用的状态中。熟悉感和安全感让个人不愿放手，但长期维持旧结构会限制新的成长。"
+    },
+    {
+      "id": "tower-reversed-delayed-change",
+      "orientation": "reversed",
+      "topic": "change",
+      "content": "高塔逆位可能表示必要的变化正在被推迟。变化没有消失，只是尚未充分展开，因此越早理解真正需要调整的部分，越有可能减少未来更剧烈的冲击。"
+    },
+    {
+      "id": "tower-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，高塔逆位可能表示个人或组织正在努力维持已经不稳定的工作结构。短期内变化可能受到控制，但仍需要认真评估原有安排是否能够长期持续。"
+    },
+    {
+      "id": "tower-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，高塔逆位可能表示双方知道原有关系模式已经出现严重问题，却仍然尽力维持过去的状态。真正需要处理的不是如何假装一切没变，而是哪些结构已经必须重新建立。"
+    },
+    {
+      "id": "tower-safety-boundary",
+      "orientation": "neutral",
+      "topic": "safety",
+      "content": "高塔中的事故、疾病、火灾等意象只能作为突然变化和震撼的象征，不应用于预测现实中的事故、灾难、疾病或人身伤害。"
+    },
+    {
+      "id": "tower-devil-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，魔鬼表现限制、控制和“没有其他选择”的信念，而高塔则打破维持这种束缚的旧结构。魔鬼偏向意识不到自由，高塔则通过突发变化迫使新的选择显现。"
+    },
+    {
+      "id": "tower-death-contrast",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "死亡和高塔都与改变有关，但死亡更强调接受一个阶段自然结束并主动放下，高塔则更强调旧结构突然崩塌、变化来得快速且难以继续拖延。死亡偏向结束与转变，高塔偏向突发性的结构重组。"
+    }
+  ]
+}

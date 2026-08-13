@@ -1,0 +1,176 @@
+{
+  "cardId": "the-world",
+  "cardNumber": 21,
+  "name": {
+    "zh": "世界",
+    "en": "The World"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/21-world.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "world-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "世界正位代表完成、成功、整合和内在满足。一个重要阶段可能已经达到成熟结果，个人能够更加完整地运用过去积累的经验，并感受到当前方向与自身发展较为协调。"
+    },
+    {
+      "id": "world-upright-completion",
+      "orientation": "upright",
+      "topic": "completion",
+      "content": "世界正位可以表示一个周期、计划或人生阶段已经走到完成的位置。完成意味着此前的经验已经形成相对完整的结果，而不是所有成长从此停止。"
+    },
+    {
+      "id": "world-upright-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "世界是一张与较高程度成功有关的牌。这种成功不仅表现为外部成果，也包括个人能够认可自己的发展，并感觉当前成就与真实方向相符。"
+    },
+    {
+      "id": "world-upright-integration",
+      "orientation": "upright",
+      "topic": "integration",
+      "content": "世界强调经验的整合。过去分别发展出的理性、情感、行动、直觉、现实能力和自我理解能够更加协调地共同作用，使个人以更加完整的方式面对生活。"
+    },
+    {
+      "id": "world-upright-happiness",
+      "orientation": "upright",
+      "topic": "happiness",
+      "content": "世界所代表的快乐主要来自内在满足，而不是单纯拥有更多外部事物。个人可能感觉自己处在合适的位置，并能够从存在、成长和当前生活本身获得满足。"
+    },
+    {
+      "id": "world-upright-growth",
+      "orientation": "upright",
+      "topic": "growth",
+      "content": "世界虽然代表完成，却同时强调持续发展。真正稳定的成功不是完全停止变化，而是在完成一个阶段后继续利用现有基础成长。"
+    },
+    {
+      "id": "world-upright-decision",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "在决定相关的问题中，世界正位通常具有较积极的倾向，可以表示某个计划或方向与个人整体发展较为一致。但它不应单独被当作绝对的是非答案，仍需结合现实条件和其他牌判断。"
+    },
+    {
+      "id": "world-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当世界正位出现在行动问题中，可以表示已有条件支持把当前阶段完成，或继续执行一个已经发展成熟的计划。重点是完成、落实和整合，而不是不断重新开始。"
+    },
+    {
+      "id": "world-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，世界正位代表明显的成功、完成和满足。它可能表示项目顺利完成、职业阶段取得成果、获得认可，或进入更广阔的发展平台。"
+    },
+    {
+      "id": "world-upright-career-international",
+      "orientation": "upright",
+      "topic": "career_international",
+      "content": "该来源把世界与海外发展和国际认可联系起来。在明确涉及跨国工作、海外市场、国际团队或远距离机会的问题中，世界可以强化事业影响范围扩大的主题。"
+    },
+    {
+      "id": "world-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "世界可以代表远距离旅行、跨国移动或国际环境。在旅行、迁移或海外发展相关问题中，这一现实层面的含义尤其值得考虑。"
+    },
+    {
+      "id": "world-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，世界正位表示稳定、持续和共同成长。双方能够在关系中继续发展个人生活，同时维持具有支持性和生命力的连接。"
+    },
+    {
+      "id": "world-upright-relationship-growth",
+      "orientation": "upright",
+      "topic": "relationship_dynamic",
+      "content": "世界所代表的稳定不是停滞，而是双方在共同认可的关系结构中仍然能够成长和发展。关系具有持续动力，而不是仅仅因为习惯维持。"
+    },
+    {
+      "id": "world-upright-long-distance",
+      "orientation": "upright",
+      "topic": "long_distance",
+      "content": "该来源认为世界在特定关系情境中可能与异地伴侣、远距离关系或旅行过程中认识的人有关。这一解释应在问题本身涉及距离、旅行或跨地区生活时使用。"
+    },
+    {
+      "id": "world-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "世界逆位仍然可能包含成功和完成，但个人可能暂时无法维持成果，或者某个周期尚未真正整合完成。它更接近不完整或暂时性的成功，而不是单纯失败。"
+    },
+    {
+      "id": "world-reversed-success",
+      "orientation": "reversed",
+      "topic": "success",
+      "content": "世界逆位可能表示曾经取得明显成果，但这种成功没有长期保持。过去的成就仍然具有价值，只是当前需要理解如何建立更稳定、可持续的基础。"
+    },
+    {
+      "id": "world-reversed-incompletion",
+      "orientation": "reversed",
+      "topic": "completion",
+      "content": "世界逆位可能表示某件事情看似已经接近完成，却仍然存在没有真正解决或整合的部分。在宣告结束之前，可能还需要完成最后的理解、决定或实际工作。"
+    },
+    {
+      "id": "world-reversed-growth",
+      "orientation": "reversed",
+      "topic": "growth",
+      "content": "世界逆位提醒，一个阶段的成功不是最终终点。当前成果之后可能立即出现新的挑战，因此需要把过去的经验转化为继续成长的基础。"
+    },
+    {
+      "id": "world-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，世界逆位可能表示已经取得一定成功或认可，却无法长期保持原有高点，或者职业目标仍差最后一步完成。重点是建立可持续性，而不是把阶段性下降解释为全部失败。"
+    },
+    {
+      "id": "world-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，世界逆位可能表示关系已经取得某些稳定成果，却仍存在未完成的发展课题，或者过去的稳定状态正在发生变化。关系需要继续成长，不能只依赖过去已经建立的模式。"
+    },
+    {
+      "id": "world-symbolism-wreath",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "世界牌中没有明显起点和终点的花环象征完成、循环与持续发展。成功不是一个永久静止的位置，而是一个可以不断展开的新周期。"
+    },
+    {
+      "id": "world-symbolism-four-elements",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "世界四角的四种形象象征不同元素和生命能力已经得到更充分的认识与整合。它们与命运之轮中的对应形象形成发展关系：从看见不同力量走向真正协调它们。"
+    },
+    {
+      "id": "world-symbolism-infinity",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "世界中的无限象征强调持续的能量和循环。一个阶段完成以后仍会产生新的开始，因此结束与开始并不是完全分离的事件。"
+    },
+    {
+      "id": "world-judgement-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，审判要求回顾整段旅程并形成清晰判断，而世界表现这些经验最终得到整合之后出现的完成、协调和满足。审判偏向总结和理解，世界偏向完成并活出这种理解。"
+    },
+    {
+      "id": "world-wheel-of-fortune-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "命运之轮中的四种元素已经出现，但尚未得到完整整合；到了世界，这些不同力量以更加完整的状态再次出现。命运之轮偏向认识变化和循环，世界则表现经过完整旅程后能够在变化中维持协调。"
+    },
+    {
+      "id": "world-fool-cycle",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "世界与愚人形成大阿尔克纳旅程的循环关系。愚人带着开放和未知开始旅程，而世界表现经历并整合所有阶段后的完成；完成之后仍可以进入新的旅程，因此两张牌共同体现开始、结束与重新开始之间的循环。"
+    }
+  ]
+}

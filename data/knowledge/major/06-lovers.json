@@ -1,0 +1,122 @@
+{
+  "cardId": "the-lovers",
+  "cardNumber": 6,
+  "name": {
+    "zh": "恋人",
+    "en": "The Lovers"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/06-lovers.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "lovers-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "恋人正位的核心主题是选择、关系和进入新的成长阶段。它表示面对两个或多个可能性时，需要根据自己的成长、价值和真实需求作出决定，而不是单纯选择最安全或最熟悉的道路。"
+    },
+    {
+      "id": "lovers-upright-decision",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "恋人是一张重要的决定牌。一个选择可能意味着继续留在熟悉而安全的状态，另一个选择则可能带来风险但提供新的成长机会。过去的经验能够帮助判断自己是否已经准备好进入下一阶段。"
+    },
+    {
+      "id": "lovers-upright-growth",
+      "orientation": "upright",
+      "topic": "growth",
+      "content": "恋人正位可以表示一个人已经从过去的经历中获得成长，因此现在有能力迈向新的阶段。新的道路可能要求离开原本的安全感，但同时也可能提供更大的成长和发展空间。"
+    },
+    {
+      "id": "lovers-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，恋人正位可以表示在稳定的旧环境和具有成长潜力的新机会之间作出选择。如果现有能力已经超越当前环境能够提供的发展空间，那么承担一定风险进入新的事业阶段可能是合理的方向。"
+    },
+    {
+      "id": "lovers-upright-career-decision",
+      "orientation": "upright",
+      "topic": "career_decision",
+      "content": "当恋人出现在换工作、合作或新事业相关问题中时，重点是判断新的选择是否代表符合当前成长程度的下一阶段。稳定本身并不一定意味着应该留下，风险本身也不意味着新的方向错误。"
+    },
+    {
+      "id": "lovers-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，恋人正位可以代表新的关系、既有关系进入新的阶段，或者主动决定去爱和投入一段关系。它也与恋爱初期的浪漫、吸引和沉浸感有关。"
+    },
+    {
+      "id": "lovers-upright-commitment",
+      "orientation": "upright",
+      "topic": "commitment",
+      "content": "恋人正位强调关系中的选择和责任。真正进入一段关系或新的关系阶段，不只是感受到吸引，也意味着主动选择投入，并接受共同成长所带来的变化和责任。"
+    },
+    {
+      "id": "lovers-upright-support",
+      "orientation": "upright",
+      "topic": "support",
+      "content": "恋人正位可能表示在作出与关系有关的重要决定之后，可以从伴侣那里获得现实层面的帮助或情感支持。关系因此不仅代表吸引，也可能成为个人成长过程中的支持力量。"
+    },
+    {
+      "id": "lovers-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "恋人逆位可能表示对新阶段的期待建立在尚未成熟的梦想或理想化想象之上。当前状态可能还没有真正完成，因此急于进入新的关系或人生阶段未必能够产生稳定的发展。"
+    },
+    {
+      "id": "lovers-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，恋人逆位可能表示关系结束、关系具有破坏性，或者双方难以从最初的浪漫阶段进入更成熟和现实的关系状态。"
+    },
+    {
+      "id": "lovers-reversed-idealization",
+      "orientation": "reversed",
+      "topic": "idealization",
+      "content": "恋人逆位可能表示一个人更依赖自己对关系未来的想象，而不是根据现实中的行为和事实判断关系。持续的浪漫期待可能使人停留在并未真正发展的状态中。"
+    },
+    {
+      "id": "lovers-reversed-commitment",
+      "orientation": "reversed",
+      "topic": "commitment",
+      "content": "恋人逆位可能表现为逃避关系进一步发展所需要的承诺和责任。一个人可能希望永久维持恋爱初期的浪漫感，因为进入更深入的阶段意味着必须面对现实、不完美以及实际责任。"
+    },
+    {
+      "id": "lovers-reversed-decision",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "当恋人逆位出现在选择问题中时，可以检查自己是否因为对未来的理想化期待而急于离开当前状态。新的选择是否真正成熟，应结合现实条件、过去经验和实际行动判断，而不能只依靠希望。"
+    },
+    {
+      "id": "lovers-symbolism-choice",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "恋人牌中的男女、知识树、生命树和天使共同表现选择、关系与成长的主题。牌面将现实欲望、情感以及更高层次的人生方向联系起来，使选择不仅涉及外在结果，也涉及个人正在成为怎样的人。"
+    },
+    {
+      "id": "lovers-symbolism-integration",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "该来源通过恋人牌强调理性与热情的协调。两者并不是必须相互排斥的力量，将不同部分整合起来有助于形成更加完整的自我，并作出符合自身整体需求的选择。"
+    },
+    {
+      "id": "lovers-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将恋人与双子座联系起来，并把学习如何在多个有吸引力的可能性之间作出决定视为这一对应关系的重要课题。这属于该来源采用的塔罗与占星对应体系。"
+    },
+    {
+      "id": "lovers-hierophant-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，教皇提出传统、外部规则和他人期待的问题，而恋人进一步要求个人真正作出自己的选择。恋人因此可以表现为从遵循既有方向走向根据自身经验、关系和成长需要作出决定。"
+    }
+  ]
+}

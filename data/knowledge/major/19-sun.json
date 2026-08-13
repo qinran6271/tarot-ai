@@ -1,0 +1,164 @@
+{
+  "cardId": "the-sun",
+  "cardNumber": 19,
+  "name": {
+    "zh": "太阳",
+    "en": "The Sun"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/19-sun.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "sun-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "太阳正位代表欢乐、清晰、自信、创造力和积极发展。过去模糊或令人不安的问题逐渐变得清楚，个人能够更加自然地表达自己，并从现实生活中获得满足。"
+    },
+    {
+      "id": "sun-upright-clarity",
+      "orientation": "upright",
+      "topic": "clarity",
+      "content": "太阳正位表示事情正在变得更加清楚。相比月亮所代表的不确定、恐惧和隐藏信息，太阳强调事实逐渐显现，使个人能够更直接、更有信心地理解当前局面。"
+    },
+    {
+      "id": "sun-upright-happiness",
+      "orientation": "upright",
+      "topic": "happiness",
+      "content": "太阳与欢乐和内在满足有关。它强调幸福不仅来自外部成果，也来自个人能够体验生命中的简单乐趣，并以更加开放和积极的方式面对生活。"
+    },
+    {
+      "id": "sun-upright-self-expression",
+      "orientation": "upright",
+      "topic": "self_expression",
+      "content": "太阳正位强调真实、自然而直接的自我表达。个人更有能力把自己的想法、创造力和个性带入现实，而不需要因为恐惧或外部期待而过度隐藏自己。"
+    },
+    {
+      "id": "sun-upright-creativity",
+      "orientation": "upright",
+      "topic": "creativity",
+      "content": "太阳具有强烈的创造性和生命力。创作、表达和行动更容易自然流动，尤其适合把个人独特性直接转化为现实作品或表现。"
+    },
+    {
+      "id": "sun-upright-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "太阳正位是一张与明显成功和积极成果有关的牌。它可以表示生活、事业或关系中的进展，但成功不仅是获得外部认可，也包括能够充分发挥真实能力并享受过程。"
+    },
+    {
+      "id": "sun-upright-confidence",
+      "orientation": "upright",
+      "topic": "confidence",
+      "content": "太阳正位表示较稳定的自信和开放状态。个人不再需要让过去的恐惧完全决定行为，因此更容易相信自己的判断、能力和表达。"
+    },
+    {
+      "id": "sun-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，太阳正位可能表示成功、认可、积极进展和更充分的发挥空间。尤其在表演、艺术、创意、销售或需要公开表达个人能力的工作中，这张牌具有较强的积极意义。"
+    },
+    {
+      "id": "sun-upright-career-expression",
+      "orientation": "upright",
+      "topic": "career_expression",
+      "content": "太阳支持能够让个人真实表达自己、发挥创造力和直接展示能力的职业方向。事业满足感可能来自不仅做得好，也能够感觉这份工作真正体现了自己。"
+    },
+    {
+      "id": "sun-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，太阳正位代表欢乐、开放、真实和共同享受生活。关系中可以存在浪漫，同时也具有朋友般的轻松、玩乐和真诚欣赏。"
+    },
+    {
+      "id": "sun-upright-relationship-friendship",
+      "orientation": "upright",
+      "topic": "relationship_dynamic",
+      "content": "太阳强调友谊在亲密关系中的价值。双方能够一起享受简单的事情，通过具体而有趣的方式表达珍惜，使关系保持活力和自然连接。"
+    },
+    {
+      "id": "sun-upright-boundaries",
+      "orientation": "upright",
+      "topic": "boundaries",
+      "content": "太阳所代表的自由并不排斥边界。清楚而健康的个人界限能够减少外界混乱的影响，使个人更自由地表达真实的自己。"
+    },
+    {
+      "id": "sun-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "太阳逆位依然保留积极潜力，但可能受到自我怀疑、残余恐惧、比较或过高期待的影响。好的条件并未完全消失，只是个人较难充分感受到它们。"
+    },
+    {
+      "id": "sun-reversed-fear",
+      "orientation": "reversed",
+      "topic": "fear",
+      "content": "太阳逆位可能表示月亮阶段留下的部分恐惧仍然存在。这些担忧暂时遮挡自信和乐观，但不意味着原有的希望和能力已经消失。"
+    },
+    {
+      "id": "sun-reversed-competition",
+      "orientation": "reversed",
+      "topic": "competition",
+      "content": "太阳逆位可能表现为竞争心态，尤其当个人相信机会、爱、支持或资源不足时。过度把生活视为零和竞争，会削弱原本自然的创造力和快乐。"
+    },
+    {
+      "id": "sun-reversed-perfectionism",
+      "orientation": "reversed",
+      "topic": "perfectionism",
+      "content": "太阳逆位可能表示成果已经不错，却因为设定过高标准而无法感到满足。问题并非一定是失败，而可能是个人不断把成功标准向更远处移动。"
+    },
+    {
+      "id": "sun-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，太阳逆位可能表示创意、销售或公开表现领域竞争较强，或个人虽然已经取得成绩，却因比较和高期待而难以认可自己的成功。"
+    },
+    {
+      "id": "sun-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，太阳逆位可能表示双方出现竞争、比较或对关注和爱的不足感。关系本身未必缺乏积极基础，但需要减少互相衡量，重新回到开放、支持和共同快乐。"
+    },
+    {
+      "id": "sun-symbolism-child",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "太阳牌中的孩子象征自然、直接、开放和没有被过度恐惧限制的自我表达。它体现一种能够理解生命复杂性，同时仍然保留简单快乐的状态。"
+    },
+    {
+      "id": "sun-symbolism-wall",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "太阳牌中的石墙象征个人界限。界限能够减少外界负面影响和干扰，使个人更清楚地连接自己的内在状态并表达真实自我。"
+    },
+    {
+      "id": "sun-symbolism-sunflowers",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "向日葵象征积极、生命力和外向表达，与太阳整体的创造性、明朗和行动能量相呼应。"
+    },
+    {
+      "id": "sun-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将太阳与狮子座联系起来，并强调认识内在力量、建立界限以及以自然而欢乐的方式表达自己。这属于该来源采用的塔罗与占星体系。"
+    },
+    {
+      "id": "sun-moon-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，月亮要求进入潜意识并面对恐惧、想象和不确定，而太阳则表现这些内容得到处理后重新出现的清晰、自信和自由表达。月亮偏向面对未知，太阳偏向看清并活出真实自我。"
+    },
+    {
+      "id": "sun-major-arcana-integration",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源把太阳视为此前多张大阿尔克纳经验的整合：包含愚人的开放、魔术师的目的、女教皇的直觉、女皇的热情、皇帝的务实、恋人的关系理解、战车的情绪训练、力量的内在力量、隐士的智慧，以及对改变、恐惧、希望和自由等课题的进一步整合。"
+    }
+  ]
+}

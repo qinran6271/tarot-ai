@@ -1,0 +1,92 @@
+{
+  "cardId": "the-fool",
+  "cardNumber": 0,
+  "name": {
+    "zh": "愚人",
+    "en": "The Fool"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/00-fool.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "fool-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "愚人正位代表新的开始、自发行动、冒险、开放以及活在当下。它描述一个愿意走向未知的人，即使无法确定未来会发生什么，也愿意亲自迈出第一步。这张牌强调现在所拥有的选择和行动能力，而不是反复停留在过去或试图完全预测未来。"
+    },
+    {
+      "id": "fool-upright-decision",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "在选择和行动相关的问题中，愚人正位通常鼓励尝试和迈出第一步。即使外界认为决定存在风险，或者未来尚不明确，也不一定需要等到所有条件都确定后才行动。这张牌强调信任自己的体验、保持开放，并通过实际行动发现下一步，而不是因为害怕未知而停留在原地。"
+    },
+    {
+      "id": "fool-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业和工作问题中，愚人正位可以指向新的机会、转换方向、进入陌生领域或尝试一条尚未被证明的道路。它尤其适合描述想换工作、开始新项目或探索不同职业方向的阶段。重点不是保证结果，而是不要仅仅因为风险、不确定性或旁人的担忧就否定一个值得亲自尝试的机会。"
+    },
+    {
+      "id": "fool-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，愚人正位代表活在当下、随遇而安以及较强的自由倾向。它可能表示一段刚刚开始、充满新鲜感但尚未形成长期规划的关系，也可能指向意外出现的新关系、旅行途中认识伴侣，或双方暂时更重视当前体验而不是立即定义未来。"
+    },
+    {
+      "id": "fool-upright-person",
+      "orientation": "upright",
+      "topic": "person",
+      "content": "当愚人正位代表一个人时，这个人可能天真、自由、自发、好奇，并愿意接受新的体验。他们可能更喜欢按照当下的感觉生活，不喜欢受到长期计划、固定安排或关系承诺的过度约束，因此有时也会给人难以预测或难以捉摸的感觉。"
+    },
+    {
+      "id": "fool-upright-inner-growth",
+      "orientation": "upright",
+      "topic": "inner_growth",
+      "content": "从个人成长角度看，愚人代表以开放和信任进入新的生命阶段。真正的课题不是事先知道所有答案，而是在不知道结果的情况下仍允许自己经历、探索和学习。过去的经验可以被携带，但不应该成为阻止自己进入当下和接受新经验的束缚。"
+    },
+    {
+      "id": "fool-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "愚人逆位通常表示自由、自发性和冒险精神没有被恰当地运用。它可能表现为逃避责任、逃避承诺、无法信任自己的直觉，也可能表现为因为恐惧而迟迟不敢行动。问题并不单纯在于冒险太多或太少，而在于行动与时机、责任和现实状况之间出现了失衡。"
+    },
+    {
+      "id": "fool-reversed-decision",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "在选择问题中，愚人逆位特别提醒注意时机和独立判断。它可能表示机会出现时因为恐惧而没有行动，也可能表示在条件尚未成熟时过早行动。另一种可能是过度依赖他人的意见、预测或既定计划，以至于忽略自己的判断。此时应重新确认现实条件、自己的真实意愿以及行动时机。"
+    },
+    {
+      "id": "fool-reversed-commitment",
+      "orientation": "reversed",
+      "topic": "commitment",
+      "content": "当问题涉及承诺时，愚人逆位可能表示面对责任时产生逃离、摆脱约束或保持绝对自由的冲动。然而当前未必适合直接离开，更重要的是先处理尚未完成的问题，并承担自己应有的责任。完成这些事情之后，才更容易重新获得真正的自由和自发行动的空间。"
+    },
+    {
+      "id": "fool-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，愚人逆位可能表示对承诺的抗拒、关系方向不明确，或其中一方希望享受自由却不愿承担相应责任。它也可能表示因为害怕未知而错过发展关系的机会。判断重点在于区分真正需要的自由，与单纯为了逃避责任或恐惧未来而产生的退缩。"
+    },
+    {
+      "id": "fool-symbolism",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "愚人的旅行者、悬崖、白玫瑰、行囊、狗、太阳和远山共同强化了旅程、未知、天真、过去经验以及信任生命的主题。白玫瑰象征纯粹和天真，行囊代表已经拥有但未必完全意识到的经验与知识，狗可以象征过去对人的提醒或牵引，而走向悬崖的动作体现了即使无法预知下一步，仍愿意进入未知。"
+    },
+    {
+      "id": "fool-major-arcana-journey",
+      "orientation": "neutral",
+      "topic": "major_arcana_journey",
+      "content": "在大阿尔克纳的整体旅程中，愚人代表旅程的起点。它象征一个带着天真、开放和潜在可能性进入世界的个体，尚未掌握之后各张大阿尔克纳所代表的生命课题。愚人的核心不是无知本身，而是在尚未知道答案时仍愿意开始，并通过之后的经历逐渐获得知识、理解和成熟。"
+    }
+  ]
+}

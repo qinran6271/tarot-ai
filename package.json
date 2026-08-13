@@ -9,7 +9,9 @@
     "lint": "eslint",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "knowledge:major:preview": "tsx scripts/indexMajorKnowledge.ts",
+    "knowledge:major:upload": "tsx scripts/indexMajorKnowledge.ts --upload"
   },
   "dependencies": {
     "@neondatabase/auth": "^0.4.2-beta",

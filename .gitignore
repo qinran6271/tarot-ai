@@ -20,6 +20,9 @@
 # production
 /build
 
+# generated knowledge indexing previews
+/data/generated/
+
 # misc
 .DS_Store
 *.pem

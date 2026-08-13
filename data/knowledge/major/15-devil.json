@@ -1,0 +1,164 @@
+{
+  "cardId": "the-devil",
+  "cardNumber": 15,
+  "name": {
+    "zh": "魔鬼",
+    "en": "The Devil"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/15-devil.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "devil-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "魔鬼正位代表限制、束缚、控制和“自己没有其他选择”的感觉。当前可能存在真实限制，但也需要检查某些限制是否因为长期形成的信念、习惯或恐惧而被进一步放大。"
+    },
+    {
+      "id": "devil-upright-limiting-beliefs",
+      "orientation": "upright",
+      "topic": "limiting_beliefs",
+      "content": "魔鬼强调限制性信念。当一个人认定自己只能接受当前状态、没有其他机会或改变不可能时，这种信念本身就可能进一步限制行动和选择。"
+    },
+    {
+      "id": "devil-upright-choice",
+      "orientation": "upright",
+      "topic": "choice",
+      "content": "魔鬼正位提醒重新检查所谓的“别无选择”。当前可能确实存在现实约束，但在完全接受受困状态之前，值得区分哪些条件真正不可改变，哪些仍然存在可以探索的选择空间。"
+    },
+    {
+      "id": "devil-upright-control",
+      "orientation": "upright",
+      "topic": "control",
+      "content": "魔鬼可能表示因为感到无力或受限而加强对自己、他人或环境的控制。控制能够暂时提供安全感，却也可能使关系和生活变得更加僵硬，并强化原本的束缚感。"
+    },
+    {
+      "id": "devil-upright-desire",
+      "orientation": "upright",
+      "topic": "desire",
+      "content": "魔鬼与强烈欲望、本能和即时满足有关。当欲望完全主导判断时，一个人可能知道某种选择并不符合长期利益，却仍然被短期吸引力推动。"
+    },
+    {
+      "id": "devil-upright-materialism",
+      "orientation": "upright",
+      "topic": "materialism",
+      "content": "魔鬼可能表示过度把金钱、地位、物质成果或外部控制视为价值的主要来源。物质成功本身并非问题，但如果它成为唯一衡量标准，可能逐渐削弱更深层的满足感和人生方向。"
+    },
+    {
+      "id": "devil-upright-responsibility",
+      "orientation": "upright",
+      "topic": "responsibility",
+      "content": "魔鬼有时表示把自己的受限感完全归因于外部环境，而忽视仍然能够作出的选择。解读时应同时承认真实的外部限制，并帮助区分个人仍然可以影响和负责的部分。"
+    },
+    {
+      "id": "devil-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，魔鬼正位可能表示强烈野心、竞争、控制欲以及对金钱和最终结果的高度关注。这种专注可能带来现实成功，但也需要判断事业是否已经成为唯一价值来源，或是否正在以自由、关系和长期满足为代价。"
+    },
+    {
+      "id": "devil-upright-career-trapped",
+      "orientation": "upright",
+      "topic": "career_decision",
+      "content": "当一个人觉得自己被工作困住、只能继续某份职业或没有其他机会时，魔鬼正位提醒重新评估这种判断。现实风险可能存在，但“我完全没有选择”本身值得被进一步检验。"
+    },
+    {
+      "id": "devil-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，魔鬼正位可能表示关系由依赖、习惯、欲望、嫉妒、控制或对改变的恐惧维持。双方可能觉得无法离开，即使关系已经不再提供成长或真正满足。"
+    },
+    {
+      "id": "devil-upright-relationship-control",
+      "orientation": "upright",
+      "topic": "relationship_dynamic",
+      "content": "魔鬼在关系中可能表现为强烈控制欲或嫉妒。安全感建立在掌控伴侣而不是信任和自主之上时，关系容易逐渐从连接转变为束缚。"
+    },
+    {
+      "id": "devil-upright-relationship-desire",
+      "orientation": "upright",
+      "topic": "sexuality",
+      "content": "魔鬼可能表示强烈的性吸引或欲望在关系中占据主要位置。如果关系主要依靠欲望维持，而情感连接、尊重和共同成长明显不足，就需要区分吸引力与真正适合长期关系的条件。"
+    },
+    {
+      "id": "devil-upright-attachment",
+      "orientation": "upright",
+      "topic": "attachment",
+      "content": "魔鬼可能表示对某个人、状态、习惯或结果产生强烈依附。即使已经意识到这种依附限制了成长，熟悉感和短期满足仍可能使人不愿改变。"
+    },
+    {
+      "id": "devil-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "魔鬼逆位代表开始看见限制，并尝试获得自由。个人不再完全接受当前受困状态，而开始寻找新的选择、改变旧模式或重新获得自主权。"
+    },
+    {
+      "id": "devil-reversed-awareness",
+      "orientation": "reversed",
+      "topic": "awareness",
+      "content": "魔鬼逆位通常需要先看清束缚是如何形成的。认识到自己的信念、欲望、依赖或关系模式参与了当前限制可能令人痛苦，但这种觉察是获得自由的重要第一步。"
+    },
+    {
+      "id": "devil-reversed-freedom",
+      "orientation": "reversed",
+      "topic": "freedom",
+      "content": "魔鬼逆位表示尝试打破限制自由的链条。自由不是单纯逃离，而是理解原来的限制、重新建立选择能力，并开始按照更加自主的方式行动。"
+    },
+    {
+      "id": "devil-reversed-choice",
+      "orientation": "reversed",
+      "topic": "choice",
+      "content": "魔鬼逆位可以表示新的选择开始被看见。个人逐渐从“我没有办法”转向“我可以尝试不同的方法”，并开始挑战过去被视为不可改变的信念。"
+    },
+    {
+      "id": "devil-reversed-control",
+      "orientation": "reversed",
+      "topic": "control",
+      "content": "魔鬼逆位可能表示逐渐放弃过度控制生活和他人的需求。当不再依赖控制获得安全感时，可以把原本用于压抑、监督和维持束缚的能量投入更有价值的方向。"
+    },
+    {
+      "id": "devil-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，魔鬼逆位可能表示开始看清不健康的依赖、控制或惯性模式，并尝试重新建立边界、自主和真实选择。它可以表示改善关系模式，也可能表示逐步离开已经无法改变的束缚。"
+    },
+    {
+      "id": "devil-symbolism-chains",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "魔鬼牌中的链条看似把两个人牢牢困住，但实际上并不紧，象征某些束缚虽然真实地影响生活，却并非完全没有解除的可能。真正困难的部分往往是首先相信自己可能拥有选择。"
+    },
+    {
+      "id": "devil-symbolism-inverted-pentagram",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "该来源把倒置五角星解释为欲望或激情压过理智。它强调当强烈冲动完全主导判断时，个人更容易失去对长期后果和真实价值的观察。"
+    },
+    {
+      "id": "devil-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将魔鬼与魔羯座联系起来，并把超越纯粹物质目标、重新认识更深层人生方向视为这一对应关系的重要课题。这属于该来源采用的塔罗与占星体系。"
+    },
+    {
+      "id": "devil-temperance-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，节制要求把欲望、情绪、现实与长期方向协调起来，而魔鬼表现这种整合失败后可能出现的状态：欲望、控制、物质追求或限制性信念占据主导，使个人误以为自己没有其他选择。"
+    },
+    {
+      "id": "devil-lovers-contrast",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "恋人牌中的两个人面对选择、爱与成长，而魔鬼牌中的相似人物则处于束缚和依附中。两张牌形成对比：恋人强调主动选择关系，魔鬼则提醒关系可能在习惯、欲望或控制中逐渐变成“无法选择”的状态。"
+    }
+  ]
+}

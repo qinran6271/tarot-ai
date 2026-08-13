@@ -1,0 +1,170 @@
+{
+  "cardId": "the-moon",
+  "cardNumber": 18,
+  "name": {
+    "zh": "月亮",
+    "en": "The Moon"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/18-moon.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "moon-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "月亮正位代表梦境、潜意识、想象、恐惧和尚未完全理解的内在经验。当前情况可能存在模糊或隐藏部分，因此不适合只根据表面现象作出确定判断。"
+    },
+    {
+      "id": "moon-upright-fear",
+      "orientation": "upright",
+      "topic": "fear",
+      "content": "月亮正位可能表示对未知、改变或尚未解决经验的恐惧正在影响当前状态。恐惧本身不一定证明危险真实存在，因此需要进一步理解这种感受来自现实信息、过去经验还是想象。"
+    },
+    {
+      "id": "moon-upright-imagination",
+      "orientation": "upright",
+      "topic": "imagination",
+      "content": "月亮强调想象力具有强大的情绪影响。想象既能够支持创造、希望和愉悦，也能够不断重现过去的痛苦和恐惧，因此需要有意识地观察自己正在如何使用想象力。"
+    },
+    {
+      "id": "moon-upright-intuition",
+      "orientation": "upright",
+      "topic": "intuition",
+      "content": "月亮与直觉和潜意识信息有关，但直觉可能与恐惧、记忆和想象同时出现。解读时不应简单把所有强烈感觉都视为事实，而应结合现实信息进行辨别。"
+    },
+    {
+      "id": "moon-upright-dreams",
+      "orientation": "upright",
+      "topic": "dreams",
+      "content": "月亮与强烈、重复或令人印象深刻的梦境有关。梦可以成为观察情绪、记忆和未解决问题的线索，但不应被视为能够确定预测外部事件的证据。"
+    },
+    {
+      "id": "moon-upright-hidden-information",
+      "orientation": "upright",
+      "topic": "hidden_information",
+      "content": "月亮可能表示当前信息并不完整，事情存在尚未看见或理解的部分。这并不自动意味着欺骗，更适合继续观察、提出问题和核实事实，再形成结论。"
+    },
+    {
+      "id": "moon-upright-decision",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "当问题涉及重要选择时，月亮正位提醒不要在恐惧、幻想或信息不足的状态下过早作出确定判断。当前更适合区分已经知道的事实、自己的直觉以及尚未验证的想象。"
+    },
+    {
+      "id": "moon-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "月亮正位并不一定要求停止所有行动，而是建议在视野不清晰时谨慎前进。可以继续收集信息、观察情绪和处理恐惧，同时避免因为焦虑而采取过度反应。"
+    },
+    {
+      "id": "moon-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，月亮可能与写作、摄影、设计、艺术或其他需要想象力的工作有关。它也可能表示职业前景暂时不够清晰，因此需要进一步了解现实条件，而不是单纯依据希望或恐惧判断。"
+    },
+    {
+      "id": "moon-upright-creative-career",
+      "orientation": "upright",
+      "topic": "creativity",
+      "content": "月亮能够表现丰富的想象力和潜意识素材，因此与创意职业具有较强关联。当前的感受、梦境和内在图像可能成为创作资源，只要能够将它们转化为现实表达。"
+    },
+    {
+      "id": "moon-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，月亮正位可能表示表面看似稳定，但双方之间仍存在没有被讨论、理解或解决的问题。需要更加深入地了解真实情绪，而不是假设表面和谐代表所有问题都已经解决。"
+    },
+    {
+      "id": "moon-upright-relationship-fear",
+      "orientation": "upright",
+      "topic": "relationship_dynamic",
+      "content": "月亮在关系中可能表示对承诺、离开、失去或受伤存在深层恐惧。这些恐惧可能来自当前关系，也可能受到过去关系或家庭经验影响，因此需要区分过去和现在。"
+    },
+    {
+      "id": "moon-upright-projection",
+      "orientation": "upright",
+      "topic": "projection",
+      "content": "月亮可能表示过去经验正在影响对当前人物和事件的理解。一个人可能因为曾经受伤，而预期新的关系会产生相同结果，因此需要比较当前事实和过去形成的预期是否一致。"
+    },
+    {
+      "id": "moon-upright-deception",
+      "orientation": "upright",
+      "topic": "deception",
+      "content": "该来源认为月亮有时可以与欺骗或隐藏事实有关。但单独出现月亮不足以证明他人在说谎，更可靠的解读是当前存在信息不完整、模糊或需要进一步核实的情况。"
+    },
+    {
+      "id": "moon-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "月亮逆位可能表示过去压抑或尚未解决的恐惧重新浮现，并变得更难忽略。当前需要面对这些内在问题，而不是继续通过外部活动或控制来回避它们。"
+    },
+    {
+      "id": "moon-reversed-fear",
+      "orientation": "reversed",
+      "topic": "fear",
+      "content": "月亮逆位可能表示恐惧已经明显影响判断和行为。此时需要重新建立事实感和稳定感，并检查最令人害怕的情境是否已经被想象进一步放大。"
+    },
+    {
+      "id": "moon-reversed-unresolved",
+      "orientation": "reversed",
+      "topic": "unresolved_issues",
+      "content": "月亮逆位可能表示尚未处理的问题再次出现。相似情境之所以反复触发强烈反应，可能说明过去的经验仍然需要进一步理解和整合。"
+    },
+    {
+      "id": "moon-reversed-externalization",
+      "orientation": "reversed",
+      "topic": "avoidance",
+      "content": "月亮逆位可能表现为把内在冲突转化为外部争端，因为具体的现实冲突比模糊的内在恐惧更容易处理。牌面提醒不要只解决表面冲突，也要关注真正触发它的情绪来源。"
+    },
+    {
+      "id": "moon-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情问题中，月亮逆位可能表示过去没有解决的情绪和恐惧再次影响关系。真正需要处理的可能并不只是当前事件，而是它触发了哪些更早形成的担忧、期待或防御模式。"
+    },
+    {
+      "id": "moon-symbolism-path",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "月亮牌中的道路从水池延伸到远方，象征即使面对未知和恐惧，仍然存在继续前进的路径。当前无法看清全部道路，并不代表前方没有方向。"
+    },
+    {
+      "id": "moon-symbolism-dog-wolf",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "狗和狼象征较原始的本能反应以及面对未知时产生的恐惧。这些力量可能发出强烈警报，但需要被理解和面对，而不是自动被视为现实危险的准确判断。"
+    },
+    {
+      "id": "moon-symbolism-water",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "月亮牌中的水池象征潜意识和情感世界。隐藏在水中的内容逐渐浮现，表现个人需要面对平常未被充分注意的感受、记忆和本能反应。"
+    },
+    {
+      "id": "moon-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将月亮与巨蟹座联系起来，并强调面对个人恐惧以及创造性运用想象力是这一对应关系的重要课题。这属于该来源采用的塔罗与占星体系。"
+    },
+    {
+      "id": "moon-star-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，星星建立对自己和生命可能性的信心，而月亮要求带着这种信心进一步进入潜意识，面对其中的恐惧、想象和未解决经验。星星提供希望，月亮测试这种希望能否在不确定和恐惧中继续存在。"
+    },
+    {
+      "id": "moon-high-priestess-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "女教皇首先感受到隐藏的潜意识水域，星星更加直接地接触它，而月亮则进一步进入其中较复杂的恐惧、梦境和想象内容。三张牌共同表现从感知内在世界到真正面对其内容的过程。"
+    }
+  ]
+}

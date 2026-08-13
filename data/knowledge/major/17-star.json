@@ -1,0 +1,164 @@
+{
+  "cardId": "the-star",
+  "cardNumber": 17,
+  "name": {
+    "zh": "星星",
+    "en": "The Star"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/17-star.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "star-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "星星正位代表希望、信心、创造力和内在平静。经历较剧烈的变化之后，个人开始重新获得空间和稳定，并能够再次看到未来存在的可能性。"
+    },
+    {
+      "id": "star-upright-hope",
+      "orientation": "upright",
+      "topic": "hope",
+      "content": "星星是一张重新点燃希望的牌。它表示即使过去经历了失去、混乱或重大变化，当前仍然可以逐渐恢复对未来以及自身能力的信心。"
+    },
+    {
+      "id": "star-upright-recovery",
+      "orientation": "upright",
+      "topic": "recovery",
+      "content": "星星正位可能表示从高压、混乱或情绪动荡中进入更加平静的恢复阶段。当前不一定需要立刻解决新的问题，而可以利用较稳定的空间重新整理自己。"
+    },
+    {
+      "id": "star-upright-creativity",
+      "orientation": "upright",
+      "topic": "creativity",
+      "content": "星星与创造力和灵感有关。个人可以从更深层的内在感受、想象和潜意识中获得素材，并把这些内容转化为现实中的作品、表达或行动。"
+    },
+    {
+      "id": "star-upright-purpose",
+      "orientation": "upright",
+      "topic": "purpose",
+      "content": "星星可以表示重新连接真正的人生方向。旧结构被清理之后，个人可能更加自由地听见自己的真实需求，并理解哪些事情更符合长期价值和内在目标。"
+    },
+    {
+      "id": "star-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及下一步行动时，星星正位更强调从清晰、希望和真实需求出发。当前不必因为过去的困难而假设未来仍然只能重复旧结果，可以允许自己探索新的可能。"
+    },
+    {
+      "id": "star-upright-confidence",
+      "orientation": "upright",
+      "topic": "confidence",
+      "content": "星星正位表示对自己和人生可能性重新建立信任。这种信心不是保证所有事情都会按照愿望发生，而是相信自己有能力继续创造、调整和寻找方向。"
+    },
+    {
+      "id": "star-upright-inner-peace",
+      "orientation": "upright",
+      "topic": "inner_peace",
+      "content": "星星可以表示一种安静而从容的内在状态。过去的紧迫感减弱，个人拥有更多余裕思考和感受，因此更容易辨认真正重要的需求。"
+    },
+    {
+      "id": "star-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，星星正位可以表示对未来职业可能性重新产生信心，并适合探索更符合真实兴趣、创造力和长期方向的工作。它尤其适合与创意、表达或个人愿景相关的问题。"
+    },
+    {
+      "id": "star-upright-rest",
+      "orientation": "upright",
+      "topic": "rest",
+      "content": "星星有时表示休息、假期或一段较轻松的时期。适当减少压力可以帮助恢复能量、重新获得灵感，并创造思考未来方向的空间。"
+    },
+    {
+      "id": "star-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，星星正位代表希望、信任、支持和自由。健康的关系能够让双方在保持连接的同时拥有自主空间，并支持彼此成为更加真实的自己。"
+    },
+    {
+      "id": "star-upright-relationship-future",
+      "orientation": "upright",
+      "topic": "relationship_dynamic",
+      "content": "星星正位可能表示对关系未来保持乐观，并认为当前关系具有继续改善和成长的空间。重点是希望建立在支持、自由和真实表达之上，而不是控制或依赖。"
+    },
+    {
+      "id": "star-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "星星逆位可能表示希望下降、缺少灵感、失去方向或暂时无法与内在资源建立联系。可能性未必消失，但当前个人较难感受到它们。"
+    },
+    {
+      "id": "star-reversed-hopelessness",
+      "orientation": "reversed",
+      "topic": "hope",
+      "content": "星星逆位可能表示对未来能够改善的信心下降。过去的困难、空虚或孤独感可能使个人难以想象新的可能，因此需要重新建立与真实需求和支持来源的联系。"
+    },
+    {
+      "id": "star-reversed-creativity",
+      "orientation": "reversed",
+      "topic": "creativity",
+      "content": "星星逆位可能表示创意停滞或灵感减少。尤其在创作性工作中，问题可能不是缺乏能力，而是压力、疲惫或与内在感受失去联系，使新的想法暂时难以出现。"
+    },
+    {
+      "id": "star-reversed-purpose",
+      "orientation": "reversed",
+      "topic": "purpose",
+      "content": "星星逆位可能表示暂时失去人生方向。过去能够带来满足的事情已经不再有效，而新的方向还没有形成，因此当前更适合重新检查真正重要的价值和需求。"
+    },
+    {
+      "id": "star-reversed-rest",
+      "orientation": "reversed",
+      "topic": "rest",
+      "content": "星星逆位可能让人感觉需要更多自由、休息或离开当前环境，但真正需要恢复的也可能是内在空间。单纯改变外部环境未必足够，还需要重新连接自己的需求和创造力。"
+    },
+    {
+      "id": "star-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，星星逆位可能表示对职业方向失去信心、创意枯竭或现有工作不再提供过去的满足感。此时可以重新评估哪些工作内容仍然有意义，以及哪些部分已经需要改变。"
+    },
+    {
+      "id": "star-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，星星逆位可能表示对关系未来失去信心、个人空间不足，或难以在关系中保持真实自我。需要重新检查关系是否仍然提供支持、自由和成长空间。"
+    },
+    {
+      "id": "star-symbolism-water",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "星星牌中的水象征潜意识、内在资源和创造力。女人把水同时带向陆地并让部分水重新流回水池，表现从内在获得灵感、转化为现实表达，再重新成为更广泛经验的一部分。"
+    },
+    {
+      "id": "star-symbolism-stars",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "星星象征希望、方向、更新和力量。清晰的天空与明亮星光表现经历混乱之后重新获得的清楚视野。"
+    },
+    {
+      "id": "star-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将星星与水瓶座联系起来，并强调自由、突破狭隘传统以及建立意识与潜意识之间的联系。这属于该来源采用的塔罗与占星体系。"
+    },
+    {
+      "id": "star-tower-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，高塔打破已经失效的结构并带来剧烈变化，而星星表现这些结构被清理后重新出现的希望、自由、宁静与创造力。高塔偏向拆除，星星偏向恢复和重新连接未来可能性。"
+    },
+    {
+      "id": "star-high-priestess-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源把星星与女教皇联系起来：女教皇能够感受到隐藏在布幔后的内在水域，却尚未充分理解；到了星星，个人已经能够更加直接地接触这部分内在资源，并把它转化为现实中的创造和表达。"
+    }
+  ]
+}

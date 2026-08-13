@@ -1,0 +1,34 @@
+{
+  "id": "major-arcana-overview",
+  "name": {
+    "zh": "大阿尔克纳",
+    "en": "Major Arcana"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/overview.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "major-arcana-overview-meaning",
+      "topic": "general",
+      "content": "大阿尔克纳由二十二张牌组成。在解读中，大阿尔克纳通常更侧重事件背后的深层原因、精神意义和个人需要理解的人生课题，而不仅仅描述表面发生的具体事件。它们可以用于探索为什么某种经历或人生模式反复出现，以及这些经历可能要求当事人认识或学习什么。"
+    },
+    {
+      "id": "major-arcana-overview-multiple-cards",
+      "topic": "reading_pattern",
+      "content": "当一次牌阵中出现较多大阿尔克纳时，整次解读可能更强调深层原因、内在成长、精神意义或重要的人生课题，而具体事件本身的重要性可能相对降低。大阿尔克纳的集中出现可以作为判断一次解读整体性质的信号。"
+    },
+    {
+      "id": "major-arcana-overview-seven-card-method",
+      "topic": "reading_method",
+      "content": "在该来源所采用的七张牌解读方法中，当七张牌里出现四张或更多大阿尔克纳时，可以针对这些大阿尔克纳增加补充牌，以进一步探索它们所代表的深层原因和意义。这属于特定来源的解读方法，而不是所有塔罗体系必须遵循的通用规则。"
+    }
+  ]
+}

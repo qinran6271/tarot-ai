@@ -1,0 +1,122 @@
+{
+  "cardId": "the-hierophant",
+  "cardNumber": 5,
+  "name": {
+    "zh": "教皇",
+    "en": "The Hierophant"
+  },
+  "arcana": "major",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/major/05-hierophant.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "hierophant-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "教皇正位与传统、制度、教育、信仰和外部指导有关。它可能表示当前正在遵循某个已经存在的体系或他人的方向，同时也提醒个人需要判断这些规则是否真正符合自己的理解和需求。"
+    },
+    {
+      "id": "hierophant-upright-responsibility",
+      "orientation": "upright",
+      "topic": "personal_growth",
+      "content": "教皇的重要课题是为自己的人生方向和内在成长承担责任。老师、传统或团体能够提供指导，但如果完全把判断交给外部权威，就可能限制自己的经验和理解。"
+    },
+    {
+      "id": "hierophant-upright-tradition",
+      "orientation": "upright",
+      "topic": "tradition",
+      "content": "教皇正位可能表示遵循传统方法、社会规范或既有制度。这些结构可以提供稳定和清晰的道路，但牌面同时提醒，熟悉或被广泛接受的方法并不一定是唯一的方法。"
+    },
+    {
+      "id": "hierophant-upright-authority",
+      "orientation": "upright",
+      "topic": "authority",
+      "content": "当教皇代表外部影响时，它可能象征老师、导师、宗教或教育机构以及其他能够提供规则和方向的权威。解读时可以关注当事人是在主动接受指导，还是已经过度依赖他人的判断。"
+    },
+    {
+      "id": "hierophant-upright-learning",
+      "orientation": "upright",
+      "topic": "learning",
+      "content": "教皇与学习和传承知识有关。现有体系可以帮助一个人获得方向，但真正形成理解仍需要结合自己的直接经验、思考和验证，而不是仅仅接受别人给出的结论。"
+    },
+    {
+      "id": "hierophant-upright-decision",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "当问题涉及选择时，教皇正位可以提示检查自己是否只是因为传统、家庭、团体或权威认为某条道路正确而选择它。当前采用的方法可能有效，但仍值得确认是否存在其他更符合自身情况的可能性。"
+    },
+    {
+      "id": "hierophant-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，教皇正位可能表示关系受到家庭期待、社会规范或传统观念影响。伴侣可能为了符合外界对关系的期待而压抑自身真正的需求，因此需要区分外界规定的关系形式和双方真正适合的相处方式。"
+    },
+    {
+      "id": "hierophant-upright-relationship-conformity",
+      "orientation": "upright",
+      "topic": "relationship_dynamic",
+      "content": "教皇可能表示一段关系逐渐流于形式和固定规则，例如因为别人都这样生活，所以双方也照着相同方式继续。牌面提醒两个人重新审视习惯和规则，而不是把社会通行模式自动视为唯一正确的关系方式。"
+    },
+    {
+      "id": "hierophant-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "教皇逆位与开放新的思想、质疑既有规则以及拒绝某些传统观念有关。它可能表示一个人开始根据自己的理解重新设计人生，而不再自动遵循过去接受的模式。"
+    },
+    {
+      "id": "hierophant-reversed-independence",
+      "orientation": "reversed",
+      "topic": "independence",
+      "content": "教皇逆位可以表示开始为自己的内在成长和人生方向承担责任。即使独立探索的道路更加困难，它也强调通过自己的经验和判断形成真正属于自己的价值体系。"
+    },
+    {
+      "id": "hierophant-reversed-unconventional",
+      "orientation": "reversed",
+      "topic": "unconventional",
+      "content": "教皇逆位可能对应非传统理念、生活方式或道路。它并不自动表示反传统就是正确，而是鼓励个人判断哪些规则仍然有价值，哪些规则已经不再适合自己的成长。"
+    },
+    {
+      "id": "hierophant-reversed-authority-dependence",
+      "orientation": "reversed",
+      "topic": "authority",
+      "content": "教皇逆位也可能出现一种表面反传统、实际上仍依赖权威的状态。例如，一个人离开旧的体系后完全依附另一个非传统团体或导师。真正的课题不是更换权威，而是培养自己的判断能力。"
+    },
+    {
+      "id": "hierophant-symbolism-followers",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "教皇面前的两名信徒象征接受教导和既有道路的人。这个画面既表现指导、教育和知识传递，也提出了依赖外部中介与建立个人直接理解之间的张力。"
+    },
+    {
+      "id": "hierophant-symbolism-keys",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "教皇牌中的钥匙与获取知识和理解有关。该来源借此强调外在知识与内在经验都具有价值，只接受外部教条而缺乏直接体验可能导致理解停留在表面。"
+    },
+    {
+      "id": "hierophant-symbolism-structure",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "教皇所在的建筑与石柱象征制度和结构。结构能够提供方向、减少选择的困难，但也可能让个人把责任交给体系，因此需要在接受结构帮助和保持自主判断之间取得平衡。"
+    },
+    {
+      "id": "hierophant-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将教皇与金牛座联系起来，并以“自己的方式并不是唯一方式”作为这一对应关系的重要课题之一。这属于该来源采用的塔罗与占星对应体系。"
+    },
+    {
+      "id": "hierophant-emperor-progression",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的大阿尔克纳发展逻辑中，皇帝强调现实社会中的结构、责任和秩序，而教皇进一步把责任问题带到信仰、价值观和内在方向上。皇帝更偏向外在秩序，教皇则提出个人如何面对精神和思想层面的权威。"
+    }
+  ]
+}
