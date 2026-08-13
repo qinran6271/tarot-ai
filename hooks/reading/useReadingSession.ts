@@ -32,6 +32,7 @@ import type {
 } from "@/types/reading";
 import type { DrawnCard } from "@/types/tarot";
 import type { TarotSpread } from "@/lib/spreads";
+import { getStoredReadingLanguage } from "@/lib/readingLanguage";
 
 type UseReadingSessionParams = {
   readingId: string; // URL 中为本次咨询预先生成或已保存的 ID
@@ -133,6 +134,7 @@ export function useReadingSession({
               question,
               spread: selectedSpread,
               cards,
+              readingLanguage: getStoredReadingLanguage(),
             }),
           }
         );

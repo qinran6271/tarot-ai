@@ -8,10 +8,16 @@ import {
   Sparkles,
 } from "lucide-react";
 import Link from "next/link";
-import type { ReactNode } from "react";
+import { useSyncExternalStore, type ReactNode } from "react";
 
 import { authClient } from "@/lib/auth/client";
 import { version as appVersion } from "@/package.json";
+import {
+  getStoredReadingLanguage,
+  saveStoredReadingLanguage,
+  subscribeToReadingLanguage,
+  type ReadingLanguagePreference,
+} from "@/lib/readingLanguage";
 
 type SettingsSectionProps = {
   icon: ReactNode;
@@ -131,6 +137,15 @@ function ComingSoonRow({
 
 export default function SettingsPage() {
   const { data: session } = authClient.useSession();
+  const readingLanguage = useSyncExternalStore(
+    subscribeToReadingLanguage,
+    getStoredReadingLanguage,
+    () => "en",
+  );
+
+  function updateReadingLanguage(value: ReadingLanguagePreference) {
+    saveStoredReadingLanguage(value);
+  }
 
   return (
     <main className="mx-auto flex min-h-screen max-w-md flex-col px-6 pb-10 pt-8">
@@ -142,6 +157,29 @@ export default function SettingsPage() {
       </div>
 
       <div className="space-y-8">
+        <SettingsSection icon={<Sparkles size={15} />} title="Reading">
+          <SettingsRow
+            label="Reading language"
+            description="Choose the language used for newly generated readings."
+            trailing={
+              <select
+                aria-label="Reading language"
+                value={readingLanguage}
+                onChange={(event) =>
+                  updateReadingLanguage(
+                    event.target.value as ReadingLanguagePreference,
+                  )
+                }
+                className="rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm text-gray-700 outline-none focus:border-yellow-300 focus:ring-2 focus:ring-yellow-100"
+              >
+                <option value="en">English</option>
+                <option value="zh-CN">简体中文</option>
+                <option value="auto">Auto</option>
+              </select>
+            }
+          />
+        </SettingsSection>
+
         {session?.user ? (
           <SettingsSection
             icon={<CircleUserRound size={15} />}
@@ -160,11 +198,6 @@ export default function SettingsPage() {
             Coming soon
           </h2>
           <div className="divide-y divide-white overflow-hidden rounded-2xl bg-gray-50">
-            <ComingSoonRow
-              icon={<Sparkles size={17} />}
-              label="Reading preferences"
-              description="Choose card and reading defaults."
-            />
             <ComingSoonRow
               icon={<Palette size={17} />}
               label="Appearance"

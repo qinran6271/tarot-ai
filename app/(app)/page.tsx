@@ -19,6 +19,10 @@ import type { Reading, ReadingContent, ReadingMessage } from "@/types/reading";
 
 import { useRouter } from "next/navigation";
 import { useTarotStore } from "@/store/tarotStore";
+import {
+  getReadingLanguage,
+  getStoredReadingLanguage,
+} from "@/lib/readingLanguage";
 
 function timeBasedGreeting() {
   const hour = new Date().getHours();
@@ -159,14 +163,21 @@ export default function Home() {
     if (!userId) saveDailyReading(tempReading);
 
     try {
+      const readingLanguage = getStoredReadingLanguage();
+      const dailyPrompt =
+        getReadingLanguage("", readingLanguage) === "zh-CN"
+          ? "今天我需要注意什么？请给我一张今日塔罗指引。"
+          : "What should I pay attention to today? Give me guidance through today's tarot card.";
+
       const response = await fetch("/api/reading", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          question: "今天我需要注意什么？请给我一张今日塔罗指引。",
+          question: dailyPrompt,
           spread: "Daily Card",
+          readingLanguage,
           cards: [
             {
               ...card,

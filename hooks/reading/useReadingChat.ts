@@ -14,6 +14,7 @@ import type { Dispatch, SetStateAction } from "react";
 
 import { useTarotStore } from "@/store/tarotStore";
 import type { Reading, ReadingMessage } from "@/types/reading";
+import { getStoredReadingLanguage } from "@/lib/readingLanguage";
 
 // 这个Hook接收什么参数类型
 // 1. currentReading：当前完整咨询（原始问题，牌阵，卡牌，以及解读，当前推荐问题）
@@ -83,6 +84,7 @@ export function useReadingChat({
         body: JSON.stringify({
           reading: currentReading,
           message: text,
+          readingLanguage: getStoredReadingLanguage(),
         }),
       });
 

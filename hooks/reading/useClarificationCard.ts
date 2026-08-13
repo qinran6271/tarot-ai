@@ -21,6 +21,10 @@ import type {
 } from "react";
 
 import { drawAvailableCard } from "@/lib/tarot";
+import {
+  getClarificationCopy,
+  getStoredReadingLanguage,
+} from "@/lib/readingLanguage";
 import { useTarotStore } from "@/store/tarotStore";
 import type {
   Reading,
@@ -174,6 +178,7 @@ export function useClarificationCard({
             },
 
             disableClarificationSuggestion: true,
+            readingLanguage: getStoredReadingLanguage(),
           }),
         }
       );
@@ -263,15 +268,20 @@ export function useClarificationCard({
       return;
     }
 
+    const copy = getClarificationCopy(
+      currentReading.focus,
+      getStoredReadingLanguage(),
+    );
+
     const message: ReadingMessage = {
       id: crypto.randomUUID(),
       role: "assistant",
       kind: "clarification-reading",
-      content: "Let's draw one more card for an additional layer of insight.",
+      content: copy.content,
       createdAt: new Date().toISOString(),
       clarificationSuggestion: {
-        reason: "Use an extra card whenever you want more detail or a fresh perspective.",
-        question: `What additional insight can clarify: ${currentReading.focus}`,
+        reason: copy.reason,
+        question: copy.question,
         status: "pending",
       },
     };

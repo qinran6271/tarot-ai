@@ -1,6 +1,10 @@
 import OpenAI from "openai";
 import { NextResponse } from "next/server";
 import { readingRules } from "@/lib/readingRules";
+import {
+  getReadingLanguageInstruction,
+  type ReadingLanguagePreference,
+} from "@/lib/readingLanguage";
 import { searchTarotKnowledge } from "@/lib/rag/searchTarotKnowledge";
 import { DrawnCard } from "@/types/tarot";
 
@@ -14,6 +18,7 @@ type ReadingRequestBody = {
   spread?: {
     name?: string;
   };
+  readingLanguage?: ReadingLanguagePreference;
 };
 
 export async function POST(request: Request) {
@@ -22,6 +27,7 @@ export async function POST(request: Request) {
       question,
       cards,
       spread,
+      readingLanguage = "en",
     } = (await request.json()) as ReadingRequestBody;
 
     if (!question?.trim() || !Array.isArray(cards) || cards.length === 0) {
@@ -101,6 +107,11 @@ ${retrievedKnowledge}
       )
       .join("\n");
 
+    const languageInstruction = getReadingLanguageInstruction(
+      question,
+      readingLanguage,
+    );
+
     const response = await client.responses.create({
       model: "gpt-4.1-mini",
       input: `
@@ -131,7 +142,8 @@ Knowledge Usage Guidelines:
 Generate a complete tarot reading based on the user's question and the spread.
 
 Language Rules:
-- Don't reply the language differently from the user's question.
+- ${languageInstruction}
+- The language is fixed for the entire response, including follow-up questions.
 - Maintain a warm, conversational tone that feels like an experienced tarot reader speaking directly to the user.
 
 Requirements:
@@ -146,7 +158,7 @@ Requirements:
 - Never claim certainty about the future.
 - Avoid repetitive phrases such as "This card represents..." or "This means...".
 - Avoid absolute language such as "definitely", "certainly", "guaranteed", or "100%".
-- Follow the language rule at all times.
+- Follow the language rules at all times.
 
 Spread-Specific Reading Guidelines:
 ${readingRules}

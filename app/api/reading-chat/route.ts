@@ -1,5 +1,9 @@
 import OpenAI from "openai";
 import { NextResponse } from "next/server";
+import {
+  getReadingLanguageInstruction,
+  type ReadingLanguagePreference,
+} from "@/lib/readingLanguage";
 
 const client = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -12,6 +16,7 @@ export async function POST(request: Request) {
       message,
       clarification,
       disableClarificationSuggestion = false,
+      readingLanguage = "en",
     } = await request.json();
 
     if (!reading || (!message && !clarification)) {
@@ -56,6 +61,13 @@ export async function POST(request: Request) {
             .join("\n\n")
         : "No previous conversation.";
 
+    // The original focus establishes the language for the whole reading. This
+    // prevents short follow-ups such as "OK" from causing language drift.
+    const languageInstruction = getReadingLanguageInstruction(
+      reading.focus,
+      readingLanguage as ReadingLanguagePreference,
+    );
+
 if (clarification) {
   const clarificationResponse = await client.responses.create({
     model: "gpt-4.1-mini",
@@ -87,7 +99,8 @@ ${clarification.card.name} ${
     }
 
 Instructions:
-- Answer in the same language as the clarification question.
+- ${languageInstruction}
+- Keep this language for every user-facing JSON field.
 - Explain how this specific card answers the clarification question.
 - Stay grounded in the original reading and previous conversation.
 - Focus mainly on the clarification card.
@@ -99,7 +112,7 @@ Instructions:
 - Avoid absolute or guaranteed predictions.
 - Keep the interpretation concise, around 1 to 3 paragraphs.
 - Generate 3 natural follow-up questions.
-- Follow-up questions must use the same language as the clarification question.
+- Follow-up questions must use the fixed reading language.
 
 Return only valid JSON.
 Do not use markdown.
@@ -199,7 +212,8 @@ User follow-up question:
 ${message}
 
 Rules:
-- Answer in the same language as the user's follow-up question.
+- ${languageInstruction}
+- Keep this language even when the latest message is short or written in another language.
 - Stay grounded in the original cards and previous conversation.
 - Do not draw a new card yourself.
 - Do not pretend that a new card has already been drawn.
@@ -209,7 +223,7 @@ Rules:
 - Do not be overly certain about future events.
 - Avoid absolute predictions such as "definitely", "100%", or "fated".
 - Generate 3 follow-up questions that naturally continue from the latest answer.
-- The follow-up questions must use the same language as the user's question.
+- The follow-up questions must use the fixed reading language.
 
 Clarification card rules:
 ${clarificationRule}
@@ -217,7 +231,7 @@ ${clarificationRule}
 When recommending a clarification card:
 - clarificationReason should briefly explain what remains unclear.
 - clarificationQuestion should be one focused question for the new card.
-- clarificationQuestion must use the same language as the user's question.
+- clarificationQuestion must use the fixed reading language.
 
 When not recommending a clarification card:
 - clarificationReason must be an empty string.
