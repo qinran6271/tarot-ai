@@ -1,0 +1,120 @@
+{
+  "suitId": "cups",
+  "name": {
+    "zh": "圣杯",
+    "en": "Cups"
+  },
+  "arcana": "minor",
+  "element": "water",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/00-overview.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "cups-general-element",
+      "orientation": "neutral",
+      "topic": "general",
+      "content": "圣杯牌组对应水元素。水不主动寻找挑战或冲突，而倾向于顺应生命之流，并从整体角度理解人与他人之间的情感联系。"
+    },
+    {
+      "id": "cups-water-self",
+      "orientation": "neutral",
+      "topic": "identity",
+      "content": "火强调人的行动，水则显示人的本质。生活会改变外表、处境和所在地，但真实自我可能如河流一样，在不断变化中仍保持延续。"
+    },
+    {
+      "id": "cups-core-meanings",
+      "orientation": "neutral",
+      "topic": "general",
+      "content": "圣杯代表爱、想象、和谐、情感理解与被动创造力。圣杯类型的核心态度是通过爱来给予和接受。"
+    },
+    {
+      "id": "cups-active-creativity",
+      "orientation": "neutral",
+      "topic": "creativity",
+      "content": "圣杯本身偏向想象和被动创造力；当它与权杖的行动力及五角星的现实力量结合时，可以把情感与想象转化为积极、具体的创造。"
+    },
+    {
+      "id": "cups-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "圣杯宫廷牌对应水象星座巨蟹座、天蝎座和双鱼座，但圣杯牌更重要的是描述人物的情感类型、创造力和回应关系的方式，而不仅是标示星座。"
+    },
+    {
+      "id": "cups-person-appearance",
+      "orientation": "neutral",
+      "topic": "person_appearance",
+      "content": "传统描述中，圣杯类型可能具有蓝色或淡褐色眼睛以及棕金色头发，但外貌只是次要线索，也可以象征人物温和、敏锐、富有想象力的本性。"
+    },
+    {
+      "id": "cups-court-card-appearance-modifier",
+      "orientation": "neutral",
+      "topic": "court_card_interpretation",
+      "relatedCardIds": [
+        "queen-of-cups",
+        "four-of-pentacles"
+      ],
+      "content": "数字牌伴随宫廷牌时，可能进一步修饰人物的外貌或特质。例如圣杯皇后与五角星四共同出现，可能保留圣杯皇后的敏锐与创造力，同时增加较深的头发或眼睛特征。"
+    },
+    {
+      "id": "cups-giving-and-receiving-love",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "健康的圣杯能量强调给予爱和接受爱同样重要。允许别人付出并心怀感激地接受，是表达重视的一种方式，能够加深友谊或亲密关系中的信任。"
+    },
+    {
+      "id": "cups-love-cannot-be-possessed",
+      "orientation": "neutral",
+      "topic": "relationship",
+      "content": "圣杯象征接纳，并提醒爱不能被占有，只能被给予和接受。情感满足来自关系中的流动、理解与互相回应，而不是控制。"
+    },
+    {
+      "id": "cups-shadow-unmet-love",
+      "orientation": "reversed",
+      "topic": "shadow",
+      "content": "失衡的圣杯类型可能无法在爱中获得满足，或因无法原谅过去的人与旧有创伤而难以重新去爱。当爱的需求长期没有满足时，可能变得压抑、冷酷或愤世嫉俗。"
+    },
+    {
+      "id": "cups-shadow-substitution",
+      "orientation": "reversed",
+      "topic": "avoidance",
+      "content": "当情感需求无法满足时，失衡的圣杯能量可能用金钱、权力、过度进食、酒精、药物、肉欲、赌博或其他外在刺激替代爱，并误以为满足只能来自身外之物。"
+    },
+    {
+      "id": "cups-shadow-fantasy",
+      "orientation": "reversed",
+      "topic": "escapism",
+      "content": "无法满足爱的需要时，圣杯类型可能长期沉浸在白日梦和幻想中，或者不断寻找更强烈的外在刺激，以逃避现实中的情感空缺。"
+    },
+    {
+      "id": "cups-reversed-love-scarcity",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "圣杯逆位可能表示爱以压抑、阻塞或扭曲的方式表达。若一个人害怕爱是匮乏的，或认为付出会使自己失去已有的爱，关系中可能出现控制和权力斗争。"
+    },
+    {
+      "id": "cups-reversed-stagnation",
+      "orientation": "reversed",
+      "topic": "emotional_stagnation",
+      "content": "当现实没有提供渴望的情感满足时，失衡的圣杯能量可能变得冷漠，并通过幻想逃避现实，如同停止流动后逐渐停滞的水。"
+    },
+    {
+      "id": "cups-reversed-court-old-wounds",
+      "orientation": "reversed",
+      "topic": "court_card_interpretation",
+      "relatedCardIds": [
+        "page-of-cups",
+        "knight-of-cups",
+        "queen-of-cups",
+        "king-of-cups"
+      ],
+      "content": "圣杯宫廷牌逆位可能暗示一个人仍未放下旧有的情感创伤。若希望新的爱进入生活，需要面对、理解并宽恕过去，让情绪重新恢复流动。"
+    }
+  ]
+}

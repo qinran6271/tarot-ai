@@ -1,0 +1,116 @@
+{
+  "suitId": "pentacles",
+  "name": {
+    "zh": "五角星",
+    "en": "Pentacles"
+  },
+  "arcana": "minor",
+  "element": "earth",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/00-overview.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "pentacles-general-element",
+      "orientation": "neutral",
+      "topic": "general",
+      "content": "五角星牌组对应土元素，关注真实、物质、身体、资源及可持续的现实成果。"
+    },
+    {
+      "id": "pentacles-final-product",
+      "orientation": "neutral",
+      "topic": "manifestation",
+      "content": "权杖、圣杯与宝剑分别提供行动、情感和思想，五角星则关注这些力量最终形成的现实结果。"
+    },
+    {
+      "id": "pentacles-earth-topics",
+      "orientation": "neutral",
+      "topic": "element",
+      "content": "土元素涵盖身体、健康习惯、金钱、工作、住房、技能、时间和物质资源。"
+    },
+    {
+      "id": "pentacles-present-focus",
+      "orientation": "neutral",
+      "topic": "time",
+      "content": "五角星能量倾向关注当下条件，并通过稳定投入使抽象想法逐步形成具体成果。"
+    },
+    {
+      "id": "pentacles-symbol-five-points",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "传统解释把五角星的五个尖点对应头、双臂和双腿，表现心智与身体行动的整体。"
+    },
+    {
+      "id": "pentacles-symbol-upward-point",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "五角星向上的尖点象征心智引导身体欲望、热情和行动。"
+    },
+    {
+      "id": "pentacles-symbol-circle",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "包围五角星的圆圈象征集中和容纳能量，使其能够持续用于现实目的。"
+    },
+    {
+      "id": "pentacles-personality",
+      "orientation": "neutral",
+      "topic": "personality",
+      "content": "五角星类型通常被描述为务实、重视自然、商业往来、物质条件与生活稳定。"
+    },
+    {
+      "id": "pentacles-body-awareness",
+      "orientation": "neutral",
+      "topic": "body",
+      "content": "五角星原型强调关注身体需要、健康习惯和现实环境，但牌面不能保证个人健康。"
+    },
+    {
+      "id": "pentacles-many-cards",
+      "orientation": "neutral",
+      "topic": "spread_pattern",
+      "content": "牌阵中出现多张五角星牌时，通常表示金钱、工作、资源、身体或其他现实问题占据重要位置。"
+    },
+    {
+      "id": "pentacles-career-finance-spread",
+      "orientation": "neutral",
+      "topic": "career_finance",
+      "content": "询问事业或财务问题时经常出现五角星牌，因为它们直接对应资源、报酬和现实执行。"
+    },
+    {
+      "id": "pentacles-practical-questions",
+      "orientation": "neutral",
+      "topic": "planning",
+      "content": "五角星式规划会检查时间、资金、人力、客户需求，以及资源是否足以启动并维持计划。"
+    },
+    {
+      "id": "pentacles-balanced-expression",
+      "orientation": "neutral",
+      "topic": "balance",
+      "content": "成熟的五角星能量能够落实构想、照顾身体、管理资源，并为长期目标建立稳定基础。"
+    },
+    {
+      "id": "pentacles-shadow-materialism",
+      "orientation": "neutral",
+      "topic": "shadow",
+      "content": "五角星能量失衡时，可能只用金钱衡量价值，或过度追求物质安全。"
+    },
+    {
+      "id": "pentacles-shadow-stagnation",
+      "orientation": "neutral",
+      "topic": "shadow",
+      "content": "过分关注现实限制可能表现为害怕改变，并忽略情感、意义、想象与创造力。"
+    },
+    {
+      "id": "pentacles-reality-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "五角星牌不能保证财富、收益或健康；现实决定仍需预算、专业意见、可靠信息和持续行动。"
+    }
+  ]
+}

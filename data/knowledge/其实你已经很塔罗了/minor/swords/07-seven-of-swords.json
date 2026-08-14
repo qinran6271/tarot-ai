@@ -1,0 +1,162 @@
+{
+  "cardId": "seven-of-swords",
+  "cardNumber": 7,
+  "name": {
+    "zh": "宝剑七",
+    "en": "Seven of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/07-seven-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "seven-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑七正位表示当前方法若无法奏效，就需要重新评估局势并寻找更灵活、更有效的途径。"
+    },
+    {
+      "id": "seven-of-swords-upright-persistence",
+      "orientation": "upright",
+      "topic": "persistence",
+      "content": "宝剑七正位延续塔罗牌中七的共同主题：不要轻易放弃，尤其不要在思维上认输。"
+    },
+    {
+      "id": "seven-of-swords-upright-new-method",
+      "orientation": "upright",
+      "topic": "strategy",
+      "content": "当既有做法反复产生不理想结果时，宝剑七正位建议改变行动组合，测试此前没有考虑过的方案。"
+    },
+    {
+      "id": "seven-of-swords-upright-resourcefulness",
+      "orientation": "upright",
+      "topic": "resourcefulness",
+      "content": "宝剑七正位可以表示应变能力、策略思考，以及在资源受限时寻找可行出路。"
+    },
+    {
+      "id": "seven-of-swords-upright-evaluate-options",
+      "orientation": "upright",
+      "topic": "decision_making",
+      "content": "宝剑七正位建议暂停并审慎检查所有选择，通过比较风险、资源与后果发现更有效的解决方式。"
+    },
+    {
+      "id": "seven-of-swords-upright-unconventional-thinking",
+      "orientation": "upright",
+      "topic": "creativity",
+      "content": "宝剑七正位鼓励从不同角度看问题；非常规思考可能揭示先前被忽略的机会。"
+    },
+    {
+      "id": "seven-of-swords-upright-secrecy",
+      "orientation": "upright",
+      "topic": "secrecy",
+      "content": "宝剑七正位也可能表示秘密、隐藏动机、信息没有完整披露，或当事人正在避开公开行动。"
+    },
+    {
+      "id": "seven-of-swords-upright-deception",
+      "orientation": "upright",
+      "topic": "deception",
+      "content": "在阴影层面，宝剑七正位可能警告欺骗、投机或绕开责任；需结合现实证据判断，不能仅凭牌意指控他人。"
+    },
+    {
+      "id": "seven-of-swords-upright-business-due-diligence",
+      "orientation": "upright",
+      "topic": "business",
+      "content": "在投资、合作或重要承诺中，宝剑七正位建议核实合同、记录、数据和资金状况，避免只依赖对方的口头陈述。"
+    },
+    {
+      "id": "seven-of-swords-symbolism-camp",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的军营象征竞争、风险与力量差距，也说明当事人需要在压力下选择策略。"
+    },
+    {
+      "id": "seven-of-swords-symbolism-stolen-swords",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物带走对方武器，既象征通过策略改变力量对比，也呈现秘密行动和道德风险。"
+    },
+    {
+      "id": "seven-of-swords-neutral-strategy-versus-deception",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "宝剑七的变通与欺骗是两种不同方向。应根据问题背景、行为后果和周围牌判断，不能把灵活策略直接等同于不诚实。"
+    },
+    {
+      "id": "seven-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑七正位可能表示回避沟通、隐瞒真实需求，或双方没有完全坦诚。"
+    },
+    {
+      "id": "seven-of-swords-upright-relationship-new-approach",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "宝剑七正位也可建议改变关系中的旧互动模式，以更直接的沟通、清晰边界或专业协助取代反复争吵和试探。"
+    },
+    {
+      "id": "seven-of-swords-relationship-three-of-cups",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "three-of-cups"
+      ],
+      "content": "传统解读中，宝剑七与圣杯三共同出现时可能提示第三者或关系边界不清，但牌面组合不能证明外遇，仍需沟通与现实证据确认。"
+    },
+    {
+      "id": "seven-of-swords-upright-ethical-strategy",
+      "orientation": "upright",
+      "topic": "advice",
+      "content": "改变方法不等于操控他人。宝剑七正位的有效策略应尊重各方意愿，并以诚实、安全和可持续为基础。"
+    },
+    {
+      "id": "seven-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑七逆位可能表示仍在使用过时或无效的方法，需要改变思考方式、态度或行动。"
+    },
+    {
+      "id": "seven-of-swords-reversed-seek-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "宝剑七逆位建议听取可信赖的外部意见，因为他人的观察可能指出自己长期忽略的盲点。"
+    },
+    {
+      "id": "seven-of-swords-reversed-repeated-results",
+      "orientation": "reversed",
+      "topic": "pattern",
+      "content": "持续重复相同做法通常会产生相似结果；若不满意现状，需要在行动层面作出实际改变。"
+    },
+    {
+      "id": "seven-of-swords-reversed-self-deception",
+      "orientation": "reversed",
+      "topic": "self_awareness",
+      "content": "宝剑七逆位可能象征自我欺骗，即只接受能维护旧信念的信息，从而缩窄认知和选择。"
+    },
+    {
+      "id": "seven-of-swords-reversed-truth-revealed",
+      "orientation": "reversed",
+      "topic": "truth",
+      "content": "宝剑七逆位也可能表示隐瞒被揭露，或当事人终于愿意承认此前一直回避的事实。"
+    },
+    {
+      "id": "seven-of-swords-reversed-let-go",
+      "orientation": "reversed",
+      "topic": "letting_go",
+      "content": "宝剑七逆位要求放下已经失效的信念、习惯和解释方式，不再死守旧有思维。"
+    },
+    {
+      "id": "seven-of-swords-reversed-realistic-change",
+      "orientation": "reversed",
+      "topic": "change",
+      "content": "改变想法不会自动控制外部世界，但会改变选择与行动，并增加产生不同结果的可能性。"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "cardId": "nine-of-wands",
+  "cardNumber": 9,
+  "name": {
+    "zh": "权杖九",
+    "en": "Nine of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/09-nine-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "nine-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖九正位表示到了重新评估当前承诺、过去行动和未来方向的时候。它强调从已经经历的成功与失败中学习，并判断哪些计划值得继续，哪些已经不再适合投入。"
+    },
+    {
+      "id": "nine-of-wands-upright-reassessment",
+      "orientation": "upright",
+      "topic": "reassessment",
+      "content": "权杖九正位要求回顾过去的尝试，区分有效的行动与无效的消耗。不是所有计划都需要坚持到底，有些未完成或不再合适的事情需要被放下，以便把有限的精力用于更重要的方向。"
+    },
+    {
+      "id": "nine-of-wands-upright-commitment",
+      "orientation": "upright",
+      "topic": "commitment",
+      "content": "权杖九正位与重新衡量承诺有关。更深入投入某个目标、关系或生活方向，往往意味着减少或放弃其他承诺，因此需要明确未来真正优先的事项。"
+    },
+    {
+      "id": "nine-of-wands-upright-past-success-failure",
+      "orientation": "upright",
+      "topic": "reflection",
+      "content": "权杖九正位强调同时检视过去的成功和失败，并以这些经验决定下一步。失败并不只是负面结果，也可以帮助判断哪些道路不适合继续。"
+    },
+    {
+      "id": "nine-of-wands-upright-conflict-pattern",
+      "orientation": "upright",
+      "topic": "conflict",
+      "content": "权杖九正位可能表示一个人已经习惯处于冲突和防御状态，以至于不断寻找新的问题或对抗来维持熟悉的刺激感。长期的争斗可能从外部事件逐渐变成一种身体和情绪上的模式。"
+    },
+    {
+      "id": "nine-of-wands-upright-hypervigilance",
+      "orientation": "upright",
+      "topic": "attitude",
+      "content": "权杖九正位可以表现为高度警觉和随时准备应战的状态。虽然这种警觉可能曾经帮助个人面对困难，但长期维持会限制放松、信任和自然生活的能力。"
+    },
+    {
+      "id": "nine-of-wands-upright-inner-source-of-conflict",
+      "orientation": "upright",
+      "topic": "inner_conflict",
+      "content": "权杖九正位提示部分外部冲突可能来自尚未处理的内在问题。一个人可能不断把自己的恐惧、不接受的部分或不安投射到别人身上，从而把内在矛盾体验为外部敌意。"
+    },
+    {
+      "id": "nine-of-wands-upright-projection",
+      "orientation": "upright",
+      "topic": "projection",
+      "content": "该来源认为，权杖九可能涉及把自己无法接受的部分加诸他人，使原本内在的恐惧或感觉获得一个外部对象。若持续只寻找外在敌人，就难以处理真正造成冲突的根本原因。"
+    },
+    {
+      "id": "nine-of-wands-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及下一步行动时，权杖九正位倾向于先评估而不是盲目继续。应检查哪些投入仍有价值，哪些行动只是重复过去的冲突，并根据经验重新安排未来的精力和承诺。"
+    },
+    {
+      "id": "nine-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，权杖九正位可以表示重新审视职业、项目或商业承诺。过去的失败可能使个人更加谨慎，而当前任务是利用这些经验判断是否继续、调整方向，或放弃某些不完整的计划。"
+    },
+    {
+      "id": "nine-of-wands-upright-new-venture-caution",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "经历过事业损失或失败后，权杖九正位可以反映面对新机会时自然产生的谨慎。过去经验值得参考，但重点是理性评估风险，而不是让过去完全阻止新的尝试。"
+    },
+    {
+      "id": "nine-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖九正位表示以谨慎和防备的态度面对伴侣或亲密关系。过去曾受到的伤害或未解决的关系经验，可能影响当前投入和建立承诺的能力。"
+    },
+    {
+      "id": "nine-of-wands-upright-relationship-commitment",
+      "orientation": "upright",
+      "topic": "commitment",
+      "content": "权杖九正位提示需要重新衡量自己对当前关系的承诺。若希望关系进一步发展，可能需要重新安排其他生活重心，并确认过去的经验是否仍在限制现在的选择。"
+    },
+    {
+      "id": "nine-of-wands-upright-past-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "尚未解决的过去关系经验可能使权杖九正位的人难以完全投入当前关系。此时重要的是区分过去的伤害与现在的实际情况，而不是自动把旧有防御带进新的关系。"
+    },
+    {
+      "id": "nine-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖九逆位可能表示当前问题已经超过个人现有的体力、信心或应对能力，并伴随恐惧、疑惑和失败感。过去形成的防御方式可能已经无法有效应对现在的处境。"
+    },
+    {
+      "id": "nine-of-wands-reversed-overwhelmed",
+      "orientation": "reversed",
+      "topic": "pressure",
+      "content": "权杖九逆位可以表示长期对抗已经造成过度消耗，个人觉得眼前问题超过自己能够承受的范围。继续使用相同的方式硬撑，可能只会增加疲惫和挫折。"
+    },
+    {
+      "id": "nine-of-wands-reversed-fear",
+      "orientation": "reversed",
+      "topic": "fear",
+      "content": "权杖九逆位可能表示深受恐惧和疑惑影响。面对问题时，反应可能更多来自过去形成的防卫模式，而不是根据当前现实作出的判断。"
+    },
+    {
+      "id": "nine-of-wands-reversed-defense-pattern",
+      "orientation": "reversed",
+      "topic": "defense",
+      "content": "权杖九逆位可以表示过去曾经有效的防御或生存机制已经不再适合现在。例如曾经通过逃避危险保护自己的人，可能在成年后的关系冲突中继续自动逃离，从而阻碍关系发展。"
+    },
+    {
+      "id": "nine-of-wands-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖九逆位可能表示过去的恐惧和防御反应严重影响当前关系。面对矛盾时，个人可能逃避、关闭或过度防卫，使双方难以建立更深入的信任和承诺。"
+    },
+    {
+      "id": "nine-of-wands-reversed-focus-on-failure",
+      "orientation": "reversed",
+      "topic": "mindset",
+      "content": "权杖九逆位可能表示过度关注失败而忽略已经取得的成功。持续只看见失败容易削弱信心，并使个人把暂时未达到预期的结果误解为彻底失败。"
+    },
+    {
+      "id": "nine-of-wands-reversed-failure-as-feedback",
+      "orientation": "reversed",
+      "topic": "reflection",
+      "content": "该来源认为失败可以成为通往成功的一部分。没有达到预期结果至少提供了关于某种方法无效的信息，因此失败可以被理解为反馈和延迟，而不必被视为终点。"
+    },
+    {
+      "id": "nine-of-wands-reversed-change-method",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "权杖九逆位并不一定意味着必须放弃目标，而可能表示需要改变处理问题的方法。如果原有对抗方式已经失败，继续重复相同策略不会改善结果，应寻找新的应对方式。"
+    },
+    {
+      "id": "nine-of-wands-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，权杖九逆位可能表示过去的失败使个人过度谨慎、自我怀疑或害怕再次尝试。此时需要从经验中提取有效信息，并改变策略，而不是只因为过去失败就认定新的机会也会失败。"
+    },
+    {
+      "id": "nine-of-wands-symbolism-alert-figure",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的人物强壮而高度警觉，象征长期处于准备应战、防守和处理冲突的状态。这种力量能够帮助他面对困难，但也可能使他难以真正放松。"
+    },
+    {
+      "id": "nine-of-wands-symbolism-conflict-pattern",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "权杖九中的防守姿态体现了过去多次争斗留下的影响。冲突不再只是一次性的事件，而可能已经形成一种习惯性的生活和心理模式。"
+    },
+    {
+      "id": "nine-of-wands-devil-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源把权杖九中将无法接受的内在部分投射到外界的现象，与大阿尔克纳魔鬼牌联系起来。两者都可能涉及尚未被承认的内在内容，通过外部对象或冲突表现出来。"
+    },
+    {
+      "id": "eight-of-wands-nine-of-wands-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "权杖八正位代表较自由、顺畅和少有阻碍的生命经验，而权杖九进一步要求回顾行动带来的结果并重新评估承诺。经历持续行动之后，需要判断哪些方向值得继续，而不是无止境地维持战斗状态。"
+    },
+    {
+      "id": "nine-of-wands-reversed-eight-of-wands-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源认为权杖九逆位需要回到权杖八正位的课题。过度恐惧和防御可能限制自由、舒适和自然流动的生活经验，因此需要重新学习在没有持续冲突的情况下生活和与人相处。"
+    }
+  ]
+}

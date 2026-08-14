@@ -1,0 +1,52 @@
+{
+  "guideId": "court-cards",
+  "name": { "zh": "宫廷牌", "en": "Court Cards" },
+  "scope": "guide",
+  "sources": [{
+    "sourceId": "其实你已经很塔罗了",
+    "book": "其实你已经很塔罗了（简体版）",
+    "author": "Paul Fenton",
+    "translator": "許慈倩",
+    "sourceFile": "sources/其实你已经很塔罗了/guides/01-court-cards.md"
+  }],
+  "knowledge": [
+    {
+      "id": "court-cards-person-or-state",
+      "orientation": "neutral",
+      "topic": "court_card_interpretation",
+      "content": "宫廷牌既可能代表具体人物，也可能描述一种状态、性格或行为方式。应结合问题、牌阵位置和周围牌判断，而不能只按人物性别或外貌机械对应。"
+    },
+    {
+      "id": "court-cards-reversed-emotional-state",
+      "orientation": "reversed",
+      "topic": "emotional_state",
+      "relatedCardIds": ["queen-of-cups", "king-of-cups"],
+      "content": "圣杯皇后或圣杯国王逆位可能描述当事人在情绪上无法原谅或放下过去，即使这个人的日常性格并不符合该宫廷牌的传统人物类型。"
+    },
+    {
+      "id": "court-cards-reversed-self-harm-and-worth",
+      "orientation": "reversed",
+      "topic": "self_perception",
+      "relatedCardIds": ["queen-of-swords", "queen-of-pentacles"],
+      "content": "宝剑皇后逆位可能象征当事人在精神或思想层面伤害自己；五角星皇后逆位可能象征缺乏自信或自我价值感。"
+    },
+    {
+      "id": "court-cards-multiple-traits-one-person",
+      "orientation": "neutral",
+      "topic": "combined_personality",
+      "content": "两张国王，或者一张国王与一张骑士，可能描述同一个人交替出现的两种特质，而不一定代表两个不同的人。"
+    },
+    {
+      "id": "court-cards-gender-tendencies",
+      "orientation": "neutral",
+      "topic": "person_identity",
+      "content": "传统上，国王和骑士较常代表成年男性，皇后较常代表成年女性，侍卫可能代表年轻男性或年轻女性。这些只是常见倾向，不能取代对实际情境的判断。"
+    },
+    {
+      "id": "court-cards-multiple-people-or-aspects",
+      "orientation": "neutral",
+      "topic": "multiple_court_cards",
+      "content": "多张宫廷牌同时出现，既可能表示多位不同人物，也可能表示同一个人的多个面向。应先通过问题、牌阵位置和周围牌确认人物数量。"
+    }
+  ]
+}

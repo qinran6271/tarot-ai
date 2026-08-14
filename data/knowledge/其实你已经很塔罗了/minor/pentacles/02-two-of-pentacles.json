@@ -1,0 +1,195 @@
+{
+  "cardId": "two-of-pentacles",
+  "cardNumber": 2,
+  "name": {
+    "zh": "五角星二",
+    "en": "Two of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/02-two-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "two-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星二正位表示在金钱、时间、体力或现实机会之间权衡，并作出资源取舍。"
+    },
+    {
+      "id": "two-of-pentacles-upright-balance",
+      "orientation": "upright",
+      "topic": "balance",
+      "content": "五角星二正位象征在必须完成的责任与真正想做的事情之间寻找平衡。"
+    },
+    {
+      "id": "two-of-pentacles-upright-multiple-demands",
+      "orientation": "upright",
+      "topic": "resources",
+      "content": "这张牌可能表示同时管理事业与兴趣、主业与副业，或多项竞争有限资源的责任。"
+    },
+    {
+      "id": "two-of-pentacles-upright-dynamic-balance",
+      "orientation": "upright",
+      "topic": "planning",
+      "content": "五角星二的平衡是动态调整；新的费用、期限和机会出现时，需要持续更新优先级。"
+    },
+    {
+      "id": "two-of-pentacles-upright-decision",
+      "orientation": "upright",
+      "topic": "decision_making",
+      "content": "面对两项现实选择时，应比较必要性、截止时间、风险、回报和长期影响。"
+    },
+    {
+      "id": "two-of-pentacles-upright-delay-decision",
+      "orientation": "upright",
+      "topic": "decision_making",
+      "content": "若暂时无法决定，应确认延迟会产生的成本，以及最晚必须作出选择的时间。"
+    },
+    {
+      "id": "two-of-pentacles-symbolism-juggler",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "杂耍者象征同时调配金钱、时间、体力、技能和其他有限资源。"
+    },
+    {
+      "id": "two-of-pentacles-symbolism-infinity",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "围绕两枚五角星的无限符号象征收入、支出、储蓄和投入形成不断流动的资源循环。"
+    },
+    {
+      "id": "two-of-pentacles-symbolism-ships",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "船只随波浪起伏象征生活和经济条件存在周期，资源充足与紧张时期会交替出现。"
+    },
+    {
+      "id": "two-of-pentacles-symbolism-cycle-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "波浪意象提示周期变化，并不表示财富或机会会自动随命运到来。"
+    },
+    {
+      "id": "two-of-pentacles-symbolism-lower-pentacle",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物关注较低的五角星，可能象征眼前即将发生的支出或最紧迫的现实责任。"
+    },
+    {
+      "id": "two-of-pentacles-symbolism-movement",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "橙红衣服与不断移动的双脚，表示赚钱、花钱和维持平衡都需要持续行动与体力。"
+    },
+    {
+      "id": "two-of-pentacles-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业中，五角星二正位可能表示在两个工作、两个项目或两条职业路径之间作选择。"
+    },
+    {
+      "id": "two-of-pentacles-upright-cash-flow",
+      "orientation": "upright",
+      "topic": "finance",
+      "content": "五角星二正位常与现金流管理有关，例如安排收入时间、账单顺序和非紧急支出。"
+    },
+    {
+      "id": "two-of-pentacles-upright-finance-long-term",
+      "orientation": "upright",
+      "topic": "finance",
+      "content": "短期灵活调度可以缓解压力，但长期依靠延迟付款或拆借并不稳定，应建立预算和应急储备。"
+    },
+    {
+      "id": "two-of-pentacles-financial-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "塔罗不能判断投资回报或替代财务规划；重大金钱决定应依据数字、合同、风险承受能力和专业意见。"
+    },
+    {
+      "id": "two-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星二正位可能表示比较两个关系机会，或评估关系带来的现实成本与责任。"
+    },
+    {
+      "id": "two-of-pentacles-upright-relationship-next-stage",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "五角星二可能出现在考虑同居、买房、结婚、养育孩子或合并财务的阶段。"
+    },
+    {
+      "id": "two-of-pentacles-upright-relationship-planning",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "关系进入现实承诺阶段时，双方应讨论预算、劳动分工、职业安排和共同目标。"
+    },
+    {
+      "id": "two-of-pentacles-upright-wealth-choice",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "财务稳定是合理考量，但若只按财富选择伴侣而忽略情感、价值观与相处质量，物质优势未必带来情感满足。"
+    },
+    {
+      "id": "two-of-pentacles-upright-multiple-relationships",
+      "orientation": "upright",
+      "topic": "relationship_ethics",
+      "content": "若同时涉及两段关系，应避免隐瞒或利用比较操控他人，并明确诚实、同意和关系边界。"
+    },
+    {
+      "id": "two-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星二逆位表示两全其美可能已不可行，需要在现实选择之间明确取舍。"
+    },
+    {
+      "id": "two-of-pentacles-reversed-let-go",
+      "orientation": "reversed",
+      "topic": "letting_go",
+      "content": "五角星二逆位可能表示逐渐清楚必须放弃什么，才能集中资源实现主要方向。"
+    },
+    {
+      "id": "two-of-pentacles-reversed-opportunity-cost",
+      "orientation": "reversed",
+      "topic": "decision_making",
+      "content": "选择会伴随机会成本，主动放弃某一项并不一定代表失败。"
+    },
+    {
+      "id": "two-of-pentacles-reversed-overextended",
+      "orientation": "reversed",
+      "topic": "overcommitment",
+      "content": "五角星二逆位可能表示同时承担太多事务或资金分散过度，导致各项计划都无法完成。"
+    },
+    {
+      "id": "two-of-pentacles-reversed-rushing",
+      "orientation": "reversed",
+      "topic": "warning",
+      "content": "为了追赶所有责任而操之过急，可能造成错误、疲惫和资源浪费。"
+    },
+    {
+      "id": "two-of-pentacles-reversed-cut-costs",
+      "orientation": "reversed",
+      "topic": "finance",
+      "content": "资源进入低潮时，适合减少昂贵却低价值的支出、项目或承诺，把资源集中到必要目标。"
+    },
+    {
+      "id": "two-of-pentacles-reversed-prioritize",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "列出全部责任并区分必须保留、可以延后和应当停止的项目，同时为选择设定明确期限。"
+    },
+    {
+      "id": "two-of-pentacles-reversed-essential-needs",
+      "orientation": "reversed",
+      "topic": "safety_caution",
+      "content": "若基本生活、债务或健康已经受到影响，应优先处理安全和必要需求，并及时寻求可靠专业支持。"
+    }
+  ]
+}

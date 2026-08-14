@@ -1,0 +1,189 @@
+{
+  "cardId": "seven-of-wands",
+  "cardNumber": 7,
+  "name": {
+    "zh": "权杖七",
+    "en": "Seven of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/07-seven-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "seven-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖七正位象征面对更大的挑战、竞争或反对时仍然坚持自己的方向，并通过坚韧不拔的努力争取成功。当前局面可能并不轻松，但仍然处于可以掌控和应对的范围内。"
+    },
+    {
+      "id": "seven-of-wands-upright-perseverance",
+      "orientation": "upright",
+      "topic": "perseverance",
+      "content": "权杖七正位的核心讯息是不要放弃。即使阻力比过去更强，只要继续投入体力、行动和决心，坚持眼前的工作，努力最终可能获得相应的回报。"
+    },
+    {
+      "id": "seven-of-wands-upright-conflict",
+      "orientation": "upright",
+      "topic": "conflict",
+      "content": "权杖七正位可以表示周围的人反对你的想法、计划或行动，因此需要为自己的立场和成果进行防守。这种冲突通常意味着需要持续证明、维护或捍卫当前方向。"
+    },
+    {
+      "id": "seven-of-wands-upright-defense",
+      "orientation": "upright",
+      "topic": "defense",
+      "content": "权杖七正位具有保卫自己立场、成果或领域的含义。虽然需要面对来自外部的压力和挑战，但个人仍具有应对能力，因此关键是保持立场并继续投入。"
+    },
+    {
+      "id": "seven-of-wands-upright-challenge",
+      "orientation": "upright",
+      "topic": "challenge",
+      "content": "权杖七正位可能表示当前阶段需要更大的挑战。对权杖类型而言，挑战本身能够激发行动力和生命力，因此困难并不一定代表走错方向，也可能意味着正在进入更高层次的发展。"
+    },
+    {
+      "id": "seven-of-wands-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及下一步行动时，权杖七正位倾向于继续前进而不是退缩。保持投入、积极应对反对并持续执行既定目标，比因为困难而过早放弃更符合这张牌的方向。"
+    },
+    {
+      "id": "seven-of-wands-upright-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "权杖七正位表示成功可能来自持续坚持，而不是轻易取得。面对阻碍时继续努力，会提高最终获得成果的可能，因此这张牌强调的是经过挑战和防守之后取得的成功。"
+    },
+    {
+      "id": "seven-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，权杖七正位可能表示扩大业务、进入新市场、事业多元化或承担更具挑战性的工作。新的发展机会会带来新的难题，但也可能成为进一步成长和取得成果的途径。"
+    },
+    {
+      "id": "seven-of-wands-upright-business-expansion",
+      "orientation": "upright",
+      "topic": "business",
+      "content": "该来源将权杖七与开拓州际或海外市场联系起来。扩展会带来新的竞争和挑战，因此这张牌可以表示通过进入更大的市场或新的业务领域来推动进一步发展。"
+    },
+    {
+      "id": "seven-of-wands-upright-financial-goal",
+      "orientation": "upright",
+      "topic": "financial_goal",
+      "content": "权杖七正位可以表示为了具体目标而承担更大的工作量，例如同时做两份工作以储蓄旅行费用或房屋定金。它强调通过持续投入和额外努力来获得想要的实际回报。"
+    },
+    {
+      "id": "seven-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖七正位可以表示关系正面对比以前更大的挑战。双方需要投入更多精力来适应新的情况，并通过坚持和共同应对压力维持关系的发展。"
+    },
+    {
+      "id": "seven-of-wands-upright-relationship-defense",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖七正位有时表示伴侣中的一方需要为自己的信念、选择或行动进行辩护。这可能反映关系内部出现立场差异，也可能意味着双方需要面对外部压力。"
+    },
+    {
+      "id": "seven-of-wands-upright-commitment",
+      "orientation": "upright",
+      "topic": "commitment",
+      "content": "权杖七正位可以表示关系进入更高层次承诺之后出现新的挑战。更深入的承诺并不一定让关系变得更轻松，而可能要求双方学习如何承担以前没有经历过的责任和压力。"
+    },
+    {
+      "id": "seven-of-wands-upright-family-change",
+      "orientation": "upright",
+      "topic": "family",
+      "content": "该来源以新生婴儿为例说明权杖七的关系挑战：家庭进入新阶段时，紧张和责任可能增加，需要经过一段适应期，直到新的生活结构逐渐稳定下来。"
+    },
+    {
+      "id": "seven-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖七逆位表示目前的能量或信心不足以应付眼前挑战，并可能因此陷入焦虑、优柔寡断或低落。问题也可能来自继续使用已经不适合当前环境的旧方法。"
+    },
+    {
+      "id": "seven-of-wands-reversed-low-energy",
+      "orientation": "reversed",
+      "topic": "energy",
+      "content": "权杖七逆位可以表示行动所需要的火元素能量不足。面对反对和困难时，个人可能无法维持过去的斗志，因此更容易感到疲惫、焦虑或失去方向。"
+    },
+    {
+      "id": "seven-of-wands-reversed-anxiety",
+      "orientation": "reversed",
+      "topic": "emotion",
+      "content": "权杖七逆位可能表现为面对挑战时的焦虑、优柔寡断或忧郁。外部问题本身可能仍有解决空间，但个人当前的心理状态使其难以发挥原本拥有的行动力和自信。"
+    },
+    {
+      "id": "seven-of-wands-reversed-old-methods",
+      "orientation": "reversed",
+      "topic": "strategy",
+      "content": "权杖七逆位可能表示过去有效的方法已经无法适应新的环境。继续按照旧模式行动会限制新的结果，因此需要放弃过时的策略并寻找更符合当前情境的新方法。"
+    },
+    {
+      "id": "seven-of-wands-reversed-old-beliefs",
+      "orientation": "reversed",
+      "topic": "belief",
+      "content": "权杖七逆位可以表示需要放弃已经不合时宜的信念或自我认知。继续坚持限制自己的旧态度，会使个人停留在过去，而无法适应现在的能力、环境和发展需要。"
+    },
+    {
+      "id": "seven-of-wands-reversed-dont-persist",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "按照该来源的体系，倒立的七带有“不要坚持”的含义。权杖七逆位并不是要求对所有事情坚持到底，而是提醒停止坚持已经证明不合适的方法、态度或信念。"
+    },
+    {
+      "id": "seven-of-wands-reversed-change-method",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "如果希望得到不同的结果，权杖七逆位强调尝试不同的方法。不断重复过去的行为通常只会产生过去相同的结果，因此改变策略可能比继续增加努力更加重要。"
+    },
+    {
+      "id": "seven-of-wands-reversed-decision",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "权杖七逆位可以提示需要明确决定下一步的行动方向。当方向确定以后，原本属于权杖的自信和行动力可能重新恢复，从而帮助个人应对当前困难。"
+    },
+    {
+      "id": "seven-of-wands-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业或商业问题中，权杖七逆位可能表示新的市场、投资或机会本身具有潜力，但个人受到过去工作方式的限制。调整策略、工作环境或经营方法，可能比继续照旧行动更有效。"
+    },
+    {
+      "id": "seven-of-wands-reversed-adaptation",
+      "orientation": "reversed",
+      "topic": "adaptation",
+      "content": "权杖七逆位强调适应新的环境。当前困难可能并非因为能力不足，而是旧方法与新处境不匹配，因此真正需要改变的是应对方式，而不是单纯增加投入。"
+    },
+    {
+      "id": "seven-of-wands-symbolism-defensive-figure",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的人物以具有决心和激情的姿态面对来自下方的权杖，象征个人正处于防守位置，需要保护自己的立场、成果或领域。"
+    },
+    {
+      "id": "seven-of-wands-symbolism-conflict",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的对抗场景强化了权杖七关于挑战、竞争和防守的主题。与权杖五相似，它都涉及冲突，但权杖七更强调个人面对外部压力并坚持自身立场。"
+    },
+    {
+      "id": "five-of-wands-seven-of-wands-contrast",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "权杖五和权杖七都与冲突有关，但权杖五更强调多人之间缺乏协调、彼此竞争的混乱状态，而权杖七更强调个人已经有明确立场，并需要面对反对、保卫成果和坚持方向。"
+    },
+    {
+      "id": "seven-of-wands-number-seven",
+      "orientation": "neutral",
+      "topic": "numerology",
+      "content": "该来源认为正位的七带有“不要放弃”的课题，因此权杖七强调在挑战加剧时继续投入；而倒立的七则具有“不要坚持”的含义，强调放弃已经不合时宜的旧方法和信念。"
+    }
+  ]
+}

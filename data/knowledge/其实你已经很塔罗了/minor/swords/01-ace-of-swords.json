@@ -1,0 +1,155 @@
+{
+  "cardId": "ace-of-swords",
+  "cardNumber": 1,
+  "name": {
+    "zh": "宝剑王牌",
+    "en": "Ace of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/01-ace-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "ace-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑王牌正位代表一个新想法形成，或开始规划新的行动与冒险。它强调清晰思考、明确目标和现实计划。"
+    },
+    {
+      "id": "ace-of-swords-upright-clarity",
+      "orientation": "upright",
+      "topic": "clarity",
+      "content": "宝剑王牌正位表示能够看清问题重点，并理解完成计划需要哪些条件、步骤与取舍。"
+    },
+    {
+      "id": "ace-of-swords-upright-two-sides",
+      "orientation": "upright",
+      "topic": "discernment",
+      "content": "宝剑王牌正位要求看见处境的正反两面与可能后果，而不是只选择符合自己期待的解释。"
+    },
+    {
+      "id": "ace-of-swords-upright-consequences",
+      "orientation": "upright",
+      "topic": "consequences",
+      "content": "宝剑王牌正位强调思想、行动和选择会在现实中产生结果。清晰判断包括预见后果，并愿意承担决定。"
+    },
+    {
+      "id": "ace-of-swords-upright-new-plan",
+      "orientation": "upright",
+      "topic": "planning",
+      "content": "宝剑王牌正位表示生命提供新的可能，适合形成想法、制定计划或准备新的冒险，但行动前需要评估影响。"
+    },
+    {
+      "id": "ace-of-swords-upright-focus-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "明确目标、具体步骤和集中注意力，有助于把宝剑王牌的想法转化为成功。"
+    },
+    {
+      "id": "ace-of-swords-upright-material-improvement",
+      "orientation": "upright",
+      "topic": "practical_life",
+      "content": "宝剑王牌正位可能表示形成改善物质生活、工作流程或现实处境的新想法与方案。"
+    },
+    {
+      "id": "ace-of-swords-aces-contrast",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "ace-of-wands",
+        "ace-of-cups"
+      ],
+      "content": "权杖王牌强调身体能量与行动，圣杯王牌强调情感开放，宝剑王牌则强调意念形成、目标澄清和为行动作准备。"
+    },
+    {
+      "id": "ace-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑王牌正位表示明确知道自己希望得到什么，也能辨认不愿接受什么，并及时调整方向。"
+    },
+    {
+      "id": "ace-of-swords-upright-mental-union",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "宝剑王牌正位可以描述伴侣之间强烈的心智连接、共同目标、共同兴趣或理念结合。"
+    },
+    {
+      "id": "ace-of-swords-symbolism-cloud-hand",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "从云中伸出的手象征思想或精神层面的来源，也表示一个清晰观念正在进入意识。"
+    },
+    {
+      "id": "ace-of-swords-symbolism-blue-sword",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "鲜明的蓝色宝剑象征清澈、理性、真相与明确思考。"
+    },
+    {
+      "id": "ace-of-swords-symbolism-double-edge",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "清楚可见的双刃象征处境具有两个面向，思想和言语也可能同时产生建设与伤害。"
+    },
+    {
+      "id": "ace-of-swords-symbolism-crown",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "宝剑穿过皇冠，象征心智能够穿透物质表面，理解信念和决定如何在现实世界产生结果。"
+    },
+    {
+      "id": "ace-of-swords-vertical-sword-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "queen-of-swords",
+        "justice"
+      ],
+      "content": "宝剑王牌、宝剑皇后与正义都呈现垂直宝剑，能够共同强化清晰、公正、诚实判断和不偏离原则的主题。"
+    },
+    {
+      "id": "ace-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑王牌逆位表示思想、计划和目标混乱，无法看清关键选择，也可能缺少明确方向。"
+    },
+    {
+      "id": "ace-of-swords-reversed-unrealistic",
+      "orientation": "reversed",
+      "topic": "planning",
+      "content": "宝剑王牌逆位可能表示想法脱离现实环境、缺乏可执行性，或计划本身难以实现。"
+    },
+    {
+      "id": "ace-of-swords-reversed-no-goal",
+      "orientation": "reversed",
+      "topic": "goal",
+      "content": "宝剑王牌逆位表示若缺乏明确目标，行动和努力难以集中，获得成功的机会也会降低。"
+    },
+    {
+      "id": "ace-of-swords-reversed-review-options",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "宝剑王牌逆位要求逐一检查选择，并排除不切实际、难以实现或彼此矛盾的部分。"
+    },
+    {
+      "id": "ace-of-swords-reversed-rushed-action",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "宝剑王牌逆位提醒人避免因焦急而草率开始。没有清晰计划的新行动，通常难以取得稳定成果。"
+    },
+    {
+      "id": "ace-of-swords-reversed-plan-first",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "面对宝剑王牌逆位，应先放慢速度、整理信息并让思绪沉静，形成一致目标、明确步骤和现实依据后再行动。"
+    }
+  ]
+}

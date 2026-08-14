@@ -1,0 +1,279 @@
+{
+  "name": {
+    "zh": "宝剑牌组的故事",
+    "en": "The Story of the Suit of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "knowledgeType": "suit_story",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/15-story.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "swords-story-overview",
+      "orientation": "neutral",
+      "topic": "story",
+      "content": "宝剑牌组故事通过侍卫经历悲伤、恐惧、冲突和理解的过程，串联宝剑十至宝剑王牌的意义。"
+    },
+    {
+      "id": "swords-story-court-family",
+      "orientation": "neutral",
+      "topic": "court_cards",
+      "relatedCardIds": [
+        "page-of-swords",
+        "knight-of-swords",
+        "queen-of-swords",
+        "king-of-swords"
+      ],
+      "content": "故事把宝剑国王、皇后、骑士和侍卫想象成家庭成员，这是串联成长阶段的象征叙事，不表示宫廷牌只能对应特定性别或家庭身份。"
+    },
+    {
+      "id": "swords-story-gift-of-sword",
+      "orientation": "neutral",
+      "topic": "responsibility",
+      "relatedCardIds": [
+        "knight-of-swords",
+        "queen-of-swords",
+        "king-of-swords"
+      ],
+      "content": "国王赠剑而皇后要求骑士接受训练，象征力量、知识和工具必须伴随教育、纪律与责任。"
+    },
+    {
+      "id": "swords-story-knight-impatience",
+      "orientation": "neutral",
+      "topic": "impulsivity",
+      "relatedCardIds": [
+        "knight-of-swords"
+      ],
+      "content": "骑士在训练前急于使用新剑，表现宝剑骑士未经评估便迅速行动的阴影。"
+    },
+    {
+      "id": "swords-story-ten-consequence",
+      "orientation": "neutral",
+      "topic": "consequence",
+      "relatedCardIds": [
+        "ten-of-swords"
+      ],
+      "content": "宝剑十在故事中象征缺少训练和判断可能造成严重且不可逆的后果，以及旧阶段的彻底结束。"
+    },
+    {
+      "id": "swords-story-death-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "relatedCardIds": [
+        "ten-of-swords"
+      ],
+      "content": "故事中的死亡是象征叙事，不能用于预测现实中的死亡、暴力、事故或个人命运。"
+    },
+    {
+      "id": "swords-story-nine-grief",
+      "orientation": "neutral",
+      "topic": "grief",
+      "relatedCardIds": [
+        "nine-of-swords"
+      ],
+      "content": "宝剑九对应侍卫面对失落后的悲伤、困惑、噩梦和反复追问。"
+    },
+    {
+      "id": "swords-story-nine-dreams",
+      "orientation": "neutral",
+      "topic": "dreams",
+      "relatedCardIds": [
+        "nine-of-swords"
+      ],
+      "content": "梦境可以帮助侍卫接触尚未处理的情绪，但不能作为对未来的可靠预言。"
+    },
+    {
+      "id": "swords-story-eight-powerlessness",
+      "orientation": "neutral",
+      "topic": "powerlessness",
+      "relatedCardIds": [
+        "eight-of-swords"
+      ],
+      "content": "宝剑八对应被悲伤和限制性信念束缚的无力感，以及认为自己没有选择的状态。"
+    },
+    {
+      "id": "swords-story-eight-recovery",
+      "orientation": "neutral",
+      "topic": "empowerment",
+      "relatedCardIds": [
+        "eight-of-swords"
+      ],
+      "content": "从宝剑八式束缚中恢复，需要时间、支持，并重新辨认现实中仍可采取的行动。"
+    },
+    {
+      "id": "swords-story-seven-avoidance",
+      "orientation": "neutral",
+      "topic": "avoidance",
+      "relatedCardIds": [
+        "seven-of-swords"
+      ],
+      "content": "宝剑七对应因害怕再次受伤而隐藏自己、控制信息，并与世界保持距离的策略。"
+    },
+    {
+      "id": "swords-story-seven-cost",
+      "orientation": "neutral",
+      "topic": "relationship",
+      "relatedCardIds": [
+        "seven-of-swords"
+      ],
+      "content": "回避和隐匿短期内可能带来安全感，长期却会阻断信任、成长和真实连接。"
+    },
+    {
+      "id": "swords-story-six-transition",
+      "orientation": "neutral",
+      "topic": "transition",
+      "relatedCardIds": [
+        "six-of-swords"
+      ],
+      "content": "宝剑六对应创伤强度逐渐下降，以及从情绪风暴过渡到较稳定但尚未完全疗愈的状态。"
+    },
+    {
+      "id": "swords-story-six-time-and-healing",
+      "orientation": "neutral",
+      "topic": "healing",
+      "relatedCardIds": [
+        "six-of-swords"
+      ],
+      "content": "时间可能减轻痛苦，但更完整的恢复通常仍需要主动面对、支持和经验整合。"
+    },
+    {
+      "id": "swords-story-five-conflict",
+      "orientation": "neutral",
+      "topic": "conflict",
+      "relatedCardIds": [
+        "five-of-swords"
+      ],
+      "content": "宝剑五对应把狭窄观点带入关系，通过争斗或操控取得想要的结果。"
+    },
+    {
+      "id": "swords-story-five-cost-of-winning",
+      "orientation": "neutral",
+      "topic": "consequence",
+      "relatedCardIds": [
+        "five-of-swords"
+      ],
+      "content": "只追求赢得冲突而忽视关系后果，可能获得短期结果，却失去信任与尊重。"
+    },
+    {
+      "id": "swords-story-four-reflection",
+      "orientation": "neutral",
+      "topic": "reflection",
+      "relatedCardIds": [
+        "four-of-swords"
+      ],
+      "content": "宝剑四对应退出冲突、反省行为和关系后果，并重新检视人生观。"
+    },
+    {
+      "id": "swords-story-four-rest",
+      "orientation": "neutral",
+      "topic": "rest",
+      "relatedCardIds": [
+        "four-of-swords"
+      ],
+      "content": "休息与独处为经验整合提供空间，也可能让此前压抑的悲伤重新浮现。"
+    },
+    {
+      "id": "swords-story-three-pain",
+      "orientation": "neutral",
+      "topic": "pain",
+      "relatedCardIds": [
+        "three-of-swords"
+      ],
+      "content": "宝剑三对应终于体验并接受过去无法承受的悲伤，而不是继续否认痛苦。"
+    },
+    {
+      "id": "swords-story-three-risk-growth",
+      "orientation": "neutral",
+      "topic": "growth",
+      "relatedCardIds": [
+        "three-of-swords"
+      ],
+      "content": "为了完全避免风险而封闭自己，也会失去成长、亲密和新经验的机会。"
+    },
+    {
+      "id": "swords-story-two-beliefs",
+      "orientation": "neutral",
+      "topic": "belief",
+      "relatedCardIds": [
+        "two-of-swords"
+      ],
+      "content": "宝剑二对应理解思想与信念会影响人所看见的选择，以及随后采取的行动。"
+    },
+    {
+      "id": "swords-story-two-no-victim-blame",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "relatedCardIds": [
+        "two-of-swords"
+      ],
+      "content": "思想会影响选择，但不能完全控制外部现实，也不应以此把伤害或不幸归咎于受害者。"
+    },
+    {
+      "id": "swords-story-ace-clarity",
+      "orientation": "neutral",
+      "topic": "clarity",
+      "relatedCardIds": [
+        "ace-of-swords"
+      ],
+      "content": "宝剑王牌对应刺破幻想、看见事件背后的原因、选择和后果，并形成新的清晰理解。"
+    },
+    {
+      "id": "swords-story-page-to-queen",
+      "orientation": "neutral",
+      "topic": "development",
+      "relatedCardIds": [
+        "page-of-swords",
+        "queen-of-swords"
+      ],
+      "content": "侍卫成长为皇后，象征从未经训练的思想发展为能够结合情绪、经验、判断和责任的成熟心智。"
+    },
+    {
+      "id": "swords-story-cycle-training",
+      "orientation": "neutral",
+      "topic": "learning",
+      "relatedCardIds": [
+        "knight-of-swords",
+        "queen-of-swords"
+      ],
+      "content": "新一代获得剑时，皇后坚持同时提供训练，象征经验转化为教育，并减少旧错误再次发生的可能。"
+    },
+    {
+      "id": "swords-story-power-ethics",
+      "orientation": "neutral",
+      "topic": "ethics",
+      "content": "力量与知识本身并非善恶，关键在于使用者是否具备训练、自律、伦理和对后果的理解。"
+    },
+    {
+      "id": "swords-story-sequence",
+      "orientation": "neutral",
+      "topic": "suit_sequence",
+      "relatedCardIds": [
+        "ten-of-swords",
+        "nine-of-swords",
+        "eight-of-swords",
+        "seven-of-swords",
+        "six-of-swords",
+        "five-of-swords",
+        "four-of-swords",
+        "three-of-swords",
+        "two-of-swords",
+        "ace-of-swords"
+      ],
+      "content": "故事以宝剑十到王牌的逆向顺序，呈现后果、悲伤、束缚、回避、过渡、冲突、反省、接受、理解和清晰。"
+    },
+    {
+      "id": "swords-story-overall-theme",
+      "orientation": "neutral",
+      "topic": "suit_theme",
+      "content": "宝剑故事说明思想既能制造伤害和束缚，也能带来理解与自由；成熟心智会看清现实、理解感受并承担选择后果。"
+    }
+  ]
+}

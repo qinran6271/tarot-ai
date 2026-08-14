@@ -1,0 +1,199 @@
+{
+  "cardId": "knight-of-swords",
+  "courtRank": "knight",
+  "name": {
+    "zh": "宝剑骑士",
+    "en": "Knight of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/12-knight-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "knight-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑骑士正位象征敏捷的思想与迅速行动，也要求区分果断和冲动。"
+    },
+    {
+      "id": "knight-of-swords-upright-element",
+      "orientation": "upright",
+      "topic": "element",
+      "content": "宝剑骑士代表空气元素中的火，是思想与行动的结合，强调速度、反应和变化。"
+    },
+    {
+      "id": "knight-of-swords-upright-speed",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "宝剑骑士正位可能表示快速进入或离开某种情境，以及突如其来的决定、消息或转变。"
+    },
+    {
+      "id": "knight-of-swords-upright-decisive-action",
+      "orientation": "upright",
+      "topic": "advice",
+      "content": "当拖延期已经结束时，宝剑骑士正位建议抓住短暂机会并作出果断回应。"
+    },
+    {
+      "id": "knight-of-swords-upright-risk-check",
+      "orientation": "upright",
+      "topic": "decision_making",
+      "content": "快速行动不等于完全不思考；行动前应确认目标、关键风险和退出条件，尤其涉及安全、金钱、法律、医疗或不可逆后果时。"
+    },
+    {
+      "id": "knight-of-swords-upright-person",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "作为人物原型，宝剑骑士表示思想敏捷、行动迅速、喜欢新鲜感与变化，但可能对复杂细节和长期规划缺乏耐心。"
+    },
+    {
+      "id": "knight-of-swords-upright-impatience",
+      "orientation": "upright",
+      "topic": "warning",
+      "content": "宝剑骑士正位的阴影是急躁，可能在尚未评估方向与可行性时就开始行动。"
+    },
+    {
+      "id": "knight-of-swords-upright-short-opportunity",
+      "orientation": "upright",
+      "topic": "opportunity",
+      "content": "宝剑骑士式的人提出帮助或机会时，回应窗口可能较短，但仍应确认对方是否能够持续投入。"
+    },
+    {
+      "id": "knight-of-swords-neutral-demographic-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "宝剑骑士可以对应任何年龄和性别，不能用牌面可靠判断一个人的年龄、外貌、性别或身份。"
+    },
+    {
+      "id": "knight-of-swords-neutral-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "传统体系有时将宝剑骑士与白羊座、狮子座或双子座联系，这些只是象征关联，不能确认实际星座。"
+    },
+    {
+      "id": "knight-of-swords-aries-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-emperor",
+        "king-of-wands"
+      ],
+      "content": "传统解读中，宝剑骑士与皇帝或权杖国王共同出现时，可能加强白羊座或主动进取的主题，但不能用于确认身份。"
+    },
+    {
+      "id": "knight-of-swords-gemini-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "page-of-swords",
+        "queen-of-swords",
+        "king-of-swords",
+        "the-lovers"
+      ],
+      "content": "传统解读中，宝剑骑士与其他宝剑宫廷牌或恋人共同出现时，可能加强双子座、沟通或思维变化的主题。"
+    },
+    {
+      "id": "knight-of-swords-neutral-development-wands",
+      "orientation": "neutral",
+      "topic": "development",
+      "relatedCardIds": [
+        "king-of-wands"
+      ],
+      "content": "宝剑骑士若朝权杖国王的成熟方向发展，需要规范热情，使快速行动具有稳定目标。"
+    },
+    {
+      "id": "knight-of-swords-neutral-development-swords",
+      "orientation": "neutral",
+      "topic": "development",
+      "relatedCardIds": [
+        "king-of-swords"
+      ],
+      "content": "宝剑骑士若朝宝剑国王的成熟方向发展，需要训练思想、判断和自律。"
+    },
+    {
+      "id": "knight-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑骑士正位可能表示某人迅速进入生活，又在较短时间内改变方向或离开。"
+    },
+    {
+      "id": "knight-of-swords-upright-mental-attraction",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "宝剑骑士式的吸引通常来自聪明、谈话节奏、思考方式和独特特质。"
+    },
+    {
+      "id": "knight-of-swords-upright-curiosity",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "若关系主要由好奇心和新鲜感推动，好奇心得到满足后，热度可能迅速下降。"
+    },
+    {
+      "id": "knight-of-swords-upright-commitment",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "快速推进不自动代表缺乏真心，但重要承诺应依据持续行为、沟通质量和双方准备程度判断。"
+    },
+    {
+      "id": "knight-of-swords-upright-conversation",
+      "orientation": "upright",
+      "topic": "communication",
+      "content": "宝剑骑士式谈话联想快速、主题跳跃，能带来活力，也可能让重要情绪和现实问题得不到充分处理。"
+    },
+    {
+      "id": "knight-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑骑士逆位表示缺少事前考虑、纪律或持续性，使快速行动难以产生理想结果。"
+    },
+    {
+      "id": "knight-of-swords-reversed-disordered-thinking",
+      "orientation": "reversed",
+      "topic": "thought_pattern",
+      "content": "宝剑骑士逆位可能表现为思绪失序、追逐新鲜感和被一时冲动牵引。"
+    },
+    {
+      "id": "knight-of-swords-reversed-repeat-mistakes",
+      "orientation": "reversed",
+      "topic": "pattern",
+      "content": "若没有耐心反省过去，宝剑骑士逆位可能不断重复相同错误，再用更多无效行动试图补救。"
+    },
+    {
+      "id": "knight-of-swords-reversed-busy-no-result",
+      "orientation": "reversed",
+      "topic": "productivity",
+      "content": "宝剑骑士逆位可能制造大量动作却缺少结果，忙碌感不能代替有效进展。"
+    },
+    {
+      "id": "knight-of-swords-reversed-overcommitment",
+      "orientation": "reversed",
+      "topic": "commitment",
+      "content": "宝剑骑士逆位可能表示承诺超过实际能力，或低估任务所需的时间、资源和复杂度。"
+    },
+    {
+      "id": "knight-of-swords-reversed-unfinished",
+      "orientation": "reversed",
+      "topic": "project",
+      "content": "在缺少技能、资源或计划时仓促开始，可能导致任务无法持续或完成。"
+    },
+    {
+      "id": "knight-of-swords-reversed-slow-down",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "宝剑骑士逆位建议减速、明确优先级、缩小承诺范围，并在行动前检查时间、资源、技能和风险。"
+    },
+    {
+      "id": "knight-of-swords-reversed-effective-speed",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "真正的速度来自明确方向并减少返工，而不是不停制造动作。"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "cardId": "five-of-wands",
+  "cardNumber": 5,
+  "name": {
+    "zh": "权杖五",
+    "en": "Five of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/05-five-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "five-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖五正位主要象征冲突、竞争、缺乏协调以及不同力量同时朝不同方向发展。冲突未必造成真正伤害，但可能因为每个人坚持自己的方式而产生混乱，并干扰共同目标的推进。"
+    },
+    {
+      "id": "five-of-wands-upright-conflict",
+      "orientation": "upright",
+      "topic": "conflict",
+      "content": "权杖五正位可以表示多人之间意见、行动方向或方法不一致。每个人都认为自己的方式最好，却缺少真正的倾听和协调，因此容易形成持续的争执或无效较量。"
+    },
+    {
+      "id": "five-of-wands-upright-competition",
+      "orientation": "upright",
+      "topic": "competition",
+      "content": "权杖五正位与竞争和较量有关。它可以象征在规则范围内进行的竞争、体育活动或其他需要直接投入和较量的情境，也可能表示正在激烈竞争的环境中争取自己的位置。"
+    },
+    {
+      "id": "five-of-wands-upright-unnecessary-competition",
+      "orientation": "upright",
+      "topic": "conflict",
+      "content": "权杖五正位可能表示卷入没有必要的竞争或较量。大量精力被用于对抗本身，而不是用于真正推进目标，因此竞争可能造成延误、分心或效率下降。"
+    },
+    {
+      "id": "five-of-wands-upright-teamwork",
+      "orientation": "upright",
+      "topic": "teamwork",
+      "content": "在团队情境中，权杖五正位可能表示成员无法有效合作。每个人都有自己的想法和行动方式，在大家愿意妥协、倾听并寻找共同方法之前，团队内部容易持续发生冲突。"
+    },
+    {
+      "id": "five-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业或工作问题中，权杖五正位可以表示团队意见冲突、竞争激烈、工作方向不统一，或者同时面对过多相互竞争的任务和要求。当前挑战可能不是缺乏能力，而是精力和资源无法有效协调。"
+    },
+    {
+      "id": "five-of-wands-upright-inner-conflict",
+      "orientation": "upright",
+      "topic": "inner_conflict",
+      "content": "权杖五正位也可以表示内在冲突。当一个人同时面对太多要求、责任或目标时，不同需求会争夺有限的时间和精力，使人难以确定真正的优先方向。"
+    },
+    {
+      "id": "five-of-wands-upright-scattered-energy",
+      "orientation": "upright",
+      "topic": "energy",
+      "content": "权杖五正位可能表示精力被分散到太多方向，以至于没有任何一个方面得到足够投入。虽然看起来一直在行动，但实际效率可能下降，并容易因为持续应付不同要求而感到疲惫。"
+    },
+    {
+      "id": "five-of-wands-upright-overcommitment",
+      "orientation": "upright",
+      "topic": "responsibility",
+      "content": "当一个人同时承担过多工作、学习、家庭或其他责任时，权杖五正位可能反映这些要求彼此竞争所造成的压力。原本具有吸引力的忙碌状态最终可能因为缺少优先级而变成负担。"
+    },
+    {
+      "id": "five-of-wands-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当权杖五正位出现时，可以检查当前的行动是否真正服务于目标，还是只是不断应付竞争、争执和不同要求。减少不必要的较量并重新集中精力，有助于避免冲突持续拖慢进展。"
+    },
+    {
+      "id": "five-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖五正位可能表示双方生活方式、兴趣、社交圈或发展方向不同，因此虽然关系具有刺激和活力，却缺少足够的一致性，亲密关系也可能因此受到阻碍。"
+    },
+    {
+      "id": "five-of-wands-upright-relationship-conflict",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖五正位可以描述一段火爆而具有竞争性的感情关系。双方可能经常争论、互相较劲或坚持自己的方式，使冲突成为关系中的常见模式。"
+    },
+    {
+      "id": "five-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖五逆位表示开始以更加开放和包容的方式处理冲突，并愿意妥协或尝试新的方法。原本彼此竞争的力量有机会通过调整和合作重新获得方向。"
+    },
+    {
+      "id": "five-of-wands-reversed-compromise",
+      "orientation": "reversed",
+      "topic": "compromise",
+      "content": "权杖五逆位可以表示妥协已经成为可能。与其继续坚持只有自己的方法正确，现在更适合倾听其他人的意见，并寻找各方都能够接受的解决方式。"
+    },
+    {
+      "id": "five-of-wands-reversed-open-mindedness",
+      "orientation": "reversed",
+      "topic": "attitude",
+      "content": "权杖五逆位强调以开放的心态面对改变。一个人可能开始放弃僵化的规则、竞争模式或固有方法，并愿意接受不同观点和新的处理方式。"
+    },
+    {
+      "id": "five-of-wands-reversed-new-approach",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "权杖五逆位可能表示已经意识到继续按照原来的方式竞争只会浪费时间和精力，因此需要采用新的方法。改变重点从赢得冲突转向解决造成冲突的问题。"
+    },
+    {
+      "id": "five-of-wands-reversed-teamwork",
+      "orientation": "reversed",
+      "topic": "teamwork",
+      "content": "在团队或工作情境中，权杖五逆位表示成员之间存在达成妥协和恢复合作的可能。改善局面的关键是更加认真地倾听彼此，并减少只坚持个人方法的倾向。"
+    },
+    {
+      "id": "five-of-wands-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，权杖五逆位可以表示工作中的竞争或团队冲突开始有机会缓和。通过妥协、调整规则、重新分配精力或采用新的合作方式，可以减少无效消耗。"
+    },
+    {
+      "id": "five-of-wands-reversed-escalation-before-change",
+      "orientation": "reversed",
+      "topic": "change",
+      "content": "该来源认为，有些情况下冲突可能需要发展到更明显的程度，相关的人才会意识到原有规则和竞争方式已经无法继续。这样的升级可能成为放弃旧模式并尝试改变的触发点。"
+    },
+    {
+      "id": "five-of-wands-symbolism-five-people",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的五个人朝不同方向行动，象征多个意志、方法或目标同时存在，却缺少统一协调。每个人坚持自己的方式，使整体行动容易陷入混乱。"
+    },
+    {
+      "id": "five-of-wands-symbolism-wands",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物手中的权杖形成彼此交错的较量场景，象征直接的行动冲突、竞争和精力碰撞。这种冲突具有明显的权杖火元素特征，强调行动层面的对抗。"
+    },
+    {
+      "id": "five-of-wands-ace-of-swords-contrast",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源区分了权杖五与宝剑王牌所代表的较量：权杖五更偏向行动、身体或现实层面的竞争和较量，而宝剑王牌则更偏向心智层面的较量。"
+    },
+    {
+      "id": "five-of-wands-number-five",
+      "orientation": "neutral",
+      "topic": "numerology",
+      "content": "该来源认为塔罗牌中的五都与某种形式的改变有关。在权杖五中，这种变化通过冲突、竞争和不同力量之间的碰撞表现出来；逆位时，则更强调以开放和包容的方式面对改变。"
+    }
+  ]
+}

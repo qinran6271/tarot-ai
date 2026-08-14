@@ -1,0 +1,192 @@
+{
+  "cardId": "queen-of-swords",
+  "courtRank": "queen",
+  "name": {
+    "zh": "宝剑皇后",
+    "en": "Queen of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/13-queen-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "queen-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑皇后正位表示通过清晰、耐心和深思熟虑的判断提高成功机会。"
+    },
+    {
+      "id": "queen-of-swords-upright-element",
+      "orientation": "upright",
+      "topic": "element",
+      "content": "宝剑皇后代表空气元素中的水，强调理智与情感结合之后形成的理解。"
+    },
+    {
+      "id": "queen-of-swords-upright-think-feelings",
+      "orientation": "upright",
+      "topic": "emotion",
+      "content": "宝剑皇后正位是一张思索感情的牌，表示运用心智整理情绪，使感受变得可理解和可表达。"
+    },
+    {
+      "id": "queen-of-swords-upright-clarity",
+      "orientation": "upright",
+      "topic": "clarity",
+      "content": "宝剑皇后正位强调客观观察、准确表达和有边界的判断。"
+    },
+    {
+      "id": "queen-of-swords-upright-learn-from-pain",
+      "orientation": "upright",
+      "topic": "growth",
+      "content": "宝剑皇后正位可能表示从痛苦经验中提炼判断力，并把过去的教训转化为更明智的选择。"
+    },
+    {
+      "id": "queen-of-swords-upright-review",
+      "orientation": "upright",
+      "topic": "self_reflection",
+      "content": "此时适合反省过去行为和当前处境，确认自己不会重新进入已经造成伤害的模式。"
+    },
+    {
+      "id": "queen-of-swords-upright-solitude",
+      "orientation": "upright",
+      "topic": "reflection",
+      "content": "短暂独处有助于整理思路和未来方向，但反思应服务于行动，而不是成为无限分析或回避生活的理由。"
+    },
+    {
+      "id": "queen-of-swords-upright-person",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "作为人物原型，宝剑皇后表示思维敏捷、擅长组织、观察细致，并能根据经验提出清晰建议的人。"
+    },
+    {
+      "id": "queen-of-swords-upright-perfectionism",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "宝剑皇后可能重视准确性与高标准，若失去弹性则容易转为完美主义。"
+    },
+    {
+      "id": "queen-of-swords-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "宝剑皇后的能力适合需要分析、沟通或组织的领域，如教学、管理、顾问、法律、研究、出版与编辑；牌面不能确定实际职业。"
+    },
+    {
+      "id": "queen-of-swords-neutral-demographic-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "宝剑皇后可以对应任何性别、年龄或身份，宫廷称谓描述的是象征原型，不是可靠的人口特征判断。"
+    },
+    {
+      "id": "queen-of-swords-symbolism-pendant",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "手腕附近的坠饰象征曾经的束缚，手中的剑则表示通过辨识和理解经验恢复自由。"
+    },
+    {
+      "id": "queen-of-swords-symbolism-clouds",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "头部高于周围云层，象征在情绪起伏中保持清晰视野。"
+    },
+    {
+      "id": "queen-of-swords-symbolism-upright-sword",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "笔直向上的双刃剑象征清晰判断，并承认事情通常具有不止一个面向。"
+    },
+    {
+      "id": "queen-of-swords-neutral-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "传统体系常把宝剑皇后与双子座、天秤座或水瓶座联系，这只是象征关联，不能确认实际星座。"
+    },
+    {
+      "id": "queen-of-swords-virgo-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-hermit"
+      ],
+      "content": "宝剑皇后与隐士共同出现时，传统上可能加强处女座式的分析、审慎、独立和自我检视主题，但不能确认实际星座。"
+    },
+    {
+      "id": "queen-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑皇后正位可能表示谨慎投入，先观察行为、习惯和沟通方式，再决定是否承诺。"
+    },
+    {
+      "id": "queen-of-swords-upright-mental-connection",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "宝剑皇后重视思想交流、机智与诚实，常通过深入交谈认识伴侣。"
+    },
+    {
+      "id": "queen-of-swords-upright-boundaries",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "谨慎和边界不等于拒绝亲密，它们可以让关系在尊重与事实基础上逐步发展。"
+    },
+    {
+      "id": "queen-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑皇后逆位表示清晰判断可能被旧伤、悲观、僵化信念或过度完美主义遮蔽。"
+    },
+    {
+      "id": "queen-of-swords-reversed-harsh-judgment",
+      "orientation": "reversed",
+      "topic": "judgment",
+      "content": "宝剑皇后逆位可能让敏锐观察变成挑剔、尖刻或持续寻找他人弱点。"
+    },
+    {
+      "id": "queen-of-swords-reversed-manipulation",
+      "orientation": "reversed",
+      "topic": "manipulation",
+      "content": "逆位可能提示操控信息、挑起冲突或不诚实，但必须根据现实证据判断，不能仅凭牌面给某个人贴标签。"
+    },
+    {
+      "id": "queen-of-swords-reversed-push-away",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "宝剑皇后逆位可能表现为渴望接触生活和亲密，却在他人靠近时因恐惧迅速将其推开。"
+    },
+    {
+      "id": "queen-of-swords-reversed-old-pain",
+      "orientation": "reversed",
+      "topic": "healing",
+      "content": "未被理解的过去痛苦可能使人把防御当成绝对真理，并用旧经验惩罚自己或他人。"
+    },
+    {
+      "id": "queen-of-swords-reversed-self-criticism",
+      "orientation": "reversed",
+      "topic": "self_criticism",
+      "content": "宝剑皇后逆位可能表示严厉自责，把一个有限错误解释成对整体能力或价值的否定。"
+    },
+    {
+      "id": "queen-of-swords-reversed-perfectionism",
+      "orientation": "reversed",
+      "topic": "perfectionism",
+      "content": "完美主义会放大失败恐惧，使人不敢尝试，也让正常的学习过程失去空间。"
+    },
+    {
+      "id": "queen-of-swords-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "宝剑皇后逆位建议区分事实与负面推断，对错误保持具体而有限的评价，并练习更公平地看待自己和别人。"
+    },
+    {
+      "id": "queen-of-swords-health-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "塔罗不能诊断胰脏疾病、低血糖或糖尿病；若出现血糖异常或相关症状，应通过正规检查和医疗专业人员判断。"
+    }
+  ]
+}

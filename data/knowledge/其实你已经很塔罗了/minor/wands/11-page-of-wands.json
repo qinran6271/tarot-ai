@@ -1,0 +1,184 @@
+{
+  "cardId": "page-of-wands",
+  "cardNumber": 11,
+  "name": {
+    "zh": "权杖侍卫",
+    "en": "Page of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "courtRank": "page",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/11-page-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "page-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖侍卫正位象征一个新方案、新挑战、新方向或新人生阶段的开始。它通常带有明显的热情、好奇心和行动欲望，表示一个想法正在逐渐转化为实际行动。"
+    },
+    {
+      "id": "page-of-wands-upright-new-beginning",
+      "orientation": "upright",
+      "topic": "new_beginning",
+      "content": "权杖侍卫正位表示到了开始新事物的时候，例如新计划、新工作、新方向或新的生活经验。它具有探索未知和主动尝试的性质。"
+    },
+    {
+      "id": "page-of-wands-upright-message",
+      "orientation": "upright",
+      "topic": "message",
+      "content": "权杖侍卫正位可以象征带来新机会或新计划的消息，例如信件、电话或其他讯息。这类消息通常与新的行动方向、挑战或计划有关。"
+    },
+    {
+      "id": "page-of-wands-upright-idea-to-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "权杖侍卫正位体现思想与行动的结合。一个想法、理念或计划正在形成，而重点是不要只停留在构想层面，而是开始把它转化为具体行动。"
+    },
+    {
+      "id": "page-of-wands-upright-planning",
+      "orientation": "upright",
+      "topic": "planning",
+      "content": "权杖侍卫正位表示行动之前已经开始形成目标和计划。思想先于行动，但计划的目的在于支持行动，而不是无限延长准备阶段。"
+    },
+    {
+      "id": "page-of-wands-upright-challenge",
+      "orientation": "upright",
+      "topic": "challenge",
+      "content": "权杖侍卫正位可以表示主动迎接一个新的挑战。新鲜感、未知和探索本身能够激发热情，因此这张牌通常具有愿意尝试和进入新领域的意味。"
+    },
+    {
+      "id": "page-of-wands-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "权杖侍卫正位可以表示旅行的开始，尤其当牌阵中同时出现其他具有旅行意义的牌时。这种旅行通常与探索新方向和进入新的经验有关。"
+    },
+    {
+      "id": "page-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，权杖侍卫正位可以表示新工作、新项目或采用新的处理方式。它常描述面对尚未熟悉的领域时，希望主动掌握并尝试新事物的状态。"
+    },
+    {
+      "id": "page-of-wands-upright-youthful-energy",
+      "orientation": "upright",
+      "topic": "energy",
+      "content": "权杖侍卫正位具有明显的年轻感和新鲜感。即使实际年龄已经超过传统侍卫所代表的年轻阶段，新事物也可能使个人重新体验热情、活力和探索欲。"
+    },
+    {
+      "id": "page-of-wands-upright-person",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "当权杖侍卫代表一个人物时，该来源通常将其描述为年轻、精力充沛、热情、积极而富有行动力的人，也可能比较吵闹、急躁，需要活动和刺激。"
+    },
+    {
+      "id": "page-of-wands-upright-child",
+      "orientation": "upright",
+      "topic": "person",
+      "content": "该来源认为侍卫牌可以代表孩子或大约二十二岁以下的年轻人。权杖侍卫所代表的年轻人通常活力旺盛、喜欢户外活动，并具有明显的热情和行动倾向。"
+    },
+    {
+      "id": "page-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖侍卫正位可以表示一段新关系的开始，或者既有关系进入一个新的阶段。关系中通常具有明显的热情、活力和探索感。"
+    },
+    {
+      "id": "page-of-wands-upright-relationship-passion",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖侍卫正位可以描述充满激情和身体活动的关系。双方可能通过共同外出、探索、运动或其他活跃经验来维持关系中的热情。"
+    },
+    {
+      "id": "page-of-wands-upright-relationship-person",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "当权杖侍卫在感情牌阵中代表一个人时，可能形容一个热情、有活力但偶尔急躁的年轻人。这个人物通常主动、直接，也可能因为行动快而缺少耐心。"
+    },
+    {
+      "id": "page-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖侍卫逆位通常表示思考和计划过多，但实际行动不足。犹豫、过度分析或对细节的执着可能使一个本来可以开始的新计划迟迟无法启动。"
+    },
+    {
+      "id": "page-of-wands-reversed-overthinking",
+      "orientation": "reversed",
+      "topic": "overthinking",
+      "content": "权杖侍卫逆位可能表示过度思考行动之前的各种细节，例如为什么、做什么、何时、在哪里以及由谁来做。信息需求过多反而可能形成行动障碍。"
+    },
+    {
+      "id": "page-of-wands-reversed-indecision",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "权杖侍卫逆位可以表示行动之前的优柔寡断。个人可能具有想法和热情，却迟迟无法决定真正从哪里开始。"
+    },
+    {
+      "id": "page-of-wands-reversed-planning",
+      "orientation": "reversed",
+      "topic": "planning",
+      "content": "权杖侍卫逆位可能表示把过多时间用于计划和准备，以至于真正用于执行的时间越来越少。规划开始取代行动，而不是服务于行动。"
+    },
+    {
+      "id": "page-of-wands-reversed-action",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "权杖侍卫逆位可以表示难以真正启动新计划或进入新方向。此时问题往往不是完全没有想法，而是思想和行动之间缺少有效转换。"
+    },
+    {
+      "id": "page-of-wands-reversed-delayed-message",
+      "orientation": "reversed",
+      "topic": "message",
+      "content": "权杖侍卫逆位可以表示原本能够帮助启动新计划的消息、通知或信息出现延迟，使新方向暂时无法按照预期开始。"
+    },
+    {
+      "id": "page-of-wands-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，权杖侍卫逆位可能表示新的工作、项目或方案迟迟无法启动，原因可能是过度规划、缺乏决定、信息延迟或实际行动不足。"
+    },
+    {
+      "id": "page-of-wands-reversed-person",
+      "orientation": "reversed",
+      "topic": "personality",
+      "content": "当权杖侍卫逆位代表年轻人时，可能表示原本应有的热情、活力和行动性受到压抑。该来源认为这种状态可能受到环境或教养方式影响。"
+    },
+    {
+      "id": "page-of-wands-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖侍卫逆位可以表示关系发展缺乏稳定性。强烈热情可能存在，但冲动、不可预测或缺乏持续投入，会使关系难以自然发展到更成熟的阶段。"
+    },
+    {
+      "id": "page-of-wands-reversed-unpredictable-person",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "权杖侍卫逆位在感情牌阵中可能代表一个不可预测、急躁或容易冲动的年轻人。其行为方式可能使关系在真正成熟之前就出现停滞。"
+    },
+    {
+      "id": "page-of-wands-reversed-passion-without-stability",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "权杖侍卫逆位可以描述一段受到强烈激情驱动、却缺少稳定基础的关系。若其中一方不断需要新的挑战和刺激，关系可能在长期发展之前提前结束。"
+    },
+    {
+      "id": "page-of-wands-elemental-combination",
+      "orientation": "neutral",
+      "topic": "element",
+      "content": "该来源认为侍卫对应牌组中的空气部分，而权杖对应火元素，因此权杖侍卫象征“火中的空气”。这种组合代表思想、理念和计划与火元素的行动力、热情和挑战精神结合。"
+    },
+    {
+      "id": "page-of-wands-air-before-fire",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "权杖侍卫中的空气元素使思想和计划先于行动，而权杖的火元素又推动这些想法尽快进入现实。因此这张牌的核心过程是先形成理念和方向，再将它转化为行动。"
+    }
+  ]
+}

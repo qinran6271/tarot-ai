@@ -1,0 +1,128 @@
+{
+  "suitId": "swords",
+  "name": {
+    "zh": "宝剑",
+    "en": "Swords"
+  },
+  "arcana": "minor",
+  "element": "air",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/00-overview.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "swords-general-element",
+      "orientation": "neutral",
+      "topic": "general",
+      "content": "宝剑牌组对应空气元素、思想与智力。剑既可能带来痛苦，也能够切开混乱并产生理解。"
+    },
+    {
+      "id": "swords-trials-understanding",
+      "orientation": "neutral",
+      "topic": "inner_growth",
+      "content": "宝剑牌组描述人如何经历试炼，并通过痛苦、冲突与分析改变对人生的理解。"
+    },
+    {
+      "id": "swords-thought-belief-attitude",
+      "orientation": "neutral",
+      "topic": "mindset",
+      "content": "想法、理念、信仰和态度都由宝剑牌组象征。它关注人的解释方式，以及这些解释如何影响经验和行动。"
+    },
+    {
+      "id": "swords-air-moving-mind",
+      "orientation": "neutral",
+      "topic": "element",
+      "content": "空气持续运动，如同心念不断流动。宝剑的课题是让思考保持理性、清楚、专注并具有实际用途。"
+    },
+    {
+      "id": "swords-aimless-thinking",
+      "orientation": "neutral",
+      "topic": "shadow",
+      "content": "思绪漫无目的地运转很容易，但这种状态很难产生真正有价值的想法，反而可能增加焦虑和精神消耗。"
+    },
+    {
+      "id": "swords-analysis-paralysis",
+      "orientation": "neutral",
+      "topic": "decision",
+      "content": "当一个人不断分析同一处境的多个面向和行动后果时，宝剑能量可能表现为难以选择和反复犹豫。"
+    },
+    {
+      "id": "swords-mental-discipline",
+      "orientation": "neutral",
+      "topic": "discipline",
+      "content": "心智能力需要专注、判断和训练，才能从不断变化的想法中筛选出值得采用并能够落实的方向。"
+    },
+    {
+      "id": "swords-wands-contrast",
+      "orientation": "neutral",
+      "topic": "suit_relationship",
+      "content": "权杖类型倾向先行动并依靠热情排除障碍，宝剑类型则倾向先思考每种行动可能造成的后果。"
+    },
+    {
+      "id": "swords-action-thought-balance",
+      "orientation": "neutral",
+      "topic": "balance",
+      "content": "行动缺少思考可能变得鲁莽，思考缺少行动则可能陷入犹豫和焦虑。成熟判断需要让思想服务于现实行动。"
+    },
+    {
+      "id": "swords-perception-shapes-reality",
+      "orientation": "neutral",
+      "topic": "perception",
+      "content": "宝剑牌组提醒人，理解现实的方式会决定注意到什么、忽略什么。心智既能帮助理解事实，也可能扭曲主观经验。"
+    },
+    {
+      "id": "swords-loss-comparison",
+      "orientation": "neutral",
+      "topic": "comparison",
+      "content": "一个人即使仍拥有丰富资源，也可能因不断与过去更高状态比较而只感受到损失。注意力集中在缺少的部分，会制造贫乏感。"
+    },
+    {
+      "id": "swords-fact-interpretation-belief",
+      "orientation": "neutral",
+      "topic": "discernment",
+      "content": "宝剑牌组要求区分事实、对事实的解释和长期形成的信念，避免把自己的判断自动当成客观现实。"
+    },
+    {
+      "id": "swords-double-edged",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "宝剑是双刃的：一刃切开外在障碍并影响他人，另一刃则朝向自己，使思想、信念和语言反过来塑造内在经验。"
+    },
+    {
+      "id": "swords-belief-feedback",
+      "orientation": "neutral",
+      "topic": "belief",
+      "content": "当一个人坚信某种判断时，可能不断寻找支持该信念的证据。宝剑要求检查信念是否准确、有用并符合事实。"
+    },
+    {
+      "id": "swords-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "宝剑牌组对应空气星座双子座、天秤座和水瓶座，强调思想、沟通、判断与抽象理解。"
+    },
+    {
+      "id": "swords-personality",
+      "orientation": "neutral",
+      "topic": "personality",
+      "content": "宝剑类型的人通常思考敏捷、表达直接，并可能具有锐利语言和快速判断能力。"
+    },
+    {
+      "id": "swords-person-appearance",
+      "orientation": "neutral",
+      "topic": "person_appearance",
+      "content": "传统描述中，宝剑类型可能具有较深色的头发和眼睛，但思维方式、表达和判断习惯比外貌更重要。"
+    },
+    {
+      "id": "swords-reversed-scattered-mind",
+      "orientation": "reversed",
+      "topic": "shadow",
+      "content": "宝剑能量逆位或失衡时，心智可能涣散、混乱、过度分析或失去方向，锐利思考也可能转化为尖刻语言和自我攻击。"
+    }
+  ]
+}

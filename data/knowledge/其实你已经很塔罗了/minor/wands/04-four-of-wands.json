@@ -1,0 +1,177 @@
+{
+  "cardId": "four-of-wands",
+  "cardNumber": 4,
+  "name": {
+    "zh": "权杖四",
+    "en": "Four of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/04-four-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "four-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖四正位主要象征安定、稳固和在一个环境中真正扎根。它可以表示家庭、工作或生活状态逐渐稳定，并形成一个能够提供支持、舒适感和归属感的基础。"
+    },
+    {
+      "id": "four-of-wands-upright-stability",
+      "orientation": "upright",
+      "topic": "stability",
+      "content": "权杖四正位强调把已经发展起来的事情变得更加稳固。此前的行动和成长开始形成可以长期依赖的结构，因此事情从扩展阶段进入建立基础和安定下来的阶段。"
+    },
+    {
+      "id": "four-of-wands-upright-home",
+      "orientation": "upright",
+      "topic": "home",
+      "content": "权杖四正位与家庭、居住环境和安顿下来有关。它可能表示搬入新家、改善当前住所，或者主动投入时间和精力，让居住环境更符合自己的需要并产生真正的归属感。"
+    },
+    {
+      "id": "four-of-wands-upright-relocation",
+      "orientation": "upright",
+      "topic": "relocation",
+      "content": "权杖四正位可以表示搬入新的居住环境，并逐渐在那里安顿下来。重点不仅是物理上的移动，还包括让新的环境变得稳定、舒适并真正具有家的感觉。"
+    },
+    {
+      "id": "four-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，权杖四正位可以表示进入一个较稳定、支持性较强的工作环境，或在新的职位和工作场所逐渐安顿下来。它也可能象征换工作之后建立新的稳定基础。"
+    },
+    {
+      "id": "four-of-wands-upright-work-environment",
+      "orientation": "upright",
+      "topic": "work_environment",
+      "content": "权杖四正位可以描述一个温暖、支持并具有归属感的工作环境。环境中的成员能够舒适相处，也较愿意欢迎和支持新加入的人。"
+    },
+    {
+      "id": "four-of-wands-upright-celebration",
+      "orientation": "upright",
+      "topic": "celebration",
+      "content": "权杖四正位具有明显的庆祝、欢乐和分享意味。它可以表示因为一个阶段趋于稳定或获得成果而产生的庆祝，也可以象征一群志同道合的人聚集并共同分享喜悦。"
+    },
+    {
+      "id": "four-of-wands-upright-community",
+      "orientation": "upright",
+      "topic": "community",
+      "content": "权杖四正位可以表示一个具有支持性和欢迎感的群体环境。个人不仅处于稳定空间中，也能够参与共同生活、庆祝和互动，因此归属感是这张牌的重要主题之一。"
+    },
+    {
+      "id": "four-of-wands-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及下一步行动时，权杖四正位倾向于支持巩固已经建立的成果，例如改善居住或工作环境、加强基础、投入现有关系或让当前生活状态更加稳定。"
+    },
+    {
+      "id": "four-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖四正位表示关系正在变得更加稳定和牢固。它可以象征双方建立更深的承诺，并逐渐形成能够共同生活和持续发展的关系基础。"
+    },
+    {
+      "id": "four-of-wands-upright-commitment",
+      "orientation": "upright",
+      "topic": "commitment",
+      "content": "权杖四正位与更深层次的感情承诺有关。关系不再只是发展和探索，而开始形成更实际、更稳定的结构，例如共同生活、建立家庭感或确认长期关系。"
+    },
+    {
+      "id": "four-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖四逆位通常表示缺乏稳定、难以安顿下来或正在离开原有的家庭或工作环境。生活可能进入一个较暂时、流动或尚未建立牢固基础的阶段。"
+    },
+    {
+      "id": "four-of-wands-reversed-relocation",
+      "orientation": "reversed",
+      "topic": "relocation",
+      "content": "权杖四逆位可以表示离开原有的家园或生活环境，并进入一个与过去明显不同的新环境。新的阶段可能具有较强的移动性，因此短期内不容易真正安定下来。"
+    },
+    {
+      "id": "four-of-wands-reversed-instability",
+      "orientation": "reversed",
+      "topic": "stability",
+      "content": "权杖四逆位可以表示生活、工作或计划缺乏稳定基础。当前状态可能不断变化，或者尚未形成能够长期依赖的结构，因此较难产生真正的安定感。"
+    },
+    {
+      "id": "four-of-wands-reversed-travel",
+      "orientation": "reversed",
+      "topic": "travel",
+      "content": "权杖四逆位有时可以象征一段持续移动、旅行或不断更换环境的时期。在这种情况下，一个人可能暂时没有固定地点，并不断从一个地方转移到另一个地方。"
+    },
+    {
+      "id": "four-of-wands-reversed-temporary-work",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，权杖四逆位可能表示暂时性的工作或过渡性职位，例如在找到更长期的工作之前先接受短期安排。它强调当前工作状态尚未完全稳定下来。"
+    },
+    {
+      "id": "four-of-wands-reversed-plans",
+      "orientation": "reversed",
+      "topic": "plans",
+      "content": "权杖四逆位可以表示计划缺乏稳定性或尚未形成牢固基础。即使已经存在发展机会，如果没有持续投入和实际参与，事情仍可能无法真正稳定下来。"
+    },
+    {
+      "id": "four-of-wands-reversed-belonging",
+      "orientation": "reversed",
+      "topic": "belonging",
+      "content": "权杖四逆位可能表示无法真正融入当前环境。周围可能已经具备支持、舒适或稳定的条件，但个人没有主动参与或投入，因此仍然觉得自己只是暂时经过，而不是环境的一部分。"
+    },
+    {
+      "id": "four-of-wands-reversed-appreciation",
+      "orientation": "reversed",
+      "topic": "reflection",
+      "content": "权杖四逆位有时提示重新看待自己已经拥有的家庭或工作环境。问题未必是环境完全缺少价值，而可能是个人没有参与其中、没有投入，或者忽略了已经存在的稳定和支持。"
+    },
+    {
+      "id": "four-of-wands-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖四逆位可能表示关系的发展停滞，双方尚未建立更稳定的承诺或共同基础。关系可能缺乏进一步成长所需要的稳定性和投入。"
+    },
+    {
+      "id": "four-of-wands-symbolism-four-wands",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中四根权杖稳固地立在地面上，象征已经建立起来的基础、稳定性和能够支持进一步生活发展的结构。"
+    },
+    {
+      "id": "four-of-wands-symbolism-garland",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "四根权杖顶部的迎宾花圈象征欢迎、庆祝和共享喜悦，强化了权杖四关于安顿、聚会、支持性环境和阶段性成果的主题。"
+    },
+    {
+      "id": "four-of-wands-symbolism-castle",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的城堡象征坚固、家庭和稳定基础，也表示权杖原本向外发展的热情开始被导入一个能够安顿和长期经营的生活空间。"
+    },
+    {
+      "id": "four-of-wands-symbolism-celebrating-people",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中庆祝和舞动的人群象征欢乐、分享和活跃的人际互动。它说明稳定并不等于停滞，而是可以在安全基础上继续保有权杖元素的热情和生命力。"
+    },
+    {
+      "id": "three-of-wands-four-of-wands-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的数字发展体系中，权杖三代表根据之前的决定展开行动、扩展并等待成果，而权杖四进一步把这些发展变得稳固和实际。因此权杖四可以理解为权杖三发展之后形成稳定基础的阶段。"
+    },
+    {
+      "id": "four-of-wands-reversed-three-of-wands-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源认为，当权杖四逆位表现为关系或发展停滞时，可以回到权杖三的课题重新审视成长和发展过程，因为原本应该从权杖三进入权杖四稳定阶段的进展可能在中途受到阻碍。"
+    }
+  ]
+}

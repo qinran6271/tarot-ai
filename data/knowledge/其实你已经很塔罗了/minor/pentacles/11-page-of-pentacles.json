@@ -1,0 +1,192 @@
+{
+  "cardId": "page-of-pentacles",
+  "courtRank": "page",
+  "name": {
+    "zh": "五角星侍卫",
+    "en": "Page of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/11-page-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "page-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星侍卫正位表示认真学习、获得实用技能，并为新的工作、计划或现实阶段做好准备。"
+    },
+    {
+      "id": "page-of-pentacles-upright-element",
+      "orientation": "upright",
+      "topic": "element",
+      "content": "五角星侍卫代表土元素中的空气，强调用思考、学习和计划处理现实资源。"
+    },
+    {
+      "id": "page-of-pentacles-upright-grounded",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "五角星侍卫正位体现脚踏实地、谨慎准备和稳扎稳打的态度。"
+    },
+    {
+      "id": "page-of-pentacles-upright-learning",
+      "orientation": "upright",
+      "topic": "learning",
+      "content": "开始新工作、新计划或不熟悉的任务时，五角星侍卫正位建议先取得基础知识和技能。"
+    },
+    {
+      "id": "page-of-pentacles-upright-practical-knowledge",
+      "orientation": "upright",
+      "topic": "education",
+      "content": "这张牌可能表示学习能够产生实际效益的知识，并通过课程、实习、学徒期或在职训练发展能力。"
+    },
+    {
+      "id": "page-of-pentacles-upright-execution",
+      "orientation": "upright",
+      "topic": "execution",
+      "content": "新方案需要明确目标、基础步骤、时间安排和对现实条件的持续观察，不能只停留在计划。"
+    },
+    {
+      "id": "page-of-pentacles-upright-message",
+      "orientation": "upright",
+      "topic": "message",
+      "content": "五角星侍卫正位可能表示与金钱、新工作、课程、申请、录取或职业训练有关的消息。"
+    },
+    {
+      "id": "page-of-pentacles-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业中，五角星侍卫正位可能表示开始新职位、培养专业技能或关注可衡量的学习成果。"
+    },
+    {
+      "id": "page-of-pentacles-upright-person",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "作为人物原型，五角星侍卫表示认真、务实、稳健，并愿意为长期目标学习的人。"
+    },
+    {
+      "id": "page-of-pentacles-upright-nature",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "五角星侍卫式人物可能喜欢自然、户外活动、动物和具体可操作的事物。"
+    },
+    {
+      "id": "page-of-pentacles-upright-mature-student",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "这个原型常表现为少年老成、梦想务实、行动谨慎，并重视现实成果。"
+    },
+    {
+      "id": "page-of-pentacles-neutral-demographic-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "五角星侍卫可对应任何正在进入新领域的人，不能用传统外貌描述可靠判断年龄、性别、外貌或身份。"
+    },
+    {
+      "id": "page-of-pentacles-symbolism-feet",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "侍卫双脚稳稳站在土地上，象征现实基础、稳定和脚踏实地。"
+    },
+    {
+      "id": "page-of-pentacles-symbolism-coin",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "侍卫专注凝视五角星，象征研究金钱、技能、身体或物质机会。"
+    },
+    {
+      "id": "page-of-pentacles-symbolism-sky",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "明亮天空象征发展潜力，实际成果则来自谨慎准备、练习和认真执行。"
+    },
+    {
+      "id": "page-of-pentacles-upright-saving",
+      "orientation": "upright",
+      "topic": "finance",
+      "content": "五角星侍卫正位可能表示储蓄意识、量入为出，以及对金钱责任的学习。"
+    },
+    {
+      "id": "page-of-pentacles-minor-finance-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "儿童或年轻人不应承担家庭主要财务责任；向家人收取高额利息可能造成剥削、冲突或法律问题。"
+    },
+    {
+      "id": "page-of-pentacles-transaction-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "涉及贷款、买卖或大额付款时，应核实资金证明、付款期限、定金条款和违约处理，不能只依赖牌面。"
+    },
+    {
+      "id": "page-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星侍卫正位可能表示对新关系或既有关系的新阶段作出认真承诺。"
+    },
+    {
+      "id": "page-of-pentacles-upright-relationship-actions",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "关系承诺可通过稳定联系、共同学习、规划时间、讨论责任和完成约定来体现。"
+    },
+    {
+      "id": "page-of-pentacles-upright-commitment-developing",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "侍卫代表开始与学习，初期认真仍需通过持续行为观察，不能直接视为永久保证。"
+    },
+    {
+      "id": "page-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星侍卫逆位可能表示缺少承诺、注意力分散、频繁改变目标或计划难以落实。"
+    },
+    {
+      "id": "page-of-pentacles-reversed-immaturity",
+      "orientation": "reversed",
+      "topic": "immaturity",
+      "content": "逆位可能表现为躁动、浪费体力与资源，或忽略长期责任。"
+    },
+    {
+      "id": "page-of-pentacles-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在亲密关系中，逆位可能表示承诺不足，或只追求即时吸引而不愿持续投入。"
+    },
+    {
+      "id": "page-of-pentacles-reversed-sexuality-caution",
+      "orientation": "reversed",
+      "topic": "relationship_advice",
+      "content": "性欲本身并非问题，关键在于关系行为是否诚实、自愿、安全并尊重双方边界。"
+    },
+    {
+      "id": "page-of-pentacles-three-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "three-of-pentacles"
+      ],
+      "content": "逆位五角星侍卫与五角星三共同出现时，传统上可能表示不确定是否继续课程、训练中断，或完成当前阶段后暂不深造。"
+    },
+    {
+      "id": "page-of-pentacles-reversed-transaction",
+      "orientation": "reversed",
+      "topic": "transaction",
+      "content": "在交易问题中，逆位可能提示资金未落实、付款延迟或买方改变主意，但不能确定交易必然失败。"
+    },
+    {
+      "id": "page-of-pentacles-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "逆位建议缩小目标、恢复专注，确认真正愿意承诺的方向，并先完成一个基础步骤。"
+    }
+  ]
+}

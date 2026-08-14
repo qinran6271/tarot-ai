@@ -1,0 +1,168 @@
+{
+  "cardId": "six-of-cups",
+  "cardNumber": 6,
+  "name": {
+    "zh": "圣杯六",
+    "en": "Six of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/06-six-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "six-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯六正位代表保障、安全、熟悉感与过去。它描述一个稳定且可预测的环境，但这种安全可能以减少冒险和成长为代价。"
+    },
+    {
+      "id": "six-of-cups-upright-security-growth-cost",
+      "orientation": "upright",
+      "topic": "growth",
+      "content": "圣杯六正位提醒人，外在保障虽然能减少焦虑，却也可能让人停止尝试、提问和发展。安全是一个阶段，不应成为拒绝成长的理由。"
+    },
+    {
+      "id": "six-of-cups-upright-protection",
+      "orientation": "upright",
+      "topic": "protection",
+      "content": "圣杯六正位可以描述一方教导、照顾或保护另一方的关系。保护若过度，会剥夺对方亲自经历困难、学习与成长的机会。"
+    },
+    {
+      "id": "six-of-cups-upright-parent-child-pattern",
+      "orientation": "upright",
+      "topic": "relationship_pattern",
+      "content": "圣杯六正位可能表示关系逐渐固定为类似父母与孩子的角色：一方负责保护和决定，另一方停留在依赖位置，双方都难以超越熟悉模式。"
+    },
+    {
+      "id": "six-of-cups-upright-emotional-responsibility",
+      "orientation": "upright",
+      "topic": "emotional_responsibility",
+      "content": "圣杯六正位要求双方承担更多个人责任。不能只依赖伴侣、家庭或物质环境提供安全，也需要发展处理失落和不确定性的能力。"
+    },
+    {
+      "id": "six-of-cups-upright-past",
+      "orientation": "upright",
+      "topic": "past",
+      "content": "圣杯六正位代表童年回忆、过去的关系、旧人旧事或熟悉环境重新出现，并等待被重新理解或处理。"
+    },
+    {
+      "id": "six-of-cups-upright-home-family",
+      "orientation": "upright",
+      "topic": "home_family",
+      "content": "圣杯六正位可以表示稳定的家庭或居家状态，也可能是一段舒适、安顿下来并恢复活力的时期。"
+    },
+    {
+      "id": "six-of-cups-upright-fixed-pattern",
+      "orientation": "upright",
+      "topic": "habit",
+      "content": "圣杯六正位可能描述工作或关系中的固定习惯，事情总以相同方式发生。可预测性带来安全，也可能造成停滞。"
+    },
+    {
+      "id": "six-of-cups-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "在旅行问题中，圣杯六正位可能表示回到出生地、故乡，或前往带有强烈童年回忆和熟悉感的地方。"
+    },
+    {
+      "id": "six-of-cups-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，圣杯六正位可能表示安全、有保障但缺乏挑战的工作，也可能表示重操旧业或回到熟悉行业。"
+    },
+    {
+      "id": "six-of-cups-upright-caregiving-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "圣杯六正位可以描述与儿童、照顾、教育或帮助他人建立安全感有关的工作，例如教学、保育、咨询、按摩、芳香疗法或冥想教学。"
+    },
+    {
+      "id": "six-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯六正位表示安全、熟悉且具有良好基础的相处模式，但也可能因一方或双方害怕风险而限制关系发展。"
+    },
+    {
+      "id": "six-of-cups-upright-repeating-partner-pattern",
+      "orientation": "upright",
+      "topic": "relationship_pattern",
+      "content": "圣杯六正位可能表示选择伴侣时重复过去熟悉的类型，使先前的关系模式继续延续，即使这种模式并不促进成长。"
+    },
+    {
+      "id": "six-of-cups-upright-five-lesson",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "five-of-cups"
+      ],
+      "content": "圣杯六中的安全模式可能源于圣杯五所经历的失落。人试图通过稳定环境、固定角色和物质保障，避免再次面对悲伤。"
+    },
+    {
+      "id": "six-of-cups-upright-ten-direction",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "ten-of-cups"
+      ],
+      "content": "圣杯六是关系发展中的必要阶段，但并非终点。关系若要朝圣杯十的成熟满足发展，双方最终需要超越单纯依赖外在保障的模式。"
+    },
+    {
+      "id": "six-of-cups-symbolism-adult-faces-child-clothes",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "成年人的面孔与孩子般的衣服，象征关系中的双方虽然已经成年，却仍可能依赖保护、熟悉角色或童年式安全感，需要承担更多个人责任。"
+    },
+    {
+      "id": "six-of-cups-symbolism-castle-walls",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "城堡与高墙象征被保护的安全环境，也表示这种保护可能成为限制，使关系无法超越既有边界。"
+    },
+    {
+      "id": "six-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯六逆位表示离开熟悉的安全状态，进入更具冒险、挑战和成长性的处境。"
+    },
+    {
+      "id": "six-of-cups-reversed-release-patterns",
+      "orientation": "reversed",
+      "topic": "past",
+      "content": "圣杯六逆位可能表示检视内在与过去，并从无效、重复的习惯和关系模式中解放自己。"
+    },
+    {
+      "id": "six-of-cups-reversed-five-lesson",
+      "orientation": "reversed",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "five-of-cups"
+      ],
+      "content": "圣杯六逆位需要重新理解圣杯五的课题：接受失落是生命自然的一部分。只有不再试图永远避免失去，才有勇气继续迎接挑战。"
+    },
+    {
+      "id": "six-of-cups-reversed-inner-security",
+      "orientation": "reversed",
+      "topic": "inner_growth",
+      "content": "圣杯六逆位代表把安全感的来源从外界转移到内在。拥有内在安全感后，才能探索陌生世界，而不必始终停留在熟悉环境。"
+    },
+    {
+      "id": "six-of-cups-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯六逆位可能表示关系朝更深层发展，并逐渐离开过去的保护、依赖或不安全模式。"
+    },
+    {
+      "id": "six-of-cups-reversed-travel",
+      "orientation": "reversed",
+      "topic": "travel",
+      "content": "圣杯六逆位可能表示离开家乡、搬到陌生环境、第一次海外旅行，或主动寻找比原有生活更具挑战性的经验。"
+    }
+  ]
+}

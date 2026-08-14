@@ -1,0 +1,159 @@
+{
+  "cardId": "five-of-swords",
+  "cardNumber": 5,
+  "name": {
+    "zh": "宝剑五",
+    "en": "Five of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/05-five-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "five-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑五正位表示争吵、紧张、冲突与失落。在当前态度下，各方很难真正解决问题。"
+    },
+    {
+      "id": "five-of-swords-upright-battle-not-war",
+      "orientation": "upright",
+      "topic": "conflict",
+      "content": "宝剑五正位可能赢得眼前一回合，但整个问题尚未解决，之后仍可能以不同形式回来。"
+    },
+    {
+      "id": "five-of-swords-upright-costly-victory",
+      "orientation": "upright",
+      "topic": "consequences",
+      "content": "宝剑五正位可能通过压倒对方取得短期胜利，却失去尊重、信任、合作意愿和学习机会。"
+    },
+    {
+      "id": "five-of-swords-upright-force-manipulation",
+      "orientation": "upright",
+      "topic": "control",
+      "content": "宝剑五正位可能表示使用武力、胁迫、语言优势或策略操作，让别人接受自己的方案。"
+    },
+    {
+      "id": "five-of-swords-upright-win-vs-resolve",
+      "orientation": "upright",
+      "topic": "conflict_resolution",
+      "content": "宝剑五正位要求区分赢得争论与解决问题。让所有人屈服通常只产生暂时妥协，不会形成共同认可的方案。"
+    },
+    {
+      "id": "five-of-swords-upright-recurring-problem",
+      "orientation": "upright",
+      "topic": "repetition",
+      "content": "宝剑五正位表示未解决的核心问题会以不同形式反复出现，直到各方愿意处理根本原因。"
+    },
+    {
+      "id": "five-of-swords-upright-control-attitude",
+      "orientation": "upright",
+      "topic": "mindset",
+      "content": "宝剑五正位可能带有“如果一切由我掌控就好了”的态度，把差异视为必须消灭的威胁。"
+    },
+    {
+      "id": "five-of-swords-upright-inner-conflict",
+      "orientation": "upright",
+      "topic": "inner_conflict",
+      "content": "宝剑五正位既可能表示与他人冲突，也可能描述内在不同想法、需要和价值之间的交战。"
+    },
+    {
+      "id": "five-of-swords-upright-no-listening",
+      "orientation": "upright",
+      "topic": "communication",
+      "content": "宝剑五正位可能表示每个人都在准备反驳，没有人真正倾听，因此沟通只有观点交换，没有理解。"
+    },
+    {
+      "id": "five-of-swords-upright-narrow-view",
+      "orientation": "upright",
+      "topic": "mindset",
+      "content": "宝剑五正位容易固守单一观点，无法看见自己的方案也可能有局限，或别人掌握了自己忽略的信息。"
+    },
+    {
+      "id": "five-of-swords-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，宝剑五正位可能表示团队无法合作、工作环境充满冲突，或者出现迅速离职与转换职业的倾向。"
+    },
+    {
+      "id": "five-of-swords-upright-career-repeat",
+      "orientation": "upright",
+      "topic": "career_pattern",
+      "content": "若工作冲突的根本模式没有被理解，宝剑五正位表示相似问题可能在下一份工作或合作中再次出现。"
+    },
+    {
+      "id": "five-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑五正位可能表示分离、冲突和失落，双方对事情应如何进行有不同且僵化的决定。"
+    },
+    {
+      "id": "five-of-swords-upright-relationship-multiple-people",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "宝剑五正位也可能包含亲戚、朋友或其他人物介入关系，使冲突从两个人扩展为多方争执。"
+    },
+    {
+      "id": "five-of-swords-upright-old-conflicts",
+      "orientation": "upright",
+      "topic": "relationship_pattern",
+      "content": "宝剑五正位可能表示当前冲突并非第一次发生，各方带着过去争执的心结，使明确沟通更加困难。"
+    },
+    {
+      "id": "five-of-swords-symbolism-winner",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "前方收集宝剑的胜利者象征赢得当前战斗，却无法证明问题已真正解决。"
+    },
+    {
+      "id": "five-of-swords-symbolism-clouds",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "翻动的云象征冲突中的愤怒、恐惧与情绪压力，使理性沟通更加困难。"
+    },
+    {
+      "id": "five-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑五逆位仍可能存在不协调和分离，但冲突后各方开始反省自己的立场、行为和争执模式。"
+    },
+    {
+      "id": "five-of-swords-reversed-open-communication",
+      "orientation": "reversed",
+      "topic": "communication",
+      "content": "宝剑五逆位提供重新沟通的可能，适合解释自己如何看问题，同时认真听取别人看见了什么。"
+    },
+    {
+      "id": "five-of-swords-reversed-responsibility",
+      "orientation": "reversed",
+      "topic": "accountability",
+      "content": "宝剑五逆位表示已经看见冲突模式，并准备对自己参与维持问题的部分承担更多责任。"
+    },
+    {
+      "id": "five-of-swords-reversed-repeated-relationships",
+      "orientation": "reversed",
+      "topic": "relationship_pattern",
+      "content": "当多段关系以相似方式结束时，宝剑五逆位建议检视自己的需要、边界、依恋经验和选择模式，以打破循环。"
+    },
+    {
+      "id": "five-of-swords-reversed-responsibility-not-blame",
+      "orientation": "reversed",
+      "topic": "accountability",
+      "content": "承担责任不等于承担全部过错，也不等于合理化他人的伤害，而是关注自己能够理解和改变的部分。"
+    },
+    {
+      "id": "five-of-swords-reversed-expanded-view",
+      "orientation": "reversed",
+      "topic": "inner_growth",
+      "content": "宝剑五逆位表示视角开始扩大，能够同时看见自己的理由、他人的经验，以及双方行为如何共同形成冲突。"
+    }
+  ]
+}

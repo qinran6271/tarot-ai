@@ -1,0 +1,159 @@
+{
+  "cardId": "ace-of-wands",
+  "cardNumber": 1,
+  "name": {
+    "zh": "权杖王牌",
+    "en": "Ace of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/01-ace-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "ace-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖王牌正位象征一个充满力量和生命力的新开始，尤其强调真正开始执行，而不仅是产生想法或作出决定。它通常意味着某个计划、目标或新的生活方向已经具备付诸行动的能量。"
+    },
+    {
+      "id": "ace-of-wands-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "权杖王牌正位强调具体行动。它不是单纯关于计划、思考或感觉，而是把想法真正转化为行为。面对问题时，这张牌通常支持主动开始、采取第一步，并通过实际行动推动事情发展。"
+    },
+    {
+      "id": "ace-of-wands-upright-new-beginning",
+      "orientation": "upright",
+      "topic": "new_beginning",
+      "content": "权杖王牌正位可以表示一个新的计划、项目、挑战或人生阶段正式启动。这个开始通常带有强烈的热情、勇气和动力，并具有产生实际结果的潜力。"
+    },
+    {
+      "id": "ace-of-wands-upright-energy",
+      "orientation": "upright",
+      "topic": "energy",
+      "content": "权杖王牌正位代表旺盛的生命力、热情、勇气和身体能量。它可能对应一段精力充沛、愿意冒险、接受挑战并积极投入生活的时期。"
+    },
+    {
+      "id": "ace-of-wands-upright-goal",
+      "orientation": "upright",
+      "topic": "progress",
+      "content": "权杖王牌正位与清晰的目标感和追求有关。当一个值得投入的目标出现时，行动本身会带来方向感和目的感。此时重要的是让能量集中到具体目标，而不是停留在构想阶段。"
+    },
+    {
+      "id": "ace-of-wands-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "权杖王牌正位可以象征旅行、移动或一个原本计划中的行程真正开始实施。它强调从计划旅行转向实际出发，因此也可以泛指进入新的环境、方向或经验。"
+    },
+    {
+      "id": "ace-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业或项目问题中，权杖王牌正位可以表示一个新项目、方案或机会开始进入实际执行阶段。它支持把已有的想法转化为行动，并利用当前较强的动力和热情推进事情。"
+    },
+    {
+      "id": "ace-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖王牌正位可以表示一段新关系的开始，也可以代表既有关系进入一个新的、更有活力的阶段。它强调吸引力、热情以及关系中的主动发展。"
+    },
+    {
+      "id": "ace-of-wands-upright-physical-attraction",
+      "orientation": "upright",
+      "topic": "physical_attraction",
+      "content": "该来源将权杖王牌与旺盛的性与身体能量联系起来。在感情问题中，它可能象征明显的身体吸引力、激情或肉体关系的开始，但需要结合其他牌和具体关系背景理解。"
+    },
+    {
+      "id": "ace-of-wands-upright-relationship-travel",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "当权杖王牌出现在感情问题中时，旅行或移动的主题有时也可能与关系直接相关，例如在旅途中认识某个人，或伴侣之间共同开始一段旅程。"
+    },
+    {
+      "id": "ace-of-wands-upright-potential",
+      "orientation": "upright",
+      "topic": "potential",
+      "content": "权杖王牌正位通常具有较少限制和较强发展潜力。它象征新的能量已经出现，但最终结果仍依赖于是否真正使用这股力量并持续采取行动。"
+    },
+    {
+      "id": "ace-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖王牌逆位仍然可能表示新的计划或方向，但启动过程通常比正位更缓慢。新的尝试可能受到未解决事务、分散注意力或能量管理问题的阻碍。"
+    },
+    {
+      "id": "ace-of-wands-reversed-delay",
+      "orientation": "reversed",
+      "topic": "delay",
+      "content": "权杖王牌逆位可能表示行动或新计划受到延迟。问题不一定在于缺少机会，而可能是旧事务尚未完成，导致新的目标无法获得足够的时间、资源或注意力。"
+    },
+    {
+      "id": "ace-of-wands-reversed-unfinished-business",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "权杖王牌逆位可以提示在开始新计划之前，先处理尚未完成的旧项目或责任。必要时可能需要完成、放弃或重新安排已有事务，才能真正为新的目标腾出空间。"
+    },
+    {
+      "id": "ace-of-wands-reversed-scattered-energy",
+      "orientation": "reversed",
+      "topic": "energy",
+      "content": "权杖王牌逆位可能表示精力和热情过于分散，一个人同时投入太多计划，却没有足够的集中度完成其中任何一个。此时重点是约束和集中能量，而不是不断启动新的事情。"
+    },
+    {
+      "id": "ace-of-wands-reversed-too-many-projects",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业或项目问题中，权杖王牌逆位可能表示同时开展太多方案，导致资源和精力被分散。比起继续增加新项目，更需要明确优先级，并完成或舍弃现有事务。"
+    },
+    {
+      "id": "ace-of-wands-reversed-travel-delay",
+      "orientation": "reversed",
+      "topic": "travel",
+      "content": "权杖王牌逆位可以表示旅行计划被延迟、推迟或暂时无法实施。具体解读需要结合牌阵判断，是尚未出发，还是旅行相关的行动暂时停顿。"
+    },
+    {
+      "id": "ace-of-wands-reversed-travel-ending",
+      "orientation": "reversed",
+      "topic": "travel",
+      "content": "该来源也认为权杖王牌逆位可能象征一次旅行或移动阶段已经结束，例如刚结束旅程并重新安顿下来。因此逆位不一定只表示无法出发，也可能代表行动期的结束。"
+    },
+    {
+      "id": "ace-of-wands-reversed-action",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "当权杖王牌逆位出现时，重点通常不是完全放弃新的开始，而是先整理现有状况、集中精力并解决阻碍，再采取新的行动。"
+    },
+    {
+      "id": "ace-of-wands-symbolism-wand",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的权杖被描绘成具有生命和成长感的形态，象征火元素的活力、热情以及不断生长和向外发展的能量。"
+    },
+    {
+      "id": "ace-of-wands-symbolism-hand",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中一只手从云中伸出并握住权杖，可以理解为新的能量、机会或行动动力正在进入现实，并等待被实际使用。"
+    },
+    {
+      "id": "ace-of-wands-symbolism-castle",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面背景中的城堡象征目的地或需要抵达的目标，强化了权杖王牌关于行动、旅程以及朝明确方向前进的主题。"
+    },
+    {
+      "id": "ace-of-wands-symbolism-clear-sky",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "晴朗的天空象征当前目标和方向具有较高的清晰度。它与权杖王牌的行动主题结合，强调此时不仅存在动力，也较容易知道自己准备朝什么方向前进。"
+    }
+  ]
+}

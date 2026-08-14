@@ -1,0 +1,165 @@
+{
+  "cardId": "two-of-swords",
+  "cardNumber": 2,
+  "name": {
+    "zh": "宝剑二",
+    "en": "Two of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/02-two-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "two-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑二正位表示为了避免痛苦而封闭自己，也代表需要在两个方向之间作出决定。"
+    },
+    {
+      "id": "two-of-swords-upright-defense",
+      "orientation": "upright",
+      "topic": "defense",
+      "content": "宝剑二正位可能以不让任何事物靠近的方式避免受伤，但这种安全也会阻断连接、选择和成长。"
+    },
+    {
+      "id": "two-of-swords-upright-emotional-coldness",
+      "orientation": "upright",
+      "topic": "emotional_repression",
+      "content": "持续拒绝面对痛苦因素，会让情感逐渐冷却，并使生活进入无聊、拖延和停滞。"
+    },
+    {
+      "id": "two-of-swords-upright-self-blindness",
+      "orientation": "upright",
+      "topic": "avoidance",
+      "content": "宝剑二正位表示一个人有能力看见事实，却暂时选择不看。回避可能来自害怕知道答案后的责任。"
+    },
+    {
+      "id": "two-of-swords-upright-anger-fear",
+      "orientation": "upright",
+      "topic": "emotional_conflict",
+      "content": "宝剑二正位混合愤怒与恐惧：一方面准备攻击威胁，另一方面又试图躲藏，不愿面对害怕的原因。"
+    },
+    {
+      "id": "two-of-swords-upright-inner-turmoil",
+      "orientation": "upright",
+      "topic": "inner_conflict",
+      "content": "外界事件可能已经平静，但思想和内心仍持续骚动。需要检查当前威胁是事实，还是过去恐惧的延续。"
+    },
+    {
+      "id": "two-of-swords-upright-topic-avoidance",
+      "orientation": "upright",
+      "topic": "avoidance",
+      "content": "宝剑二正位有时表示回避特定话题、人物或场合，因为它们会唤起尚未解决的恐惧和情绪。"
+    },
+    {
+      "id": "two-of-swords-upright-retreat",
+      "orientation": "upright",
+      "topic": "reflection",
+      "content": "暂时从日常生活中退开可以帮助整理情绪，但退隐应服务于理解和决定，而不是无限期拖延。"
+    },
+    {
+      "id": "two-of-swords-upright-decision",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "宝剑二正位表示需要在两个选择中择一。作决定前，应理解并处理影响判断的情感冲突。"
+    },
+    {
+      "id": "two-of-swords-upright-relief",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "当宝剑二正位所要求的决定作出后，最初的回报通常是解脱感，因为注意力终于锁定一个方向。"
+    },
+    {
+      "id": "two-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑二正位可能表示暂时退开整理感受，尤其是在过去关系伤害尚需疗愈时。"
+    },
+    {
+      "id": "two-of-swords-upright-relationship-choice",
+      "orientation": "upright",
+      "topic": "relationship_choice",
+      "content": "宝剑二正位可能表示在两个关系机会中选择，或者决定允许伴侣靠近到什么程度。"
+    },
+    {
+      "id": "two-of-swords-upright-thought-feeling-balance",
+      "orientation": "upright",
+      "topic": "balance",
+      "content": "宝剑二正位的有效决定需要结合思想与情感，而不是只依靠冷静分析或只跟随情绪。"
+    },
+    {
+      "id": "two-of-swords-symbolism-crossed-swords",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "交叉在胸前的两把剑象征保护心口、阻挡情感接近，以及两个相互冲突的选择。"
+    },
+    {
+      "id": "two-of-swords-symbolism-blindfold",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "由人物自己系上的眼罩象征自我蒙蔽。双手仍然自由，说明她有能力摘下眼罩并查看事实。"
+    },
+    {
+      "id": "two-of-swords-symbolism-stone-gray",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "灰色衣服与石凳象征情感冷却、僵化和停滞，也表现以麻木换取安全。"
+    },
+    {
+      "id": "two-of-swords-symbolism-water",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物背后的海水象征情绪不稳定以及与现实陆地的分离，说明决定不能只在头脑中完成。"
+    },
+    {
+      "id": "two-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑二逆位表示被压抑的恐惧、怨恨和情绪逐渐占据判断，使决定更加困难。"
+    },
+    {
+      "id": "two-of-swords-reversed-unrealistic-fear",
+      "orientation": "reversed",
+      "topic": "fear",
+      "content": "宝剑二逆位中的恐惧可能缺乏现实依据，却因回避和反复思考而显得越来越真实。"
+    },
+    {
+      "id": "two-of-swords-reversed-more-options",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "宝剑二逆位可能越寻找唯一正确选择，心智越制造更多选项、理由和反例，使决定不断延后。"
+    },
+    {
+      "id": "two-of-swords-reversed-rationalize-emotion",
+      "orientation": "reversed",
+      "topic": "emotional_repression",
+      "content": "宝剑二逆位可能试图通过分析控制情绪，或把所有感受理性化，却因此无法真正理解自己需要什么。"
+    },
+    {
+      "id": "two-of-swords-reversed-feel-first",
+      "orientation": "reversed",
+      "topic": "inner_growth",
+      "content": "面对宝剑二逆位，需要先允许自己感受并辨认情绪。越清楚自己的感受，越能理解当前处境。"
+    },
+    {
+      "id": "two-of-swords-reversed-indecision-distress",
+      "orientation": "reversed",
+      "topic": "anxiety",
+      "content": "宝剑二逆位表示长期犹豫造成情绪不安。不断列举可能性而不考虑真实感受，会让人长期停留在同一问题。"
+    },
+    {
+      "id": "two-of-swords-reversed-good-enough-choice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "宝剑二逆位要求停止寻找完美且无风险的选择，先确认事实、情感需要和可承担后果，再作出足够清楚的决定。"
+    }
+  ]
+}

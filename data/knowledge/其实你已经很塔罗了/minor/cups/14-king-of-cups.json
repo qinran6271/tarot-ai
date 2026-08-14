@@ -1,0 +1,178 @@
+{
+  "cardId": "king-of-cups",
+  "name": {
+    "zh": "圣杯国王",
+    "en": "King of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "courtRank": "king",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/14-king-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "king-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯国王正位表示通过情感与创造力的训练、自律和坚持获得成功，把想象与实际努力结合后会产生回报。"
+    },
+    {
+      "id": "king-of-cups-upright-element",
+      "orientation": "upright",
+      "topic": "element",
+      "content": "圣杯国王代表水元素中的土：水提供想象、情感和直觉，土提供稳定、耐心、训练与落实能力。"
+    },
+    {
+      "id": "king-of-cups-upright-discipline",
+      "orientation": "upright",
+      "topic": "discipline",
+      "content": "圣杯国王正位不会只凭一时灵感行动，而能持续投入，使创意逐渐形成具体成果。"
+    },
+    {
+      "id": "king-of-cups-upright-intuition",
+      "orientation": "upright",
+      "topic": "intuition",
+      "content": "圣杯国王正位的重要决定会参考经过经验检验的直觉，即使在事业问题中，也能从敏锐观察和预感中发现方向。"
+    },
+    {
+      "id": "king-of-cups-upright-boundaries",
+      "orientation": "upright",
+      "topic": "boundaries",
+      "content": "圣杯国王正位理解自己的情感和创造能力具有价值，不会轻易向不尊重这些特质的人开放或付出。"
+    },
+    {
+      "id": "king-of-cups-upright-timing",
+      "orientation": "upright",
+      "topic": "timing",
+      "content": "圣杯国王正位会在行动前等待合适时机。耐心不是被动，而是以经验判断何时分享、信任和推进最有价值。"
+    },
+    {
+      "id": "king-of-cups-court-development",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "page-of-cups",
+        "knight-of-cups"
+      ],
+      "content": "圣杯侍卫急于分享，圣杯骑士热衷分享，圣杯国王则理解分享的价值与时机，会先确认对象和环境是否值得信任。"
+    },
+    {
+      "id": "king-of-cups-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "圣杯国王正位适合创造、理解和支持他人的领域，例如协作、艺术、表演、建筑、音乐、咨询、心理支持、考古、哲学或宗教研究。"
+    },
+    {
+      "id": "king-of-cups-upright-creative-career",
+      "orientation": "upright",
+      "topic": "creativity",
+      "content": "在艺术和创造工作中，圣杯国王正位表示成熟、有训练的方法能够把想象和灵感转化为稳定成果。"
+    },
+    {
+      "id": "king-of-cups-upright-emotional-maturity",
+      "orientation": "upright",
+      "topic": "emotional_maturity",
+      "content": "圣杯国王正位能够同时考虑自己和他人的需要。成熟不是没有情绪，而是能够容纳、理解并选择如何表达情绪。"
+    },
+    {
+      "id": "king-of-cups-upright-person",
+      "orientation": "upright",
+      "topic": "person",
+      "content": "圣杯国王正位代表人物时，通常耐心、深沉、敏锐、富有创造力，并具有稳定而克制的个人力量。"
+    },
+    {
+      "id": "king-of-cups-upright-astrology",
+      "orientation": "upright",
+      "topic": "astrology",
+      "content": "圣杯国王具有巨蟹座、天蝎座和双鱼座的水象特质，但星座只是辅助线索，人物的情感成熟与行为更重要。"
+    },
+    {
+      "id": "king-of-cups-death-scorpio",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "death"
+      ],
+      "content": "圣杯国王与死神共同出现时，可能进一步强化天蝎座、深层情感或重大内在转化的主题。"
+    },
+    {
+      "id": "king-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯国王正位表示成熟、稳定并珍惜情感亲密的人，也会把伴侣和孩子纳入未来计划。"
+    },
+    {
+      "id": "king-of-cups-upright-relationship-advice",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "圣杯国王正位建议以自律、创造力、耐心和情感成熟经营关系，而不是只依靠强烈感受。"
+    },
+    {
+      "id": "king-of-cups-symbolism-steady-gaze",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "国王坚定的目光象征自律、专注，以及能够持续投入并取得成果的能力。"
+    },
+    {
+      "id": "king-of-cups-symbolism-cup-close",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "国王把杯子放在靠近自己的位置，象征保护情感与创造力量，并只与尊重这些价值的人分享。"
+    },
+    {
+      "id": "king-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯国王逆位表示情感力量的阴影，可能表现为操控、不诚实、不信任、报复，或被压抑太久的情绪开始破坏关系。"
+    },
+    {
+      "id": "king-of-cups-reversed-manipulation",
+      "orientation": "reversed",
+      "topic": "control",
+      "content": "圣杯国王逆位可能很少透露自己，却仔细观察他人并寻找弱点，以心理策略和情感信息控制关系。"
+    },
+    {
+      "id": "king-of-cups-reversed-distrust",
+      "orientation": "reversed",
+      "topic": "trust",
+      "content": "圣杯国王逆位的操控可能来自强烈恐惧、不信任和过去未处理的情感伤害。"
+    },
+    {
+      "id": "king-of-cups-reversed-revenge",
+      "orientation": "reversed",
+      "topic": "revenge",
+      "content": "圣杯国王逆位可能长期记住旧话与旧伤，并通过报复、翻旧账或反复证明自己受害来维持冲突。"
+    },
+    {
+      "id": "king-of-cups-reversed-suppressed-emotion",
+      "orientation": "reversed",
+      "topic": "emotional_repression",
+      "content": "圣杯国王逆位可能表示早期被阻碍或扭曲的爱与被爱需求，以及压抑太久、正在寻找出口的情绪。"
+    },
+    {
+      "id": "king-of-cups-reversed-choice-change",
+      "orientation": "reversed",
+      "topic": "inner_growth",
+      "content": "圣杯国王逆位的阴影行为并非无法改变的命运。觉察、承担责任和选择新的行动，可以改变操控与报复模式。"
+    },
+    {
+      "id": "king-of-cups-reversed-creativity",
+      "orientation": "reversed",
+      "topic": "creativity",
+      "content": "在创造工作中，圣杯国王逆位可能表示潜力尚未充分开发，需要更多成熟度、经验和持续训练才能产生明显成果。"
+    },
+    {
+      "id": "king-of-cups-reversed-letting-go",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "圣杯国王逆位要求对过去释怀，把情感和创造力引导到有意义的目标。释怀不是否认伤害，而是停止让报复和反刍支配现在。"
+    }
+  ]
+}

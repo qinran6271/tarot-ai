@@ -1,0 +1,165 @@
+{
+  "cardId": "six-of-wands",
+  "cardNumber": 6,
+  "name": {
+    "zh": "权杖六",
+    "en": "Six of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/06-six-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "six-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖六正位象征自信、成功和目标的实现。它所代表的乐观并非没有根据的期待，而是建立在过去经验、已经取得的成功以及对自身能力的信任之上。"
+    },
+    {
+      "id": "six-of-wands-upright-confidence",
+      "orientation": "upright",
+      "topic": "confidence",
+      "content": "权杖六正位强调对自己和未来可能性的真实信心。这种自信来自过去的成功经验，因此能够提供继续行动、克服困难并完成目标所需要的动力。"
+    },
+    {
+      "id": "six-of-wands-upright-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "权杖六正位是明显支持成功可能性的牌。它表示通过努力、自信以及适当地运用个人能力，当前计划或目标具有较高的实现可能。"
+    },
+    {
+      "id": "six-of-wands-upright-goal",
+      "orientation": "upright",
+      "topic": "progress",
+      "content": "权杖六正位可以表示目标已经达成，或当前的发展正在证实此前的努力有效。它反映一种从挑战和竞争中取得成果，并因为成果而进一步增强信心的状态。"
+    },
+    {
+      "id": "six-of-wands-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及下一步行动时，权杖六正位支持相信自己的能力并继续努力。成功并非来自被动等待，而是来自把已有的自信、经验和能力实际用于完成目标。"
+    },
+    {
+      "id": "six-of-wands-upright-yes-no",
+      "orientation": "upright",
+      "topic": "yes_no",
+      "content": "按照该来源的解读体系，当问题是某项尝试是否能够成功时，权杖六正位具有明显肯定倾向。它支持成功的可能，但这种成功仍建立在实际尝试、努力和正确运用能力之上。"
+    },
+    {
+      "id": "six-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，权杖六正位可以表示工作升迁、获得认可、实现职业目标或某项计划取得成功。过去积累的能力和成果可能使个人获得进一步的发展机会。"
+    },
+    {
+      "id": "six-of-wands-upright-recognition",
+      "orientation": "upright",
+      "topic": "recognition",
+      "content": "权杖六正位可以表示成功受到他人的看见、认可或支持。个人取得的成果不仅增强自身信心，也可能吸引其他人协助、支持或愿意跟随。"
+    },
+    {
+      "id": "six-of-wands-upright-leadership",
+      "orientation": "upright",
+      "topic": "leadership",
+      "content": "权杖六正位具有带领和影响他人的意味。一个人的成功、自信和行动成果可能产生示范作用，使其他人愿意支持、协助或跟随其方向。"
+    },
+    {
+      "id": "six-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖六正位表示双方拥有相近或共同的目标，并具有一起实现这些目标的可能。共同方向能够推动关系继续成长并产生成功感。"
+    },
+    {
+      "id": "six-of-wands-upright-relationship-progress",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖六正位可以表示感情关系正在进入新的发展阶段，例如共同生活、结婚或作出其他更深入的共同决定。核心是双方朝相近的目标继续前进。"
+    },
+    {
+      "id": "six-of-wands-upright-commitment",
+      "orientation": "upright",
+      "topic": "commitment",
+      "content": "在关系承诺问题中，权杖六正位支持双方通过共同目标建立更进一步的承诺。关系的发展不是单方面推动，而是两个人对未来方向具有较高的一致性。"
+    },
+    {
+      "id": "six-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖六逆位可能表示由恐惧、脆弱或缺乏真正自信产生的表面乐观。由于内在并不真正相信成功，行动可能无法持续，使结果难以实现或只能维持很短时间。"
+    },
+    {
+      "id": "six-of-wands-reversed-false-confidence",
+      "orientation": "reversed",
+      "topic": "confidence",
+      "content": "权杖六逆位可以表示外表看似勇敢或乐观，但这种态度缺乏真实的内在信心。恐惧和脆弱仍然影响行动，因此表面的积极态度未必能够转化为持续有效的努力。"
+    },
+    {
+      "id": "six-of-wands-reversed-self-doubt",
+      "orientation": "reversed",
+      "topic": "self_doubt",
+      "content": "权杖六逆位可能与消极想法、失败主义和疑心有关。持续把精力投入对失败的预期，会削弱行动的动力，并使个人更难发挥原本拥有的能力。"
+    },
+    {
+      "id": "six-of-wands-reversed-giving-up",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "权杖六逆位常表示太早放弃。一个人可能因为压力、责任或困难而失去对成功的期待，并在成果真正出现之前退出，因此错过原本可能实现的成功。"
+    },
+    {
+      "id": "six-of-wands-reversed-pressure",
+      "orientation": "reversed",
+      "topic": "pressure",
+      "content": "权杖六逆位可能表示因为压力过大或负担过重而希望逃离当前情境。困难本身可能尚未证明目标无法实现，但压力已经削弱继续坚持的信心。"
+    },
+    {
+      "id": "six-of-wands-reversed-success",
+      "orientation": "reversed",
+      "topic": "success",
+      "content": "权杖六逆位可以表示成功未能实现，或者即使取得成功也无法长期维持。一个重要原因可能是缺乏真正的信心、行动无法持续，或在成果形成之前就已经放弃。"
+    },
+    {
+      "id": "six-of-wands-reversed-abandonment",
+      "orientation": "reversed",
+      "topic": "abandonment",
+      "content": "权杖六逆位可以表示抛弃某个人、关系、事业或目标。当共同方向消失，或者个人不再愿意继续投入时，原本的发展可能因此结束或分离。"
+    },
+    {
+      "id": "six-of-wands-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，权杖六逆位可能表示因为压力、自我怀疑或过早放弃而未能实现原本可能取得的成果，也可能反映个人与工作或事业方向之间已经缺少继续发展的共同目标。"
+    },
+    {
+      "id": "six-of-wands-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖六逆位可能表示双方缺乏共同方向或未来目标。当彼此不再朝相同方向发展时，关系可能逐渐失去继续维持的基础，并最终导致分离或其中一方选择离开。"
+    },
+    {
+      "id": "six-of-wands-symbolism-victory-procession",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的胜利游行象征成功已经获得确认，并具有公开展示成果和受到认可的意味。它体现权杖六关于胜利、自信和成就的核心主题。"
+    },
+    {
+      "id": "six-of-wands-symbolism-wreath",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物头上的花圈象征胜利、成就和个人力量的展现，强化了这张牌关于成功受到确认和认可的意义。"
+    },
+    {
+      "id": "six-of-wands-symbolism-followers",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "胜利人物周围的支持者象征成功具有感染和带动他人的力量。当一个人真正相信自己的能力并取得成果时，也更容易获得其他人的支持、协助或跟随。"
+    }
+  ]
+}

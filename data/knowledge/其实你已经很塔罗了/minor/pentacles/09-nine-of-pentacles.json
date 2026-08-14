@@ -1,0 +1,206 @@
+{
+  "cardId": "nine-of-pentacles",
+  "cardNumber": 9,
+  "name": {
+    "zh": "五角星九",
+    "en": "Nine of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/09-nine-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "nine-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星九正位表示通过长期投入、自律与规划获得的独立、稳定和成果。"
+    },
+    {
+      "id": "nine-of-pentacles-upright-confidence",
+      "orientation": "upright",
+      "topic": "confidence",
+      "content": "五角星九正位是一张自信和自立的牌，自信与自律结合能够支持高标准目标。"
+    },
+    {
+      "id": "nine-of-pentacles-upright-earned-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "五角星九的成果不是偶然，而是由承诺、劳动、纪律、学习和反复评估逐渐建立。"
+    },
+    {
+      "id": "nine-of-pentacles-upright-independence",
+      "orientation": "upright",
+      "topic": "independence",
+      "content": "五角星九正位强调拥有自己的资源、能力和选择空间，并能够享受已创造的生活。"
+    },
+    {
+      "id": "nine-of-pentacles-upright-self-discipline",
+      "orientation": "upright",
+      "topic": "discipline",
+      "content": "自律能够帮助人延迟即时满足、保护长期目标，并使成果逐渐累积。"
+    },
+    {
+      "id": "nine-of-pentacles-upright-uncertainty",
+      "orientation": "upright",
+      "topic": "planning",
+      "content": "成熟的独立也包括承认市场、健康、环境和他人选择无法完全控制，并为不确定性保留缓冲。"
+    },
+    {
+      "id": "nine-of-pentacles-symbolism-garden",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "丰盛花园、葡萄与五角星象征经过时间、照料和劳动形成的成熟成果。"
+    },
+    {
+      "id": "nine-of-pentacles-symbolism-clothing",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "精致服饰与宁静表情象征物质舒适、沉着和对生活环境的掌握。"
+    },
+    {
+      "id": "nine-of-pentacles-symbolism-bird",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "戴着头罩的鸟象征受到训练的本能与自由，表现纪律和自发性之间的取舍。"
+    },
+    {
+      "id": "nine-of-pentacles-suit-sequence",
+      "orientation": "neutral",
+      "topic": "suit_sequence",
+      "relatedCardIds": [
+        "ace-of-pentacles",
+        "two-of-pentacles",
+        "three-of-pentacles",
+        "four-of-pentacles",
+        "five-of-pentacles",
+        "six-of-pentacles",
+        "seven-of-pentacles",
+        "eight-of-pentacles"
+      ],
+      "content": "五角星九承接机会、选择、学习、巩固、困难、责任、复盘和深入承诺，进入阶段性收获。"
+    },
+    {
+      "id": "nine-of-pentacles-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业中，五角星九正位可能表示专业能力、财务独立、稳定成果和更大的工作选择空间。"
+    },
+    {
+      "id": "nine-of-pentacles-upright-result-caution",
+      "orientation": "upright",
+      "topic": "interpretation",
+      "content": "五角星九不表示稳操胜券，较适合解释为过去准备提高了成功概率，并已形成一定现实基础。"
+    },
+    {
+      "id": "nine-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星九正位可能表示舒适、稳定并尊重个人空间的关系。"
+    },
+    {
+      "id": "nine-of-pentacles-upright-relationship-independence",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "财务独立、个人边界和共同物质计划可能是五角星九关系主题的重要部分。"
+    },
+    {
+      "id": "nine-of-pentacles-upright-relationship-effort",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "物质稳定不会自动解决所有关系问题，双方仍需要情感沟通和共同承担。"
+    },
+    {
+      "id": "nine-of-pentacles-upright-freedom",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "伴侣不应以成功或纪律为理由限制另一方自由，健康承诺需要自主同意而非服从。"
+    },
+    {
+      "id": "nine-of-pentacles-empress-pregnancy-tradition",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-empress"
+      ],
+      "content": "传统解读有时把五角星九与女皇的组合联系到怀孕主题，但该组合不能确认是否怀孕。"
+    },
+    {
+      "id": "nine-of-pentacles-pregnancy-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "任何塔罗牌都不能确认怀孕、流产、终止妊娠或生产时间，应使用可靠验孕与专业医疗评估。"
+    },
+    {
+      "id": "nine-of-pentacles-pregnancy-symptoms",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "怀孕期间若出现疼痛、出血或其他担忧，应及时联系医疗专业人员，而不是依赖牌面判断。"
+    },
+    {
+      "id": "nine-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星九逆位可能表示缺乏自律、持续性或完成能力，导致目标难以形成成果。"
+    },
+    {
+      "id": "nine-of-pentacles-reversed-quick-reward",
+      "orientation": "reversed",
+      "topic": "expectation",
+      "content": "五角星九逆位可能表现为期待快速回报，却不愿经历必要的学习、投入和等待。"
+    },
+    {
+      "id": "nine-of-pentacles-reversed-wrong-focus",
+      "orientation": "reversed",
+      "topic": "priorities",
+      "content": "大量精力若投入与核心目标不一致的事务，真正重视的事业或生活可能长期得不到发展。"
+    },
+    {
+      "id": "nine-of-pentacles-reversed-practical-transition",
+      "orientation": "reversed",
+      "topic": "career_advice",
+      "content": "现实工作可能承担必要收入功能，转向长期目标时应重新安排资源并建立可行路径，而非否定当前劳动价值。"
+    },
+    {
+      "id": "nine-of-pentacles-reversed-low-return",
+      "orientation": "reversed",
+      "topic": "finance",
+      "content": "五角星九逆位可能表示投入很多却回报有限，或收入不足以支撑追求的生活方式。"
+    },
+    {
+      "id": "nine-of-pentacles-reversed-many-starts",
+      "orientation": "reversed",
+      "topic": "project",
+      "content": "不断开始新计划却不给任何一项足够时间产生结果，会使投入无法累积。"
+    },
+    {
+      "id": "nine-of-pentacles-eight-seven-return",
+      "orientation": "reversed",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "eight-of-pentacles",
+        "seven-of-pentacles"
+      ],
+      "content": "逆位五角星九可回到五角星八的刻意练习，或五角星七的复盘与方向选择。"
+    },
+    {
+      "id": "nine-of-pentacles-reversed-work-hours",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业中，逆位可能表示夜班、周末工作、非固定工时或过长工时挤压健康、生活和长期目标。"
+    },
+    {
+      "id": "nine-of-pentacles-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "逆位建议减少分散投入，选择值得完成的目标，建立可持续节奏，并平衡劳动条件、收入和生活需求。"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "guideId": "related-cards",
+  "name": { "zh": "相关的牌", "en": "Related Cards" },
+  "scope": "card_relationship",
+  "sources": [{
+    "sourceId": "其实你已经很塔罗了",
+    "book": "其实你已经很塔罗了（简体版）",
+    "author": "Paul Fenton",
+    "translator": "許慈倩",
+    "sourceFile": "sources/其实你已经很塔罗了/guides/04-related-cards.md"
+  }],
+  "knowledge": [
+    {
+      "id": "related-cards-physical-death-caution",
+      "orientation": "neutral",
+      "topic": "death",
+      "relatedCardIds": ["death", "the-tower", "judgement", "ten-of-swords", "six-of-swords", "four-of-swords", "three-of-swords"],
+      "minimumMatches": 4,
+      "content": "肉体死亡不能凭单张牌断言。该来源要求死神、高塔、审判及相关十、六或宝剑牌中至少四张共同出现，才可能形成相关暗示，仍应保持谨慎而非作出确定预测。"
+    },
+    {
+      "id": "related-cards-cause-and-effect",
+      "orientation": "neutral",
+      "topic": "cause_and_effect",
+      "relatedCardIds": ["justice", "judgement", "the-star"],
+      "content": "正义、审判和星星共同出现时，可以强化因果循环、反思过去行为与面对结果的主题。"
+    },
+    {
+      "id": "related-cards-legal-matter",
+      "orientation": "neutral",
+      "topic": "legal_matter",
+      "relatedCardIds": ["justice", "king-of-swords", "five-of-swords"],
+      "content": "正义、宝剑国王和宝剑五共同出现时，可以提示法律程序、规则、争议或即将面对的合法性问题，但不能代替法律意见。"
+    },
+    {
+      "id": "related-cards-meditation",
+      "orientation": "neutral",
+      "topic": "meditation",
+      "relatedCardIds": ["four-of-cups", "four-of-swords", "the-high-priestess", "the-hanged-man"],
+      "content": "圣杯四、宝剑四、女教皇和倒悬者可以共同强化暂停、冥想、内省与转换视角的主题。"
+    },
+    {
+      "id": "related-cards-money-spent",
+      "orientation": "reversed",
+      "topic": "money_spent",
+      "relatedCardIds": ["ace-of-pentacles", "four-of-pentacles", "six-of-pentacles"],
+      "content": "五角星王牌、四或六逆位共同出现时，可能强化支出、资金流出或资源没有被保留的主题。"
+    },
+    {
+      "id": "related-cards-money-borrowed-earned-saved",
+      "orientation": "neutral",
+      "topic": "money",
+      "relatedCardIds": ["ace-of-pentacles", "four-of-pentacles", "six-of-pentacles", "eight-of-pentacles", "nine-of-pentacles", "ten-of-pentacles"],
+      "content": "五角星六与十可以联系借来的钱；五角星六、八、九可以联系赚来的钱；五角星王牌与四可以联系储蓄和保留资源。"
+    },
+    {
+      "id": "related-cards-moving-home",
+      "orientation": "neutral",
+      "topic": "moving_home",
+      "relatedCardIds": ["knight-of-wands", "four-of-wands", "three-of-wands"],
+      "content": "权杖骑士、权杖四和权杖三共同出现时，可以强化搬家、迁移、改变居住地点或为新环境做准备的主题。"
+    },
+    {
+      "id": "related-cards-pregnancy-caution",
+      "orientation": "neutral",
+      "topic": "pregnancy",
+      "relatedCardIds": ["the-empress", "page-of-wands", "page-of-cups", "page-of-swords", "page-of-pentacles"],
+      "content": "女皇与未来位置的侍卫牌可能形成怀孕或新生命主题，但只能作为象征性解读，不能用于确认怀孕或代替医学检测。"
+    },
+    {
+      "id": "related-cards-relationship-effort",
+      "orientation": "neutral",
+      "topic": "relationship_effort",
+      "relatedCardIds": ["six-of-wands", "four-of-wands", "eight-of-pentacles", "ten-of-cups", "three-of-cups", "the-empress"],
+      "content": "权杖六、权杖四、五角星八、圣杯十、圣杯三和女皇可以共同强化为关系投入、庆祝成果和建设稳定家庭关系的主题。"
+    },
+    {
+      "id": "related-cards-learning",
+      "orientation": "neutral",
+      "topic": "learning",
+      "relatedCardIds": ["three-of-pentacles", "eight-of-pentacles", "ace-of-swords", "temperance", "the-high-priestess", "justice", "the-hierophant", "the-hermit", "the-devil"],
+      "content": "五角星三、五角星八、宝剑王牌和节制可强化一般学习；女教皇偏向精神学习，正义偏向法律，教皇偏向宗教哲学，隐士偏向自我探索，魔鬼偏向事业或现实计划所需的知识。"
+    },
+    {
+      "id": "related-cards-travel",
+      "orientation": "neutral",
+      "topic": "travel",
+      "relatedCardIds": ["temperance", "knight-of-wands", "ace-of-wands", "three-of-wands", "eight-of-wands", "six-of-swords", "page-of-swords", "the-chariot"],
+      "content": "节制、权杖骑士、权杖王牌、权杖三、权杖八和宝剑六可强化旅行主题；宝剑侍卫与权杖八偏向航空旅行，战车与宝剑侍卫偏向陆地旅行，权杖八与宝剑六偏向海外旅行。"
+    },
+    {
+      "id": "related-cards-vivid-dreams",
+      "orientation": "neutral",
+      "topic": "dreams",
+      "relatedCardIds": ["the-moon", "nine-of-swords"],
+      "content": "月亮与宝剑九共同出现时，可以强化生动、焦虑、不安或潜意识活动明显的梦境主题。"
+    }
+  ]
+}

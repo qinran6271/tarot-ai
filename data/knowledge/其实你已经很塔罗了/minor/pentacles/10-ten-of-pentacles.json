@@ -1,0 +1,221 @@
+{
+  "cardId": "ten-of-pentacles",
+  "cardNumber": 10,
+  "name": {
+    "zh": "五角星十",
+    "en": "Ten of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/10-ten-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "ten-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星十正位表示长期建立的物质安全、家庭或组织基础，以及财富、资源和生活模式的延续。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-material-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "五角星十正位可能对应成熟事业、资产积累、大额交易或具有长期价值的项目完成。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-legacy",
+      "orientation": "upright",
+      "topic": "legacy",
+      "content": "五角星十正位强调家族、组织、产业、知识或资源在不同阶段和世代之间的延续。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-family-security",
+      "orientation": "upright",
+      "topic": "family",
+      "content": "五角星十正位可能表示家庭拥有稳定住房、资源、制度和支持网络。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-success-builds-success",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "已有成功可能提供信誉、资金、经验和人际网络，为后续机会建立基础。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-sustainable-business",
+      "orientation": "upright",
+      "topic": "business",
+      "content": "事业长期稳定仍需要现金流、治理、市场适应和风险管理，不能只依赖过去成果。"
+    },
+    {
+      "id": "ten-of-pentacles-symbolism-home",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "受到保护的家庭环境象征物质舒适、安全、制度和长期累积。"
+    },
+    {
+      "id": "ten-of-pentacles-symbolism-crest",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "墙上的家徽象征家族身份、传统、声誉与跨世代传承。"
+    },
+    {
+      "id": "ten-of-pentacles-symbolism-family",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "老人、成人、孩子和动物象征不同世代、家庭延续和共同生活资源。"
+    },
+    {
+      "id": "ten-of-pentacles-symbolism-disconnection",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物没有充分面对彼此，提示物质安全并不自动带来亲密、关注和情感满足。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-formula-life",
+      "orientation": "upright",
+      "topic": "shadow",
+      "content": "过度依赖固定生活公式可能带来沉闷和疏离，并使人在结构变化时难以适应。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-suit-balance",
+      "orientation": "upright",
+      "topic": "balance",
+      "content": "五角星十展现物质稳定的完整可能，也提醒人补充热情、理想和情感连接。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-major-transaction",
+      "orientation": "upright",
+      "topic": "transaction",
+      "content": "五角星十正位可能提示房屋、车辆、企业或其他长期资产的购买、出售与交割主题。"
+    },
+    {
+      "id": "ten-of-pentacles-tens-contract-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "ten-of-wands",
+        "ten-of-cups",
+        "ten-of-swords"
+      ],
+      "content": "五角星十与其他正位十共同出现时，传统上可能加强完成、合同或交易主题，但不能确认合同必然签署或有利。"
+    },
+    {
+      "id": "ten-of-pentacles-transaction-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "大额交易应核验产权、估值、资金证明、融资、债务、税务、合同条款和交割安排，并接受专业审查。"
+    },
+    {
+      "id": "ten-of-pentacles-six-payment-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "six-of-pentacles"
+      ],
+      "content": "五角星十与五角星六共同出现时，传统上可能提示赔偿、结算或支付，但不能预测法律结果或保证款项有利。"
+    },
+    {
+      "id": "ten-of-pentacles-legal-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "法律问题应依据证据、程序和合格律师意见处理，财务支付则需通过正式文件与到账记录确认。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星十正位可能表示通过工作认识伴侣，或双方共同经营事业、资产和家庭资源。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-financial-partner",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "五角星十可能象征重视财务可靠性与现实协作，但牌面不能确认伴侣的信用或资产状况。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-relationship-priorities",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "关系优先顺序可能偏向安全、事业和家庭建设；若双方认同可以稳定，若长期忽略亲密则可能孤独。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-shared-assets",
+      "orientation": "upright",
+      "topic": "relationship_finance",
+      "content": "共同资产需要明确所有权、债务、劳动贡献、继承和退出安排，并保持财务透明。"
+    },
+    {
+      "id": "ten-of-pentacles-upright-emotional-connection",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "财务结合不能代替情感连接和自主边界，物质稳定之外仍需关注彼此感受。"
+    },
+    {
+      "id": "ten-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星十逆位可能表示企业、家庭、财务或关系结构缺少稳固基础。"
+    },
+    {
+      "id": "ten-of-pentacles-reversed-hidden-finance",
+      "orientation": "reversed",
+      "topic": "finance",
+      "content": "逆位可能表示外表富裕却存在债务、现金流、融资或治理问题，需要进一步核验。"
+    },
+    {
+      "id": "ten-of-pentacles-reversed-no-accusation",
+      "orientation": "reversed",
+      "topic": "interpretation",
+      "content": "不能仅凭五角星十逆位断定交易对象没有钱、欺诈或信用不良，必须依靠资金证明和现实证据。"
+    },
+    {
+      "id": "ten-of-pentacles-reversed-gambling",
+      "orientation": "reversed",
+      "topic": "risk",
+      "content": "逆位可能表示因厌倦稳定而在赌博、投资、生意或关系中承担不必要风险。"
+    },
+    {
+      "id": "ten-of-pentacles-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业中，五角星十逆位可能对应资金不足、公司财务问题、竞争激烈或机会有限。"
+    },
+    {
+      "id": "ten-of-pentacles-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在关系中，逆位可能表示过度重视房屋、收入、身份和外在条件，从而产生情感孤独。"
+    },
+    {
+      "id": "ten-of-pentacles-reversed-shared-finance",
+      "orientation": "reversed",
+      "topic": "relationship_finance",
+      "content": "五角星十逆位也可能表示共同财务不稳、债务压力或高估家庭负担能力。"
+    },
+    {
+      "id": "ten-of-pentacles-reversed-home-purchase",
+      "orientation": "reversed",
+      "topic": "finance_advice",
+      "content": "购房、创业或大额消费前应重新计算收入、负债、应急储备、利率变化和最坏情境。"
+    },
+    {
+      "id": "ten-of-pentacles-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "若交易不透明或超出负担能力，降低预算、延后交易或退出安排可能是更负责任的选择。"
+    },
+    {
+      "id": "ten-of-pentacles-long-term-security",
+      "orientation": "neutral",
+      "topic": "security",
+      "content": "长期安全不只来自资产数量，也来自可靠关系、适应变化的能力、清晰制度和可持续生活方式。"
+    }
+  ]
+}

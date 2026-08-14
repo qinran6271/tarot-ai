@@ -1,0 +1,203 @@
+{
+  "suitId": "cups",
+  "name": {
+    "zh": "圣杯牌组的故事",
+    "en": "The Story of Cups"
+  },
+  "arcana": "minor",
+  "element": "water",
+  "scope": "suit_story",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/15-story.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "cups-story-general",
+      "orientation": "neutral",
+      "topic": "suit_story",
+      "content": "圣杯牌组的故事是一条情感成长路径：从家庭提供的爱出发，经历平等关系、扩张、失望、失落、安全、内省、离开和自爱，最终进入成熟的分享关系。"
+    },
+    {
+      "id": "cups-story-court-family",
+      "orientation": "neutral",
+      "topic": "court_family",
+      "relatedCardIds": [
+        "page-of-cups",
+        "knight-of-cups",
+        "queen-of-cups",
+        "king-of-cups"
+      ],
+      "content": "四张圣杯宫廷牌可以象征一个重视情感、关心彼此感受的家庭。随着孩子成长，他需要探索家庭以外的亲密、平等、自我价值与成熟承诺。"
+    },
+    {
+      "id": "cups-story-court-symbolic-caution",
+      "orientation": "neutral",
+      "topic": "court_card_interpretation",
+      "content": "宫廷家庭是一种象征模型，不要求牌面人物与现实家庭成员、年龄或性别逐一对应。"
+    },
+    {
+      "id": "cups-story-ace",
+      "orientation": "neutral",
+      "topic": "suit_story",
+      "cardId": "ace-of-cups",
+      "content": "圣杯王牌是情感旅程的起点：一个人决定寻找自己的情感需要，打开内心，并开始经历爱情。"
+    },
+    {
+      "id": "cups-story-two",
+      "orientation": "neutral",
+      "topic": "suit_story",
+      "cardId": "two-of-cups",
+      "content": "圣杯二表示第一次进入平等的亲密关系，从家庭中的照顾、依赖或控制，转向伴侣之间互相给予和接受。"
+    },
+    {
+      "id": "cups-story-three",
+      "orientation": "neutral",
+      "topic": "suit_story",
+      "cardId": "three-of-cups",
+      "content": "圣杯三表示关系由两人扩展到团体、第三方或更多情感可能，最初带来活力、选择和新鲜感，也增加关系复杂性。"
+    },
+    {
+      "id": "cups-story-four",
+      "orientation": "neutral",
+      "topic": "suit_story",
+      "cardId": "four-of-cups",
+      "content": "圣杯四表示实际关系与期待不同，一个人开始怀念理想化结合，并因沉浸完美关系的白日梦而忽视眼前机会。"
+    },
+    {
+      "id": "cups-story-five",
+      "orientation": "neutral",
+      "topic": "suit_story",
+      "cardId": "five-of-cups",
+      "content": "圣杯五表示看见关系疏离与机会流失并经历悲伤，但注意力仍集中在损失上，尚未看见支持和恢复稳定的道路。"
+    },
+    {
+      "id": "cups-story-six",
+      "orientation": "neutral",
+      "topic": "suit_story",
+      "cardId": "six-of-cups",
+      "content": "圣杯六表示为了避免再次失去而追求安全、无忧和可预测的关系，但依赖和固定角色也可能限制双方成长。"
+    },
+    {
+      "id": "cups-story-seven",
+      "orientation": "neutral",
+      "topic": "suit_story",
+      "cardId": "seven-of-cups",
+      "content": "圣杯七表示开始理解幸福不能完全从别人身上获得，并通过内在探索辨认真实需要与缺少的自我接纳。"
+    },
+    {
+      "id": "cups-story-eight",
+      "orientation": "neutral",
+      "topic": "suit_story",
+      "cardId": "eight-of-cups",
+      "content": "圣杯八表示离开原有关系或情感状态，独自寻找比过去经验更深刻的爱与满足。"
+    },
+    {
+      "id": "cups-story-nine",
+      "orientation": "neutral",
+      "topic": "suit_story",
+      "cardId": "nine-of-cups",
+      "content": "圣杯九表示在自己身上发现爱与自我价值，不再完全依靠他人的评价，并开始希望与特别的人分享内在快乐。"
+    },
+    {
+      "id": "cups-story-ten",
+      "orientation": "neutral",
+      "topic": "suit_story",
+      "cardId": "ten-of-cups",
+      "content": "圣杯十表示准备进入充满爱、承诺和分享的成熟关系，安全与亲密不再以牺牲独立和成长为代价。"
+    },
+    {
+      "id": "cups-story-ten-integration",
+      "orientation": "neutral",
+      "topic": "cross_card_theme",
+      "cardId": "ten-of-cups",
+      "relatedCardIds": [
+        "six-of-cups",
+        "seven-of-cups",
+        "eight-of-cups",
+        "nine-of-cups",
+        "king-of-cups"
+      ],
+      "content": "圣杯十整合圣杯六的安全、圣杯七的理解、圣杯八的力量、圣杯九的自爱，以及圣杯国王的情感成熟。"
+    },
+    {
+      "id": "cups-story-three-child",
+      "orientation": "neutral",
+      "topic": "family_growth",
+      "cardId": "three-of-cups",
+      "relatedCardIds": [
+        "page-of-wands",
+        "page-of-cups",
+        "page-of-swords",
+        "page-of-pentacles"
+      ],
+      "content": "在成熟关系阶段，圣杯三的第三人主题可能代表孩子进入家庭，并由任意一组侍卫牌象征，而不是关系干扰者。"
+    },
+    {
+      "id": "cups-story-child-growth-environment",
+      "orientation": "neutral",
+      "topic": "family_growth",
+      "content": "成熟关系应为孩子提供爱、安全和独立，让成长发生，而不是以父母的恐惧和控制限制经验。"
+    },
+    {
+      "id": "cups-story-page-to-knight",
+      "orientation": "neutral",
+      "topic": "court_development",
+      "relatedCardIds": [
+        "page-of-cups",
+        "knight-of-cups"
+      ],
+      "content": "侍卫成长为骑士时，会通过亲身经验测试感情、想象和行动，并可能重复上一代曾犯过的错误。"
+    },
+    {
+      "id": "cups-story-knight-to-mature-court",
+      "orientation": "neutral",
+      "topic": "court_development",
+      "relatedCardIds": [
+        "knight-of-cups",
+        "queen-of-cups",
+        "king-of-cups"
+      ],
+      "content": "骑士走向国王或皇后的成熟，需要从经验中学习，修正旧模式，并把情感和创造力转化为稳定能力。"
+    },
+    {
+      "id": "cups-story-parents-role",
+      "orientation": "neutral",
+      "topic": "family_growth",
+      "relatedCardIds": [
+        "queen-of-cups",
+        "king-of-cups"
+      ],
+      "content": "成熟的国王和皇后可以提供耐心与安全环境，但不能替年轻人物完成成长、选择和经验。"
+    },
+    {
+      "id": "cups-story-gender-caution",
+      "orientation": "neutral",
+      "topic": "court_card_interpretation",
+      "content": "圣杯宫廷成长故事采用传统家庭与性别角色，应理解为象征叙事，而不是关于现实性别、年龄或成熟速度的普遍规律。"
+    },
+    {
+      "id": "cups-story-full-cycle",
+      "orientation": "neutral",
+      "topic": "suit_theme",
+      "relatedCardIds": [
+        "ace-of-cups",
+        "two-of-cups",
+        "three-of-cups",
+        "four-of-cups",
+        "five-of-cups",
+        "six-of-cups",
+        "seven-of-cups",
+        "eight-of-cups",
+        "nine-of-cups",
+        "ten-of-cups"
+      ],
+      "content": "圣杯数字牌的完整循环从打开内心开始，经由平等关系、扩张、失望、失落、安全和内省，最终通过离开、建立自爱，抵达成熟分享。"
+    }
+  ]
+}

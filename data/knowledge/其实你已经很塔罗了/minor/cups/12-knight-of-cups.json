@@ -1,0 +1,154 @@
+{
+  "cardId": "knight-of-cups",
+  "name": {
+    "zh": "圣杯骑士",
+    "en": "Knight of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "courtRank": "knight",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/12-knight-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "knight-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯骑士正位表示在感情、想象与行动之间作出决定，并把灵感引导到真实挑战和具体经验中。"
+    },
+    {
+      "id": "knight-of-cups-upright-fire-water",
+      "orientation": "upright",
+      "topic": "element",
+      "content": "圣杯骑士融合火与水：水带来情感、想象和直觉，火带来行动、挑战和现实推进。"
+    },
+    {
+      "id": "knight-of-cups-upright-inspiration-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "圣杯骑士正位表示灵感可以引导行动，行动也能产生新的灵感。真正有价值的愿景需要通过实践获得发展。"
+    },
+    {
+      "id": "knight-of-cups-upright-fantasy-discernment",
+      "orientation": "upright",
+      "topic": "discernment",
+      "content": "圣杯骑士正位要求区分逃避现实的幻想与能够产生行动和成长的愿景。不是每个美好想法都值得追随。"
+    },
+    {
+      "id": "knight-of-cups-upright-wait-or-act",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "圣杯骑士正位可能表示正在决定继续等待、让事情自然发展，还是立即行动并寻找新机会。"
+    },
+    {
+      "id": "knight-of-cups-upright-offer",
+      "orientation": "upright",
+      "topic": "offer",
+      "content": "圣杯骑士正位可能表示某人带来商业机会、创作合作、邀请、情感表达或其他具有实际价值的帮助。"
+    },
+    {
+      "id": "knight-of-cups-upright-person",
+      "orientation": "upright",
+      "topic": "person",
+      "content": "圣杯骑士正位代表人物时，通常外在热情，内在温和敏感，重视关系、情感和创造性追寻，决定时会考虑他人需要。"
+    },
+    {
+      "id": "knight-of-cups-upright-age-caution",
+      "orientation": "upright",
+      "topic": "court_card_interpretation",
+      "content": "传统上圣杯骑士可能指二十多岁的年轻成年人，但实际解读应以行为和情感成熟度为主，而不是机械使用年龄。"
+    },
+    {
+      "id": "knight-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯骑士正位代表浪漫、温柔、细心与情感奉献，也表示渴望找到能分享梦想和内心世界的伴侣。"
+    },
+    {
+      "id": "knight-of-cups-upright-relationship-growth",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "圣杯骑士正位可能寻找帮助自己情感成熟的关系，使他能够分辨值得实践的共同梦想与不切实际的浪漫幻想。"
+    },
+    {
+      "id": "knight-of-cups-symbolism-slow-horse",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "比权杖骑士更缓慢平静的马，象征情感和想象使行动放慢，需要先理解感受再决定前进方式。"
+    },
+    {
+      "id": "knight-of-cups-symbolism-wings",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "头盔和靴子上的翅膀象征直觉与想象，能够帮助越过障碍，但也需要现实判断避免变成幻想。"
+    },
+    {
+      "id": "knight-of-cups-symbolism-split-attention",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "骑士同时注意前方目标和手中圣杯，象征行动需求与停下来感受、等待之间的拉扯。"
+    },
+    {
+      "id": "knight-of-cups-king-paths",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "king-of-wands",
+        "king-of-cups"
+      ],
+      "content": "圣杯骑士若更强调行动与掌控，可能朝权杖国王式成熟发展；若深入理解和管理情感，则可能走向圣杯国王式成熟。"
+    },
+    {
+      "id": "knight-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯骑士逆位可能表示情感失望、机会没有实现，或者一个人在情感和行动之间摆荡，难以稳定投入。"
+    },
+    {
+      "id": "knight-of-cups-reversed-empty-promises",
+      "orientation": "reversed",
+      "topic": "commitment",
+      "content": "圣杯骑士逆位可能描述容易许下无法兑现承诺的人。他开始很多事情，却缺少持续行动和完成责任的能力。"
+    },
+    {
+      "id": "knight-of-cups-reversed-love-lust-infatuation",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "圣杯骑士逆位可能把爱、欲望和迷恋混为一谈，沉浸在浪漫感受中，却不愿面对关系的现实责任。"
+    },
+    {
+      "id": "knight-of-cups-reversed-old-grief",
+      "orientation": "reversed",
+      "topic": "emotional_wounds",
+      "content": "圣杯骑士逆位可能因为尚未释怀的悲伤而不敢付出，不断把过去与现在比较，并要求对方给予超过自己愿意回报的情感。"
+    },
+    {
+      "id": "knight-of-cups-reversed-page-lesson",
+      "orientation": "reversed",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "page-of-cups"
+      ],
+      "content": "圣杯骑士逆位要求回到圣杯侍卫正位的学习阶段，先收集信息并区分真实可能与愿望投射，再采取行动。"
+    },
+    {
+      "id": "knight-of-cups-reversed-creative-fantasy",
+      "orientation": "reversed",
+      "topic": "creativity",
+      "content": "在创造工作中，圣杯骑士逆位可能表示把艺术身份、灵感或未来认可看得比持续练习、生产作品和现实规划更重要。"
+    },
+    {
+      "id": "knight-of-cups-reversed-maturity",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "圣杯骑士逆位提醒人，梦想具有价值，但成熟要求检验梦想、承担实践，并接受现实结果可能与自我想象不同。"
+    }
+  ]
+}

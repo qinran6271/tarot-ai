@@ -1,0 +1,205 @@
+{
+  "cardId": "queen-of-pentacles",
+  "courtRank": "queen",
+  "name": {
+    "zh": "五角星皇后",
+    "en": "Queen of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/13-queen-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "queen-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星皇后正位象征务实、自我信任、照顾生命，以及把情感理解转化为稳定的现实成果。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-element",
+      "orientation": "upright",
+      "topic": "element",
+      "content": "五角星皇后代表土元素中的水，在身体、现实和资源管理中加入感受、耐心与滋养能力。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-person",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "作为人物原型，五角星皇后表示可靠、实际、有耐心，并具备良好资源判断和经营能力的人。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-capability",
+      "orientation": "upright",
+      "topic": "self_awareness",
+      "content": "五角星皇后通过经验认识自己的能力和限制，并把资源投入最可能产生有效成果的方向。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-nature",
+      "orientation": "upright",
+      "topic": "nature",
+      "content": "五角星皇后式人物可能喜欢自然、园艺、动物、烹饪、身体活动和规律生活。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-nature-caution",
+      "orientation": "upright",
+      "topic": "interpretation",
+      "content": "自然和园艺属于象征倾向，并非所有五角星皇后式人物都具有相同兴趣和生活方式。"
+    },
+    {
+      "id": "queen-of-pentacles-neutral-demographic-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "五角星皇后可以对应任何性别、年龄和身份，宫廷称谓不能用于可靠判断人口特征。"
+    },
+    {
+      "id": "queen-of-pentacles-symbolism-throne",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "雕刻精致的座椅与安静坐姿象征稳定基础、耐心和对已有成果的沉思。"
+    },
+    {
+      "id": "queen-of-pentacles-symbolism-nature",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "玫瑰、兔子、河流和晴朗天空象征自然、丰饶、身体感受与稳定环境。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-self-care",
+      "orientation": "upright",
+      "topic": "self_care",
+      "content": "五角星皇后正位强调规律饮食、适量运动、休息、接触自然和维护生活环境。"
+    },
+    {
+      "id": "queen-of-pentacles-health-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "牌面不能证明个人身体健康，也不能替代营养、运动或医疗专业建议。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-sensuality",
+      "orientation": "upright",
+      "topic": "body",
+      "content": "五角星皇后重视美食、触觉、舒适空间和自然节奏，并以尊重和边界回应身体需要。"
+    },
+    {
+      "id": "queen-of-pentacles-earth-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "传统体系常把五角星皇后与金牛座、处女座和摩羯座等土象星座联系，但不能确认实际星座。"
+    },
+    {
+      "id": "queen-of-pentacles-libra-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-empress",
+        "justice"
+      ],
+      "content": "五角星皇后与女皇或正义共同出现时，传统上可能加强天秤座式的美感、平衡和关系判断主题。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "五角星皇后正位表示信任自身能力，并通过深思熟虑、现实判断和稳定执行提高成功机会。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-business",
+      "orientation": "upright",
+      "topic": "business",
+      "content": "在事业与财务中，五角星皇后可能象征商业判断、节制消费、保留储蓄和有效分配精力。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "五角星皇后的能力适合经营、预算、照护、园艺、餐饮、健康服务及其他需要组织与耐心维护的领域，但牌面不能确定职业。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-worth-balance",
+      "orientation": "upright",
+      "topic": "self_worth",
+      "content": "成功也包括了解限制和合理分配资源，不能把工作成果当作唯一的自我价值来源。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星皇后正位表示实质承诺、可靠行动和对现实价值的尊重。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-long-term-love",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "五角星皇后倾向重视稳定、友谊、信任和持续照顾，并从长期角度发展关系。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-passion-stability",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "可靠与热情不互相排斥，健康关系可以同时拥有安全、感官亲密、情感表达和新鲜感。"
+    },
+    {
+      "id": "queen-of-pentacles-upright-mutual-care",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "照顾应保持双向；若一方长期承担全部家务、情绪劳动或财务稳定，承诺可能变成过度负担。"
+    },
+    {
+      "id": "queen-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星皇后逆位可能表示失去自信、缺少现实基础，或与身体、自然和日常节奏失去连接。"
+    },
+    {
+      "id": "queen-of-pentacles-reversed-materialism",
+      "orientation": "reversed",
+      "topic": "materialism",
+      "content": "逆位可能表现为过度追求金钱、权力和外在稳定，却没有进行必要的工作与规划。"
+    },
+    {
+      "id": "queen-of-pentacles-reversed-marry-for-money",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "逆位可能表示因害怕匮乏而把关系选择完全建立在经济条件上。"
+    },
+    {
+      "id": "queen-of-pentacles-reversed-financial-partner-caution",
+      "orientation": "reversed",
+      "topic": "relationship_advice",
+      "content": "选择财务稳定的伴侣并非天然错误，但关系仍需要自由同意、尊重和情感兼容。"
+    },
+    {
+      "id": "queen-of-pentacles-reversed-self-worth",
+      "orientation": "reversed",
+      "topic": "self_worth",
+      "content": "五角星皇后逆位可能表示把自我价值完全建立在贡献、照护、收入或成就上。"
+    },
+    {
+      "id": "queen-of-pentacles-reversed-foundation",
+      "orientation": "reversed",
+      "topic": "foundation",
+      "content": "逆位建议重新建立预算、作息、身体照顾、支持网络和现实目标。"
+    },
+    {
+      "id": "queen-of-pentacles-reversed-nature-support",
+      "orientation": "reversed",
+      "topic": "self_care",
+      "content": "接触自然和观察季节变化可能帮助获得视角与放松，但不能替代财务、心理或医疗专业支持。"
+    },
+    {
+      "id": "queen-of-pentacles-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "逆位建议扩大对价值的理解：人的价值也来自存在、关系、选择、成长和被照顾的权利，而非只有财富与产出。"
+    }
+  ]
+}

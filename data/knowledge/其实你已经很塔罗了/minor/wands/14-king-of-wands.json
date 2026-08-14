@@ -1,0 +1,226 @@
+{
+  "cardId": "king-of-wands",
+  "cardNumber": 14,
+  "name": {
+    "zh": "权杖国王",
+    "en": "King of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "courtRank": "king",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/14-king-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "king-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖国王正位象征通过自律、经验、意志力和对行动的成熟掌控取得成功。他仍具有权杖的热情和冒险精神，但已经能够等待适当时机，并把能量集中到能够产生具体成果的方向。"
+    },
+    {
+      "id": "king-of-wands-upright-self-discipline",
+      "orientation": "upright",
+      "topic": "self_discipline",
+      "content": "权杖国王正位的核心课题是自律。与单纯依靠热情不同，他能够管理自己的时间、体力和冲动，使有限的能量集中于最有价值的机会，并完成已经开始的事情。"
+    },
+    {
+      "id": "king-of-wands-upright-confidence",
+      "orientation": "upright",
+      "topic": "confidence",
+      "content": "权杖国王正位具有建立在实际经验上的自信。他相信自己的方法，不是因为盲目乐观，而是因为已经亲自尝试、验证并知道什么方式能够产生结果。"
+    },
+    {
+      "id": "king-of-wands-upright-leadership",
+      "orientation": "upright",
+      "topic": "leadership",
+      "content": "权杖国王正位具有强烈的领导和统御能力。他能够凭借意志、自信、经验和明确方向带领他人，并倾向于直接推动团队朝具体目标前进。"
+    },
+    {
+      "id": "king-of-wands-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "权杖国王正位仍然重视行动，但已经懂得行动需要选择时机和方向。成熟的行动不是不断忙碌，而是在适当时刻集中力量，并清楚知道自己的行为会影响最终结果。"
+    },
+    {
+      "id": "king-of-wands-upright-patience",
+      "orientation": "upright",
+      "topic": "patience",
+      "content": "权杖国王正位能够暂时等待最佳时机，并在机会真正到来之前保存体力和资源。这种耐心并非被动，而是自律带来的战略性等待。"
+    },
+    {
+      "id": "king-of-wands-upright-process",
+      "orientation": "upright",
+      "topic": "philosophy",
+      "content": "该来源认为权杖国王重视过程，并已经比骑士更深刻地理解火元素的课题。目标仍然重要，但真正的成熟来自理解行动和旅程本身，而不是只不断追逐下一个终点。"
+    },
+    {
+      "id": "king-of-wands-upright-result",
+      "orientation": "upright",
+      "topic": "results",
+      "content": "权杖国王中的土元素使他要求实际、明确和可以观察到的成果。他愿意投入时间和努力，但这些投入最终需要转化为具体结果。"
+    },
+    {
+      "id": "king-of-wands-upright-person",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "当权杖国王代表一个人物时，通常形容热情、有活力、坦率、坚强、自信、愿意接受挑战并具有领导能力的人。他可能有时显得独断，但通常目标明确并愿意直接采取行动。"
+    },
+    {
+      "id": "king-of-wands-upright-age",
+      "orientation": "upright",
+      "topic": "person",
+      "content": "该来源通常把权杖国王描述为三十岁以上的男性，但在特定占星对应或具体牌阵中也可能代表更年轻的人或女性。人物牌应主要用于描述性格、成熟度和行为方式，而不是依据年龄或外貌作严格判断。"
+    },
+    {
+      "id": "king-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，权杖国王正位适合表示通过自律、经验和目标导向获得成功。它特别适合销售、领导、经营或其他需要明确目标、主动行动和持续管理成果的工作。"
+    },
+    {
+      "id": "king-of-wands-upright-sales",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "该来源认为权杖国王适合销售或其他目标导向型工作。他的坦率、自信、行动力以及对结果的重视，使其能够积极推动目标实现。"
+    },
+    {
+      "id": "king-of-wands-upright-opportunity",
+      "orientation": "upright",
+      "topic": "opportunity",
+      "content": "权杖国王正位强调通过自律保存时间和体力，以便在真正重要的机会出现时能够充分把握。重点不是抓住所有机会，而是有能力识别并经营最有价值的机会。"
+    },
+    {
+      "id": "king-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖国王正位可能代表一个喜欢挑战、活动和冒险的人。他需要一个能够跟上其活力和生活节奏的伴侣，并希望关系中持续存在共同探索和成长。"
+    },
+    {
+      "id": "king-of-wands-upright-relationship-style",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖国王正位在关系中通常不以多愁善感或高度浪漫见长，而更常通过勇敢、行动、冒险和共同经验表达感情。"
+    },
+    {
+      "id": "king-of-wands-upright-relationship-challenge",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖国王正位喜欢具有挑战性和活力的关系。过于被动或缺乏共同目标的关系可能难以满足他，而能够共同接受挑战和探索新方向的伴侣更符合其特质。"
+    },
+    {
+      "id": "king-of-wands-upright-queen-pair",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "该来源把权杖国王与权杖皇后视为自然匹配。两者都具有热情、独立、行动力和对挑战的需求，因此能够共同向新的目标发展。"
+    },
+    {
+      "id": "king-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖国王逆位可能表示自律不足、注意力过度投向未来、承诺困难或行动效率失衡。个人仍可能拥有强烈的热情，却无法像正位时那样稳定管理能量并把行动转化为持续成果。"
+    },
+    {
+      "id": "king-of-wands-reversed-low-energy",
+      "orientation": "reversed",
+      "topic": "energy",
+      "content": "权杖国王逆位可能象征可使用的身体或行动能量暂时偏低。此时继续强行保持高强度活动可能并不合适，更需要休息和较温和的恢复。"
+    },
+    {
+      "id": "king-of-wands-reversed-wellbeing",
+      "orientation": "reversed",
+      "topic": "wellbeing",
+      "content": "该来源把权杖国王逆位与需要休息和温和休闲来恢复平衡联系起来。这属于传统塔罗象征性解释，不应用于诊断健康问题或替代专业医疗意见。"
+    },
+    {
+      "id": "king-of-wands-reversed-immaturity",
+      "orientation": "reversed",
+      "topic": "maturity",
+      "content": "权杖国王逆位可能表示心理成熟度低于实际年龄。虽然外在可能具有国王的位置或经验，但面对承诺、责任和困难决定时仍可能采取较年轻、逃避或追逐新刺激的方式。"
+    },
+    {
+      "id": "king-of-wands-reversed-commitment",
+      "orientation": "reversed",
+      "topic": "commitment",
+      "content": "权杖国王逆位可能对承诺感到困难。当已有问题需要面对时，他可能更愿意转向新的挑战，而不是处理当前关系、工作或责任中的棘手决定。"
+    },
+    {
+      "id": "king-of-wands-reversed-lack-of-discipline",
+      "orientation": "reversed",
+      "topic": "self_discipline",
+      "content": "权杖国王逆位可以表示缺乏自律，使原本具备的热情和能力无法稳定转化为成果。失败可能并非因为完全缺乏机会，而是因为无法持续管理行动、时间或精力。"
+    },
+    {
+      "id": "king-of-wands-reversed-future-focus",
+      "orientation": "reversed",
+      "topic": "focus",
+      "content": "权杖国王逆位可能表示注意力过度集中在未来的各种可能性，以至于忽略现在已经存在的机会。不断期待下一件更令人兴奋的事情，可能使当前可以利用的资源和机会被浪费。"
+    },
+    {
+      "id": "king-of-wands-reversed-action",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "权杖国王逆位提示不要让行动超过实际需要。一个人可能投入全部精力推动某个方案，却忽略事情已经具备自然发展的条件，因此需要重新判断真正需要投入多少力量。"
+    },
+    {
+      "id": "king-of-wands-reversed-efficiency",
+      "orientation": "reversed",
+      "topic": "strategy",
+      "content": "权杖国王逆位可能反映用力过度或资源配置不当。成熟的自律不仅意味着努力，也意味着知道什么时候无需投入全部精力，让已经建立的条件自然推动事情发展。"
+    },
+    {
+      "id": "king-of-wands-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，权杖国王逆位可能表示缺乏自律、追逐太多未来机会、没有完成现有任务或投入方式效率过低。重新集中注意力并管理精力，比单纯增加工作量更重要。"
+    },
+    {
+      "id": "king-of-wands-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖国王逆位可能表现为承诺困难，或者更愿意追逐新的刺激和挑战，而不是处理当前关系中需要面对的问题。"
+    },
+    {
+      "id": "king-of-wands-elemental-combination",
+      "orientation": "neutral",
+      "topic": "element",
+      "content": "该来源认为权杖国王代表“火中的土”。火提供热情、行动、挑战和生命力，土则赋予务实、自律、稳定和对具体成果的要求，使权杖的能量能够真正落地。"
+    },
+    {
+      "id": "king-of-wands-astrology-aries",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源把权杖国王与牧羊座联系起来，特别强调牧羊座关于自律的课题。当权杖国王与皇帝和宝剑骑士共同出现时，该来源认为牧羊座的象征可能更加突出。"
+    },
+    {
+      "id": "king-of-wands-symbolism-lion",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的狮子象征权杖国王的内在力量、勇气和驾驭火元素的能力，体现他能够控制自身热情而不是被热情控制。"
+    },
+    {
+      "id": "king-of-wands-symbolism-salamander-circle",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "权杖国王衣服上的火精灵尾巴已经伸进嘴里形成完整圆圈，象征行动和经验趋于完整，也代表他已经比骑士更深入理解目标、旅程以及火元素的可能性。"
+    },
+    {
+      "id": "knight-of-wands-king-of-wands-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的宫廷牌发展体系中，权杖骑士充满行动力并不断追逐目标，而权杖国王已经通过经验和自律学会管理这种火元素能量。他仍然热爱行动，但不再只是为了行动本身，而更懂得选择时机、理解目的并把行动转化为稳定成果。"
+    },
+    {
+      "id": "queen-of-wands-king-of-wands-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源把权杖皇后与权杖国王视为自然的一对。皇后更侧重通过内在感觉、直觉和个人力量引导行动，国王则更侧重通过经验、自律和意志管理行动，两者共同体现成熟的权杖能量。"
+    }
+  ]
+}

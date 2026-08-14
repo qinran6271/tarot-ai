@@ -1,0 +1,171 @@
+{
+  "cardId": "six-of-swords",
+  "cardNumber": 6,
+  "name": {
+    "zh": "宝剑六",
+    "en": "Six of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/06-six-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "six-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑六正位表示在混乱之后逐渐恢复平静，并从困难状态缓慢过渡到更稳定的处境。"
+    },
+    {
+      "id": "six-of-swords-upright-transition",
+      "orientation": "upright",
+      "topic": "transition",
+      "content": "宝剑六正位表示带着尚未完全解决的问题从过去走向未来，并在新经验中逐渐释放旧情绪和冲突。"
+    },
+    {
+      "id": "six-of-swords-upright-old-beliefs",
+      "orientation": "upright",
+      "topic": "belief",
+      "content": "宝剑六正位中的旧信念会拖慢前进，却也曾提供结构与保护。改变需要逐步建立替代支撑。"
+    },
+    {
+      "id": "six-of-swords-upright-slow-progress",
+      "orientation": "upright",
+      "topic": "progress",
+      "content": "宝剑六正位的进步通常缓慢而稳定。急切拆除所有旧模式可能制造更多问题，而不是加速疗愈。"
+    },
+    {
+      "id": "six-of-swords-upright-unconscious-baggage",
+      "orientation": "upright",
+      "topic": "past",
+      "content": "宝剑六正位表示有些问题虽然没有被清楚意识到，仍会随人进入新的环境和关系。"
+    },
+    {
+      "id": "six-of-swords-upright-stability-ahead",
+      "orientation": "upright",
+      "topic": "hope",
+      "content": "宝剑六正位的平静水面与陆地表示更和平、可管理的时期正在接近，但仍需要时间完成过渡。"
+    },
+    {
+      "id": "six-of-swords-upright-accept-ending",
+      "orientation": "upright",
+      "topic": "ending",
+      "content": "宝剑六正位可能表示平静接受一个阶段、关系或生活状态的结束，重点是哀伤、放下与过渡。"
+    },
+    {
+      "id": "six-of-swords-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "宝剑六正位可能表示水上、跨境或海外旅行，也可能泛指迁移到新的生活环境。"
+    },
+    {
+      "id": "six-of-swords-travel-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "page-of-swords",
+        "eight-of-wands",
+        "three-of-wands",
+        "temperance"
+      ],
+      "content": "宝剑六若与宝剑侍卫、权杖八、权杖三或节制共同出现，可以进一步强化海外、跨境或长距离旅行主题。"
+    },
+    {
+      "id": "six-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑六正位表示困难逐渐被留在身后，关系开始恢复、成长并进入新的阶段。"
+    },
+    {
+      "id": "six-of-swords-upright-new-relationship-state",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "新的身体环境、心理状态或沟通方式，可能让双方以不同角度重新体验关系。"
+    },
+    {
+      "id": "six-of-swords-upright-release-past",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "宝剑六正位建议把已经处理过的冲突留在过去，不再持续用旧事件定义当前关系。"
+    },
+    {
+      "id": "six-of-swords-upright-gradual-improvement",
+      "orientation": "upright",
+      "topic": "practical_life",
+      "content": "宝剑六正位不保证问题立即消失；财务、工作或健康压力可能仍存在，但整体方向正变得较可管理。"
+    },
+    {
+      "id": "six-of-swords-symbolism-boat",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "从动荡水域驶向平静水面的船，象征离开困境、迁移和逐步恢复稳定。"
+    },
+    {
+      "id": "six-of-swords-symbolism-six-swords",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "船上的六把剑象征从过去带来的思想、信念和问题，它们既增加负担，也暂时维持原有结构。"
+    },
+    {
+      "id": "six-of-swords-symbolism-woman-child",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "同行的女子与孩子象征过渡不一定是个人事件，也可能涉及家庭、责任和需要被保护的部分。"
+    },
+    {
+      "id": "six-of-swords-death-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "宝剑六不能用于预测个人死亡或判断疾病结果。涉及生命与健康的问题必须依赖专业医疗和现实信息。"
+    },
+    {
+      "id": "six-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑六逆位表示为了真正疗愈，需要重新面对尚未处理的问题，即使短期内会增加动荡。"
+    },
+    {
+      "id": "six-of-swords-reversed-reopen-wounds",
+      "orientation": "reversed",
+      "topic": "healing",
+      "content": "宝剑六逆位可能通过讨论此前回避的问题，重新揭开尚未处理的伤口，以便获得更完整的疗愈。"
+    },
+    {
+      "id": "six-of-swords-reversed-necessary-conflict",
+      "orientation": "reversed",
+      "topic": "conflict_resolution",
+      "content": "宝剑六逆位有时表示主动打破表面平静，通过必要冲突消除误解并寻找真正解决方案。"
+    },
+    {
+      "id": "six-of-swords-reversed-know-unhappy",
+      "orientation": "reversed",
+      "topic": "change",
+      "content": "宝剑六逆位可能表示已经知道自己为何不快乐，并开始进行必要改变，为未来创造更合适的生活。"
+    },
+    {
+      "id": "six-of-swords-reversed-leaving-difficult-situation",
+      "orientation": "reversed",
+      "topic": "leaving",
+      "content": "离开不健康关系、成瘾环境或长期停滞状态，初期可能失去熟悉资源并承受现实困难，但这不自动表示决定错误。"
+    },
+    {
+      "id": "six-of-swords-reversed-build-new-support",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "宝剑六逆位要求在拆除旧结构时，同时建立安全计划、支持系统和新的现实基础。"
+    },
+    {
+      "id": "six-of-swords-reversed-force-conclusion",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "宝剑六逆位表示把悬而未决的议题推向结论，以主动且负责任的方式加速改变，而不是只等待外界解决。"
+    }
+  ]
+}

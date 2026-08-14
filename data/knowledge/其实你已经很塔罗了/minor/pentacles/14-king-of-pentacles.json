@@ -1,0 +1,214 @@
+{
+  "cardId": "king-of-pentacles",
+  "courtRank": "king",
+  "name": {
+    "zh": "五角星国王",
+    "en": "King of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/14-king-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "king-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星国王正位表示通过务实、坚定和持续执行，建立稳定的物质成果与现实影响力。"
+    },
+    {
+      "id": "king-of-pentacles-upright-element",
+      "orientation": "upright",
+      "topic": "element",
+      "content": "五角星国王代表土元素中的土，强调稳固根基、现实判断、耐心和物质管理。"
+    },
+    {
+      "id": "king-of-pentacles-upright-person",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "作为人物原型，五角星国王表示成熟、稳健、可靠、保守，并认真履行承诺和责任的人。"
+    },
+    {
+      "id": "king-of-pentacles-upright-work-rest",
+      "orientation": "upright",
+      "topic": "work_life_balance",
+      "content": "五角星国王可能在工作与休息时都高度投入，但过度工作仍会造成身体和关系负担。"
+    },
+    {
+      "id": "king-of-pentacles-upright-tangible-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "五角星国王重视能够看见、触碰和衡量的成果，物质反馈会增强他的满足感。"
+    },
+    {
+      "id": "king-of-pentacles-upright-steady-practice",
+      "orientation": "upright",
+      "topic": "execution",
+      "content": "五角星国王依靠缓慢、稳定、可重复的实践取得结果，而不是追求短期冒险。"
+    },
+    {
+      "id": "king-of-pentacles-symbolism-orb-pentacle",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "宝球与五角星象征权力、资源、现实成果，以及对物质世界的管理。"
+    },
+    {
+      "id": "king-of-pentacles-symbolism-grapes",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "周围葡萄象征长期经营后的丰盛成果，也提醒人维持生产、消费和环境之间的平衡。"
+    },
+    {
+      "id": "king-of-pentacles-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业中，五角星国王正位可能表示成熟经营、有效预算、可靠交付、专业声誉和良好资源管理。"
+    },
+    {
+      "id": "king-of-pentacles-upright-manager",
+      "orientation": "upright",
+      "topic": "leadership",
+      "content": "五角星国王可能是务实的管理者，理解现实条件，并倾向要求别人完成自己愿意承担的工作。"
+    },
+    {
+      "id": "king-of-pentacles-upright-delegation",
+      "orientation": "upright",
+      "topic": "leadership",
+      "content": "亲力亲为可以确保质量，但成熟领导还需要授权、流程、信任和监督机制。"
+    },
+    {
+      "id": "king-of-pentacles-upright-help",
+      "orientation": "upright",
+      "topic": "support",
+      "content": "五角星国王正位可能象征有人提供工作、资金、设备、住房或专业建议等现实帮助。"
+    },
+    {
+      "id": "king-of-pentacles-upright-help-conditions",
+      "orientation": "upright",
+      "topic": "safety_caution",
+      "content": "接受物质帮助前应明确条件、责任、所有权和利益关系，避免支持演变为控制。"
+    },
+    {
+      "id": "king-of-pentacles-upright-success-caution",
+      "orientation": "upright",
+      "topic": "safety_caution",
+      "content": "五角星国王不能保证财富或事业成功，结果仍需计划、能力、市场适应、伦理和风险控制。"
+    },
+    {
+      "id": "king-of-pentacles-neutral-demographic-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "五角星国王可以对应任何性别、年龄和外貌，传统人物描述不能用于可靠识别身份。"
+    },
+    {
+      "id": "king-of-pentacles-taurus-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-hierophant",
+        "four-of-pentacles"
+      ],
+      "content": "五角星国王与教皇或五角星四共同出现时，传统上可能加强金牛座式的稳定、感官和物质价值主题。"
+    },
+    {
+      "id": "king-of-pentacles-gemini-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-lovers"
+      ],
+      "content": "五角星国王与恋人共同出现时，传统上可能加强双子座、选择、沟通或商业伙伴主题。"
+    },
+    {
+      "id": "king-of-pentacles-upright-lifestyle",
+      "orientation": "upright",
+      "topic": "lifestyle",
+      "content": "五角星国王式人物可能喜欢美食、音乐、动物、自然、规律生活和舒适的物质环境。"
+    },
+    {
+      "id": "king-of-pentacles-health-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "塔罗不能诊断颈部或肩膀问题，持续疼痛、麻木或活动受限应由医疗专业人员评估。"
+    },
+    {
+      "id": "king-of-pentacles-upright-comfort-eating",
+      "orientation": "upright",
+      "topic": "self_care",
+      "content": "食物可以提供安慰，但若长期依靠进食调节情绪并造成困扰，可探索更多支持方式或寻求专业帮助。"
+    },
+    {
+      "id": "king-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星国王正位可能表示稳定、可靠、重视物质舒适和感官亲密。"
+    },
+    {
+      "id": "king-of-pentacles-upright-love-language",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "五角星国王式人物可能通过礼物、工作机会、交通、住房或财务支持表达关心。"
+    },
+    {
+      "id": "king-of-pentacles-upright-material-not-emotional",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "物质充足不能代替情感理解，关系仍需要倾听、尊重、表达和共同意义。"
+    },
+    {
+      "id": "king-of-pentacles-upright-change",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "保守与谨慎能够带来稳定，但也需要为变化、个人成长和不同需求留出空间。"
+    },
+    {
+      "id": "king-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星国王逆位可能表示资源管理失误、仓促冒险，或渴望财富却缺少扎实规划与工作。"
+    },
+    {
+      "id": "king-of-pentacles-reversed-materialism",
+      "orientation": "reversed",
+      "topic": "materialism",
+      "content": "逆位可能表现为只重视能够看见和拥有的事物，忽略关系、伦理与长期意义。"
+    },
+    {
+      "id": "king-of-pentacles-reversed-business-ethics",
+      "orientation": "reversed",
+      "topic": "ethics",
+      "content": "逆位阴影可能涉及行贿、欺诈、滥用权力或不择手段追逐利益。"
+    },
+    {
+      "id": "king-of-pentacles-reversed-evidence-caution",
+      "orientation": "reversed",
+      "topic": "safety_caution",
+      "content": "不能仅凭逆位认定某人不诚实或违法，相关判断必须依赖合同、记录、审计和现实证据。"
+    },
+    {
+      "id": "king-of-pentacles-reversed-people-as-tools",
+      "orientation": "reversed",
+      "topic": "power",
+      "content": "五角星国王逆位可能把物品和利润置于人的价值之上，使员工、伴侣或家人被当作实现目标的工具。"
+    },
+    {
+      "id": "king-of-pentacles-reversed-short-success",
+      "orientation": "reversed",
+      "topic": "success",
+      "content": "缺少周密计划、可持续结构或伦理基础时，短期获利可能无法转化为长期稳定。"
+    },
+    {
+      "id": "king-of-pentacles-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "逆位建议检查商业模式、现金流、风险、合规、劳动关系和环境影响，并把人的尊严纳入成功标准。"
+    }
+  ]
+}

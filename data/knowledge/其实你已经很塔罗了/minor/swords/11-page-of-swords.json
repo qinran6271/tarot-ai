@@ -1,0 +1,172 @@
+{
+  "cardId": "page-of-swords",
+  "courtRank": "page",
+  "name": {
+    "zh": "宝剑侍卫",
+    "en": "Page of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/11-page-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "page-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑侍卫正位象征活跃的思想、消息与创意，也提醒人不要让梦想和讨论取代实际行动。"
+    },
+    {
+      "id": "page-of-swords-upright-element",
+      "orientation": "upright",
+      "topic": "element",
+      "content": "宝剑侍卫可理解为空气元素中的空气，强调好奇、构想、分析和信息传递。"
+    },
+    {
+      "id": "page-of-swords-upright-ideas",
+      "orientation": "upright",
+      "topic": "ideas",
+      "content": "宝剑侍卫正位表示思想敏捷、计划丰富并容易获得灵感，但想法仍需要现实检验。"
+    },
+    {
+      "id": "page-of-swords-upright-grounding",
+      "orientation": "upright",
+      "topic": "advice",
+      "content": "若希望把创意转化为实际成果，宝剑侍卫正位建议建立计划、现实基础和持续执行机制。"
+    },
+    {
+      "id": "page-of-swords-upright-message",
+      "orientation": "upright",
+      "topic": "message",
+      "content": "宝剑侍卫正位可能表示电话、信件、通知、回复，或与当前问题有关的新信息。"
+    },
+    {
+      "id": "page-of-swords-upright-verify-idea",
+      "orientation": "upright",
+      "topic": "decision_making",
+      "content": "当构想尚未验证时，适合搜集信息、验证假设、拆解步骤，并通过小规模行动测试可行性。"
+    },
+    {
+      "id": "page-of-swords-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业中，宝剑侍卫正位可表示创意、研究、写作、沟通或构思成为工作的重要部分。"
+    },
+    {
+      "id": "page-of-swords-upright-project-reality",
+      "orientation": "upright",
+      "topic": "project",
+      "content": "若项目仍处于幻想阶段，需要通过市场反馈、时间预算、技能与执行计划帮助它落地。"
+    },
+    {
+      "id": "page-of-swords-upright-person",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "作为人物原型，宝剑侍卫表示思想活跃、充满计划和梦想，但实践经验或执行基础尚未成熟的人。"
+    },
+    {
+      "id": "page-of-swords-neutral-demographic-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "宝剑侍卫可以对应任何年龄和性别，不能用牌面可靠判断一个人的年龄、外貌、性别或身份。"
+    },
+    {
+      "id": "page-of-swords-symbolism-air",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物周围的风与仿佛离地的姿态，象征思想活跃、想象丰富，也可能表示与现实基础暂时脱节。"
+    },
+    {
+      "id": "page-of-swords-upright-air-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "传统解读会把宝剑侍卫与航空或长距离旅行联系，但具体旅程仍应根据现实计划确认。"
+    },
+    {
+      "id": "page-of-swords-travel-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "three-of-wands",
+        "six-of-swords",
+        "eight-of-wands",
+        "temperance",
+        "the-world"
+      ],
+      "content": "宝剑侍卫与权杖三、宝剑六、权杖八、节制或世界共同出现时，可加强航空、海外或长距离旅行的主题，但不能替代行程资料。"
+    },
+    {
+      "id": "page-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑侍卫正位可能表示正在想象理想关系，却没有采取足够的实际行动。"
+    },
+    {
+      "id": "page-of-swords-upright-intellectualize-feelings",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "宝剑侍卫正位可能表示过度分析感情，却很少接触真实感受，或用幻想避开现实中的失望与风险。"
+    },
+    {
+      "id": "page-of-swords-upright-relationship-action",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "宝剑侍卫正位建议把关系期待转化为坦诚表达、主动安排相处和提出具体问题等可观察行为。"
+    },
+    {
+      "id": "page-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑侍卫逆位可能表示消息延迟、信息不完整，或计划的现实基础尚未稳固。"
+    },
+    {
+      "id": "page-of-swords-reversed-delayed-message",
+      "orientation": "reversed",
+      "topic": "message",
+      "content": "重要消息出现延迟或内容模糊时，应确认信息来源、发送时间与准确性。"
+    },
+    {
+      "id": "page-of-swords-reversed-gossip",
+      "orientation": "reversed",
+      "topic": "communication",
+      "content": "宝剑侍卫逆位可能表示八卦、未经核实的信息，或话语传播范围超出原先预期。"
+    },
+    {
+      "id": "page-of-swords-reversed-privacy",
+      "orientation": "reversed",
+      "topic": "communication_advice",
+      "content": "分享涉及他人的信息前，应考虑真实性、隐私，以及传播后可能造成的影响。"
+    },
+    {
+      "id": "page-of-swords-reversed-talk-no-action",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "宝剑侍卫逆位常表示擅长思考和谈论目标，却没有采取与承诺相符的行动。"
+    },
+    {
+      "id": "page-of-swords-reversed-dream-versus-output",
+      "orientation": "reversed",
+      "topic": "productivity",
+      "content": "反复描述梦想可能制造正在前进的感觉，但若缺少具体产出，目标仍不会自动实现。"
+    },
+    {
+      "id": "page-of-swords-reversed-start-action",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "宝剑侍卫逆位建议减少空泛讨论，把目标拆成可立即执行的小步骤，并用完成的工作衡量进展。"
+    },
+    {
+      "id": "page-of-swords-reversed-aviation-career-caution",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "传统解读有时把逆位宝剑侍卫与航空职业联系，但牌面不能确认职业，只能作为需要现实资料验证的主题提示。"
+    }
+  ]
+}

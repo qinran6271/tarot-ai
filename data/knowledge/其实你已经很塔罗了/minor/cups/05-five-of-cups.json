@@ -1,0 +1,147 @@
+{
+  "cardId": "five-of-cups",
+  "cardNumber": 5,
+  "name": {
+    "zh": "圣杯五",
+    "en": "Five of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/05-five-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "five-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯五正位描述失落、悲伤、分离或与生活疏离的感觉。原本稳定、熟悉的事物似乎离开了自己，需要先经历一段哀伤或孤立期。"
+    },
+    {
+      "id": "five-of-cups-upright-grief-process",
+      "orientation": "upright",
+      "topic": "grief",
+      "content": "圣杯五正位表示悲伤是经历失落时的自然过程。强烈情绪会暂时改变对生活的理解，但不需要强迫自己立刻跳过这个阶段。"
+    },
+    {
+      "id": "five-of-cups-upright-acceptance",
+      "orientation": "upright",
+      "topic": "acceptance",
+      "content": "只有逐渐接受已经发生的失落，才有能力重新辨认仍然留下的人、关系、资源和机会。"
+    },
+    {
+      "id": "five-of-cups-upright-emotional-responsibility",
+      "orientation": "upright",
+      "topic": "emotional_responsibility",
+      "content": "圣杯五正位要求为自己的情感承担责任。承认悲伤是必要的，但也要留意自己是否主动切断所有支持，并把失落当成全部现实。"
+    },
+    {
+      "id": "five-of-cups-upright-isolation",
+      "orientation": "upright",
+      "topic": "isolation",
+      "content": "悲伤时只向内寻找答案，可能使探索范围变窄并失去部分客观性。圣杯五正位提醒人在独处之外，也保留与现实和他人的联系。"
+    },
+    {
+      "id": "five-of-cups-upright-support-remains",
+      "orientation": "upright",
+      "topic": "support",
+      "content": "圣杯五正位虽然强调失落，但仍有支持和机会存在。朋友、家人或其他关系资源可能没有离开，只是当事人暂时无法注意到。"
+    },
+    {
+      "id": "five-of-cups-upright-two-of-cups-connection",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "two-of-cups"
+      ],
+      "content": "圣杯五中仍然直立的两个杯子可以与圣杯二呼应，表示朋友支持、伙伴关系或未来的新关系机会，但必须结合周围牌确认。"
+    },
+    {
+      "id": "five-of-cups-upright-hermit-connection",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-hermit"
+      ],
+      "content": "圣杯五与隐士都涉及独处和向内寻找意义。课题是学习独处而不陷入孤独，并理解过去行为、当前情绪与现实结果之间的关系。"
+    },
+    {
+      "id": "five-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯五正位可能表示分离，或者不断回顾过去，把现在拥有的关系与过去进行比较。"
+    },
+    {
+      "id": "five-of-cups-upright-past-attachment",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "圣杯五正位可能表示无法从旧有情绪状态或过去关系中释放自己。持续关注失去的对象，会使人看不清当前的关系机会。"
+    },
+    {
+      "id": "five-of-cups-symbolism-black-cloak",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "黑色长衣和低垂的头象征悲伤、失落，以及厘清感情时自然向内收缩的姿态。"
+    },
+    {
+      "id": "five-of-cups-symbolism-fallen-cups",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "三个翻倒的杯子象征已经失去、错过或被浪费的机会，也表现当事人的注意力目前集中在损失上。"
+    },
+    {
+      "id": "five-of-cups-symbolism-standing-cups",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物身后仍直立的两个杯子象征尚未失去的爱、支持、关系和机会，只是暂时未被看见。"
+    },
+    {
+      "id": "five-of-cups-symbolism-river",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "持续流动的河流象征生命不会因个人失落而停止，也表示当前事件暂时阻隔了人物与情感稳定之间的联系。"
+    },
+    {
+      "id": "five-of-cups-symbolism-bridge-castle",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "桥象征跨越悲伤与孤立的可行道路，城堡象征重新获得的情感稳定和安全感。"
+    },
+    {
+      "id": "five-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯五逆位表示开始从失落中恢复，终于注意到仍然存在的支持、机会和通往稳定状态的道路。"
+    },
+    {
+      "id": "five-of-cups-reversed-accept-support",
+      "orientation": "reversed",
+      "topic": "support",
+      "content": "圣杯五逆位表示一个人开始愿意让朋友和家人提供支持，不再坚持独自承受全部悲伤。"
+    },
+    {
+      "id": "five-of-cups-reversed-letting-go",
+      "orientation": "reversed",
+      "topic": "letting_go",
+      "content": "圣杯五逆位意味着到了放开过去的阶段。即使失落已经持续很久，当事人也开始准备释怀、宽恕，并停止让过去主导现在。"
+    },
+    {
+      "id": "five-of-cups-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯五逆位可能表示从旧有情感状态中解脱，因此能够进入更深刻的新关系，或者对现有关系作出更深入的承诺。"
+    },
+    {
+      "id": "five-of-cups-reversed-perspective",
+      "orientation": "reversed",
+      "topic": "inner_growth",
+      "content": "圣杯五逆位不是否认曾经的损失，而是把注意力从已经倒下的杯子，逐渐转向仍然保有的爱、支持和可行道路。"
+    }
+  ]
+}

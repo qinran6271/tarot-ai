@@ -1,0 +1,167 @@
+{
+  "cardId": "ten-of-cups",
+  "cardNumber": 10,
+  "name": {
+    "zh": "圣杯十",
+    "en": "Ten of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/10-ten-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "ten-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯十正位表示一个互利、和谐的家庭、团队或团体状态。成员能够相互奉献、合作并共享利益。"
+    },
+    {
+      "id": "ten-of-cups-upright-joy-sharing",
+      "orientation": "upright",
+      "topic": "emotional_satisfaction",
+      "content": "圣杯十正位表现喜悦、分享与满足。每个人都理解当前状态的价值，因此愿意开放地付出和接受。"
+    },
+    {
+      "id": "ten-of-cups-upright-belonging",
+      "orientation": "upright",
+      "topic": "belonging",
+      "content": "圣杯十正位表示每位参与者都能感受到自己属于这个家庭或团体，同时个人价值和差异也没有被整体抹去。"
+    },
+    {
+      "id": "ten-of-cups-upright-home-family",
+      "orientation": "upright",
+      "topic": "home_family",
+      "content": "圣杯十正位可以表示成功的家庭状态、团聚、共同生活，以及成员在现实和情感层面彼此支持。"
+    },
+    {
+      "id": "ten-of-cups-upright-team",
+      "orientation": "upright",
+      "topic": "teamwork",
+      "content": "在团队问题中，圣杯十正位表示成员愿意为共同目标贡献力量，合作气氛和谐，成果也能够被公平分享。"
+    },
+    {
+      "id": "ten-of-cups-upright-six-seven-eight-nine-journey",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "six-of-cups",
+        "seven-of-cups",
+        "eight-of-cups",
+        "nine-of-cups"
+      ],
+      "content": "圣杯十整合圣杯六的安全、圣杯七的需求认识、圣杯八对更深满足的追寻，以及圣杯九的自我接纳，形成成熟而互利的情感共同体。"
+    },
+    {
+      "id": "ten-of-cups-upright-wands-ten-contrast",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "ten-of-wands"
+      ],
+      "content": "权杖十强调任务、责任和负担达到高峰，圣杯十则强调情感发展完成后的喜悦、合作与共同满足。"
+    },
+    {
+      "id": "ten-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯十正位表示通过承诺、沟通和共同成长获得满足，是一段稳固、成熟并具有长期维系能力的关系。"
+    },
+    {
+      "id": "ten-of-cups-upright-beyond-two",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "two-of-cups"
+      ],
+      "content": "圣杯十超越圣杯二式的最初吸引和热恋，双方在友谊、爱情、沟通与承诺中找到长期相处的方法。"
+    },
+    {
+      "id": "ten-of-cups-upright-commitment-freedom",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "圣杯十正位中的伴侣彼此承诺，同时保有个人兴趣、友谊和独处空间。自由不会削弱关系，反而能带回新鲜经验与能量。"
+    },
+    {
+      "id": "ten-of-cups-upright-children",
+      "orientation": "upright",
+      "topic": "family",
+      "content": "圣杯十中的孩子可以代表家庭成员，也可能表示关系欢迎孩子到来或准备建立家庭，但不能单独作为怀孕确认。"
+    },
+    {
+      "id": "ten-of-cups-upright-marriage-combination",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "six-of-wands",
+        "judgement",
+        "the-lovers"
+      ],
+      "content": "圣杯十若与权杖六、审判或恋人牌共同出现，可能进一步强化婚姻、公开承诺或关系进入正式阶段的主题。"
+    },
+    {
+      "id": "ten-of-cups-symbolism-couple-open-arms",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "伴侣站在一起并展开双臂，象征共同欢迎生活机会、愿意分享，以及对当前幸福的开放与感激。"
+    },
+    {
+      "id": "ten-of-cups-symbolism-children",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "手舞足蹈的孩子象征自然的热情、欢乐和充分利用机会体验快乐的能力。"
+    },
+    {
+      "id": "ten-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯十逆位可能表示与家庭、团队或周围的人疏离，虽然身处群体中，却没有真正参与、理解或珍惜共同生活。"
+    },
+    {
+      "id": "ten-of-cups-reversed-family-conflict",
+      "orientation": "reversed",
+      "topic": "home_family",
+      "content": "圣杯十逆位可能描述一个过去和谐的家庭，目前转为彼此竞争、不愿合作，共同目标被不安全感和个人需求取代。"
+    },
+    {
+      "id": "ten-of-cups-reversed-nine-lesson",
+      "orientation": "reversed",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "nine-of-cups"
+      ],
+      "content": "圣杯十逆位要求回到圣杯九正位，重新学习爱自己并找到内在快乐，避免完全依赖家庭或团体提供满足。"
+    },
+    {
+      "id": "ten-of-cups-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯十逆位可能表示缺乏爱、和谐或共同目标。长期不处理会使悲伤和疏离逐渐增加。"
+    },
+    {
+      "id": "ten-of-cups-reversed-relationship-options",
+      "orientation": "reversed",
+      "topic": "relationship_advice",
+      "content": "圣杯十逆位要求正视关系问题：双方可以共同改变关系，个人先改变参与方式，或在确认无法修复后选择离开。"
+    },
+    {
+      "id": "ten-of-cups-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，圣杯十逆位可能表示团队如一盘散沙，成员各自为政，成功很少共同分享。"
+    },
+    {
+      "id": "ten-of-cups-reversed-team-breakup",
+      "orientation": "reversed",
+      "topic": "teamwork",
+      "content": "圣杯十逆位可能描述一个曾紧密合作的团队，因不安全感、个人需求和野心而逐渐分裂。"
+    }
+  ]
+}

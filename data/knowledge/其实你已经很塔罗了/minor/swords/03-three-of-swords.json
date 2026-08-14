@@ -1,0 +1,153 @@
+{
+  "cardId": "three-of-swords",
+  "cardNumber": 3,
+  "name": {
+    "zh": "宝剑三",
+    "en": "Three of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/03-three-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "three-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑三正位表示悲伤、失落、哀痛与强烈失望。核心课题是承认并经历痛苦，而不是否定它。"
+    },
+    {
+      "id": "three-of-swords-upright-grief",
+      "orientation": "upright",
+      "topic": "grief",
+      "content": "宝剑三正位表示悲伤是面对失落时的自然反应。诚实体验痛苦，可能增加成熟、同理心和包容力。"
+    },
+    {
+      "id": "three-of-swords-upright-do-not-reject-pain",
+      "orientation": "upright",
+      "topic": "acceptance",
+      "content": "完全拒绝或压抑宝剑三的痛苦，可能造成情感停滞，并使人与生活、关系和周围环境逐渐脱离。"
+    },
+    {
+      "id": "three-of-swords-upright-feel-not-ruminate",
+      "orientation": "upright",
+      "topic": "emotional_processing",
+      "content": "体验悲伤不等于沉溺其中，而是承认发生了什么、失去了什么，以及事件如何影响自己。"
+    },
+    {
+      "id": "three-of-swords-upright-pain-passes",
+      "orientation": "upright",
+      "topic": "healing",
+      "content": "宝剑三正位提醒人，悲伤会改变强度并逐渐过去。恢复不是遗忘，而是能够带着经验重新参与生活。"
+    },
+    {
+      "id": "three-of-swords-upright-clear-obstacles",
+      "orientation": "upright",
+      "topic": "healing",
+      "content": "当痛苦得到处理时，原本阻挡情感流动与新机会的障碍也会逐渐减少。"
+    },
+    {
+      "id": "three-of-swords-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，宝剑三正位可能表示计划虽然有成果，却因合作方违背承诺、利益受损或成果没有公平分享而带来失望。"
+    },
+    {
+      "id": "three-of-swords-upright-success-with-loss",
+      "orientation": "upright",
+      "topic": "mixed_outcome",
+      "content": "宝剑三正位不一定否定过程中的成功，也可能表示成功伴随着背叛、失去或明显的情感代价。"
+    },
+    {
+      "id": "three-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑三正位表示受伤、分离、背叛或难以承受的失落，需要诚实面对情绪。"
+    },
+    {
+      "id": "three-of-swords-upright-past-pain-current-relationship",
+      "orientation": "upright",
+      "topic": "relationship_pattern",
+      "content": "宝剑三可能指出过去尚未解决的关系痛苦，使人无法在当前关系中获得满足或充分信任。"
+    },
+    {
+      "id": "three-of-swords-upright-emotional-distance",
+      "orientation": "upright",
+      "topic": "relationship_pattern",
+      "content": "为了避免再次受伤，一个人可能与伴侣保持情感距离。短期保护也会阻碍当前关系建立真实亲密。"
+    },
+    {
+      "id": "three-of-swords-symbolism-pierced-heart",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "被三把剑刺穿的鲜红心脏直接象征情感伤害、悲痛，以及思想、言语或事实穿透内心的感受。"
+    },
+    {
+      "id": "three-of-swords-symbolism-storm",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "灰云和风暴象征强烈悲伤、混乱和暂时笼罩生活的沉重气氛。"
+    },
+    {
+      "id": "three-of-swords-health-caution",
+      "orientation": "neutral",
+      "topic": "health_caution",
+      "content": "传统来源有时把宝剑三与心脏或压抑造成的身体负担联系起来，但塔罗不能诊断疾病。胸痛、呼吸困难或持续不适应由医疗人员评估。"
+    },
+    {
+      "id": "three-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑三逆位仍涉及痛苦，但重点是抗拒、否认或压抑感受，使未处理的失落继续影响现在。"
+    },
+    {
+      "id": "three-of-swords-reversed-energy-drain",
+      "orientation": "reversed",
+      "topic": "emotional_repression",
+      "content": "压住宝剑三逆位的痛苦需要大量能量，并可能消耗原本可用于工作、创造、关系和日常生活的力量。"
+    },
+    {
+      "id": "three-of-swords-reversed-career-shadow",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "宝剑三逆位可能表示当前事业和行动被过去痛苦遮蔽，注意力和精力难以充分投入现在。"
+    },
+    {
+      "id": "three-of-swords-reversed-old-coping",
+      "orientation": "reversed",
+      "topic": "coping",
+      "content": "过去压抑情绪可能曾是当时维持生活的方法，但宝剑三逆位表示现在需要寻找更合适的处理方式。"
+    },
+    {
+      "id": "three-of-swords-reversed-resurfacing-grief",
+      "orientation": "reversed",
+      "topic": "grief",
+      "content": "未处理的痛苦可能在后来发生的死亡、分离、冲突或相似情境中重新浮现，使人同时承受现在与过去的悲伤。"
+    },
+    {
+      "id": "three-of-swords-reversed-trigger-avoidance",
+      "orientation": "reversed",
+      "topic": "avoidance",
+      "content": "宝剑三逆位可能表示回避任何会唤起痛苦记忆的场合，这会缩小生活范围，并让过去继续决定现在。"
+    },
+    {
+      "id": "three-of-swords-reversed-support",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "面对宝剑三逆位，应以安全、能够承受的速度接近情绪，并在需要时寻求可信任的人、心理咨询或其他专业支持。"
+    },
+    {
+      "id": "three-of-swords-reversed-no-forced-healing",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "宝剑三逆位的目标不是强迫自己迅速释怀，而是停止独自用压抑维持表面稳定。"
+    }
+  ]
+}

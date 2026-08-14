@@ -1,0 +1,188 @@
+{
+  "cardId": "ten-of-swords",
+  "cardNumber": 10,
+  "name": {
+    "zh": "宝剑十",
+    "en": "Ten of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/10-ten-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "ten-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑十正位表示一种状况已经走到尽头，并为之后的新阶段腾出空间。"
+    },
+    {
+      "id": "ten-of-swords-upright-low-point",
+      "orientation": "upright",
+      "topic": "crisis",
+      "content": "宝剑十正位可能表示处境已经到达最低点，需要停止否认损失并正视现实。"
+    },
+    {
+      "id": "ten-of-swords-upright-ending",
+      "orientation": "upright",
+      "topic": "ending",
+      "content": "宝剑十正位可对应关系、计划、工作、身份或某种生活方式的结束。"
+    },
+    {
+      "id": "ten-of-swords-upright-stage-ending",
+      "orientation": "upright",
+      "topic": "transition",
+      "content": "宝剑十不一定表示整体结束，也可能表示一个旧阶段完成，关系或生活即将进入不可逆的新结构。"
+    },
+    {
+      "id": "ten-of-swords-upright-acceptance",
+      "orientation": "upright",
+      "topic": "acceptance",
+      "content": "承认一个阶段已经结束，有助于停止勉强维持，并为新的事物和选择腾出位置。"
+    },
+    {
+      "id": "ten-of-swords-upright-beliefs",
+      "orientation": "upright",
+      "topic": "belief",
+      "content": "宝剑十正位可能提示某些失效或具有破坏性的信念，使人继续停留在痛苦处境中。"
+    },
+    {
+      "id": "ten-of-swords-upright-review",
+      "orientation": "upright",
+      "topic": "self_reflection",
+      "content": "宝剑十正位建议暂时拉开距离，检视当前环境、思想和应对方式，辨认哪些已经不再有用。"
+    },
+    {
+      "id": "ten-of-swords-upright-surrender",
+      "orientation": "upright",
+      "topic": "letting_go",
+      "content": "宝剑十的屈从并非消极认输，而是停止维持已经结束的状态，允许必要的改变发生。"
+    },
+    {
+      "id": "ten-of-swords-upright-no-self-blame",
+      "orientation": "upright",
+      "topic": "safety_caution",
+      "content": "并非所有困境都由个人思想造成；疾病、失业、暴力、歧视和资源不足等现实因素不能被简化为信念问题或归咎于当事人。"
+    },
+    {
+      "id": "ten-of-swords-upright-next-steps",
+      "orientation": "upright",
+      "topic": "advice",
+      "content": "面对结束时不必立刻找到完整答案，可以先处理损失、确认支持资源，再规划下一步。"
+    },
+    {
+      "id": "ten-of-swords-upright-hope-action",
+      "orientation": "upright",
+      "topic": "hope",
+      "content": "宝剑十正位包含低谷后的希望，但情况不会仅凭牌面自动改善，恢复仍需要休息、支持和现实行动。"
+    },
+    {
+      "id": "ten-of-swords-symbolism-ten-swords",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物背后的十把剑以强烈意象表现一个过程已经彻底完成，再继续维持旧状态已无意义。"
+    },
+    {
+      "id": "ten-of-swords-symbolism-dark-sky",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "漆黑天空象征痛苦、失败和低潮，也呈现当事人此刻难以看见其他可能。"
+    },
+    {
+      "id": "ten-of-swords-symbolism-sunrise",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "远方日出的微光象征旧阶段之后仍有希望、新方向和重新开始的可能。"
+    },
+    {
+      "id": "ten-of-swords-symbolism-still-water",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "平静水面象征风暴之后的静止，也提示结束之后需要休息和情绪整合。"
+    },
+    {
+      "id": "ten-of-swords-health-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "塔罗不能诊断颈部、脊椎、吞咽或其他疾病；出现相关症状时应接受专业医疗评估。"
+    },
+    {
+      "id": "ten-of-swords-death-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "宝剑十及任何牌组组合都不能用于判断疾病、寿命或死亡时间，也不能确认一个人是否即将死亡。"
+    },
+    {
+      "id": "ten-of-swords-major-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "death",
+        "the-tower",
+        "judgement"
+      ],
+      "content": "宝剑十与死神、高塔或审判共同出现时，可象征重大结束、结构崩解、不可逆转折及随后的重建，不应解读为身体死亡。"
+    },
+    {
+      "id": "ten-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑十正位可能表示整段关系结束，或旧有关系模式已经无法继续。"
+    },
+    {
+      "id": "ten-of-swords-upright-family-transition",
+      "orientation": "upright",
+      "topic": "family",
+      "content": "孩子出生等重大事件可能结束原有的双人互动模式，并要求家庭建立包含新成员的关系结构。"
+    },
+    {
+      "id": "ten-of-swords-upright-relationship-decision",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "是否结束关系应依据安全、双方意愿、实际行为和修复可能性判断，不能只凭宝剑十决定。"
+    },
+    {
+      "id": "ten-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑十逆位表示在艰困时期获得暂时喘息，或开始从最低点逐步恢复。"
+    },
+    {
+      "id": "ten-of-swords-reversed-use-respite",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "逆位带来的喘息应被用于真实改变，而不是重新返回原有的破坏性模式。"
+    },
+    {
+      "id": "ten-of-swords-reversed-not-automatic",
+      "orientation": "reversed",
+      "topic": "recovery",
+      "content": "宝剑十逆位不保证问题自动消失；若不改变相关结构、行为或信念，类似困境可能再次出现。"
+    },
+    {
+      "id": "ten-of-swords-reversed-new-direction",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "宝剑十逆位建议评估需要结束的事物、可以保留的资源，并建立具体可执行的新方向。"
+    },
+    {
+      "id": "ten-of-swords-reversed-small-steps",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "恢复可以从求助、休息、制定计划、设立边界或处理现实事务等小而持续的行动开始。"
+    },
+    {
+      "id": "ten-of-swords-reversed-unresolved-issues",
+      "orientation": "reversed",
+      "topic": "warning",
+      "content": "暂时好转不代表问题已经解决；宝剑十逆位提醒人继续处理根本原因，并允许自己获得支持。"
+    }
+  ]
+}

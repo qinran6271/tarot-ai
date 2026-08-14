@@ -1,0 +1,132 @@
+{
+  "cardId": "four-of-cups",
+  "cardNumber": 4,
+  "name": {
+    "zh": "圣杯四",
+    "en": "Four of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/04-four-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "four-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯四正位可能表示冷漠、不满足，或者对当前情感机会缺乏回应。生活并非完全没有机会，而是当事人目前无法从眼前选择中感到满足。"
+    },
+    {
+      "id": "four-of-cups-upright-missed-opportunity",
+      "orientation": "upright",
+      "topic": "opportunity",
+      "content": "圣杯四正位提醒人睁开双眼，在机会从面前溜走前看见并把握它。过度关注已有的不满，可能使人忽视正在出现的新选择。"
+    },
+    {
+      "id": "four-of-cups-upright-inner-needs",
+      "orientation": "upright",
+      "topic": "inner_growth",
+      "content": "圣杯四正位要求先理解自己的真实情感需求。只有重新与内在需要建立联系，外在的人、关系和机会才更可能带来真正滋养。"
+    },
+    {
+      "id": "four-of-cups-upright-inner-outer-balance",
+      "orientation": "upright",
+      "topic": "balance",
+      "content": "圣杯四正位的课题是平衡内在探索与现实参与。只追求外在事物容易厌烦，完全沉浸内心则可能错过现实中已经出现的爱与机会。"
+    },
+    {
+      "id": "four-of-cups-upright-grounding",
+      "orientation": "upright",
+      "topic": "grounding",
+      "content": "当注意力大量放在沉思和内心探索时，需要以规律生活、身体活动、现实责任和真实的人际接触作为稳定基础。"
+    },
+    {
+      "id": "four-of-cups-upright-past-satisfaction",
+      "orientation": "upright",
+      "topic": "emotional_satisfaction",
+      "content": "圣杯四正位可能表示一个人正在疑惑过去的满足去了哪里。最初的新鲜感已经减弱，需要重新理解什么才能带来持续的情感连接。"
+    },
+    {
+      "id": "four-of-cups-upright-ace-lesson",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "ace-of-cups"
+      ],
+      "content": "圣杯四延续圣杯王牌所开启的情感经验，但要求人不能只停留在最初的理想和满足中，而要把内在连接带入持续的现实生活。"
+    },
+    {
+      "id": "four-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯四正位可能表示由于缺少内在连接而产生情感不满足，或者一方逃避现实亲密，却过度依赖伴侣满足自己的所有需要。"
+    },
+    {
+      "id": "four-of-cups-upright-self-discovery",
+      "orientation": "upright",
+      "topic": "inner_growth",
+      "content": "圣杯四正位可以表示探索内心、重新理解简单需要的时期。重点是认识自己，而不是把伴侣或外在机会当作唯一满足来源。"
+    },
+    {
+      "id": "four-of-cups-upright-relationship-place",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "圣杯四正位可能要求为新关系或新伴侣在既有生活中找到合适位置，使亲密关系与朋友、家庭、孩子、责任和个人空间保持平衡。"
+    },
+    {
+      "id": "four-of-cups-symbolism-three-cups",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "男子面前的三个杯子象征目前已经存在的经验和选择，也反映他的内在状态；当内心疏离时，眼前机会也无法带来满足。"
+    },
+    {
+      "id": "four-of-cups-symbolism-fourth-cup",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "云中之手递来的第四只杯子象征当前尚未被注意的新情感机会。它要求人既向内理解自己，也睁眼回应现实。"
+    },
+    {
+      "id": "four-of-cups-symbolism-meditation",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "男子席地冥想象征内省和打开心灵之门，但闭眼也暗示内省过度时可能拒绝现实中的机会。"
+    },
+    {
+      "id": "four-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯四逆位表示沉思和停顿的时期即将结束，现在需要从反复思考转向主动探索新的机会。"
+    },
+    {
+      "id": "four-of-cups-reversed-old-options-empty",
+      "orientation": "reversed",
+      "topic": "change",
+      "content": "圣杯四逆位表示原先关注的选择已经无法继续承载满足。与其重复注视同一批机会，不如承认旧方向已经失去作用。"
+    },
+    {
+      "id": "four-of-cups-reversed-new-opportunities",
+      "orientation": "reversed",
+      "topic": "opportunity",
+      "content": "圣杯四逆位表示新机会正在出现，但它们可能不在目前一直关注的方向。需要扩大视野，寻找不同的人、环境或选择。"
+    },
+    {
+      "id": "four-of-cups-reversed-reconnect-world",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "圣杯四逆位要求重新与现实世界建立联系，通过行动、参与和尝试来发现满足，而不是继续停留在封闭的内心循环中。"
+    },
+    {
+      "id": "four-of-cups-reversed-after-reflection",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "圣杯四逆位不是鼓励盲目行动，而是在完成必要内省后走回现实。若已经明白旧选择无法满足自己，就应开始探索新的关系、活动或生活安排。"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "cardId": "eight-of-wands",
+  "cardNumber": 8,
+  "name": {
+    "zh": "权杖八",
+    "en": "Eight of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/08-eight-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "eight-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖八正位象征自由流动的能量、快速推进、旅行和较少阻碍的发展状态。目标通常比较清楚，事情能够顺畅向前，并较容易获得令人满意的结果。"
+    },
+    {
+      "id": "eight-of-wands-upright-flow",
+      "orientation": "upright",
+      "topic": "flow",
+      "content": "权杖八正位代表火元素在较少限制的状态下自由流动。能量、热情和行动力能够直接投入目标，而不需要不断处理额外阻碍。"
+    },
+    {
+      "id": "eight-of-wands-upright-progress",
+      "orientation": "upright",
+      "topic": "progress",
+      "content": "权杖八正位表示事情正在快速而顺利地朝目标推进。阻力较小，既定方向通常不需要过度费力就能够继续发展，因此属于明显的前进阶段。"
+    },
+    {
+      "id": "eight-of-wands-upright-goal",
+      "orientation": "upright",
+      "topic": "goal",
+      "content": "权杖八正位表示目标较为明确，并且个人能够直接朝目标前进。当前重点不是重新选择方向，而是利用顺畅的局势和已有动力继续推进。"
+    },
+    {
+      "id": "eight-of-wands-upright-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "权杖八正位可以表示计划将达到令人满意的结果。此前投入的努力开始获得回报，而阻碍的减少使事情更容易完成。"
+    },
+    {
+      "id": "eight-of-wands-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当问题涉及下一步行动时，权杖八正位支持直接推进。此时通常不需要过度犹豫或制造复杂步骤，而可以充分利用现有动力和较少限制的环境快速行动。"
+    },
+    {
+      "id": "eight-of-wands-upright-freedom",
+      "orientation": "upright",
+      "topic": "freedom",
+      "content": "权杖八正位具有自由和解脱的含义。一个人可能从此前的困难、限制或阻碍中释放出来，因此能够更自由地投入自己的热情并追求目标。"
+    },
+    {
+      "id": "eight-of-wands-upright-energy",
+      "orientation": "upright",
+      "topic": "energy",
+      "content": "权杖八正位体现强烈、直接且没有太多拘束的火元素能量。它象征旺盛的行动力和对生活的热情，并倾向于把这种能量迅速转化为经验和进展。"
+    },
+    {
+      "id": "eight-of-wands-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "权杖八正位是一张明显与旅行有关的牌，尤其可能表示海外旅行、跨海移动或即将出发的行程。旅行通常具有较顺畅、自由和令人期待的性质。"
+    },
+    {
+      "id": "eight-of-wands-upright-overseas",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "该来源特别把权杖八与跨海或海外旅行联系起来。牌面中的权杖越过水面，强化了跨越距离、前往海外以及扩展活动范围的象征。"
+    },
+    {
+      "id": "eight-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，权杖八正位可以表示与工作有关的旅行、驾驶性质的工作、开发新的供应商或开拓新的市场。它通常意味着事业活动范围正在扩展，并伴随明显的移动性。"
+    },
+    {
+      "id": "eight-of-wands-upright-business-expansion",
+      "orientation": "upright",
+      "topic": "business",
+      "content": "权杖八正位可以表示事业或商业向新的地区、供应链或市场扩展。当前限制较少，因此适合利用已经形成的动力推动业务向外发展。"
+    },
+    {
+      "id": "eight-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖八正位通常具有积极含义，表示双方能够轻松享受彼此的陪伴，关系较少受到严重问题、恐惧或限制的困扰。"
+    },
+    {
+      "id": "eight-of-wands-upright-relationship-freedom",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖八正位可以表示健康关系中的自由空间。双方能够保持亲密，同时仍拥有自己的生活、朋友和活动，不需要通过过度限制来维持关系。"
+    },
+    {
+      "id": "eight-of-wands-upright-relationship-exploration",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖八正位可以表示伴侣共同探索生活，包括旅行、体验新的环境以及进一步认识彼此。共同探索能够为关系带来活力和成长。"
+    },
+    {
+      "id": "eight-of-wands-upright-travel-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情问题中，权杖八正位可能表示双方共同旅行，或关系中的愉快经验与旅行、移动和探索新的环境有关。"
+    },
+    {
+      "id": "eight-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖八逆位通常表示原本应该顺利流动的能量无法转化为实际结果。热情仍然存在，但缺少现实基础、解决阻碍的能力或适当条件，因此计划可能延误或无法达到预期结果。"
+    },
+    {
+      "id": "eight-of-wands-reversed-delay",
+      "orientation": "reversed",
+      "topic": "delay",
+      "content": "权杖八逆位是明显的延误象征。过去尚未解决的阻碍可能重新出现，使原本应该快速发展的事情减速或暂时停顿。"
+    },
+    {
+      "id": "eight-of-wands-reversed-passion-without-grounding",
+      "orientation": "reversed",
+      "topic": "energy",
+      "content": "权杖八逆位可以表示只有热情和行动冲动，却缺乏实际基础。单纯拥有火元素的动力并不足以保证成果，如果能量没有落到现实条件和具体执行上，计划仍可能无法实现。"
+    },
+    {
+      "id": "eight-of-wands-reversed-plans",
+      "orientation": "reversed",
+      "topic": "plans",
+      "content": "权杖八逆位可能表示计划没有达到预期结局。问题不一定是缺乏热情，而可能是现实条件不足、旧问题尚未解决或行动缺少能够承载能量的稳定基础。"
+    },
+    {
+      "id": "eight-of-wands-reversed-action",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "当权杖八逆位出现时，继续单纯加速未必能够解决问题。更重要的是确认哪些旧障碍尚未处理，并重新建立能够让行动真正产生结果的现实条件。"
+    },
+    {
+      "id": "eight-of-wands-reversed-travel",
+      "orientation": "reversed",
+      "topic": "travel",
+      "content": "权杖八逆位可以表示旅行计划延误、推迟或无法按照原定时间顺利进行。原本自由移动的状态受到现实阻碍，因此行程可能需要调整。"
+    },
+    {
+      "id": "eight-of-wands-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖八逆位可能表示原本轻松流动的互动受到干扰，并可能出现嫉妒、争吵或其他限制关系自由度的问题。"
+    },
+    {
+      "id": "eight-of-wands-reversed-jealousy",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "权杖八逆位可以表示嫉妒影响关系中的信任和自由。原本健康关系应具有的个人空间受到限制时，关系更容易出现冲突和不满。"
+    },
+    {
+      "id": "eight-of-wands-reversed-argument",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "权杖八逆位可能表示关系中的争吵或摩擦，使双方原本自然顺畅的互动受到阻碍。"
+    },
+    {
+      "id": "eight-of-wands-symbolism-flying-wands",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "八根权杖没有插入土地，也没有被任何人握住，而是在空中自由飞行，象征火元素不受拘束的能量、快速行动以及很少受到外部限制的状态。"
+    },
+    {
+      "id": "eight-of-wands-symbolism-water",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "权杖越过水面的画面强化了旅行、跨海移动和海外发展的含义，尤其适合用来理解权杖八与远距离旅行之间的联系。"
+    },
+    {
+      "id": "eight-of-wands-number-eight",
+      "orientation": "neutral",
+      "topic": "numerology",
+      "content": "该来源认为八是与力量有关的数字。在权杖八中，这种力量表现为火元素自由而强烈的行动能量，目标明确且很少受到限制。"
+    },
+    {
+      "id": "seven-of-wands-eight-of-wands-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的数字发展体系中，权杖七强调面对阻力时坚持和克服挑战，而权杖八则表示这些阻碍被突破之后，能量可以重新自由流动，事情因此进入较快速、顺畅的发展阶段。"
+    },
+    {
+      "id": "eight-of-wands-reversed-seven-of-wands-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源认为权杖八逆位表示权杖七的课题尚未完成。过去没有真正克服的困难可能重新出现并造成延误，因此需要回到权杖七关于坚持、面对挑战和解决阻碍的课题，再恢复权杖八正位所代表的顺畅发展。"
+    }
+  ]
+}

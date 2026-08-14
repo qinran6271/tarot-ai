@@ -1,0 +1,149 @@
+{
+  "cardId": "three-of-cups",
+  "cardNumber": 3,
+  "name": {
+    "zh": "圣杯三",
+    "en": "Three of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/03-three-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "three-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯三正位代表庆祝、欢乐、分享、团圆或重聚。它通常表示成果已经出现，并且适合与他人共同分享喜悦。"
+    },
+    {
+      "id": "three-of-cups-upright-harvest",
+      "orientation": "upright",
+      "topic": "achievement",
+      "content": "圣杯三正位象征努力已经产生成果，工作获得报偿，也可能表示克服障碍后的胜利。"
+    },
+    {
+      "id": "three-of-cups-upright-group",
+      "orientation": "upright",
+      "topic": "community",
+      "content": "圣杯三正位经常对应团体、聚会、会议和共同庆祝，强调三人或更多人共同分享成功、经验与快乐。"
+    },
+    {
+      "id": "three-of-cups-upright-sharing-reward",
+      "orientation": "upright",
+      "topic": "sharing",
+      "content": "圣杯三正位强调成果不只是个人获得，也包括与他人分享报偿和经验。共同庆祝能把个人成就转化为人与人之间的连接。"
+    },
+    {
+      "id": "three-of-cups-upright-multiple-opportunities",
+      "orientation": "upright",
+      "topic": "opportunity",
+      "content": "圣杯三正位可能表示多个机会接连出现。在暂时没有选择之后，一旦第一个机会出现，往往还会伴随其他可供比较的可能性。"
+    },
+    {
+      "id": "three-of-cups-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，圣杯三正位可能表示团队方案获得认可、共同项目成功，或者长期没有进展后突然得到多个工作机会。"
+    },
+    {
+      "id": "three-of-cups-upright-career-patience",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "圣杯三正位提醒人在机会出现前不必因暂时缺乏结果而认定未来也没有选择。当前的停顿可能随后被多个机会取代。"
+    },
+    {
+      "id": "three-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯三正位通常表示快乐、分享或成功重聚，也可能表示通过朋友、聚会或团体环境认识合适对象。"
+    },
+    {
+      "id": "three-of-cups-upright-third-person",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "圣杯三正位有时表示关系中的第三个人。这个人可能是孩子，也可能表示需要从多个关系对象中选择；不能只凭人数直接判断为不忠。"
+    },
+    {
+      "id": "three-of-cups-upright-relationship-options",
+      "orientation": "upright",
+      "topic": "relationship_choice",
+      "content": "在寻找伴侣的问题中，圣杯三正位可能表示选择数量呈现极端变化：某段时期没有合适人选，一旦机会出现，却可能同时有两位或更多对象。"
+    },
+    {
+      "id": "three-of-cups-symbolism-three-women",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面上的三名女性共同举杯，象征团体庆祝、共同参与，以及成功和快乐需要被分享。"
+    },
+    {
+      "id": "three-of-cups-symbolism-fruit",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "成熟果实与葡萄象征辛勤工作已经成熟并产生报偿，也表示丰收、成果和可以享用的经验。"
+    },
+    {
+      "id": "three-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯三逆位可能表示没有得到预期结果而产生失望，原本期待的庆祝、支持或成果分享没有发生。"
+    },
+    {
+      "id": "three-of-cups-reversed-lack-of-support",
+      "orientation": "reversed",
+      "topic": "support",
+      "content": "圣杯三逆位可能表示缺乏支持导致友谊、关系或团体合作失败。成员之间无法真正分享情感、成果或责任。"
+    },
+    {
+      "id": "three-of-cups-reversed-third-party",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在关系问题中，圣杯三逆位有时表示第三者成为不稳定因素，但是否涉及干扰或不忠，仍需结合问题与周围牌判断。"
+    },
+    {
+      "id": "three-of-cups-reversed-seven-of-swords",
+      "orientation": "reversed",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "seven-of-swords"
+      ],
+      "content": "圣杯三逆位与宝剑七共同出现时，可能进一步强调隐瞒、桃色事件，或者朋友与亲人从中阻挠的情况。"
+    },
+    {
+      "id": "three-of-cups-reversed-temporary-opportunity",
+      "orientation": "reversed",
+      "topic": "temporary_opportunity",
+      "content": "圣杯三逆位可能表示短暂的相聚、转瞬即逝的机会，或者一段积极、成功但不会长久的状态。"
+    },
+    {
+      "id": "three-of-cups-reversed-accept-impermanence",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "圣杯三逆位提醒人辨认经验的期限。若能够接受一段快乐或成功原本具有暂时性，它仍能带来成长；若强求永久，失望便容易随之出现。"
+    },
+    {
+      "id": "three-of-cups-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在工作环境中，圣杯三逆位可能表示成员没有真正合作，而是在彼此竞争、防守自己的领域，或抗拒他人分享与参与。"
+    },
+    {
+      "id": "three-of-cups-reversed-relationship-combination",
+      "orientation": "reversed",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "ace-of-cups",
+        "two-of-cups",
+        "knight-of-cups"
+      ],
+      "content": "圣杯三逆位与圣杯王牌、圣杯二和圣杯骑士共同出现时，可能描述一段真诚、有情感成长价值却较短暂的关系。重点是接受关系的实际期限，而不是否定它曾带来的爱与快乐。"
+    }
+  ]
+}

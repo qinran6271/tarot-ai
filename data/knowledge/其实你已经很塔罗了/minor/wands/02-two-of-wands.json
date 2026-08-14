@@ -1,0 +1,171 @@
+{
+  "cardId": "two-of-wands",
+  "cardNumber": 2,
+  "name": {
+    "zh": "权杖二",
+    "en": "Two of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/02-two-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "two-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖二正位主要象征决定、选择和对未来方向的评估。当前环境可能已经无法满足进一步成长的需要，因此需要在熟悉而稳定的现状与新的发展方向之间作出选择。"
+    },
+    {
+      "id": "two-of-wands-upright-decision",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "权杖二正位强调决定本身，而不是决定之后的实际行动。它表示一个人正在比较不同选择的利弊，并思考下一步应该朝哪个方向发展。"
+    },
+    {
+      "id": "two-of-wands-upright-evaluation",
+      "orientation": "upright",
+      "topic": "evaluation",
+      "content": "权杖二正位代表在采取行动之前评估选择。一个选择通常是已经熟悉、安全和稳定的环境，另一个则可能带来改变、移动、新经验或新的挑战。"
+    },
+    {
+      "id": "two-of-wands-upright-growth",
+      "orientation": "upright",
+      "topic": "progress",
+      "content": "权杖二正位可能表示一个人已经成长到超越当前环境的阶段。过去的成就或生活方式虽然仍然稳定，却不再带来足够的意义或满足，因此开始思考新的发展方向。"
+    },
+    {
+      "id": "two-of-wands-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "权杖二正位通常不是立即行动的牌，而是行动之前的选择阶段。此时更重要的是确认自己真正想要的方向并衡量选择，而不是把已经作出的改变误认为这张牌的核心意义。"
+    },
+    {
+      "id": "two-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，权杖二正位可能表示正在考虑换工作、转换行业或作出其他具体的职业改变。它通常描述是否改变的决策过程，而不一定表示改变已经实际发生。"
+    },
+    {
+      "id": "two-of-wands-upright-relocation",
+      "orientation": "upright",
+      "topic": "relocation",
+      "content": "权杖二正位可以与搬家、移动或改变生活环境的决定有关。重点在于是否离开当前熟悉的环境，以及新的环境是否更符合未来的发展需要。"
+    },
+    {
+      "id": "two-of-wands-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "权杖二正位可以表示对旅行、移动或探索新环境的考虑和渴望，但它更侧重于是否出发以及选择方向，而不是实际旅程本身。"
+    },
+    {
+      "id": "two-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖二正位可能表示正在决定一段关系未来的发展方向，例如是否继续、是否进入新的阶段，或者是否对关系作出更深入的承诺。"
+    },
+    {
+      "id": "two-of-wands-upright-relationship-commitment",
+      "orientation": "upright",
+      "topic": "commitment",
+      "content": "当问题涉及感情承诺时，权杖二正位强调同时评估关系进一步发展的正面机会和现实代价。它不是单纯支持或反对承诺，而是要求在作决定之前理解不同选择可能带来的后果。"
+    },
+    {
+      "id": "two-of-wands-upright-comfort-vs-growth",
+      "orientation": "upright",
+      "topic": "choice",
+      "content": "权杖二正位常体现安全与成长之间的选择：熟悉的环境可以提供稳定和舒适，但新的方向可能带来更多挑战、未知和发展机会。核心问题是继续留在已经熟悉的世界，还是走向更符合自身成长的新阶段。"
+    },
+    {
+      "id": "two-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖二逆位可能表示对当前环境长期感到烦闷和不满足，却因为害怕未知或新的挑战而迟迟不愿改变。安全感因此可能成为阻止进一步成长的因素。"
+    },
+    {
+      "id": "two-of-wands-reversed-fear-of-change",
+      "orientation": "reversed",
+      "topic": "fear",
+      "content": "权杖二逆位可以表示因为害怕改变、风险或未知而留在熟悉但已经无法满足自己的环境中。一个人可能不断为维持现状寻找理由，以避免承担改变带来的不确定性。"
+    },
+    {
+      "id": "two-of-wands-reversed-action",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "该来源认为权杖二逆位有时意味着应该停止反复评估选择，直接进入新的经验。当思考已经持续过久时，继续分析可能不再有帮助，真正的突破来自离开安全环境并采取行动。"
+    },
+    {
+      "id": "two-of-wands-reversed-sudden-change",
+      "orientation": "reversed",
+      "topic": "change",
+      "content": "权杖二逆位可能表示在长期不满意和停滞之后突然发生改变。这种改变可能来自自己终于决定行动，也可能来自外部环境迫使原有状态无法继续维持。"
+    },
+    {
+      "id": "two-of-wands-reversed-comfort-zone",
+      "orientation": "reversed",
+      "topic": "comfort_zone",
+      "content": "权杖二逆位强调离开安全但限制成长的环境。即使当前处境在别人看来不错，如果个人能力和需要已经超越这个阶段，继续留下仍可能造成长期的不满足。"
+    },
+    {
+      "id": "two-of-wands-reversed-responsibility",
+      "orientation": "reversed",
+      "topic": "responsibility",
+      "content": "权杖二逆位可能涉及对个人选择和行动承担责任。当一个人长期拒绝主动决定自己的方向时，外部环境最终可能促使或迫使改变发生。"
+    },
+    {
+      "id": "two-of-wands-reversed-energy-release",
+      "orientation": "reversed",
+      "topic": "energy",
+      "content": "离开熟悉环境进入未知情境时，权杖二逆位可能伴随强烈的能量释放。这种能量可以表现为恐惧、希望、期待或忧虑，但共同指向重新进入充满变化和生命力的状态。"
+    },
+    {
+      "id": "two-of-wands-symbolism-two-wands",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中一支权杖固定在墙上，而另一支是自由的，象征两个方向之间的选择：一边是已经建立并熟悉的稳定状态，另一边则是移动、改变、旅行和探索新可能性的欲望。"
+    },
+    {
+      "id": "two-of-wands-symbolism-globe",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物手中的地球仪象征他正在思考和决定未来的方向，也暗示当前世界已经不足以满足他的成长，因此开始把注意力投向更广阔的可能性。"
+    },
+    {
+      "id": "two-of-wands-symbolism-wall",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "围绕人物的矮墙象征他已经取得的成就和建立起来的环境。这些成果能够提供安全和稳定，但也可能形成限制，使他意识到自己已经成长到需要寻找下一阶段。"
+    },
+    {
+      "id": "two-of-wands-symbolism-land-water",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的土地象征稳定，水象征宁静。这些元素构成相对安全和平稳的现状，与远方代表的新挑战形成对照。"
+    },
+    {
+      "id": "two-of-wands-symbolism-mountains",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "远方的山脉象征未来的挑战和需要探索的新领域。人物越过当前稳定的环境眺望远方，体现了权杖二关于成长、选择和寻找下一目标的主题。"
+    },
+    {
+      "id": "two-of-wands-symbolism-clouds",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面天空中的乌云暗示未来并非完全没有风险或不确定性，但人物并未把注意力集中在外部天气，而是专注于自己的内在思考和选择。"
+    },
+    {
+      "id": "ace-of-wands-two-of-wands-contrast",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的体系中，权杖王牌强调真正开始行动，而权杖二强调行动之前的决定和选择评估。因此权杖二通常表示决定是否改变，权杖王牌则更接近把决定实际付诸行动。"
+    }
+  ]
+}

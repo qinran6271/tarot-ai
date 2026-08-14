@@ -1,5 +1,9 @@
 import OpenAI from "openai";
 import { QdrantClient } from "@qdrant/js-client-rest";
+import {
+  TOPIC_GROUPS,
+  type ReadingTopic,
+} from "@/lib/rag/readingTopic";
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const QDRANT_URL = process.env.QDRANT_URL;
@@ -31,6 +35,7 @@ type SearchTarotKnowledgeParams = {
   query: string;
   cardId: string;
   orientation: Orientation;
+  readingTopic?: ReadingTopic;
   limit?: number;
 };
 
@@ -52,7 +57,8 @@ export async function searchTarotKnowledge({
   query,
   cardId,
   orientation,
-  limit = 5,
+  readingTopic = "general",
+  limit = 6,
 }: SearchTarotKnowledgeParams): Promise<TarotKnowledgeResult[]> {
   const normalizedQuery = query.trim();
   const normalizedCardId = cardId.trim();
@@ -76,9 +82,10 @@ export async function searchTarotKnowledge({
     throw new Error("Failed to generate query embedding.");
   }
 
+  const retrievalLimit = Math.max(12, limit * 2);
   const results = await qdrant.search(COLLECTION_NAME, {
     vector: queryVector,
-    limit,
+    limit: retrievalLimit,
     with_payload: true,
     filter: {
       must: [
@@ -98,7 +105,7 @@ export async function searchTarotKnowledge({
     },
   });
 
-  return results.map((result) => {
+  const mappedResults = results.map((result) => {
     const payload = result.payload ?? {};
 
     return {
@@ -115,4 +122,47 @@ export async function searchTarotKnowledge({
       content: String(payload.content ?? ""),
     };
   });
+
+  const topicGroup = new Set(TOPIC_GROUPS[readingTopic]);
+  const rankedResults = mappedResults
+    .map((result) => {
+      let adjustedScore = result.score;
+
+      if (topicGroup.has(result.topic)) {
+        adjustedScore += 0.15;
+      }
+
+      if (result.orientation === orientation) {
+        adjustedScore += 0.05;
+      }
+
+      if (result.topic === "general") {
+        adjustedScore += 0.05;
+      }
+
+      if (
+        result.topic === "safety_caution" &&
+        readingTopic !== "health" &&
+        readingTopic !== "finance"
+      ) {
+        adjustedScore -= 0.05;
+      }
+
+      return { result, adjustedScore };
+    })
+    .sort((left, right) => right.adjustedScore - left.adjustedScore);
+
+  const selected = rankedResults.slice(0, limit).map(({ result }) => result);
+  const bestGeneral = rankedResults.find(
+    ({ result }) => result.topic === "general",
+  )?.result;
+
+  if (
+    bestGeneral &&
+    !selected.some((result) => result.knowledgeType === bestGeneral.knowledgeType)
+  ) {
+    selected.splice(Math.max(0, selected.length - 1), 1, bestGeneral);
+  }
+
+  return selected;
 }

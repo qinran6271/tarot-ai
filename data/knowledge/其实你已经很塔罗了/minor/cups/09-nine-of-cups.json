@@ -1,0 +1,138 @@
+{
+  "cardId": "nine-of-cups",
+  "cardNumber": 9,
+  "name": {
+    "zh": "圣杯九",
+    "en": "Nine of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/09-nine-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "nine-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯九正位代表自我满意、成就感与内在需求得到平衡后的快乐。它表示能够接受自己和当前处境，并重新享受生活中单纯的喜悦。"
+    },
+    {
+      "id": "nine-of-cups-upright-self-acceptance",
+      "orientation": "upright",
+      "topic": "self_acceptance",
+      "content": "圣杯九正位表示对自己拥有健康看法，不再完全依赖外界评价来确认价值。别人如何看待自己，只是众多观点之一。"
+    },
+    {
+      "id": "nine-of-cups-upright-achievement",
+      "orientation": "upright",
+      "topic": "achievement",
+      "content": "圣杯九正位表示对完成工作、实现目标或内在成长感到骄傲与满足，也适合平静回顾过去已经取得的成果。"
+    },
+    {
+      "id": "nine-of-cups-upright-inner-happiness",
+      "orientation": "upright",
+      "topic": "emotional_satisfaction",
+      "content": "圣杯九正位的快乐、满足和平静来自对自己的爱与认可，而不是持续要求外界填补内在空缺。"
+    },
+    {
+      "id": "nine-of-cups-upright-boundaries",
+      "orientation": "upright",
+      "topic": "boundaries",
+      "content": "圣杯九正位表示理解自己的情感、时间和力量具有价值，因此不会过快或没有选择地付出。这可以体现健康边界与自我尊重。"
+    },
+    {
+      "id": "nine-of-cups-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，圣杯九正位可能表示工作圆满完成、目标达成，以及能够认可自己的能力和努力所带来的成果。"
+    },
+    {
+      "id": "nine-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯九正位表示快乐与满足。因为已经认识自己的需求和价值，更有能力选择真正合适的关系。"
+    },
+    {
+      "id": "nine-of-cups-upright-reject-insufficient",
+      "orientation": "upright",
+      "topic": "relationship_choice",
+      "content": "圣杯九正位表示不再害怕拒绝无法提供基本尊重与情感回应的关系，也不再仅靠幻想维持矛盾状况。"
+    },
+    {
+      "id": "nine-of-cups-upright-mutual-appreciation",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "圣杯九正位可以描述一段令人满意的关系，双方都珍惜彼此的付出，也能够认可自己从关系中获得的价值。"
+    },
+    {
+      "id": "nine-of-cups-upright-ten-direction",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "ten-of-cups"
+      ],
+      "content": "圣杯九已经拥有内在满足，但尚未到达圣杯十。下一阶段是理解爱与成就和值得的人分享时，会产生更完整的意义。"
+    },
+    {
+      "id": "nine-of-cups-symbolism-raised-cups",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "放在高处、不容易被取得的杯子象征人物理解付出的价值，不愿轻率交出自己的爱、时间和力量。"
+    },
+    {
+      "id": "nine-of-cups-symbolism-crossed-arms",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物双臂抱胸象征保护爱与力量的来源，可以表示健康边界，也可能提醒不要因保护自己而完全封闭分享。"
+    },
+    {
+      "id": "nine-of-cups-symbolism-plain-clothing",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物周围色彩丰富而自身衣着相对朴素，象征已经从内心找到满足，却可能仍缺少能够分享这些感受的人。"
+    },
+    {
+      "id": "nine-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯九逆位可能表示用世俗享乐补偿被拒绝的爱、内在空缺或自我否定，外在满足无法真正进入内心。"
+    },
+    {
+      "id": "nine-of-cups-reversed-fear-giving-love",
+      "orientation": "reversed",
+      "topic": "fear_of_intimacy",
+      "content": "圣杯九逆位可能表示害怕付出爱会耗尽自己的情感储备，因此持续保护和囤积，却也无法为新的爱腾出空间。"
+    },
+    {
+      "id": "nine-of-cups-reversed-addiction",
+      "orientation": "reversed",
+      "topic": "compulsion",
+      "content": "圣杯九逆位可能把对深刻情感的渴望转向过度消费、食物、酒精、药物或其他强迫性刺激。这些行为只能暂时缓解空虚。"
+    },
+    {
+      "id": "nine-of-cups-reversed-things-replace-love",
+      "orientation": "reversed",
+      "topic": "materialism",
+      "content": "圣杯九逆位可能表示对物品、体验和感官享受的钟爱，取代了实际给予、接受和表达爱的行动。"
+    },
+    {
+      "id": "nine-of-cups-reversed-need-behind-pleasure",
+      "orientation": "reversed",
+      "topic": "inner_growth",
+      "content": "圣杯九逆位要求辨认享乐背后的真实情感渴望。重点不是谴责享受，而是确认它是否被用来回避爱、孤独或自我价值问题。"
+    },
+    {
+      "id": "nine-of-cups-reversed-share-to-receive",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "圣杯九逆位提醒人重新学习适度分享情感。只有愿意让爱流出，内在才有空间接纳新的关系和满足。"
+    }
+  ]
+}

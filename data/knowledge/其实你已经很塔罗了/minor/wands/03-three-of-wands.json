@@ -1,0 +1,183 @@
+{
+  "cardId": "three-of-wands",
+  "cardNumber": 3,
+  "name": {
+    "zh": "权杖三",
+    "en": "Three of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/03-three-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "three-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖三正位表示一个决定已经开始转化为实际行动，事情正在进入下一个自然的发展阶段。它与扩展、成长、旅行、计划执行以及等待已经启动的行动产生结果有关。"
+    },
+    {
+      "id": "three-of-wands-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "权杖三正位表示根据之前作出的决定采取实际行动。计划已经不再只是选择或构想，而是开始向完成的方向推进，因此可以继续执行已经确定的发展方向。"
+    },
+    {
+      "id": "three-of-wands-upright-progress",
+      "orientation": "upright",
+      "topic": "progress",
+      "content": "权杖三正位代表事情已经向完成迈进一步，并进入自然的发展过程。它可以象征阶段性的成就，但通常还不是最终结果，而是已经启动的发展正在继续成长。"
+    },
+    {
+      "id": "three-of-wands-upright-expansion",
+      "orientation": "upright",
+      "topic": "expansion",
+      "content": "权杖三正位与扩展已有成果和探索新机会有关。一个人可以在维持现有成就和稳定基础的同时，把注意力进一步投向新的方向、利益和发展空间。"
+    },
+    {
+      "id": "three-of-wands-upright-patience",
+      "orientation": "upright",
+      "topic": "patience",
+      "content": "权杖三正位强调行动之后的耐心。事情已经拥有足够的动力促成改变和成长，因此此时不一定需要不断增加行动，而可能需要等待已经投入的努力产生结果。"
+    },
+    {
+      "id": "three-of-wands-upright-achievement",
+      "orientation": "upright",
+      "topic": "achievement",
+      "content": "权杖三正位可以表示阶段性的成就。过去的选择和行动已经产生进展，因此现在可以一边掌控已有成果，一边期待这些努力带来进一步的回报。"
+    },
+    {
+      "id": "three-of-wands-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "权杖三正位是一张明显与旅行有关的牌，可以表示实际旅行、移动或跨越原有环境去探索新的机会。该来源认为，当它与某些其他具有移动意义的牌同时出现时，旅行主题可能更加突出。"
+    },
+    {
+      "id": "three-of-wands-upright-plans",
+      "orientation": "upright",
+      "topic": "plans",
+      "content": "权杖三正位可以表示将计划付诸实行。此前经过思考和选择的方向现在开始进入现实，因此重点从决定做什么逐渐转向执行、发展和观察实际结果。"
+    },
+    {
+      "id": "three-of-wands-upright-reflection",
+      "orientation": "upright",
+      "topic": "reflection",
+      "content": "权杖三正位并非只有外在行动，也可以表示在已有进展中保持相对沉静，观察最近的发展，并寻找这些经验在内在与外在层面的意义。"
+    },
+    {
+      "id": "three-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业或项目问题中，权杖三正位可以表示已经决定的发展方向开始落实，并进入扩展和等待成果的阶段。已有行动正在创造新的机会，因此可以在维持现有成果的同时继续向外发展。"
+    },
+    {
+      "id": "three-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖三正位通常表示关系将继续成长和发展，并可能自然进入更深层的承诺或新的关系阶段。双方共同向前发展可以带来新的经验和成长。"
+    },
+    {
+      "id": "three-of-wands-upright-relationship-commitment",
+      "orientation": "upright",
+      "topic": "commitment",
+      "content": "权杖三正位可以表示一段关系从决定是否进一步发展，进入实际加深承诺的阶段，例如共同生活或其他使关系进入下一层次的具体发展。"
+    },
+    {
+      "id": "three-of-wands-upright-long-distance-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖三正位可能与旅行、海外或远距离背景中的感情关系有关，例如与居住在海外的人发展关系，或者关系受到旅行和地理距离的影响。"
+    },
+    {
+      "id": "three-of-wands-upright-travel-romance",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "该来源认为权杖三可能表示在旅行期间发生的感情关系，例如假期中的浪漫经历、商务旅行中开始的关系，或伴侣一方或双方在旅行过程中形成的感情发展。"
+    },
+    {
+      "id": "three-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖三逆位表示发展或成长暂时受到阻碍，需要重新沉思之前作出的选择。当前进展可能没有按照预期发生，因此需要重新检查方向或寻找新的处理方式。"
+    },
+    {
+      "id": "three-of-wands-reversed-reflection",
+      "orientation": "reversed",
+      "topic": "reflection",
+      "content": "权杖三逆位可以表示需要暂停并重新思考选择。按照该来源的数字发展体系，三逆位需要回到权杖二关于决定和选择的课题，重新评估此前确定的方向。"
+    },
+    {
+      "id": "three-of-wands-reversed-blocked-growth",
+      "orientation": "reversed",
+      "topic": "progress",
+      "content": "权杖三逆位可能表示身体、情绪或现实层面的成长受到阻碍。原本应该继续发展的事情暂时无法顺利向前，因此可能需要调整方法，而不是单纯重复原来的行动。"
+    },
+    {
+      "id": "three-of-wands-reversed-new-approach",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "当原有发展方式无法继续产生进展时，权杖三逆位可能提示采取新的方法。重新获得的信息、经验或外部反馈可以成为调整下一步行动的重要依据。"
+    },
+    {
+      "id": "three-of-wands-reversed-new-information",
+      "orientation": "reversed",
+      "topic": "information",
+      "content": "该来源认为权杖三逆位有时可以象征迎接入港的船，并根据新获得的讯息和知识采取行动。重点是接收已经返回的结果或反馈，并据此调整后续方向。"
+    },
+    {
+      "id": "three-of-wands-reversed-past-decisions",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "权杖三逆位可能表示过去的行为或决定正在造成困扰。一个人可能因为此前作出的选择没有带来预期结果而感到挫折，因此需要重新理解这些决定及其后果。"
+    },
+    {
+      "id": "three-of-wands-reversed-frustration",
+      "orientation": "reversed",
+      "topic": "emotion",
+      "content": "权杖三逆位可以表示对当前进展感到挫折，特别是当这种挫折来自之前已经作出的决定。此时需要重新审视选择，而不是假设原来的方向一定必须继续。"
+    },
+    {
+      "id": "three-of-wands-symbolism-ships",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的船只象征已经送出的行动、资源或努力，以及这些行动未来可能带回的成果。人物等待船只进港，体现行动之后等待回报和进一步发展的主题。"
+    },
+    {
+      "id": "three-of-wands-symbolism-sea",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的海洋强化了旅行、距离、扩展和探索更广阔世界的主题，也象征当前的发展已经超越原本熟悉的环境。"
+    },
+    {
+      "id": "three-of-wands-symbolism-travel-cloak",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物穿着旅行斗篷，强化了权杖三与旅行、移动和探索新环境之间的联系，也体现人物仍然准备继续向新的经验发展。"
+    },
+    {
+      "id": "three-of-wands-symbolism-waiting",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物虽然具有继续前进的渴望，却暂时停留并观察船只，象征在行动和扩张过程中也需要适当等待。真正的进展并不总是意味着持续采取更多行动，有时需要让已经启动的事情自然发展。"
+    },
+    {
+      "id": "two-of-wands-three-of-wands-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的数字发展体系中，权杖二代表思考、评估并作出选择，而权杖三代表根据这个决定采取行动，使计划向完成迈进一步。因此权杖三可以理解为权杖二决定之后的自然发展阶段。"
+    },
+    {
+      "id": "three-of-wands-four-of-wands-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源把权杖三视为通往权杖四稳定阶段之前的发展过程。权杖三仍处于扩展、行动和等待成果的阶段，而这些进展正在为之后更稳定的状态创造空间。"
+    }
+  ]
+}

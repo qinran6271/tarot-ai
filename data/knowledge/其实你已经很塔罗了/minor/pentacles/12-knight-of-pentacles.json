@@ -1,0 +1,204 @@
+{
+  "cardId": "knight-of-pentacles",
+  "courtRank": "knight",
+  "name": {
+    "zh": "五角星骑士",
+    "en": "Knight of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/12-knight-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "knight-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星骑士正位象征稳健、认真的计划，以及为了长期目标持续投入现实行动。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-element",
+      "orientation": "upright",
+      "topic": "element",
+      "content": "五角星骑士代表土元素中的火，把热情、努力和精力投入实际用途。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-planning",
+      "orientation": "upright",
+      "topic": "planning",
+      "content": "五角星骑士正位会在投入时间、体力和金钱前评估回报、成本和长期后果。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-persistence",
+      "orientation": "upright",
+      "topic": "persistence",
+      "content": "五角星骑士正位具有耐心、责任感和持续性，能够长时间朝明确目标工作。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-shadow",
+      "orientation": "upright",
+      "topic": "shadow",
+      "content": "五角星骑士的阴影可能是过度规划、迟迟不开始、工作过量，或把所有价值都转化为回报计算。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-person",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "作为人物原型，五角星骑士表示负责、勤奋、独立，并重视物质安全与长期建设的人。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-emotional-expression",
+      "orientation": "upright",
+      "topic": "emotion",
+      "content": "五角星骑士式人物可能在事业和规划上成熟，却因野心、工作或安全需求而不擅长表达感情。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-independence",
+      "orientation": "upright",
+      "topic": "work_style",
+      "content": "五角星骑士可能偏好独立经营或较大自主权，不喜欢受到频繁指挥。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-delegation",
+      "orientation": "upright",
+      "topic": "work_style",
+      "content": "“自己做才可靠”的信念若过强，可能造成过劳、难以授权和缺少合作。"
+    },
+    {
+      "id": "knight-of-pentacles-neutral-demographic-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "五角星骑士可以对应任何性别、年龄与外貌，传统年龄和外貌描述不能用于可靠识别个人。"
+    },
+    {
+      "id": "knight-of-pentacles-symbolism-road",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "骑士越过手中的五角星观察道路，象征在承诺资源前比较不同路径及其可能后果。"
+    },
+    {
+      "id": "knight-of-pentacles-capricorn",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "relatedCardIds": [
+        "the-devil"
+      ],
+      "content": "传统体系把五角星骑士与摩羯座及魔鬼牌联系，强调野心、纪律和物质目标，但不能确认实际星座或性格。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业中，五角星骑士正位表示强化计划、建立流程、控制质量，并以稳定节奏持续交付。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-long-project",
+      "orientation": "upright",
+      "topic": "project",
+      "content": "五角星骑士适合储蓄、训练、创业、资格准备及其他需要耐心累积的长期任务。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-milestones",
+      "orientation": "upright",
+      "topic": "project_management",
+      "content": "长期计划应包含里程碑和复盘点，避免准备本身取代实际行动。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-finance-caution",
+      "orientation": "upright",
+      "topic": "safety_caution",
+      "content": "五角星骑士不能保证物质成功，时间、成本、市场、能力和风险仍需现实验证。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星骑士正位重视承诺、稳定、长期安排和可预测性。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-delayed-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "五角星骑士式人物可能在事业与生活基础较稳定后才进入关系，也可能一旦投入就希望安定下来。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-relationship-investment",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "长期规划可以支持关系，但伴侣不是资产，关系不能只按效率、名声和物质条件衡量。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-stay-or-change",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "持续忍耐不总是忠诚；若关系缺少尊重、安全或成长，改变可能比维持更负责任。"
+    },
+    {
+      "id": "knight-of-pentacles-upright-show-care",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "感情克制不代表没有感受，但关心需要通过伴侣能够理解的表达和行动传递。"
+    },
+    {
+      "id": "knight-of-pentacles-father-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "五角星骑士不能确认一个人与父亲存在未解决问题；只有现实信息支持时，才适合探索家庭榜样和权威经验。"
+    },
+    {
+      "id": "knight-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星骑士逆位可能表示长期计划无法巩固、进展延迟，或对大多数生活领域失去动力。"
+    },
+    {
+      "id": "knight-of-pentacles-reversed-single-focus",
+      "orientation": "reversed",
+      "topic": "imbalance",
+      "content": "逆位可能表示只对单一目标保持极端热情，却忽视健康、关系、工作和其他责任。"
+    },
+    {
+      "id": "knight-of-pentacles-reversed-coldness",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "五角星骑士逆位可能表现为付出减少、冷漠、疏离或与权威持续冲突。"
+    },
+    {
+      "id": "knight-of-pentacles-reversed-label-caution",
+      "orientation": "reversed",
+      "topic": "interpretation",
+      "content": "不能仅凭逆位牌断定某人懒惰、憎恨父亲或具有人格问题，应依据现实行为判断。"
+    },
+    {
+      "id": "knight-of-pentacles-reversed-self-worth",
+      "orientation": "reversed",
+      "topic": "self_worth",
+      "content": "逆位可能表示把自我价值完全建立在贡献、收入和成就上，无法工作时便觉得失去价值。"
+    },
+    {
+      "id": "knight-of-pentacles-reversed-dependence",
+      "orientation": "reversed",
+      "topic": "support",
+      "content": "五角星骑士逆位有时表示暂时需要依赖别人，并因失去控制感而感到不适。"
+    },
+    {
+      "id": "knight-of-pentacles-reversed-accept-support",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "在康复、失业、照护或经济困难时期接受支持不等于失败，也可能是必要且成熟的选择。"
+    },
+    {
+      "id": "knight-of-pentacles-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "逆位建议把长期目标缩小为可执行步骤，并检查延迟来自资源不足、过度规划、疲惫还是目标变化。"
+    }
+  ]
+}

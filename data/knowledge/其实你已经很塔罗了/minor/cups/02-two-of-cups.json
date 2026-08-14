@@ -1,0 +1,150 @@
+{
+  "cardId": "two-of-cups",
+  "cardNumber": 2,
+  "name": {
+    "zh": "圣杯二",
+    "en": "Two of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/02-two-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "two-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯二正位表示一种平等的伙伴关系、友谊或亲密关系。双方能够互相信任、彼此给予，并在关系中拥有相近的地位。"
+    },
+    {
+      "id": "two-of-cups-upright-mutuality",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "圣杯二正位强调互相给予和接受，而不是一方持续付出、另一方被动获得。双方都能贡献自己的特质，也都能从关系中得到回报。"
+    },
+    {
+      "id": "two-of-cups-upright-spiritual-connection",
+      "orientation": "upright",
+      "topic": "spiritual_connection",
+      "content": "圣杯二正位描述心灵上的契合。关系不仅包含现实合作或身体吸引，也可能帮助双方对爱、亲密与自身内在产生更深的理解。"
+    },
+    {
+      "id": "two-of-cups-upright-synergy",
+      "orientation": "upright",
+      "topic": "cooperation",
+      "content": "圣杯二正位表示双方结合后能够取得单打独斗难以达到的成果。关系所创造的整体价值，可能大于两个人各自贡献的简单相加。"
+    },
+    {
+      "id": "two-of-cups-upright-creative-complement",
+      "orientation": "upright",
+      "topic": "creativity",
+      "content": "当行动、力量与主动性，同情感、想象和直觉结合时，双方可以互相学习，并产生更丰富、更有创造力的成果。"
+    },
+    {
+      "id": "two-of-cups-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，圣杯二正位表示平等且互利的合作。双方能够贡献各自能力，并从共同努力中获得成果，适合伙伴关系、协作和达成共识。"
+    },
+    {
+      "id": "two-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯二正位可能表示新关系、结婚、深入承诺，或既有关系进入更亲密、更稳定的阶段。"
+    },
+    {
+      "id": "two-of-cups-upright-relationship-qualities",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "圣杯二正位所描述的健康关系具有承诺、亲密、共同兴趣、分享、互相尊重，以及平等的给予和接受。"
+    },
+    {
+      "id": "two-of-cups-symbolism-equal-cups",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌中两人将圣杯举在相同高度，象征平等、互信和互相给予，也表示双方在关系中具有相近的地位。"
+    },
+    {
+      "id": "two-of-cups-symbolism-house",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "远处的房子象征关系具有建立稳定基础、共同生活或形成长期结合的潜力。"
+    },
+    {
+      "id": "two-of-cups-symbolism-caduceus",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "两条蛇缠绕的杖象征生命能量的流动，以及两个人之间身体、情感和内在力量的交流。"
+    },
+    {
+      "id": "two-of-cups-symbolism-winged-lion",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "长翅膀的狮子象征心灵能量与性吸引力的结合，也表示关系可能超越单纯的身体层面。"
+    },
+    {
+      "id": "two-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯二逆位表示关系失衡，可能在亲密和冲突之间剧烈摆荡。原本的互信与和谐容易转为紧张、防御或权力斗争。"
+    },
+    {
+      "id": "two-of-cups-reversed-fear-and-control",
+      "orientation": "reversed",
+      "topic": "control",
+      "content": "圣杯二逆位可能表示恐惧取代了爱。一方因为害怕失去对自己、情绪或关系的控制而试图控制对方，另一方也可能以同样方式回应。"
+    },
+    {
+      "id": "two-of-cups-reversed-unequal-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "圣杯二逆位可能描述不平等的友谊或亲密关系。一方持续消耗另一方的创意、情感或内在能量，使对方失去自发性与成长空间。"
+    },
+    {
+      "id": "two-of-cups-reversed-ending",
+      "orientation": "reversed",
+      "topic": "relationship_ending",
+      "content": "圣杯二逆位有时可能表示关系结束、承诺不足或双方在乎程度不对等，但必须结合周围牌与牌阵位置判断，不能凭这一张牌直接断定。"
+    },
+    {
+      "id": "two-of-cups-reversed-action-emotion-conflict",
+      "orientation": "reversed",
+      "topic": "inner_conflict",
+      "content": "从元素角度看，圣杯二逆位可能表示火与水发生冲突，使行动和情感彼此分裂。核心课题是重新建立两者之间的平衡。"
+    },
+    {
+      "id": "two-of-cups-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，圣杯二逆位可能表示商业伙伴、同事或上下级之间出现权力斗争、控制、利益失衡，或一方限制另一方的发展。"
+    },
+    {
+      "id": "two-of-cups-reversed-context-check",
+      "orientation": "reversed",
+      "topic": "reading_method",
+      "content": "圣杯二逆位不只适用于爱情。如果关系解释无法对应实际情况，应检查事业、友谊、家庭或其他合作关系中是否存在失衡与控制。"
+    },
+    {
+      "id": "two-of-cups-reversed-ten-of-wands-career",
+      "orientation": "reversed",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "ten-of-wands"
+      ],
+      "content": "圣杯二逆位与权杖十共同出现时，可能描述职场中的长期过度付出与权力失衡：当事人承担大量工作，却受到上司、同事或合作方的控制和阻碍。"
+    },
+    {
+      "id": "two-of-cups-reversed-balance-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "圣杯二逆位要求确认双方是否仍在平等地给予、接受和承担责任。若一方必须不断牺牲自己的成长空间来维持关系，就需要重新协商边界和权力。"
+    }
+  ]
+}

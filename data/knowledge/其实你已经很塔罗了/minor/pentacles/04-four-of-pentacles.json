@@ -1,0 +1,199 @@
+{
+  "cardId": "four-of-pentacles",
+  "cardNumber": 4,
+  "name": {
+    "zh": "五角星四",
+    "en": "Four of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/04-four-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "four-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星四正位表示节省金钱或精力、巩固资源，并在安全感与开放生活之间寻找平衡。"
+    },
+    {
+      "id": "four-of-pentacles-upright-consolidation",
+      "orientation": "upright",
+      "topic": "stability",
+      "content": "塔罗中的四具有巩固主题，五角星四正位则强调财务、物质条件和现实结构的稳定。"
+    },
+    {
+      "id": "four-of-pentacles-upright-saving",
+      "orientation": "upright",
+      "topic": "finance",
+      "content": "五角星四正位可能表示储蓄、控制消费、偿还债务或保护已经拥有的资源。"
+    },
+    {
+      "id": "four-of-pentacles-upright-energy",
+      "orientation": "upright",
+      "topic": "energy",
+      "content": "五角星四正位也可表示保存精力、减少不必要承诺，并避免过度消耗。"
+    },
+    {
+      "id": "four-of-pentacles-upright-cash-flow",
+      "orientation": "upright",
+      "topic": "finance",
+      "content": "通过量入为出、增加收入或降低支出，可以逐渐改善现金流并建立财务基础。"
+    },
+    {
+      "id": "four-of-pentacles-upright-security",
+      "orientation": "upright",
+      "topic": "security",
+      "content": "五角星四正位可能表示需要持有金钱或物质资源才能感到安全和踏实。"
+    },
+    {
+      "id": "four-of-pentacles-upright-isolation",
+      "orientation": "upright",
+      "topic": "shadow",
+      "content": "安全需求过强可能使人难以分享、投入生活或接受变化，并逐渐与他人疏离。"
+    },
+    {
+      "id": "four-of-pentacles-upright-self-worth",
+      "orientation": "upright",
+      "topic": "self_worth",
+      "content": "五角星四提醒人，金钱和资源应当服务于生活，个人价值不能只由财富与所有物定义。"
+    },
+    {
+      "id": "four-of-pentacles-symbolism-holding-coins",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物的头、手和脚都与五角星相连，象征注意力被安全、所有权和控制占据。"
+    },
+    {
+      "id": "four-of-pentacles-symbolism-solitude",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "独坐的人物象征保护财富可能带来的隔离，以及物质安全与人际连接之间的张力。"
+    },
+    {
+      "id": "four-of-pentacles-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "在旅行问题中，五角星四正位可能表示设定预算，并选择负担得起的交通、住宿和活动。"
+    },
+    {
+      "id": "four-of-pentacles-upright-business",
+      "orientation": "upright",
+      "topic": "business",
+      "content": "在事业或商业中，五角星四正位可能表示稳定、保守与重视风险控制。"
+    },
+    {
+      "id": "four-of-pentacles-upright-negotiation",
+      "orientation": "upright",
+      "topic": "negotiation",
+      "content": "五角星四正位可能表示谈判方对新意见、条件变化或改变的接受度较低。"
+    },
+    {
+      "id": "four-of-pentacles-investment-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "五角星四不能判断投资是否安全、适合续投或必然获利；应核实现金流、期限、费用、流动性和最大损失。"
+    },
+    {
+      "id": "four-of-pentacles-taurus-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-hierophant",
+        "king-of-pentacles"
+      ],
+      "content": "五角星四与教皇或五角星国王共同出现时，传统上可能加强金牛座式的安全、所有权、稳定和价值判断主题，但不能确认实际星座。"
+    },
+    {
+      "id": "four-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星四正位可能表示一方把物质安全、金钱或所有权看得比情感交流更重要。"
+    },
+    {
+      "id": "four-of-pentacles-upright-jealousy",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "五角星四正位可能表现为嫉妒、占有欲，或把伴侣视为自己的所有物。"
+    },
+    {
+      "id": "four-of-pentacles-upright-autonomy",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "健康关系需要尊重对方的自主权、隐私、友谊和个人资源，不能以占有代替连接。"
+    },
+    {
+      "id": "four-of-pentacles-upright-conditional-giving",
+      "orientation": "upright",
+      "topic": "reciprocity",
+      "content": "五角星四正位可能表示有条件的付出，只有预期获得对等或更多回报时才愿意贡献。"
+    },
+    {
+      "id": "four-of-pentacles-upright-financial-control",
+      "orientation": "upright",
+      "topic": "safety_caution",
+      "content": "若金钱被用来限制伴侣、剥夺选择或制造依赖，可能构成财务控制；存在控制、威胁或暴力时应优先寻求现实援助。"
+    },
+    {
+      "id": "four-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星四逆位可能表示资源流出、放松控制、增加自由，或财务与生活结构失去稳定。"
+    },
+    {
+      "id": "four-of-pentacles-reversed-spending",
+      "orientation": "reversed",
+      "topic": "finance",
+      "content": "五角星四逆位可能表示计划内消费、度假开支、大额购买，也可能是预算失控或资源流失。"
+    },
+    {
+      "id": "four-of-pentacles-reversed-generosity",
+      "orientation": "reversed",
+      "topic": "generosity",
+      "content": "五角星四逆位可以象征慷慨、愿意分享资源，并不再把安全完全建立在持有之上。"
+    },
+    {
+      "id": "four-of-pentacles-reversed-relationship-freedom",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星四逆位可能表示给予自己和伴侣更多空间，不再以占有和限制维持安全感。"
+    },
+    {
+      "id": "four-of-pentacles-reversed-overgiving",
+      "orientation": "reversed",
+      "topic": "boundaries",
+      "content": "五角星四逆位可能表示付出超过所得；需要区分主动分享与缺乏边界的过度付出。"
+    },
+    {
+      "id": "four-of-pentacles-reversed-instability",
+      "orientation": "reversed",
+      "topic": "stability",
+      "content": "逆位可能表示无法为生活、工作或关系建立结构，导致不稳定；也可能是旧结构过紧而限制改变。"
+    },
+    {
+      "id": "four-of-pentacles-reversed-travel-purchase",
+      "orientation": "reversed",
+      "topic": "context",
+      "content": "在旅行或大额交易中，过程位置可能提示尚未按目标储蓄，结果位置则可能提示付款、消费或交易发生。"
+    },
+    {
+      "id": "four-of-pentacles-reversed-context-caution",
+      "orientation": "reversed",
+      "topic": "safety_caution",
+      "content": "牌阵位置只能帮助解释消费主题，具体金额、交易结果和负担能力仍需以现实资料确认。"
+    },
+    {
+      "id": "four-of-pentacles-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "逆位建议检查支出目的、预算偏差和边界，并在放松控制后保留基本安全缓冲。"
+    }
+  ]
+}

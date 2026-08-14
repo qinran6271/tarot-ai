@@ -1,0 +1,147 @@
+{
+  "cardId": "page-of-cups",
+  "name": {
+    "zh": "圣杯侍卫",
+    "en": "Page of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "courtRank": "page",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/11-page-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "page-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯侍卫正位表示有益于情感的奉献、消息或学习机会，也可能是一段新关系、伙伴关系或合作提议。"
+    },
+    {
+      "id": "page-of-cups-upright-element",
+      "orientation": "upright",
+      "topic": "element",
+      "content": "圣杯侍卫代表水元素中的空气部分，也就是通过思考、梦想、想象或冥想接近情感，可以概括为“思索情感”。"
+    },
+    {
+      "id": "page-of-cups-upright-learning",
+      "orientation": "upright",
+      "topic": "learning",
+      "content": "圣杯侍卫正位表示通过冥想、梦想、倾听内心或其他安静方式进行情感、直觉和内在层面的学习。"
+    },
+    {
+      "id": "page-of-cups-upright-message",
+      "orientation": "upright",
+      "topic": "message",
+      "content": "圣杯侍卫正位象征新消息，可能来自信件、电话、邀请或实际沟通，也可能表现为梦境、直觉和持续出现的内在感受。"
+    },
+    {
+      "id": "page-of-cups-upright-opportunity",
+      "orientation": "upright",
+      "topic": "opportunity",
+      "content": "圣杯侍卫正位表示一项邀请、提议、创意或情感表达正在被提供。是否接受，应确认这份提供是否真实、具体且适合当前处境。"
+    },
+    {
+      "id": "page-of-cups-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，圣杯侍卫正位可能表示新的合作机会，或一份自己真正喜欢、具有创造性并能表达内在价值的工作。"
+    },
+    {
+      "id": "page-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯侍卫正位可能表示一段新关系出现，或者既有关系进入更柔软、更愿意表达感受的新阶段。"
+    },
+    {
+      "id": "page-of-cups-upright-reconciliation",
+      "orientation": "upright",
+      "topic": "reconciliation",
+      "content": "在分开之后，圣杯侍卫正位可能表示有人提出和解、道歉或复合，是重新联系的正面提示，但仍需实际行动确认。"
+    },
+    {
+      "id": "page-of-cups-upright-person",
+      "orientation": "upright",
+      "topic": "person",
+      "content": "圣杯侍卫正位代表人物时，可能描述安静、温柔、敏感、富有想象力，且倾向沉思多于立即行动的人。"
+    },
+    {
+      "id": "page-of-cups-upright-child",
+      "orientation": "upright",
+      "topic": "child",
+      "content": "圣杯侍卫正位代表孩子时，可能描述喜欢思考、具有创造力，并对情感和周围环境较敏锐的孩子。"
+    },
+    {
+      "id": "page-of-cups-upright-age-caution",
+      "orientation": "upright",
+      "topic": "court_card_interpretation",
+      "content": "传统上圣杯侍卫可代表年轻人，但人物的情感方式和行为特质比实际年龄更重要，不应只按年龄机械判断。"
+    },
+    {
+      "id": "page-of-cups-high-priestess-pisces",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-high-priestess"
+      ],
+      "content": "圣杯侍卫与女教皇共同出现时，可以加强双鱼座、直觉、潜意识和内在感知的主题。"
+    },
+    {
+      "id": "page-of-cups-hierophant-spiritual-learning",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-hierophant"
+      ],
+      "content": "圣杯侍卫与教皇共同出现，而现实中没有明显人物对应时，可能偏向心灵、精神、宗教或哲学学习与发展。"
+    },
+    {
+      "id": "page-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯侍卫逆位可能表示对关系、合作或机会失望，伙伴关系解散，或者原本令人期待的提供没有兑现。"
+    },
+    {
+      "id": "page-of-cups-reversed-message",
+      "orientation": "reversed",
+      "topic": "message",
+      "content": "圣杯侍卫逆位可能表示令人失望、迟到、不明确或尚未确认的消息。在收到可靠信息前，不宜因焦虑过早决定。"
+    },
+    {
+      "id": "page-of-cups-reversed-career-offer",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在工作问题中，圣杯侍卫逆位可能表示新机会尚不确定、条件仍未落实或正式确认迟到，因此不适合在确认前贸然辞职。"
+    },
+    {
+      "id": "page-of-cups-reversed-imagination",
+      "orientation": "reversed",
+      "topic": "confusion",
+      "content": "圣杯侍卫逆位可能表示想象、希望或梦境干扰思考和直觉，使人无法脚踏实地理解当前环境。"
+    },
+    {
+      "id": "page-of-cups-reversed-unreliable-offer",
+      "orientation": "reversed",
+      "topic": "offer",
+      "content": "圣杯侍卫逆位可能描述矛盾、不合理或没有可靠基础的提议。提供者可能没有权力兑现，或负责确认的人本身也不确定。"
+    },
+    {
+      "id": "page-of-cups-reversed-ungrounded-spirituality",
+      "orientation": "reversed",
+      "topic": "grounding",
+      "content": "圣杯侍卫逆位可能表示内在或精神探索缺少现实基础，导致情绪、注意力和精神状态变得不稳定。"
+    },
+    {
+      "id": "page-of-cups-reversed-grounding-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "面对圣杯侍卫逆位，可以通过规律散步、园艺、运动、接触自然、稳定睡眠和完成日常事务，重新建立现实根基。"
+    }
+  ]
+}

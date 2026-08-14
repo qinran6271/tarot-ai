@@ -1,0 +1,163 @@
+{
+  "cardId": "eight-of-cups",
+  "cardNumber": 8,
+  "name": {
+    "zh": "圣杯八",
+    "en": "Eight of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/08-eight-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "eight-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯八正位表示已经超越某个人、关系或处境，并开始追寻更深、更完整的满足。理解现状不够，还需要采取行动。"
+    },
+    {
+      "id": "eight-of-cups-upright-leaving",
+      "orientation": "upright",
+      "topic": "leaving",
+      "content": "圣杯八正位表示离开已经拥有的事物。现状未必彻底失败，但内心已经认识到，它无法继续提供下一阶段所需要的满足。"
+    },
+    {
+      "id": "eight-of-cups-upright-inner-motivation",
+      "orientation": "upright",
+      "topic": "inner_growth",
+      "content": "圣杯八正位的离开通常不是由外界强迫，而是由内心对更深满足的需要推动。"
+    },
+    {
+      "id": "eight-of-cups-upright-sense-ending",
+      "orientation": "upright",
+      "topic": "intuition",
+      "content": "圣杯八正位表示能够在一种处境完全枯竭或崩塌前，察觉它正在走向结束，并提前准备下一步。"
+    },
+    {
+      "id": "eight-of-cups-upright-progress",
+      "orientation": "upright",
+      "topic": "progress",
+      "content": "圣杯八正位象征朝更高处前进、扩大视野和个人成长。为了看得更清楚，可能需要暂时离开熟悉的日常环境。"
+    },
+    {
+      "id": "eight-of-cups-upright-seven-action",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "seven-of-cups"
+      ],
+      "content": "圣杯七通过内在探索确认真实需求，圣杯八则把这份认识转化为现实行动，开始离开不再满足自己的状态。"
+    },
+    {
+      "id": "eight-of-cups-upright-six-to-ten",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "six-of-cups",
+        "ten-of-cups"
+      ],
+      "content": "圣杯八正位表示离开圣杯六式的熟悉稳定，向圣杯十所代表的更完整情感满足前进。"
+    },
+    {
+      "id": "eight-of-cups-upright-hermit-connection",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-hermit"
+      ],
+      "content": "圣杯八与隐士都表示为了获得更高视野，需要把部分日常熟悉事物留在身后，并通过独处与探索寻找更深意义。"
+    },
+    {
+      "id": "eight-of-cups-upright-strength-connection",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "strength"
+      ],
+      "content": "圣杯八的数字八与力量和勇气有关。离开稳定状态、追寻更深满足，需要依靠内在力量而不是外界推动。"
+    },
+    {
+      "id": "eight-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯八正位可能表示离开一段关系，也可能表示不再满足于目前相处层次，开始追寻更深承诺。"
+    },
+    {
+      "id": "eight-of-cups-upright-relationship-method",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "圣杯八正位不一定要求立即结束关系，也可能通过暂时独处、阅读、治疗或深入谈话，确认关系下一阶段需要什么。"
+    },
+    {
+      "id": "eight-of-cups-symbolism-eight-cups-gap",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "八只正立杯子代表已经拥有的快乐与情感经验，留给第九只杯子的空位则表示当前状态仍不完整，还有更深满足需要寻找。"
+    },
+    {
+      "id": "eight-of-cups-symbolism-walking-upward",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物离开杯子并朝高处走去，象征主动超越现状、追求成长，以及获得更广阔的视野。"
+    },
+    {
+      "id": "eight-of-cups-symbolism-moon-sun",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "月亮移过太阳象征内在认知比外在动作更重要，也表示追寻持续于梦境和清醒状态，包括阅读、治疗、课程、谈话与反思。"
+    },
+    {
+      "id": "eight-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯八逆位表示对离开或承诺感到混乱。它既可能是该离开却因恐惧停留，也可能是仍值得投入却急于逃走。"
+    },
+    {
+      "id": "eight-of-cups-reversed-refuse-leaving",
+      "orientation": "reversed",
+      "topic": "fear_of_change",
+      "content": "圣杯八逆位可能表示拒绝离开已经无法继续提供成长和满足的状态，即使内心知道现状不会带来新事物，仍因不安全或缺乏信心而停留。"
+    },
+    {
+      "id": "eight-of-cups-reversed-leave-too-soon",
+      "orientation": "reversed",
+      "topic": "avoidance",
+      "content": "圣杯八逆位也可能表示离开时机尚未成熟，却因为不愿面对困难、投入或真诚承诺而急于逃走。"
+    },
+    {
+      "id": "eight-of-cups-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在关系中，圣杯八逆位可能表示既没有勇气投入一个值得继续的关系，也没有勇气离开一个已经无法满足自己的关系。"
+    },
+    {
+      "id": "eight-of-cups-reversed-fear-vs-inner-voice",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "圣杯八逆位的关键是辨认行动来自真实内在声音，还是来自非理性的恐惧。不能把停滞误认为忠诚，也不能把逃避误认为成长。"
+    },
+    {
+      "id": "eight-of-cups-reversed-seven-lesson",
+      "orientation": "reversed",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "seven-of-cups"
+      ],
+      "content": "当思维、情感与过去模式混乱时，圣杯八逆位要求回到圣杯七正位，先沉静下来并重新确认真实需求，再决定行动。"
+    },
+    {
+      "id": "eight-of-cups-reversed-avoid-repetition",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "圣杯八逆位提醒人在出发前确认自己是在向前，而不是用新的离开或停留方式重复过去的逃避模式。"
+    }
+  ]
+}

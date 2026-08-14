@@ -1,0 +1,177 @@
+{
+  "cardId": "ace-of-pentacles",
+  "cardNumber": 1,
+  "name": {
+    "zh": "五角星王牌",
+    "en": "Ace of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/01-ace-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "ace-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星王牌正位象征务实的新开始，以及可用于启动计划的金钱、精力、时间、技能或支持条件。"
+    },
+    {
+      "id": "ace-of-pentacles-upright-new-phase",
+      "orientation": "upright",
+      "topic": "beginning",
+      "content": "五角星王牌正位既可能表示全新计划，也可能表示既有事业、关系或生活状态进入新的现实阶段。"
+    },
+    {
+      "id": "ace-of-pentacles-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "面对五角星王牌的机会，应明确成本、设定预算、准备资源，并开始可执行的第一阶段工作。"
+    },
+    {
+      "id": "ace-of-pentacles-upright-potential",
+      "orientation": "upright",
+      "topic": "opportunity",
+      "content": "五角星王牌正位表示值得认真评估和培育的现实潜力，但不保证项目一定回本或获利。"
+    },
+    {
+      "id": "ace-of-pentacles-symbolism-hand",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "从云中伸出并稳定托住五角星的手，象征现实机会、资源和抓住机会的潜力。"
+    },
+    {
+      "id": "ace-of-pentacles-symbolism-star",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "五角星及其圆圈象征身体、心智与资源被集中起来，并用于具体的现实目的。"
+    },
+    {
+      "id": "ace-of-pentacles-symbolism-garden",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "繁花盛开且受篱笆保护的庭院象征安全基础、自然资源，以及需要照料的成长环境。"
+    },
+    {
+      "id": "ace-of-pentacles-symbolism-path",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "从庭院通向远方山丘的道路象征当前机会具有发展空间，但需要持续投入才能抵达目标。"
+    },
+    {
+      "id": "ace-of-pentacles-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业中，五角星王牌正位可能表示新工作、新业务、新收入来源，或现有事业进入投资建设阶段。"
+    },
+    {
+      "id": "ace-of-pentacles-upright-business-work",
+      "orientation": "upright",
+      "topic": "business",
+      "content": "资源到位后仍需投入工作、控制成本、验证需求并持续管理风险，机会不会自动变成成果。"
+    },
+    {
+      "id": "ace-of-pentacles-upright-finance",
+      "orientation": "upright",
+      "topic": "finance",
+      "content": "五角星王牌正位提示检查资金条件、预算与可执行性，而不是承诺无论投入多少都能赚回。"
+    },
+    {
+      "id": "ace-of-pentacles-financial-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "重大投资应进行独立调查并评估损失风险，必要时咨询合格财务专业人士，不能只依赖牌意。"
+    },
+    {
+      "id": "ace-of-pentacles-upright-health-investment",
+      "orientation": "upright",
+      "topic": "health",
+      "content": "在健康主题中，五角星王牌正位可能表示愿意为检查、治疗、运动、营养或改善生活环境投入资源。"
+    },
+    {
+      "id": "ace-of-pentacles-health-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "塔罗不能诊断疾病或判断治疗效果；健康决定应依据医疗建议、个人情况和可负担性。"
+    },
+    {
+      "id": "ace-of-pentacles-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "在旅行问题中，五角星王牌正位可能表示存在安排旅行的预算与现实条件，仍需根据实际开支确认。"
+    },
+    {
+      "id": "ace-of-pentacles-upright-home",
+      "orientation": "upright",
+      "topic": "home",
+      "content": "在住房问题中，五角星王牌正位可能提示购买、租赁、维修或翻新的资源机会，负担能力仍需按实际收支计算。"
+    },
+    {
+      "id": "ace-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星王牌正位可能表示通过工作环境认识某人，或关系开始建立更实际、稳定的基础。"
+    },
+    {
+      "id": "ace-of-pentacles-upright-shared-finance",
+      "orientation": "upright",
+      "topic": "relationship_finance",
+      "content": "五角星王牌正位可能涉及生意合作、共同财务或同居，双方需要明确金钱边界、责任、所有权与退出安排。"
+    },
+    {
+      "id": "ace-of-pentacles-upright-relationship-potential",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "五角星王牌表示稳定发展的潜力而非成功保证，关系仍需要持续投入、尊重、沟通和现实兼容性。"
+    },
+    {
+      "id": "ace-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星王牌逆位可能表示机会、资金或资源流失，或暂时无法把现实机会转化为成果。"
+    },
+    {
+      "id": "ace-of-pentacles-reversed-cash-flow",
+      "orientation": "reversed",
+      "topic": "finance",
+      "content": "五角星王牌逆位可能表示收入与支出失衡，赚入的钱不足以覆盖花费。"
+    },
+    {
+      "id": "ace-of-pentacles-reversed-delay",
+      "orientation": "reversed",
+      "topic": "delay",
+      "content": "资金、时间、能力或现实基础不足，可能导致计划延迟或无法启动。"
+    },
+    {
+      "id": "ace-of-pentacles-reversed-missed-opportunity",
+      "orientation": "reversed",
+      "topic": "opportunity",
+      "content": "缺少预算、验证或持续行动，可能使人错失原本具有潜力的机会。"
+    },
+    {
+      "id": "ace-of-pentacles-reversed-spending",
+      "orientation": "reversed",
+      "topic": "finance",
+      "content": "五角星王牌逆位可能提示消费能力强于储蓄和创造收入的能力，需要重新检查现金流。"
+    },
+    {
+      "id": "ace-of-pentacles-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "逆位建议核对必要成本、时间承诺和最低可行方案；缩小规模、延后启动或放弃条件不成熟的机会都可能是负责任的选择。"
+    },
+    {
+      "id": "ace-of-pentacles-reversed-material-reality",
+      "orientation": "reversed",
+      "topic": "safety_caution",
+      "content": "物质机会可能带来个人成长，但不能以精神成长为理由忽略债务、风险和基本生活需求。"
+    }
+  ]
+}

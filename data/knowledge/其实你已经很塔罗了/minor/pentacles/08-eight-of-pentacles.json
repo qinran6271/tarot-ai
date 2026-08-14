@@ -1,0 +1,237 @@
+{
+  "cardId": "eight-of-pentacles",
+  "cardNumber": 8,
+  "name": {
+    "zh": "五角星八",
+    "en": "Eight of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/08-eight-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "eight-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星八正位表示对某个人、目标或现实处境作出承诺，并通过训练与持续工作提升质量。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-craftsmanship",
+      "orientation": "upright",
+      "topic": "craftsmanship",
+      "content": "五角星八正位强调工艺、专注和对细节的持续打磨。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-deliberate-practice",
+      "orientation": "upright",
+      "topic": "learning",
+      "content": "刻意练习包括反复完成工作、观察结果、接受反馈并修正方法，使能力逐渐稳定而专业。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-skill-market",
+      "orientation": "upright",
+      "topic": "business",
+      "content": "专业技能还需理解使用者需求、材料特性和市场环境，才能转化为有价值的成果。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-commitment",
+      "orientation": "upright",
+      "topic": "commitment",
+      "content": "五角星八正位表示对工作、学习、关系或长期目标进行稳定而持续的投入。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-quality",
+      "orientation": "upright",
+      "topic": "quality",
+      "content": "成果来自重复练习、明确质量标准和长期承诺，而不是只依赖天赋。"
+    },
+    {
+      "id": "eight-of-pentacles-symbolism-craftsman",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "专心雕刻五角星的工匠象征集中注意力、训练技巧和逐件完成工作。"
+    },
+    {
+      "id": "eight-of-pentacles-symbolism-six-finished",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "墙上的六枚五角星象征过去完成的作品、累积经验和可见成果。"
+    },
+    {
+      "id": "eight-of-pentacles-symbolism-next-coin",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "脚边等待处理的五角星象征工作仍在继续，每个成果之后还有下一项需要完成。"
+    },
+    {
+      "id": "eight-of-pentacles-symbolism-town",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "远处城镇象征完成的成果最终需要进入交换、销售或现实检验。"
+    },
+    {
+      "id": "eight-of-pentacles-four-contrast",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "four-of-pentacles"
+      ],
+      "content": "五角星四关注持有和保护资源，五角星八则把重点转向技能、质量和精炼成果。"
+    },
+    {
+      "id": "eight-of-pentacles-strength-symbolism",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "strength"
+      ],
+      "content": "部分牌序把力量编号为八，因此五角星八也具有自律、内在动力和持续运用个人能力的象征。"
+    },
+    {
+      "id": "eight-of-pentacles-number-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "数字八在部分商业文化中被视为有利象征，但数字与牌面不能保证商业成功。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业中，五角星八正位通常表示技能提升、稳定产出，以及在过去成果上继续建设。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-portfolio",
+      "orientation": "upright",
+      "topic": "career_advice",
+      "content": "适合完成作品、建立作品集、寻找反馈并持续改进工作流程。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-specialization",
+      "orientation": "upright",
+      "topic": "education",
+      "content": "五角星八正位可能表示参加专业课程，在某个细分领域发展更深入的能力。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-meaningful-work",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "工作可以成为自我实现和贡献价值的方式，但收入、安全、照护责任与生活平衡同样重要。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-career-change",
+      "orientation": "upright",
+      "topic": "career_advice",
+      "content": "不喜欢当前工作时，可先确认不满来源和现实约束，再通过学习、储蓄、求职或内部调整建立转向计划。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "在旅行问题中，五角星八正位可能提示与工作、培训、会议或专业任务有关的出行。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-health",
+      "orientation": "upright",
+      "topic": "health",
+      "content": "在健康主题中，五角星八正位可能表示持续建立运动、睡眠、饮食、治疗或康复习惯。"
+    },
+    {
+      "id": "eight-of-pentacles-health-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "塔罗不能诊断疾病或保证健康计划有效，长期习惯应根据身体反应和专业建议调整。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星八正位表示对关系、共同需求和长期建设作出承诺。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-relationship-work",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "关系承诺需要落实为持续沟通、责任分工、修复冲突和共同规划。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-family-stage",
+      "orientation": "upright",
+      "topic": "family",
+      "content": "五角星八可能对应筹备婚礼、共同生活、养育孩子或支持照护，但不能断定婚姻或怀孕一定发生。"
+    },
+    {
+      "id": "eight-of-pentacles-upright-unhealthy-effort",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "只有辛苦维持却缺少尊重、安全和互惠，并不等于健康的关系投入。"
+    },
+    {
+      "id": "eight-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星八逆位可能表示缺少承诺、练习或持续努力，却仍期待获得较多回报。"
+    },
+    {
+      "id": "eight-of-pentacles-reversed-skill-gap",
+      "orientation": "reversed",
+      "topic": "learning",
+      "content": "五角星八逆位可能提示训练、技能或现实准备不足，需要补足基础。"
+    },
+    {
+      "id": "eight-of-pentacles-seven-return",
+      "orientation": "reversed",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "seven-of-pentacles"
+      ],
+      "content": "逆位五角星八建议回到五角星七的复盘课题，重新确认目标、投入方向和长期价值。"
+    },
+    {
+      "id": "eight-of-pentacles-reversed-job-dissatisfaction",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "逆位可能表示不喜欢工作却只把它视为成功工具，或工作重复、沉闷、缺乏学习空间和合理回报。"
+    },
+    {
+      "id": "eight-of-pentacles-reversed-poor-quality",
+      "orientation": "reversed",
+      "topic": "quality",
+      "content": "五角星八逆位可能表现为缺乏耐心、挫折、未实现的野心、草率工作或只追求数量。"
+    },
+    {
+      "id": "eight-of-pentacles-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星八逆位可能表示承诺不足，或主要精力已经投入其他事务。"
+    },
+    {
+      "id": "eight-of-pentacles-seven-of-swords-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "seven-of-swords"
+      ],
+      "content": "逆位五角星八与宝剑七共同出现时，传统上可能提示隐瞒的优先事项或另一段关系，但不能据此证明出轨。"
+    },
+    {
+      "id": "eight-of-pentacles-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "逆位建议确认自己是否愿意继续、缺少的是动力还是资源，并为技能、时间与责任设定可执行标准。"
+    },
+    {
+      "id": "eight-of-pentacles-reversed-stop-honestly",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "如果目标已经不再适合，诚实停止并处理后续责任，通常比敷衍维持更负责任。"
+    }
+  ]
+}

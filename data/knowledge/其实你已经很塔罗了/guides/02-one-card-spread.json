@@ -1,0 +1,50 @@
+{
+  "guideId": "one-card-spread",
+  "name": { "zh": "单张牌的算法", "en": "One-card Spread" },
+  "scope": "guide",
+  "sources": [{
+    "sourceId": "其实你已经很塔罗了",
+    "book": "其实你已经很塔罗了（简体版）",
+    "author": "Paul Fenton",
+    "translator": "許慈倩",
+    "sourceFile": "sources/其实你已经很塔罗了/guides/02-one-card-spread.md"
+  }],
+  "knowledge": [
+    {
+      "id": "one-card-spread-purpose",
+      "orientation": "neutral",
+      "topic": "spread_method",
+      "content": "单张牌适合回答是非问题，或者快速洞察一个问题与当前状况。它的重点是把一个明确问题与一张牌建立直接联系。"
+    },
+    {
+      "id": "one-card-spread-process",
+      "orientation": "neutral",
+      "topic": "spread_process",
+      "content": "使用熟悉的牌洗牌，将牌面朝下并清楚想着问题，然后切牌并翻开最上面一张作为回答。若第一张无法与问题建立清楚联系，可以再翻一张取得补充信息。"
+    },
+    {
+      "id": "one-card-spread-question-limit",
+      "orientation": "neutral",
+      "topic": "question_design",
+      "content": "一次最好只问两三个问题，否则不同答案容易彼此混淆。问题应清楚说明对象、时间范围和判断标准。"
+    },
+    {
+      "id": "one-card-spread-question-wording",
+      "orientation": "neutral",
+      "topic": "question_design",
+      "content": "问题措辞会改变解读方向。与其笼统询问某件事是否明智，更适合明确时间范围、具体选项或希望判断的目标。"
+    },
+    {
+      "id": "one-card-spread-empowering-question",
+      "orientation": "neutral",
+      "topic": "question_design",
+      "content": "应避免带有强烈恐惧和预设结论的问题。与其问关系是否会破裂，更有建设性的问法是询问自己可以采取什么行动来帮助关系稳定发展。"
+    },
+    {
+      "id": "one-card-spread-not-absolute-prediction",
+      "orientation": "neutral",
+      "topic": "reading_principle",
+      "content": "单张牌练习不应被当作绝对预测，而应作为快速理解问题、练习明确提问和建立牌义联系的方法。"
+    }
+  ]
+}

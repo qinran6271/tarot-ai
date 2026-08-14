@@ -1,0 +1,201 @@
+{
+  "cardId": "seven-of-pentacles",
+  "cardNumber": 7,
+  "name": {
+    "zh": "五角星七",
+    "en": "Seven of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/07-seven-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "seven-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星七正位表示暂停评估已经投入的努力，并规划未来的财务、事业或物质方向。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-review",
+      "orientation": "upright",
+      "topic": "review",
+      "content": "五角星七正位建议比较哪些行动已经有效，哪些做法只是在消耗时间、金钱或精力。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-crossroads",
+      "orientation": "upright",
+      "topic": "decision_making",
+      "content": "这张牌表示来到现实十字路口，需要决定继续培育、开始收获、调整方法或改变方向。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-pause",
+      "orientation": "upright",
+      "topic": "reflection",
+      "content": "阶段性暂停不等于放弃，而是为了让后续投入建立在经验和真实结果之上。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-long-term",
+      "orientation": "upright",
+      "topic": "planning",
+      "content": "五角星七正位适合思考未来五年或十年的方向，并建立长期目标与阶段计划。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-less-maintenance",
+      "orientation": "upright",
+      "topic": "growth",
+      "content": "当基础已经建立时，项目、事业或关系可能不再需要早期那样密集照料，可以转向整体管理。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-no-guaranteed-harvest",
+      "orientation": "upright",
+      "topic": "interpretation",
+      "content": "牌面中的丰收是长期成长象征，不代表投资、事业或关系一定成功，结果仍受现实条件影响。"
+    },
+    {
+      "id": "seven-of-pentacles-symbolism-plant",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "结满五角星的植物象征尚在成长、尚未完全实现或需要继续照料的长期成果。"
+    },
+    {
+      "id": "seven-of-pentacles-symbolism-single-coin",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "脚边的一枚五角星象征已经取得并可以用于当前需要的资源。"
+    },
+    {
+      "id": "seven-of-pentacles-symbolism-leaning",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物倚着工具观察成果，象征从持续劳动暂时转入思考、评估和规划。"
+    },
+    {
+      "id": "seven-of-pentacles-ace-contrast",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "ace-of-pentacles"
+      ],
+      "content": "五角星王牌偏向启动现实行动，五角星七则偏向在投入一段时间后进行阶段复盘。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业中，五角星七正位可能表示阶段复盘、长期目标规划、项目回报评估，或从日常执行转向战略思考。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-learning-leisure",
+      "orientation": "upright",
+      "topic": "life_planning",
+      "content": "未来计划可能包括继续学习、增加休息、优化财务、调整工作结构或发展补充收入。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-decision-criteria",
+      "orientation": "upright",
+      "topic": "project_management",
+      "content": "重要项目应设定继续、调整或停止的明确标准，并使用已经获得的数据和经验作判断。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-finance",
+      "orientation": "upright",
+      "topic": "finance",
+      "content": "在财务问题中，五角星七正位可能表示建立或更新储蓄、投资、退休、现金流和资产配置计划。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-principal-return",
+      "orientation": "upright",
+      "topic": "finance",
+      "content": "五角星七提醒人区分本金、收益和生活支出，为短期需要保留资源，同时避免过早消耗长期基础。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-compounding-symbol",
+      "orientation": "upright",
+      "topic": "finance",
+      "content": "使用部分成果而保留主要资源继续成长，可以作为复利和长期纪律的象征，但不保证本金安全或固定收益。"
+    },
+    {
+      "id": "seven-of-pentacles-financial-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "投资规划应考虑风险、费用、流动性、税务和时间范围，必要时咨询独立且合格的专业人士。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星七正位表示进入评估和规划阶段，可能讨论未来、住房、财务、家庭或共同事业。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-relationship-maintenance",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "稳定关系可能减少早期的密集投入，但仍需要沟通、关心和共同维护。"
+    },
+    {
+      "id": "seven-of-pentacles-upright-single-reflection",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "没有伴侣时，五角星七正位可能表示回顾过去模式，并明确未来关系需要符合的长期目标。"
+    },
+    {
+      "id": "seven-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星七逆位可能表示对事业、关系或生活现状感到不满和停滞，却没有有效复盘。"
+    },
+    {
+      "id": "seven-of-pentacles-reversed-busy-no-direction",
+      "orientation": "reversed",
+      "topic": "productivity",
+      "content": "逆位常表现为持续忙碌却缺少方向，日常事务占满时间，使人错过学习和长期规划。"
+    },
+    {
+      "id": "seven-of-pentacles-reversed-old-method",
+      "orientation": "reversed",
+      "topic": "pattern",
+      "content": "五角星七逆位可能表示一直使用相同方法，却没有给自己机会判断改变是否必要。"
+    },
+    {
+      "id": "seven-of-pentacles-reversed-outgrown-structure",
+      "orientation": "reversed",
+      "topic": "management",
+      "content": "事业、组织或关系规模扩大后，原有管理方式可能不再适用，需要重新设计结构、职责和路线。"
+    },
+    {
+      "id": "seven-of-pentacles-reversed-abandon-project",
+      "orientation": "reversed",
+      "topic": "project",
+      "content": "逆位可能表示不断开始新项目，却未投入足够时间让它们产生结果，新鲜感取代了持续性。"
+    },
+    {
+      "id": "seven-of-pentacles-four-of-swords-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "four-of-swords"
+      ],
+      "content": "逆位五角星七与宝剑四共同出现时，传统上可能表示暂停过久，反思开始与现实环境或内在需求脱节。"
+    },
+    {
+      "id": "seven-of-pentacles-reversed-no-rushing",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "不要停滞不前并不等于仓促行动，改变方向前仍需评估真实进度和风险。"
+    },
+    {
+      "id": "seven-of-pentacles-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "逆位建议设定复盘期限，衡量真实进度，并明确决定继续投入、改变方法或停止项目。"
+    }
+  ]
+}

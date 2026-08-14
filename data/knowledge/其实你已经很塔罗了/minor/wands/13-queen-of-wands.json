@@ -1,0 +1,244 @@
+{
+  "cardId": "queen-of-wands",
+  "cardNumber": 13,
+  "name": {
+    "zh": "权杖皇后",
+    "en": "Queen of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "courtRank": "queen",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/13-queen-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "queen-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖皇后正位象征透过内在力量、自信、直觉和积极行动取得成功。她把内在的愿望和感受转化为明确行动，因此同时具有情感感知力与火元素的行动力。"
+    },
+    {
+      "id": "queen-of-wands-upright-inner-strength",
+      "orientation": "upright",
+      "topic": "inner_strength",
+      "content": "权杖皇后正位强调从内在力量出发取得成果。真正的自信来自相信自己正在做的事情，并按照自己真正相信的方向行动。"
+    },
+    {
+      "id": "queen-of-wands-upright-intuition",
+      "orientation": "upright",
+      "topic": "intuition",
+      "content": "权杖皇后正位具有较强的直觉和感受能力。她不仅凭行动力追逐目标，也会依靠内在感觉和知觉判断环境，从而保护自己并选择适合的方向。"
+    },
+    {
+      "id": "queen-of-wands-upright-confidence",
+      "orientation": "upright",
+      "topic": "confidence",
+      "content": "权杖皇后正位代表积极、自信和坚定的态度。她通常相信自己的能力，并愿意主动组织、行动和承担责任，而不是等待别人决定方向。"
+    },
+    {
+      "id": "queen-of-wands-upright-independence",
+      "orientation": "upright",
+      "topic": "independence",
+      "content": "权杖皇后正位非常重视独立，也会鼓励周围的人建立自己的独立性。她需要一定程度的个人自由，才能持续保持活力、热情和创造力。"
+    },
+    {
+      "id": "queen-of-wands-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "权杖皇后正位倾向于行动胜过过度思考。她会根据自己的感觉和目标迅速投入行动，并具有组织和推动事情发展的能力。"
+    },
+    {
+      "id": "queen-of-wands-upright-leadership",
+      "orientation": "upright",
+      "topic": "leadership",
+      "content": "权杖皇后正位具有主动组织和带动他人的能力。她愿意帮助、保护和推动周围的人，但也需要注意不要在别人并未请求帮助时过度介入。"
+    },
+    {
+      "id": "queen-of-wands-upright-protection",
+      "orientation": "upright",
+      "topic": "protection",
+      "content": "权杖皇后正位具有强烈的保护性。当自己受到伤害时，她会坚定维护自己；当看到别人遭遇不公时，也可能主动站出来为对方争取利益。"
+    },
+    {
+      "id": "queen-of-wands-upright-generosity",
+      "orientation": "upright",
+      "topic": "generosity",
+      "content": "该来源把权杖皇后描述为一个愿意回馈的人。她得到支持、感情或资源时，也倾向于以相应的热情和付出来回应。"
+    },
+    {
+      "id": "queen-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，权杖皇后正位可以表示凭借自信、热情、组织能力和人际影响力取得成果。她尤其具有销售、推动计划和主动创造机会的能力。"
+    },
+    {
+      "id": "queen-of-wands-upright-sales",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "该来源特别将权杖皇后与较强的销售能力联系起来。她的热情、自信和直接行动能够感染别人，因此适合需要说服、推动和建立关系的情境。"
+    },
+    {
+      "id": "queen-of-wands-upright-person",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "当权杖皇后代表一个人物时，通常形容一位坚强、直率、热情、友善、积极而独立的女性。她重视自由，愿意行动，也通常具有较强的自信和生命力。"
+    },
+    {
+      "id": "queen-of-wands-upright-age",
+      "orientation": "upright",
+      "topic": "person",
+      "content": "该来源通常把权杖皇后描述为二十二岁以上的女性，但人物牌更适合用于描述性格和行为模式，而不是依靠年龄或外貌作严格判断。"
+    },
+    {
+      "id": "queen-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖皇后正位可能代表一个诚实、热情、主动而喜欢追求伴侣的人。她希望关系具有活力和挑战，并需要足够的个人自由。"
+    },
+    {
+      "id": "queen-of-wands-upright-relationship-freedom",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖皇后正位在关系中非常需要个人空间和自由。当这种自由受到尊重时，她更容易表现出强烈的生命力、热情和对关系的投入。"
+    },
+    {
+      "id": "queen-of-wands-upright-relationship-challenge",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖皇后正位喜欢挑战和刺激。如果关系过于平淡，她有时可能主动制造变化或冲突来重新获得活力，因此关系需要在稳定和刺激之间取得平衡。"
+    },
+    {
+      "id": "queen-of-wands-upright-relationship-power-balance",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖皇后正位的成熟关系课题是在亲密关系中找到力量，而不是通过支配或被支配来获得安全感。理想状态是双方都能保持力量、自由与亲密。"
+    },
+    {
+      "id": "queen-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖皇后逆位表示内在力量失衡。一个人可能看不到自己的能力，被恐惧、自我怀疑或欲望淹没；也可能反向表现为过度强势、专横、挑衅和控制。"
+    },
+    {
+      "id": "queen-of-wands-reversed-self-doubt",
+      "orientation": "reversed",
+      "topic": "self_doubt",
+      "content": "权杖皇后逆位可能表示失去原本积极而自信的状态，并开始怀疑自己是否有能力应付当前生活。外在负担过重时，这种自我怀疑会进一步削弱行动力。"
+    },
+    {
+      "id": "queen-of-wands-reversed-false-confidence",
+      "orientation": "reversed",
+      "topic": "confidence",
+      "content": "权杖皇后逆位有时会用表面的强势和自信掩盖内在的不安全感。外表可能非常有力量，但实际行动却受到恐惧、比较和自我怀疑驱动。"
+    },
+    {
+      "id": "queen-of-wands-reversed-controlling",
+      "orientation": "reversed",
+      "topic": "control",
+      "content": "权杖皇后逆位可能表现为跋扈、专权或过度介入别人的事务。原本健康的领导和保护欲失衡后，可能变成控制、挑衅或强迫别人接受自己的方式。"
+    },
+    {
+      "id": "queen-of-wands-reversed-conflict-seeking",
+      "orientation": "reversed",
+      "topic": "conflict",
+      "content": "权杖皇后逆位有时会主动寻找冲突和刺激，以借由激烈情境确认自己的活力。持续制造戏剧性事件可能成为逃避内在问题的一种方式。"
+    },
+    {
+      "id": "queen-of-wands-reversed-projection",
+      "orientation": "reversed",
+      "topic": "projection",
+      "content": "权杖皇后逆位可能把自己压抑或不愿承认的问题投射到别人身上。她给别人的建议有时恰恰反映自己真正需要面对的课题。"
+    },
+    {
+      "id": "queen-of-wands-reversed-interference",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "权杖皇后逆位可能在不了解完整情况前就迅速介入，甚至为并不需要帮助的人挺身而出。行动力仍然强，但因为缺少判断和边界，处理方式可能显得笨拙或过度。"
+    },
+    {
+      "id": "queen-of-wands-reversed-jealousy",
+      "orientation": "reversed",
+      "topic": "jealousy",
+      "content": "权杖皇后逆位可能因为自信不足而嫉妒别人的成功，并把原本能够支持他人的竞争心转化为比较和对抗。"
+    },
+    {
+      "id": "queen-of-wands-reversed-competition",
+      "orientation": "reversed",
+      "topic": "competition",
+      "content": "当权杖皇后逆位缺乏内在安全感时，朋友或同伴的成功可能被体验为威胁，使她产生强烈竞争欲，而不是自然地欣赏或支持对方。"
+    },
+    {
+      "id": "queen-of-wands-reversed-low-energy",
+      "orientation": "reversed",
+      "topic": "energy",
+      "content": "权杖皇后逆位也可能表示原本旺盛的火元素能量正在减弱。疲惫、失去方向或身体状态下降，都可能使一个人暂时失去热情、勇气和行动力。"
+    },
+    {
+      "id": "queen-of-wands-reversed-support",
+      "orientation": "reversed",
+      "topic": "support",
+      "content": "当权杖皇后逆位表现为疲惫、失去方向或自我怀疑时，重点不是继续强撑，而是获得支持并逐渐恢复力量、勇气、希望和对自己的信任。"
+    },
+    {
+      "id": "queen-of-wands-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖皇后逆位可能表现为恐惧、控制、嫉妒、挑衅或对关系权力的过度争夺。真正需要恢复的是内在安全感，而不是通过支配伴侣来证明自己的力量。"
+    },
+    {
+      "id": "queen-of-wands-elemental-combination",
+      "orientation": "neutral",
+      "topic": "element",
+      "content": "该来源认为权杖皇后代表“火中的水”。火提供行动、热情和目标感，水则通过感情、情绪、欲望、直觉和耐心发挥作用，因此她通过内在愿望和感受来引导外在行动。"
+    },
+    {
+      "id": "queen-of-wands-symbolism-sunflower",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的向日葵象征权杖皇后的活力、积极态度和面向生命的热情，强化了她明亮、自信和具有生命力的特质。"
+    },
+    {
+      "id": "queen-of-wands-symbolism-black-cat",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的黑猫象征直觉和感知力，并代表权杖皇后能够通过敏锐的内在感觉保护自己、察觉环境中的风险。"
+    },
+    {
+      "id": "queen-of-wands-symbolism-lions",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "宝座两侧的狮子象征权杖皇后的内在力量、勇气和狮子座特质，也把她与力量牌及太阳牌的象征体系联系起来。"
+    },
+    {
+      "id": "queen-of-wands-astrology-leo",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将权杖皇后与狮子座联系起来，并进一步把她与力量牌和太阳牌联系在一起，共同强调生命力、自信、创造性和内在力量。"
+    },
+    {
+      "id": "queen-of-wands-strength-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "权杖皇后与力量牌都通过狮子象征内在力量。两者都强调真正的力量不是粗暴控制，而是能够从内部建立自信、勇气和稳定的生命力。"
+    },
+    {
+      "id": "queen-of-wands-sun-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源将权杖皇后、太阳牌和力量牌都与狮子座象征联系起来。三者共同具有活力、自信和生命力的主题，但权杖皇后更突出这些力量在人格、行动和关系中的具体表现。"
+    },
+    {
+      "id": "queen-of-wands-sun-strength-relationship-dilemma",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源认为，当权杖皇后与太阳牌或力量牌结合时，可能强调事业与感情之间的力量平衡课题，例如为了事业牺牲关系，或为了关系牺牲事业。更成熟的方向是在亲密关系中保有力量，而不是形成支配与被支配的结构。"
+    }
+  ]
+}

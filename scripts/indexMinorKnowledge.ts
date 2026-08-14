@@ -10,25 +10,26 @@ dotenv.config({
   quiet: true,
 });
 
+const SOURCE_ID = "其实你已经很塔罗了";
 const KNOWLEDGE_DIRECTORY = path.join(
   process.cwd(),
   "data",
   "knowledge",
-  "其实你已经很塔罗了",
-  "major",
+  SOURCE_ID,
+  "minor",
 );
 const GENERATED_DIRECTORY = path.join(process.cwd(), "data", "generated");
 const PREVIEW_FILE = path.join(
   GENERATED_DIRECTORY,
-  "major-knowledge-points.json",
+  "minor-knowledge-points.json",
 );
 const COLLECTION_NAME = "tarot_knowledge";
 const EMBEDDING_MODEL = "text-embedding-3-small";
 const EMBEDDING_BATCH_SIZE = 100;
 const UPSERT_BATCH_SIZE = 100;
 
-// A fixed namespace makes the same source/card/knowledge key produce the same
-// Qdrant point ID on every run. These IDs do not collide with the old numeric IDs.
+// Keep the same namespace as the major-arcana uploader. The source/card/entry
+// key remains unique and produces the same Qdrant UUID on repeated uploads.
 const POINT_ID_NAMESPACE = "9fb0a3cc-144d-4e74-906b-1c70cb52c24e";
 
 type Orientation = "upright" | "reversed" | "neutral";
@@ -44,20 +45,21 @@ type SourceEntry = {
   sourceId: string;
 };
 
-type MajorKnowledgeFile = {
+type MinorKnowledgeFile = {
   cardId: string;
   name: {
     en: string;
   };
-  arcana: "major";
+  arcana: "minor";
+  suit: string;
   sources: SourceEntry[];
   knowledge: KnowledgeEntry[];
 };
 
-type MajorKnowledgePayload = {
+type MinorKnowledgePayload = {
   cardId: string;
   cardName: string;
-  cardType: string;
+  cardType: "minor";
   sourceId: string;
   knowledgeType: string;
   topic: string;
@@ -69,7 +71,7 @@ type MajorKnowledgePayload = {
 
 type PreviewPoint = {
   id: string;
-  payload: MajorKnowledgePayload;
+  payload: MinorKnowledgePayload;
 };
 
 function uuidToBytes(uuid: string): Buffer {
@@ -83,7 +85,6 @@ function createStablePointId(key: string): string {
     .digest()
     .subarray(0, 16);
 
-  // RFC 4122 UUID v5 version and variant bits.
   digest[6] = (digest[6]! & 0x0f) | 0x50;
   digest[8] = (digest[8]! & 0x3f) | 0x80;
 
@@ -104,12 +105,28 @@ function assertNonEmpty(value: string, field: string, fileName: string) {
   }
 }
 
-function parseKnowledgeFile(filePath: string): MajorKnowledgeFile | null {
-  const fileName = path.basename(filePath);
+function listKnowledgeFiles(): string[] {
+  return fs
+    .readdirSync(KNOWLEDGE_DIRECTORY, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .sort((left, right) => left.name.localeCompare(right.name))
+    .flatMap((suitDirectory) => {
+      const directory = path.join(KNOWLEDGE_DIRECTORY, suitDirectory.name);
+
+      return fs
+        .readdirSync(directory)
+        .filter((fileName) => fileName.endsWith(".json"))
+        .sort()
+        .map((fileName) => path.join(directory, fileName));
+    });
+}
+
+function parseKnowledgeFile(filePath: string): MinorKnowledgeFile | null {
+  const relativeName = path.relative(KNOWLEDGE_DIRECTORY, filePath);
   const raw = fs.readFileSync(filePath, "utf8").trim();
 
   if (!raw) {
-    console.warn(`Skipping empty file: ${fileName}`);
+    console.warn(`Skipping empty file: ${relativeName}`);
     return null;
   }
 
@@ -121,32 +138,33 @@ function parseKnowledgeFile(filePath: string): MajorKnowledgeFile | null {
     !("cardId" in parsed) ||
     !("knowledge" in parsed)
   ) {
-    console.warn(`Skipping non-card knowledge file: ${fileName}`);
+    console.log(`Skipping suit-wide knowledge file: ${relativeName}`);
     return null;
   }
 
-  const card = parsed as MajorKnowledgeFile;
+  const card = parsed as MinorKnowledgeFile;
 
-  assertNonEmpty(card.cardId, "cardId", fileName);
-  assertNonEmpty(card.name?.en ?? "", "name.en", fileName);
+  assertNonEmpty(card.cardId, "cardId", relativeName);
+  assertNonEmpty(card.name?.en ?? "", "name.en", relativeName);
+  assertNonEmpty(card.suit ?? "", "suit", relativeName);
 
-  if (card.arcana !== "major") {
-    throw new Error(`${fileName}: expected arcana to be "major".`);
+  if (card.arcana !== "minor") {
+    throw new Error(`${relativeName}: expected arcana to be "minor".`);
   }
 
   if (!Array.isArray(card.sources) || !card.sources[0]?.sourceId) {
-    throw new Error(`${fileName}: at least one sourceId is required.`);
+    throw new Error(`${relativeName}: at least one sourceId is required.`);
   }
 
   if (!Array.isArray(card.knowledge)) {
-    throw new Error(`${fileName}: knowledge must be an array.`);
+    throw new Error(`${relativeName}: knowledge must be an array.`);
   }
 
   return card;
 }
 
 function createEmbeddingContent(
-  card: MajorKnowledgeFile,
+  card: MinorKnowledgeFile,
   entry: KnowledgeEntry,
   sourceId: string,
 ): string {
@@ -157,6 +175,7 @@ function createEmbeddingContent(
     `Card: ${card.name.en}`,
     `Card ID: ${card.cardId}`,
     `Card type: ${card.arcana}`,
+    `Suit: ${card.suit}`,
     `Source: ${sourceId}`,
     `Knowledge type: ${entry.id}`,
     `Topic: ${entry.topic}`,
@@ -166,22 +185,16 @@ function createEmbeddingContent(
 }
 
 function createPreviewPoints(): PreviewPoint[] {
-  const filePaths = fs
-    .readdirSync(KNOWLEDGE_DIRECTORY)
-    .filter((fileName) => fileName.endsWith(".json"))
-    .sort()
-    .map((fileName) => path.join(KNOWLEDGE_DIRECTORY, fileName));
-
   const points: PreviewPoint[] = [];
 
-  for (const filePath of filePaths) {
+  for (const filePath of listKnowledgeFiles()) {
     const card = parseKnowledgeFile(filePath);
 
     if (!card) {
       continue;
     }
 
-    const fileName = path.basename(filePath);
+    const fileName = path.relative(KNOWLEDGE_DIRECTORY, filePath);
     const sourceId = card.sources[0]!.sourceId;
 
     for (const entry of card.knowledge) {
@@ -189,7 +202,7 @@ function createPreviewPoints(): PreviewPoint[] {
       assertNonEmpty(entry.topic, "knowledge.topic", fileName);
       assertNonEmpty(entry.content, "knowledge.content", fileName);
 
-      if (!["upright", "reversed", "neutral"].includes(entry.orientation)) {
+      if (!(["upright", "reversed", "neutral"] as string[]).includes(entry.orientation)) {
         throw new Error(
           `${fileName}: invalid orientation "${entry.orientation}" in ${entry.id}.`,
         );
@@ -202,7 +215,7 @@ function createPreviewPoints(): PreviewPoint[] {
         payload: {
           cardId: card.cardId,
           cardName: card.name.en,
-          cardType: card.arcana,
+          cardType: "minor",
           sourceId,
           knowledgeType: entry.id,
           topic: entry.topic,
@@ -239,9 +252,9 @@ async function generateEmbeddings(openai: OpenAI, points: PreviewPoint[]) {
       input: batch.map((point) => point.payload.content),
     });
 
-    const ordered = [...response.data].sort((left, right) => {
-      return left.index - right.index;
-    });
+    const ordered = [...response.data].sort(
+      (left, right) => left.index - right.index,
+    );
     vectors.push(...ordered.map((item) => item.embedding));
     console.log(
       `Generated embeddings for ${Math.min(start + batch.length, points.length)}/${points.length} points.`,
@@ -269,10 +282,7 @@ async function uploadPoints(points: PreviewPoint[]) {
   }
 
   const openai = new OpenAI({ apiKey: openaiApiKey });
-  const qdrant = new QdrantClient({
-    url: qdrantUrl,
-    apiKey: qdrantApiKey,
-  });
+  const qdrant = new QdrantClient({ url: qdrantUrl, apiKey: qdrantApiKey });
   const collections = await qdrant.getCollections();
   const collectionExists = collections.collections.some(
     (collection) => collection.name === COLLECTION_NAME,
@@ -291,16 +301,9 @@ async function uploadPoints(points: PreviewPoint[]) {
     payload: point.payload,
   }));
 
-  for (
-    let start = 0;
-    start < qdrantPoints.length;
-    start += UPSERT_BATCH_SIZE
-  ) {
+  for (let start = 0; start < qdrantPoints.length; start += UPSERT_BATCH_SIZE) {
     const batch = qdrantPoints.slice(start, start + UPSERT_BATCH_SIZE);
-    await qdrant.upsert(COLLECTION_NAME, {
-      wait: true,
-      points: batch,
-    });
+    await qdrant.upsert(COLLECTION_NAME, { wait: true, points: batch });
     console.log(
       `Uploaded ${Math.min(start + batch.length, qdrantPoints.length)}/${qdrantPoints.length} points.`,
     );
@@ -320,12 +323,12 @@ async function main() {
 
   await uploadPoints(points);
   console.log(
-    `Successfully upserted ${points.length} major-arcana knowledge points.`,
+    `Successfully upserted ${points.length} minor-arcana knowledge points.`,
   );
 }
 
 main().catch((error: unknown) => {
-  console.error("Failed to index major-arcana knowledge:");
+  console.error("Failed to index minor-arcana knowledge:");
   console.error(error);
   process.exitCode = 1;
 });

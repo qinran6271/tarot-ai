@@ -1,0 +1,214 @@
+{
+  "cardId": "three-of-pentacles",
+  "cardNumber": 3,
+  "name": {
+    "zh": "五角星三",
+    "en": "Three of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/03-three-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "three-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星三正位表示通过研究、学习、协作和实际执行改善处境，并建立具有持久价值的成果。"
+    },
+    {
+      "id": "three-of-pentacles-upright-collaboration",
+      "orientation": "upright",
+      "topic": "collaboration",
+      "content": "五角星三正位强调不同角色贡献实践技能、目的和规划，并通过沟通把能力整合成共同成果。"
+    },
+    {
+      "id": "three-of-pentacles-upright-learning",
+      "orientation": "upright",
+      "topic": "learning",
+      "content": "这张牌适合参加课程、阅读、寻找导师，或在实际工作中学习新的专业技能。"
+    },
+    {
+      "id": "three-of-pentacles-upright-craftsmanship",
+      "orientation": "upright",
+      "topic": "craftsmanship",
+      "content": "五角星三正位重视工艺、过程和质量，成果通过训练、反馈、修改与持续投入逐步形成。"
+    },
+    {
+      "id": "three-of-pentacles-upright-foundation",
+      "orientation": "upright",
+      "topic": "foundation",
+      "content": "五角星三正位表示为房屋、技能、事业或稳定关系建立可靠的长期基础。"
+    },
+    {
+      "id": "three-of-pentacles-upright-ideas-to-reality",
+      "orientation": "upright",
+      "topic": "manifestation",
+      "content": "五角星三正位要求把构想转化为图纸、标准、步骤与实际产出，而不是停留在理想层面。"
+    },
+    {
+      "id": "three-of-pentacles-symbolism-three-people",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "工匠、牧师与建筑师或委托者象征实践能力、价值目的和规划判断之间的协作。"
+    },
+    {
+      "id": "three-of-pentacles-symbolism-air",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "精确绘制和检视蓝图象征空气元素的思考、规划与沟通。"
+    },
+    {
+      "id": "three-of-pentacles-symbolism-water",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "教堂的精神与情感目的象征水元素，使实体成果承载意义与共同价值。"
+    },
+    {
+      "id": "three-of-pentacles-symbolism-fire-earth",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "施工所需的体力对应火元素，最终形成的教堂对应土元素，表现行动如何转化为实体。"
+    },
+    {
+      "id": "three-of-pentacles-symbolism-triangles",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "向上与向下的三角形传统上对应火与水，表示精神价值需要通过现实生活与他人分享。"
+    },
+    {
+      "id": "three-of-pentacles-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业中，五角星三正位可能表示培训、学徒期、团队协作、专业评审或建造长期成果的机会。"
+    },
+    {
+      "id": "three-of-pentacles-upright-team-process",
+      "orientation": "upright",
+      "topic": "project_management",
+      "content": "明确角色、质量标准、时间表和反馈机制，有助于减少返工并有效使用团队能力。"
+    },
+    {
+      "id": "three-of-pentacles-upright-self-development",
+      "orientation": "upright",
+      "topic": "self_development",
+      "content": "五角星三正位是自我发展中的积极信号，强调通过学习和实践提升能力。"
+    },
+    {
+      "id": "three-of-pentacles-spiritual-learning-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-hierophant",
+        "seven-of-cups"
+      ],
+      "content": "五角星三与教皇或圣杯七共同出现时，传统上可能加强通过学习、价值实践和内在探索推动精神成长的主题。"
+    },
+    {
+      "id": "three-of-pentacles-upright-health-learning",
+      "orientation": "upright",
+      "topic": "health",
+      "content": "在健康主题中，五角星三正位可能表示学习健康管理知识，并建立可以长期维持的习惯与支持体系。"
+    },
+    {
+      "id": "three-of-pentacles-health-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "塔罗不能保证治疗效果；健康计划应依据专业医疗建议、可靠证据和个人状况，并持续观察调整。"
+    },
+    {
+      "id": "three-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星三正位表示双方愿意学习如何建立和维持关系，并通过实际努力改善互动。"
+    },
+    {
+      "id": "three-of-pentacles-upright-relationship-tools",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "关系中的学习可能包括阅读、沟通练习、共同规则、伴侣咨询，或处理过去留下的伤害模式。"
+    },
+    {
+      "id": "three-of-pentacles-upright-mutual-effort",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "持久关系需要双方承担责任并把承诺落实为行为；若只有一方持续付出，协作基础仍然不足。"
+    },
+    {
+      "id": "three-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星三逆位可能表示忽略或浪费了通过学习、研究和反馈提升自己的机会。"
+    },
+    {
+      "id": "three-of-pentacles-reversed-incomplete-course",
+      "orientation": "reversed",
+      "topic": "learning",
+      "content": "课程、训练或项目可能因无聊、缺席、准备不足或缺乏持续投入而过早中断。"
+    },
+    {
+      "id": "three-of-pentacles-reversed-quitting-pattern",
+      "orientation": "reversed",
+      "topic": "self_reflection",
+      "content": "面对退出念头时，需要区分目标确实不再适合，还是自己在困难出现时习惯性放弃。"
+    },
+    {
+      "id": "three-of-pentacles-reversed-repeat-lessons",
+      "orientation": "reversed",
+      "topic": "pattern",
+      "content": "没有从过去经验中学习，可能使相似的工作、财务或关系问题反复出现。"
+    },
+    {
+      "id": "three-of-pentacles-reversed-responsibility",
+      "orientation": "reversed",
+      "topic": "responsibility",
+      "content": "复盘重复模式的重点不是责怪自己，而是辨认自己能够负责和改变的部分。"
+    },
+    {
+      "id": "three-of-pentacles-reversed-fear-execution",
+      "orientation": "reversed",
+      "topic": "execution",
+      "content": "五角星三逆位可能表示害怕把构想付诸实行，导致计划停留在准备阶段。"
+    },
+    {
+      "id": "three-of-pentacles-reversed-teamwork",
+      "orientation": "reversed",
+      "topic": "collaboration",
+      "content": "逆位可能表示团队协调不足、角色模糊或质量标准不一致，使项目陷入停滞。"
+    },
+    {
+      "id": "three-of-pentacles-reversed-foundation",
+      "orientation": "reversed",
+      "topic": "foundation",
+      "content": "当事业或关系停滞时，应先重建基本技能、角色和共同标准，而不是仓促扩大规模。"
+    },
+    {
+      "id": "three-of-pentacles-reversed-teaching",
+      "orientation": "reversed",
+      "topic": "teaching",
+      "content": "传统解读有时把五角星三逆位视为从学习者转向教学者，但不能仅凭牌面确认实际职业。"
+    },
+    {
+      "id": "three-of-pentacles-temperance-teaching-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "temperance"
+      ],
+      "content": "五角星三逆位与节制共同出现时，传统上可能加强教学、指导或知识整合主题，仍需结合现实职业信息。"
+    },
+    {
+      "id": "three-of-pentacles-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "逆位建议复盘重复模式，确认尚未掌握的技能或教训，并制定可以完成的学习与行动计划。"
+    }
+  ]
+}

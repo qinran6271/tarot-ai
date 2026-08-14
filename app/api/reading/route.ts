@@ -6,6 +6,7 @@ import {
   type ReadingLanguagePreference,
 } from "@/lib/readingLanguage";
 import { searchTarotKnowledge } from "@/lib/rag/searchTarotKnowledge";
+import { detectReadingTopic } from "@/lib/rag/readingTopic";
 import { DrawnCard } from "@/types/tarot";
 
 const client = new OpenAI({
@@ -41,7 +42,9 @@ export async function POST(request: Request) {
       );
     }
 
-    // 为每张抽到的牌，从 Qdrant 检索对应的知识。
+    const readingTopic = detectReadingTopic(question);
+
+    // 为每张抽到的牌，从 Qdrant 检索并按问题主题重排知识。
     const knowledgeResults = await Promise.all(
       cards.map(async (card) => {
         const results = await searchTarotKnowledge({
@@ -49,7 +52,8 @@ export async function POST(request: Request) {
           cardId: card.id, // embedding filter is the card's id
           // Direction-specific knowledge and neutral knowledge are both eligible.
           orientation: card.isReversed ? "reversed" : "upright",
-          limit: 5,
+          readingTopic,
+          limit: 6,
         });
 
         return {
@@ -123,6 +127,9 @@ You are an insightful and imaginative tarot reader. You are comfortable answerin
 
 User's Question:
 ${question}
+
+Detected Question Topic:
+${readingTopic}
 
 Drawn Cards:
 ${cardList}

@@ -1,0 +1,165 @@
+{
+  "cardId": "eight-of-swords",
+  "cardNumber": 8,
+  "name": {
+    "zh": "宝剑八",
+    "en": "Eight of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/08-eight-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "eight-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑八正位表示感到受限、动弹不得或看不清前路，个人力量暂时受到恐惧、思想或外部权威压制。"
+    },
+    {
+      "id": "eight-of-swords-upright-perceived-limits",
+      "orientation": "upright",
+      "topic": "belief",
+      "content": "宝剑八正位可能表示当事人相信自己的选择极其有限，但尚未完全看见仍然存在的行动空间。"
+    },
+    {
+      "id": "eight-of-swords-upright-external-control",
+      "orientation": "upright",
+      "topic": "control",
+      "content": "宝剑八正位也可能反映真实的外部控制，例如来自伴侣、家庭、机构、社区或宗教权威的压迫。"
+    },
+    {
+      "id": "eight-of-swords-upright-internalized-control",
+      "orientation": "upright",
+      "topic": "psychology",
+      "content": "长期受到操控、贬低或权威灌输，可能使人把外部声音内化，并逐渐相信自己没有选择。"
+    },
+    {
+      "id": "eight-of-swords-upright-fear-confusion",
+      "orientation": "upright",
+      "topic": "emotion",
+      "content": "宝剑八正位中的停滞常与恐惧和困惑有关；这些感受会让可行的下一步变得难以辨认。"
+    },
+    {
+      "id": "eight-of-swords-upright-reclaim-power",
+      "orientation": "upright",
+      "topic": "empowerment",
+      "content": "宝剑八正位建议逐步收回此前交给他人的判断权与个人能量，重新确认自己的需求、边界和能力。"
+    },
+    {
+      "id": "eight-of-swords-upright-check-reality",
+      "orientation": "upright",
+      "topic": "decision_making",
+      "content": "解读宝剑八时应区分真实限制与恐惧造成的限制，同时检查权力关系、资源、安全和现实后果。"
+    },
+    {
+      "id": "eight-of-swords-upright-inner-feelings",
+      "orientation": "upright",
+      "topic": "intuition",
+      "content": "宝剑八正位建议留意自己的感受，因为它们可能揭示被外界声音掩盖的需求；同时应以事实和可靠信息加以验证。"
+    },
+    {
+      "id": "eight-of-swords-upright-support",
+      "orientation": "upright",
+      "topic": "support",
+      "content": "咨询、可信赖的支持者和实际资源，可以帮助当事人辨认选择，并逐步解除长期形成的精神束缚。"
+    },
+    {
+      "id": "eight-of-swords-symbolism-castle",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "远处山丘上的城堡象征权威；眼罩使它显得比实际更强大，反映人对外部力量的恐惧与想象。"
+    },
+    {
+      "id": "eight-of-swords-symbolism-bindings",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "女子被捆绑象征个人力量受到限制，但没有被绑住的双腿表示仍存在尚未被看见的行动空间。"
+    },
+    {
+      "id": "eight-of-swords-symbolism-clothing",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "橙红色衣服象征热情、勇气和行动力依然存在，只是暂时被思想与恐惧压制。"
+    },
+    {
+      "id": "eight-of-swords-symbolism-water",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "女子脚边的水象征情感仍可被接近，感受自身经验有助于重新辨认真相与需要。"
+    },
+    {
+      "id": "eight-of-swords-health-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "塔罗不能诊断气喘、胸腔疾病或其他健康问题。若出现呼吸困难、胸痛或急性症状，应及时寻求专业医疗帮助。"
+    },
+    {
+      "id": "eight-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑八正位可能表示一方被角色、责任、内疚、恐惧或现实条件束缚，觉得无法自主选择。"
+    },
+    {
+      "id": "eight-of-swords-upright-caregiving",
+      "orientation": "upright",
+      "topic": "caregiving",
+      "content": "照顾受伤或需要支持的伴侣可能制造无法离开的感觉，但关怀他人不等于必须放弃全部自主权。"
+    },
+    {
+      "id": "eight-of-swords-upright-relationship-options",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "面对关系束缚时，可以借助家庭、医疗、社会服务或咨询资源，厘清责任、边界和可行选择。"
+    },
+    {
+      "id": "eight-of-swords-upright-abuse-safety",
+      "orientation": "upright",
+      "topic": "safety_caution",
+      "content": "若关系中存在威胁、控制、隔离或暴力，应优先考虑现实安全并寻求专业援助，不宜仅靠牌意或独自对抗危险。"
+    },
+    {
+      "id": "eight-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑八逆位表示开始看清事情本来的面貌，并从限制性信念或受困状态中逐步获得解放。"
+    },
+    {
+      "id": "eight-of-swords-reversed-remove-blindfold",
+      "orientation": "reversed",
+      "topic": "clarity",
+      "content": "宝剑八逆位象征摘下眼罩，获得更清晰的认知，并看见此前忽略的选择。"
+    },
+    {
+      "id": "eight-of-swords-reversed-old-beliefs",
+      "orientation": "reversed",
+      "topic": "belief",
+      "content": "过去束缚个人的旧信念正在松动，并被更健康、更贴近现实的理解取代。"
+    },
+    {
+      "id": "eight-of-swords-reversed-worst-over",
+      "orientation": "reversed",
+      "topic": "recovery",
+      "content": "宝剑八逆位可能表示最困难的阶段正在过去，当事人逐渐恢复作出更健康选择的能力。"
+    },
+    {
+      "id": "eight-of-swords-reversed-gradual-freedom",
+      "orientation": "reversed",
+      "topic": "freedom",
+      "content": "解除长期精神束缚通常是渐进过程，需要辨认旧信念、建立支持系统，并通过现实行动恢复自主性。"
+    },
+    {
+      "id": "eight-of-swords-reversed-real-limits",
+      "orientation": "reversed",
+      "topic": "practical_life",
+      "content": "宝剑八逆位不应忽略真实限制；恢复自由也包括处理经济、法律、照护和安全等现实问题。"
+    }
+  ]
+}

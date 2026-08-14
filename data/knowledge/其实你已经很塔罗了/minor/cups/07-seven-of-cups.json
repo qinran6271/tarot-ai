@@ -1,0 +1,156 @@
+{
+  "cardId": "seven-of-cups",
+  "cardNumber": 7,
+  "name": {
+    "zh": "圣杯七",
+    "en": "Seven of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/07-seven-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "seven-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯七正位代表自我发现、内在成长与认识真实需求。当前重点不是增加更多选择，而是弄清什么能够带来持续满足。"
+    },
+    {
+      "id": "seven-of-cups-upright-action-reflection",
+      "orientation": "upright",
+      "topic": "inner_growth",
+      "content": "圣杯七正位要求平衡行动与思考。对经验进行反思能把经历转化为知识；没有反思的行动容易重复，没有经验的思考则可能空洞。"
+    },
+    {
+      "id": "seven-of-cups-upright-inner-source",
+      "orientation": "upright",
+      "topic": "emotional_satisfaction",
+      "content": "圣杯七正位表示需要向内探索爱的来源。若不能接纳和关爱自己，外界也很难提供足够的爱来填补内在空缺。"
+    },
+    {
+      "id": "seven-of-cups-upright-needs-vs-wants",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "圣杯七正位要求区分真实需要与一时想要的东西。只有确认需求和欲望，才能判断哪些选择真正适合自己。"
+    },
+    {
+      "id": "seven-of-cups-upright-retreat",
+      "orientation": "upright",
+      "topic": "reflection",
+      "content": "圣杯七正位可能建议暂时离开日常环境，进入安静空间，观察生命中究竟缺少什么。独处是为了减少噪音，而不是逃避现实。"
+    },
+    {
+      "id": "seven-of-cups-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，圣杯七正位要求检查当前工作会把人生带往哪里，以及真正缺少的是意义、创造、关系、自由、安全还是其他具体需要。"
+    },
+    {
+      "id": "seven-of-cups-upright-career-choice",
+      "orientation": "upright",
+      "topic": "career_decision",
+      "content": "在确认自身需求之前，许多事业机会可能看起来相似。清楚的选择来自对自身需要的理解，而不是单纯拥有更多选项。"
+    },
+    {
+      "id": "seven-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯七正位表示需要暂时退一步，确认自己真正需要什么，并观察这些需要是否在关系中得到回应。"
+    },
+    {
+      "id": "seven-of-cups-upright-relationship-missing-need",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "圣杯七正位可能表示已经感觉关系中缺少某些东西，却尚未准确辨认。独处和反思有助于明确需要的是触碰、倾听、承诺、自由、共同时间或其他表达。"
+    },
+    {
+      "id": "seven-of-cups-upright-communicate-need",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "辨认情感需求后，应将它具体地告诉伴侣，而不是期待对方自行猜测。真实、可表达的需要比模糊不满更容易被回应。"
+    },
+    {
+      "id": "seven-of-cups-symbolism-face",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "杯中的脸象征面对世界时使用的面具、形象或伪装，也提醒人区分外在身份与真实自我。"
+    },
+    {
+      "id": "seven-of-cups-symbolism-castle",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "杯中的城堡象征家与归属感，以及一个人从不同住所和关系中持续携带的内在家庭经验。"
+    },
+    {
+      "id": "seven-of-cups-symbolism-jewels",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "杯中的珠宝象征财富、物质力量，以及吸引、排斥或控制物质事物的能力。"
+    },
+    {
+      "id": "seven-of-cups-symbolism-wreath",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "杯中的花圈象征个人力量、成就、胜利与社会认可，也可能表示以外在荣誉定义自我。"
+    },
+    {
+      "id": "seven-of-cups-symbolism-demon",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "杯中的恶魔象征来自潜意识深处、必须持续面对的恐惧、欲望、阴影和自我破坏倾向。"
+    },
+    {
+      "id": "seven-of-cups-symbolism-snake",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "杯中的蛇象征性与创造能量，也代表能够被建设性表达或被欲望牵引的生命力量。"
+    },
+    {
+      "id": "seven-of-cups-symbolism-covered-cup",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "被布遮盖的第七只杯子隐藏真实或精神层面的身份。理解面具、归属、物质、力量、阴影和欲望后，才更有能力认识它。"
+    },
+    {
+      "id": "seven-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯七逆位可以表示已经作出决定，并准备将梦想转化为现实。反思阶段已经提供方向，现在需要选择目标并行动。"
+    },
+    {
+      "id": "seven-of-cups-reversed-materialism",
+      "orientation": "reversed",
+      "topic": "materialism",
+      "content": "圣杯七逆位也可能表示过度重视物质和现实结果，忙于赚钱、消费和积累，却忽略内在或精神需求。"
+    },
+    {
+      "id": "seven-of-cups-reversed-six-lesson",
+      "orientation": "reversed",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "six-of-cups"
+      ],
+      "content": "圣杯七逆位可能需要返回圣杯六的安全课题：即使拥有许多外在保障，未处理的内在不安全感仍会让人觉得永远不够。"
+    },
+    {
+      "id": "seven-of-cups-reversed-money-cycle",
+      "orientation": "reversed",
+      "topic": "money",
+      "content": "圣杯七逆位可能表现为持续赚钱和消费，希望从物质循环中找到满足。它提醒人检查金钱目标是在表达真实价值，还是回避内在匮乏。"
+    },
+    {
+      "id": "seven-of-cups-reversed-practical-vs-needed",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "圣杯七逆位提醒人不要把看似实际的目标自动等同于真正需要。行动前应确认目标是否符合内在价值，而不只是容易衡量或获得。"
+    }
+  ]
+}

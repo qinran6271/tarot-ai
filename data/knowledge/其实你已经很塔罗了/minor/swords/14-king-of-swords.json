@@ -1,0 +1,196 @@
+{
+  "cardId": "king-of-swords",
+  "courtRank": "king",
+  "name": {
+    "zh": "宝剑国王",
+    "en": "King of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/14-king-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "king-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑国王正位象征清晰、实用且有纪律的思考，并强调把构想转化为现实成果。"
+    },
+    {
+      "id": "king-of-swords-upright-element",
+      "orientation": "upright",
+      "topic": "element",
+      "content": "宝剑国王代表空气元素中的土，是思想、计划与现实执行的结合。"
+    },
+    {
+      "id": "king-of-swords-upright-practical-ideas",
+      "orientation": "upright",
+      "topic": "ideas",
+      "content": "宝剑国王正位表示构想需要接受事实、试验与时间检验，并形成可观察、可使用的成果。"
+    },
+    {
+      "id": "king-of-swords-upright-person",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "作为人物原型，宝剑国王表示心智成熟、自制、有条理并理解规划价值的人。"
+    },
+    {
+      "id": "king-of-swords-upright-organization",
+      "orientation": "upright",
+      "topic": "leadership",
+      "content": "宝剑国王正位擅长组织、制定目标、管理复杂信息并协调他人。"
+    },
+    {
+      "id": "king-of-swords-upright-logic-emotion",
+      "orientation": "upright",
+      "topic": "emotion",
+      "content": "宝剑国王可能过度偏重逻辑；成熟判断需要让情绪信息与理性分析共同参与，而不是排除感受。"
+    },
+    {
+      "id": "king-of-swords-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "宝剑国王的能力适合商业、法律、行政、科学、教学、传播、顾问及其他需要分析与组织的领域，但牌面不能确定实际职业。"
+    },
+    {
+      "id": "king-of-swords-neutral-demographic-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "宝剑国王可以对应任何性别、年龄和外貌，宫廷牌称谓及传统外貌描述不能用于可靠识别个人身份。"
+    },
+    {
+      "id": "king-of-swords-symbolism-birds",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中高飞的鸟象征思想能够扩展到更高层次，而国王稳坐宝座表示思考仍以现实为基础。"
+    },
+    {
+      "id": "king-of-swords-upright-success",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "宝剑国王正位表示明确目标、有效计划、诚实判断和持续努力能够提高成功机会。"
+    },
+    {
+      "id": "king-of-swords-upright-advice",
+      "orientation": "upright",
+      "topic": "advice",
+      "content": "宝剑国王正位可能表示收到明确、合理或专业的建议，采纳前仍应核实资质、事实依据、利益关系与后果。"
+    },
+    {
+      "id": "king-of-swords-aquarius-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-star"
+      ],
+      "content": "传统解读中，宝剑国王与星星共同出现时可能加强水瓶座、理性愿景或独立思考主题，但不能确认实际星座。"
+    },
+    {
+      "id": "king-of-swords-libra-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "justice",
+        "the-empress"
+      ],
+      "content": "传统解读中，宝剑国王与正义或女皇共同出现时可能加强天秤座、平衡、判断或关系协调主题。"
+    },
+    {
+      "id": "king-of-swords-gemini-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "the-lovers"
+      ],
+      "content": "传统解读中，宝剑国王与恋人共同出现时可能加强双子座、交流、选择或思想连接主题。"
+    },
+    {
+      "id": "king-of-swords-justice-legal-theme",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "justice"
+      ],
+      "content": "宝剑国王与正义共同出现时可以提示法律、合同、公平审查或正式程序，但不能据此断定诉讼即将发生。"
+    },
+    {
+      "id": "king-of-swords-legal-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "塔罗不能替代法律意见；涉及诉讼、合同、权利或责任的问题，应咨询合格法律专业人士。"
+    },
+    {
+      "id": "king-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑国王正位表示重视清楚沟通、言行一致、共同目标和思想交流。"
+    },
+    {
+      "id": "king-of-swords-upright-partner",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "宝剑国王式人物倾向寻找能够在价值观和理解方式上相互交流的伴侣。"
+    },
+    {
+      "id": "king-of-swords-upright-emotional-space",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "若逻辑长期压过感受，关系可能变得正确却疏离，因此还需给情绪表达、倾听和脆弱感留出空间。"
+    },
+    {
+      "id": "king-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑国王逆位可能表示思路失去清晰、缺乏精神自律，或分析能力被用于冷酷、狡猾和操控。"
+    },
+    {
+      "id": "king-of-swords-reversed-ideas-no-execution",
+      "orientation": "reversed",
+      "topic": "execution",
+      "content": "宝剑国王逆位可能想法丰富、表达出色，却因缺少执行和坚持而很少产生实际成果。"
+    },
+    {
+      "id": "king-of-swords-reversed-unpredictable-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在关系中，逆位可能表示行为难以预测、突然失联或拒绝解释选择，应依据现实行为模式判断并设立边界。"
+    },
+    {
+      "id": "king-of-swords-reversed-label-caution",
+      "orientation": "reversed",
+      "topic": "interpretation",
+      "content": "不能仅凭宝剑国王逆位把某个人认定为残忍、虚伪或危险，相关判断需要现实证据。"
+    },
+    {
+      "id": "king-of-swords-reversed-temporary-crisis",
+      "orientation": "reversed",
+      "topic": "crisis",
+      "content": "宝剑国王逆位有时只是表示原本理性、有能力的人正处于压力、危机或暂时混乱，应区分短期失衡与长期模式。"
+    },
+    {
+      "id": "king-of-swords-reversed-selfish-strategy",
+      "orientation": "reversed",
+      "topic": "ethics",
+      "content": "宝剑国王逆位的阴影可能包括为自私目标策划、滥用专业知识、隐瞒利益冲突或把责任转嫁给他人。"
+    },
+    {
+      "id": "king-of-swords-reversed-risk-protection",
+      "orientation": "reversed",
+      "topic": "safety_caution",
+      "content": "涉及法律、财务或权力风险时，应保留记录、寻求独立专业意见并使用正式监督机制。"
+    },
+    {
+      "id": "king-of-swords-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "宝剑国王逆位建议重新建立目标、优先级、执行责任和事实检验，让聪明想法受到伦理与持续行动约束。"
+    }
+  ]
+}

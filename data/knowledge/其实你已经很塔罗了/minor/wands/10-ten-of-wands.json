@@ -1,0 +1,201 @@
+{
+  "cardId": "ten-of-wands",
+  "cardNumber": 10,
+  "name": {
+    "zh": "权杖十",
+    "en": "Ten of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/10-ten-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "ten-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖十正位象征责任过重、承诺过多和被自己承担的事务压得难以喘息。当前问题往往不是完全没有能力完成，而是承担方式过于沉重，需要重新分配责任并简化局面。"
+    },
+    {
+      "id": "ten-of-wands-upright-overload",
+      "orientation": "upright",
+      "topic": "overload",
+      "content": "权杖十正位表示同时承担太多责任、任务或承诺，导致时间、注意力和精力被大量占用。许多负担可能来自过去对太多机会说“好”，却没有充分估计其中实际需要投入的成本。"
+    },
+    {
+      "id": "ten-of-wands-upright-delegation",
+      "orientation": "upright",
+      "topic": "delegation",
+      "content": "权杖十正位的重要讯息是把部分责任交给更适合处理的人。并非所有事情都必须亲自完成，适当委派可以减少不必要的消耗，并让个人重新看见真正需要前往的方向。"
+    },
+    {
+      "id": "ten-of-wands-upright-simplification",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "当权杖十正位出现时，当前挑战是简化情况。可以重新安排任务、改变处理方式、减少部分承诺，甚至放下一些不再必要的责任，而不是继续用最费力的方式承担所有事情。"
+    },
+    {
+      "id": "ten-of-wands-upright-overcommitment",
+      "orientation": "upright",
+      "topic": "commitment",
+      "content": "权杖十正位可能表示过去没有充分考虑承诺的长期成本，因此同时答应了太多事情。随着时间推移，这些承诺不会自动消失，反而可能不断要求更多时间、注意力和热情。"
+    },
+    {
+      "id": "ten-of-wands-upright-control",
+      "orientation": "upright",
+      "topic": "control",
+      "content": "权杖十正位可能反映“只有我自己做才能做好”的态度。对他人缺乏信任会使个人难以委派，即使别人承担部分工作，也可能仍然觉得必须亲自检查，从而继续维持过重负担。"
+    },
+    {
+      "id": "ten-of-wands-upright-responsibility-for-others",
+      "orientation": "upright",
+      "topic": "responsibility",
+      "content": "权杖十正位有时表示承担了本来并不属于自己的责任，例如认为自己必须为另一个人的选择、问题或结果负责。重新区分自己的责任与他人的责任，是减轻负担的重要一步。"
+    },
+    {
+      "id": "ten-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，权杖十正位可以表示工作量过大、事必躬亲、难以授权或同时承担太多业务责任。目标仍有可能完成，但当前工作方式效率较低，并造成不必要的压力。"
+    },
+    {
+      "id": "ten-of-wands-upright-self-employment",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "权杖十正位可以描述自雇或独立经营者为了确保结果而亲自处理几乎所有事务。虽然这种方式可能保证控制力，却容易让一个人承担超出长期可持续范围的工作量。"
+    },
+    {
+      "id": "ten-of-wands-upright-success-with-strain",
+      "orientation": "upright",
+      "topic": "success",
+      "content": "权杖十正位并不一定表示目标无法实现。一个人仍可能达到希望的结果，但过程承受了本可避免的压力，因此牌的重点更在于改善承担方式，而不是否定最终成果。"
+    },
+    {
+      "id": "ten-of-wands-upright-wellbeing",
+      "orientation": "upright",
+      "topic": "wellbeing",
+      "content": "该来源把权杖十与背部和肩膀的紧张联系起来，作为牌面负重姿势的象征性延伸。这类内容应作为传统塔罗象征理解，不应被用于判断或诊断实际健康状况。"
+    },
+    {
+      "id": "ten-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖十正位可能表示一个人试图独自承担维持关系成功的全部责任。这样的模式并不现实，因为关系涉及双方，任何一方都无法替伴侣负责其决定、行为和信念。"
+    },
+    {
+      "id": "ten-of-wands-upright-relationship-self-blame",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖十正位可以表示在关系出现问题时，把责任全部归到自己身上，并认为只有自己的行动能够修复整个局面。这种过度负责会造成不必要的情感压力。"
+    },
+    {
+      "id": "ten-of-wands-upright-work-vs-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "当权杖十与事业或金钱主题同时突出时，它可能表示个人过度投入工作和现实责任，以至于没有足够时间和精力经营感情关系。"
+    },
+    {
+      "id": "ten-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖十逆位表示过度负担已经接近或超过可承受范围，需要立即重新分配责任、解决现有问题，并暂时停止增加新的任务或挑战。"
+    },
+    {
+      "id": "ten-of-wands-reversed-work-avoidance",
+      "orientation": "reversed",
+      "topic": "avoidance",
+      "content": "权杖十逆位可能表示用工作、忙碌或持续接受新挑战来逃避情感需求或人际关系问题。不断让自己保持忙碌，可以暂时避免面对某些感受，但并不会真正解决原有问题。"
+    },
+    {
+      "id": "ten-of-wands-reversed-emotional-neglect",
+      "orientation": "reversed",
+      "topic": "emotion",
+      "content": "权杖十逆位可以表示事业和责任占据了过多时间，以至于个人忽略自己的情感需求。长时间工作、夜班或周末持续工作，都可能成为避免面对情绪或关系问题的方式。"
+    },
+    {
+      "id": "ten-of-wands-reversed-stop-new-projects",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "权杖十逆位明确提示暂时不要继续增加新的项目和挑战。当前更重要的是先解决已经存在的问题、减少负担，并恢复能够处理现状的时间和精力。"
+    },
+    {
+      "id": "ten-of-wands-reversed-delegation",
+      "orientation": "reversed",
+      "topic": "delegation",
+      "content": "权杖十逆位强调必须把部分责任分派出去。继续一个人承担所有任务可能造成身体和情绪上的崩溃，因此授权和重新分工已经不只是提高效率，而是恢复可持续状态的必要措施。"
+    },
+    {
+      "id": "ten-of-wands-reversed-three-options",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "该来源把权杖十逆位描述为三个选择：继续承担但改变携带方式；按照原来的方式继续承担；或者放下这些负担并寻找新的方向。关键在于有意识地选择，而不是自动重复旧模式。"
+    },
+    {
+      "id": "ten-of-wands-reversed-change-method",
+      "orientation": "reversed",
+      "topic": "strategy",
+      "content": "权杖十逆位不一定要求彻底放弃所有责任，也可以表示用不同的方法承担它们。重新排序、授权、简化流程或减少不必要步骤，都可能让原本沉重的情况变得可管理。"
+    },
+    {
+      "id": "ten-of-wands-reversed-let-go",
+      "orientation": "reversed",
+      "topic": "release",
+      "content": "权杖十逆位有时表示应该放下部分责任、计划或方向。如果某些负担已经没有继续承担的必要，主动舍弃可以创造重新开始的空间。"
+    },
+    {
+      "id": "ten-of-wands-reversed-pattern-awareness",
+      "orientation": "reversed",
+      "topic": "reflection",
+      "content": "如果决定放下现有负担，权杖十逆位强调理解自己为什么会陷入过度承担的状态。若不理解形成模式的原因，未来仍可能再次接受过多责任并重复同样的困境。"
+    },
+    {
+      "id": "ten-of-wands-reversed-burnout",
+      "orientation": "reversed",
+      "topic": "wellbeing",
+      "content": "权杖十逆位可以象征长期过度工作和责任累积造成的身体与情绪耗竭。它提示当前生活方式可能已经不可持续，需要减少负担和改变责任结构。"
+    },
+    {
+      "id": "ten-of-wands-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，权杖十逆位可能表示工作责任已经过多，继续接受新项目只会进一步恶化局面。当前优先事项应是重新分工、处理积压事务并建立更可持续的工作方式。"
+    },
+    {
+      "id": "ten-of-wands-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情和人际关系中，权杖十逆位可能表示长期用事业或忙碌逃避需要处理的情感问题。关系中的困难需要被直接面对，而不是通过增加工作和其他责任来暂时回避。"
+    },
+    {
+      "id": "ten-of-wands-symbolism-ten-wands",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "牌面中的十根权杖象征累积起来的大量责任、任务和承诺。它们本身代表行动和机会，但数量过多后，原本的活力转变成沉重的负担。"
+    },
+    {
+      "id": "ten-of-wands-symbolism-obscured-view",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物怀抱的权杖遮住了前方视线，象征责任过多会使一个人失去整体方向感。当所有注意力都用于处理眼前负担时，可能反而看不清真正的目标和更有效率的道路。"
+    },
+    {
+      "id": "ten-of-wands-symbolism-distant-house",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "远方的房屋象征人物正在努力抵达的目标。目标本身仍然存在，但因为承担方式过于沉重，前进过程比必要的更加困难。"
+    },
+    {
+      "id": "ten-of-wands-symbolism-burden",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "人物被权杖压低的姿势象征过度责任带来的身体、心理和现实压力，也说明问题不仅在于任务数量，还在于承担这些任务的方式。"
+    }
+  ]
+}

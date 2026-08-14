@@ -1,0 +1,150 @@
+{
+  "cardId": "ace-of-cups",
+  "cardNumber": 1,
+  "name": {
+    "zh": "圣杯王牌",
+    "en": "Ace of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/01-ace-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "ace-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯王牌正位代表情感的连接和满足，也象征一个与快乐、爱和喜悦有关的新开始。它可能表示即将进入一段情感更充实、更愿意敞开心扉的时期。"
+    },
+    {
+      "id": "ace-of-cups-upright-emotional-opening",
+      "orientation": "upright",
+      "topic": "emotional_opening",
+      "content": "圣杯王牌正位表示内心已经打开，准备接受新的情感机会。重点不仅是外界出现了什么，也在于自己是否愿意感受、接受并回应爱。"
+    },
+    {
+      "id": "ace-of-cups-upright-new-beginning",
+      "orientation": "upright",
+      "topic": "new_beginning",
+      "content": "圣杯王牌正位可能对应一段新关系、既有关系的新阶段、更深刻的承诺、婴儿的诞生，或一种新的情感满足层次。"
+    },
+    {
+      "id": "ace-of-cups-upright-wands-contrast",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "ace-of-wands"
+      ],
+      "content": "权杖王牌强调身体能量、行动和实际启动，圣杯王牌则强调敞开心扉、情感连接与接受爱的开始。"
+    },
+    {
+      "id": "ace-of-cups-upright-life-connection",
+      "orientation": "upright",
+      "topic": "inner_growth",
+      "content": "圣杯王牌正位描述通过情感与生活建立连接。当一个经验能够唤起真诚投入和喜悦时，它可能成为持续内在成长的机会，而不只是短暂的新鲜感。"
+    },
+    {
+      "id": "ace-of-cups-upright-project-or-travel",
+      "orientation": "upright",
+      "topic": "opportunity",
+      "content": "圣杯王牌正位也可能出现于一个人展开全心期待的计划或旅行时，表示这项经验能够带来情感投入、喜悦和更深的生命连接。"
+    },
+    {
+      "id": "ace-of-cups-upright-spiritual-foundation",
+      "orientation": "upright",
+      "topic": "spiritual_growth",
+      "content": "白鸽与圣餐象征情感机会需要内在或心灵基础，才能形成持久意义。若缺乏这种基础，原本可能带来长期满足的事物容易只剩短暂的新鲜感。"
+    },
+    {
+      "id": "ace-of-cups-upright-love-as-growth",
+      "orientation": "upright",
+      "topic": "inner_growth",
+      "content": "圣杯王牌不仅表示情感满足，也代表通过爱发展内在生命的机会。爱在这里是一种连接内心、关系与生命意义的成长方式。"
+    },
+    {
+      "id": "ace-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在关系问题中，圣杯王牌正位可能表示一段新关系，或者既有关系进入更亲密、更满足的新阶段。"
+    },
+    {
+      "id": "ace-of-cups-upright-relationship-inner-purpose",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "圣杯王牌正位可能表示关系中的某个人正在帮助另一方连接更深层的内在目标。这段关系使人重新意识到爱的来源，并通过爱与自己的内心建立联系。"
+    },
+    {
+      "id": "ace-of-cups-symbolism-hand-and-cloud",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "从云中伸出的手象征情感满足具有内在或心灵来源。手握圣杯表示人需要主动容纳和接受生命提供的情感机会。"
+    },
+    {
+      "id": "ace-of-cups-symbolism-overflowing-water",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "从圣杯溢出并流入池塘的水象征情感由内在来源不断流出。当人与内在生命更加契合时，会更容易体验爱、喜悦和情感丰盛。"
+    },
+    {
+      "id": "ace-of-cups-symbolism-dove",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "白鸽象征心灵祝福与纯粹的爱，也强调情感满足需要与更深层的内在价值相连。"
+    },
+    {
+      "id": "ace-of-cups-upright-simple-joy",
+      "orientation": "upright",
+      "topic": "daily_life",
+      "content": "圣杯王牌正位提醒人重新感受简单事物带来的喜悦，例如阳光、花朵、微笑或微小生命。当内心保持连接时，日常经验也能够带来丰盛感。"
+    },
+    {
+      "id": "ace-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯王牌逆位表示情感机会或内在祝福难以被接住和容纳。它可能表现为情感阻塞、空虚、失望，或者无法回应生活正在提供的爱。"
+    },
+    {
+      "id": "ace-of-cups-reversed-emotional-loss",
+      "orientation": "reversed",
+      "topic": "emotional_loss",
+      "content": "逆位时杯中之水向外流失，可能象征情感和内在能量的耗损，也可能暗示某种情感破裂所带来的不快乐。"
+    },
+    {
+      "id": "ace-of-cups-reversed-inner-peace",
+      "orientation": "reversed",
+      "topic": "inner_growth",
+      "content": "面对圣杯王牌逆位的情感空虚，需要逐渐发展内在的平静与安宁。否则强烈情绪可能遮蔽对生活的理解，并限制成长和发展。"
+    },
+    {
+      "id": "ace-of-cups-reversed-disconnection",
+      "orientation": "reversed",
+      "topic": "spiritual_disconnection",
+      "content": "圣杯王牌逆位可能表示与内在目标失去联系，并逐渐在情感、创造力或身体层面感到匮乏。此时需要向内寻找爱的来源，而不是只从外界索取满足。"
+    },
+    {
+      "id": "ace-of-cups-reversed-expectations",
+      "orientation": "reversed",
+      "topic": "expectations",
+      "content": "圣杯王牌逆位提醒人减少对人生必须符合特定期待的执着。过度依赖预设结果，可能使人忽视当前已经出现的情感机会。"
+    },
+    {
+      "id": "ace-of-cups-reversed-missed-opportunity",
+      "orientation": "reversed",
+      "topic": "missed_opportunity",
+      "content": "圣杯王牌逆位可能表示无法容纳生活提供的情感机会，或者把复杂、紧张但并不重要的事务，看得比内在价值与简单快乐更重要。"
+    },
+    {
+      "id": "ace-of-cups-reversed-reflection",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "当圣杯王牌逆位出现时，花时间重新思考自己真正的目的，有助于恢复清晰，并重新辨认生活正在提供的爱、喜悦和情感机会。"
+    }
+  ]
+}

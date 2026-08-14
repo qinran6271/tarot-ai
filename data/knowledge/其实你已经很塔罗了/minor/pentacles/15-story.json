@@ -1,0 +1,343 @@
+{
+  "name": {
+    "zh": "五角星牌组的故事",
+    "en": "The Story of the Suit of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "knowledgeType": "suit_story",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/15-story.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "pentacles-story-overview",
+      "orientation": "neutral",
+      "topic": "story",
+      "content": "五角星故事通过继承、投资、学习、创业、扩张、授权和长期经营，串联五角星王牌至五角星十。"
+    },
+    {
+      "id": "pentacles-story-court-family",
+      "orientation": "neutral",
+      "topic": "court_cards",
+      "relatedCardIds": [
+        "page-of-pentacles",
+        "knight-of-pentacles",
+        "queen-of-pentacles",
+        "king-of-pentacles"
+      ],
+      "content": "故事把五角星宫廷牌想象成家庭成员，这是理解成长阶段的象征框架，不限制宫廷牌的性别、年龄或家庭身份。"
+    },
+    {
+      "id": "pentacles-story-inheritance",
+      "orientation": "neutral",
+      "topic": "inheritance",
+      "relatedCardIds": [
+        "page-of-pentacles",
+        "king-of-pentacles"
+      ],
+      "content": "故事中的国王为孩子分阶段准备继承资源，象征家庭财富、规划与责任的传递。"
+    },
+    {
+      "id": "pentacles-story-inheritance-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "现实继承涉及法律、税务、家庭公平和资产风险，应通过正式文件与专业建议安排，不能依靠牌面决定。"
+    },
+    {
+      "id": "pentacles-story-page-expectation",
+      "orientation": "neutral",
+      "topic": "learning",
+      "relatedCardIds": [
+        "page-of-pentacles"
+      ],
+      "content": "侍卫想象未来资源如何增长，体现对金钱、机会和实用知识的早期专注。"
+    },
+    {
+      "id": "pentacles-story-ace-capital",
+      "orientation": "neutral",
+      "topic": "opportunity",
+      "relatedCardIds": [
+        "ace-of-pentacles"
+      ],
+      "content": "五角星王牌对应获得第一笔启动资源，以及开始思考如何通过预算和调查运用机会。"
+    },
+    {
+      "id": "pentacles-story-ace-no-guarantee",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "relatedCardIds": [
+        "ace-of-pentacles"
+      ],
+      "content": "启动资本不保证投资获利，新资源仍需要明确用途、风险控制和现实验证。"
+    },
+    {
+      "id": "pentacles-story-two-choice",
+      "orientation": "neutral",
+      "topic": "decision_making",
+      "relatedCardIds": [
+        "two-of-pentacles"
+      ],
+      "content": "五角星二对应在消费、储蓄、学习和投资之间分配有限资源，并接受每项选择的机会成本。"
+    },
+    {
+      "id": "pentacles-story-three-education",
+      "orientation": "neutral",
+      "topic": "education",
+      "relatedCardIds": [
+        "three-of-pentacles"
+      ],
+      "content": "五角星三对应把资源投入教育、专业训练、反馈和实际技能。"
+    },
+    {
+      "id": "pentacles-story-four-income",
+      "orientation": "neutral",
+      "topic": "stability",
+      "relatedCardIds": [
+        "four-of-pentacles"
+      ],
+      "content": "五角星四对应业务成长后的收入、储蓄、成本控制和成果巩固。"
+    },
+    {
+      "id": "pentacles-story-five-overwork",
+      "orientation": "neutral",
+      "topic": "burnout",
+      "relatedCardIds": [
+        "five-of-pentacles"
+      ],
+      "content": "五角星五对应事业扩张后的过劳、空虚和与身体、关系及生活的疏离。"
+    },
+    {
+      "id": "pentacles-story-five-structural-cause",
+      "orientation": "neutral",
+      "topic": "work_structure",
+      "relatedCardIds": [
+        "five-of-pentacles"
+      ],
+      "content": "故事中的困境来自不可持续的工作结构与资源配置，不应被简化为个人精神失败。"
+    },
+    {
+      "id": "pentacles-story-six-delegation",
+      "orientation": "neutral",
+      "topic": "delegation",
+      "relatedCardIds": [
+        "six-of-pentacles"
+      ],
+      "content": "五角星六对应雇用他人、授权工作并用资源买回时间，从直接执行转向管理。"
+    },
+    {
+      "id": "pentacles-story-six-fair-work",
+      "orientation": "neutral",
+      "topic": "workplace_ethics",
+      "relatedCardIds": [
+        "six-of-pentacles"
+      ],
+      "content": "雇佣和外包需要公平报酬、明确职责、合理劳动条件和尊重劳动者权利。"
+    },
+    {
+      "id": "pentacles-story-seven-strategy",
+      "orientation": "neutral",
+      "topic": "planning",
+      "relatedCardIds": [
+        "seven-of-pentacles"
+      ],
+      "content": "五角星七对应从日常忙碌转向长期规划，评估人事管理、交易流程和专业发展。"
+    },
+    {
+      "id": "pentacles-story-eight-learning",
+      "orientation": "neutral",
+      "topic": "learning",
+      "relatedCardIds": [
+        "eight-of-pentacles"
+      ],
+      "content": "五角星八对应重新学习管理与专业技能，并通过刻意练习适应事业的新规模。"
+    },
+    {
+      "id": "pentacles-story-nine-harvest",
+      "orientation": "neutral",
+      "topic": "success",
+      "relatedCardIds": [
+        "nine-of-pentacles"
+      ],
+      "content": "五角星九对应长期投入后的阶段性成果、自立、骄傲和更大的生活选择空间。"
+    },
+    {
+      "id": "pentacles-story-nine-maintenance",
+      "orientation": "neutral",
+      "topic": "sustainability",
+      "relatedCardIds": [
+        "nine-of-pentacles"
+      ],
+      "content": "阶段性收获不表示事业从此没有风险或不再需要维护。"
+    },
+    {
+      "id": "pentacles-story-ten-system",
+      "orientation": "neutral",
+      "topic": "organization",
+      "relatedCardIds": [
+        "ten-of-pentacles"
+      ],
+      "content": "五角星十对应从直接工作转向协调体系、传承资源和维持长期组织。"
+    },
+    {
+      "id": "pentacles-story-ten-meaning",
+      "orientation": "neutral",
+      "topic": "meaning",
+      "relatedCardIds": [
+        "ten-of-pentacles"
+      ],
+      "content": "规模化可能让经营者失去早期亲手创造的感觉，需要重新连接事业意义、团队和生活。"
+    },
+    {
+      "id": "pentacles-story-knight-to-king",
+      "orientation": "neutral",
+      "topic": "development",
+      "relatedCardIds": [
+        "knight-of-pentacles",
+        "king-of-pentacles"
+      ],
+      "content": "骑士成长为国王，象征从谨慎使用资源与亲自工作，发展为管理组织、资产和长期成果。"
+    },
+    {
+      "id": "pentacles-story-market-ace",
+      "orientation": "neutral",
+      "topic": "business_case",
+      "relatedCardIds": [
+        "ace-of-pentacles"
+      ],
+      "content": "宝琳以有限资金租市场摊位并尝试销售商品，对应五角星王牌的简朴创业开端。"
+    },
+    {
+      "id": "pentacles-story-startup-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "失业后创业包含收入和资金风险，应评估基本生活、预算、市场需求和退出方案。"
+    },
+    {
+      "id": "pentacles-story-market-two",
+      "orientation": "neutral",
+      "topic": "business_case",
+      "relatedCardIds": [
+        "two-of-pentacles"
+      ],
+      "content": "市场案例中的五角星二对应放弃不协调的商品组合，并选择专注服装方向。"
+    },
+    {
+      "id": "pentacles-story-market-three",
+      "orientation": "neutral",
+      "topic": "business_case",
+      "relatedCardIds": [
+        "three-of-pentacles"
+      ],
+      "content": "市场案例中的五角星三对应学习缝纫、与伙伴合作并建立产品系列。"
+    },
+    {
+      "id": "pentacles-story-market-four",
+      "orientation": "neutral",
+      "topic": "business_case",
+      "relatedCardIds": [
+        "four-of-pentacles"
+      ],
+      "content": "市场案例中的五角星四对应旺季收入与库存增长，同时带来成本和需求预测风险。"
+    },
+    {
+      "id": "pentacles-story-market-five",
+      "orientation": "neutral",
+      "topic": "business_case",
+      "relatedCardIds": [
+        "five-of-pentacles"
+      ],
+      "content": "市场案例中的五角星五对应过劳、伙伴冲突、社交与休息被工作挤压。"
+    },
+    {
+      "id": "pentacles-story-market-six",
+      "orientation": "neutral",
+      "topic": "business_case",
+      "relatedCardIds": [
+        "six-of-pentacles"
+      ],
+      "content": "市场案例中的五角星六对应委托菲莉丝生产部分服装，以付费方式换回时间。"
+    },
+    {
+      "id": "pentacles-story-market-seven",
+      "orientation": "neutral",
+      "topic": "business_case",
+      "relatedCardIds": [
+        "seven-of-pentacles"
+      ],
+      "content": "市场案例中的五角星七对应规划事业未来、改善质量、材料和经营方式。"
+    },
+    {
+      "id": "pentacles-story-market-eight",
+      "orientation": "neutral",
+      "topic": "business_case",
+      "relatedCardIds": [
+        "eight-of-pentacles"
+      ],
+      "content": "市场案例中的五角星八对应学习企业管理、优化生产，并扩展尺寸和款式。"
+    },
+    {
+      "id": "pentacles-story-market-nine",
+      "orientation": "neutral",
+      "topic": "business_case",
+      "relatedCardIds": [
+        "nine-of-pentacles"
+      ],
+      "content": "市场案例中的五角星九对应零售订单、收入增长和更接近理想生活方式。"
+    },
+    {
+      "id": "pentacles-story-market-ten",
+      "orientation": "neutral",
+      "topic": "business_case",
+      "relatedCardIds": [
+        "ten-of-pentacles"
+      ],
+      "content": "市场案例中的五角星十对应雇用团队、协调生产、开发市场并建立有组织的经营体系。"
+    },
+    {
+      "id": "pentacles-story-queen-development",
+      "orientation": "neutral",
+      "topic": "development",
+      "relatedCardIds": [
+        "queen-of-pentacles"
+      ],
+      "content": "宝琳与伙伴最终体现五角星皇后的成熟：务实经营、照顾资源，并让事业支持想要的生活。"
+    },
+    {
+      "id": "pentacles-story-sequence",
+      "orientation": "neutral",
+      "topic": "suit_sequence",
+      "relatedCardIds": [
+        "ace-of-pentacles",
+        "two-of-pentacles",
+        "three-of-pentacles",
+        "four-of-pentacles",
+        "five-of-pentacles",
+        "six-of-pentacles",
+        "seven-of-pentacles",
+        "eight-of-pentacles",
+        "nine-of-pentacles",
+        "ten-of-pentacles"
+      ],
+      "content": "五角星序列呈现机会、选择、学习、巩固、困难、交换、复盘、深化、收获和体系化的发展过程。"
+    },
+    {
+      "id": "pentacles-story-overall-theme",
+      "orientation": "neutral",
+      "topic": "suit_theme",
+      "content": "五角星故事说明现实成果来自资源选择、学习、劳动、管理、复盘和持续改进。"
+    },
+    {
+      "id": "pentacles-story-mature-success",
+      "orientation": "neutral",
+      "topic": "ethics",
+      "content": "成熟的物质成功还包括保护健康、公平对待伙伴与员工、保留关系和生活空间，并建立可适应变化的体系。"
+    }
+  ]
+}

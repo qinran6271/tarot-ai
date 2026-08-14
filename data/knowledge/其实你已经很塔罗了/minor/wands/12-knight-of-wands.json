@@ -1,0 +1,202 @@
+{
+  "cardId": "knight-of-wands",
+  "cardNumber": 12,
+  "name": {
+    "zh": "权杖骑士",
+    "en": "Knight of Wands"
+  },
+  "arcana": "minor",
+  "suit": "wands",
+  "courtRank": "knight",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/12-knight-of-wands.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "knight-of-wands-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "权杖骑士正位象征行动、旅行、改变、热情和积极追求目标。它具有强烈的火元素特质，常表示一个人准备迅速进入新的经验，并以直接和充满活力的方式推进事情。"
+    },
+    {
+      "id": "knight-of-wands-upright-action",
+      "orientation": "upright",
+      "topic": "action",
+      "content": "权杖骑士正位强调主动行动和亲自推动事情发展。它常带有“要完成事情就自己动手”的态度，因此比起等待外界条件成熟，更倾向于直接采取行动。"
+    },
+    {
+      "id": "knight-of-wands-upright-change",
+      "orientation": "upright",
+      "topic": "change",
+      "content": "权杖骑士正位可以表示生活环境、工作、方向或其他现实层面的改变。它通常不是静态调整，而是伴随着明显行动、移动和新的经验。"
+    },
+    {
+      "id": "knight-of-wands-upright-travel",
+      "orientation": "upright",
+      "topic": "travel",
+      "content": "权杖骑士正位是一张明显的旅行牌，可以表示实际出行、远距离移动或因为某个目标而展开旅程。旅行本身也体现权杖骑士需要探索、刺激和挑战的特质。"
+    },
+    {
+      "id": "knight-of-wands-upright-relocation",
+      "orientation": "upright",
+      "topic": "relocation",
+      "content": "在家庭或居住环境的问题中，权杖骑士正位可能表示搬家、住进新住所或进入新的生活环境。"
+    },
+    {
+      "id": "knight-of-wands-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在事业问题中，权杖骑士正位可以表示工作相关的旅行、换新工作、研究、学习或教学。它适合描述需要行动、探索和不断进入新领域的职业状态。"
+    },
+    {
+      "id": "knight-of-wands-upright-teaching-learning",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "该来源将权杖骑士与学习、研究和教学能力联系起来。在事业问题中，它可能表示从事教学、进修、研究，或通过探索新知识来扩展职业方向。"
+    },
+    {
+      "id": "knight-of-wands-upright-person",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "当权杖骑士代表一个人物时，通常形容坦率、积极、热情、行动力强、喜欢挑战和旅行的人。他倾向于直接表达，而不是采取过度圆滑或含蓄的方式。"
+    },
+    {
+      "id": "knight-of-wands-upright-age",
+      "orientation": "upright",
+      "topic": "person",
+      "content": "该来源通常将权杖骑士对应于大约二十一至三十岁的人，但也可能代表实际年龄更大、心理或行为模式仍较年轻和不成熟的人。年龄只是辅助象征，不应作为严格判断标准。"
+    },
+    {
+      "id": "knight-of-wands-upright-immaturity",
+      "orientation": "upright",
+      "topic": "maturity",
+      "content": "权杖骑士虽然充满行动力，但尚未达到权杖国王的成熟理解。他可能专注于不断实现目标，却还没有完全理解火元素更深的课题在于旅程和经验本身，而不仅是抵达某个终点。"
+    },
+    {
+      "id": "knight-of-wands-upright-journey-vs-goal",
+      "orientation": "upright",
+      "topic": "philosophy",
+      "content": "该来源认为权杖骑士尚在学习区分“目标”与“真正的目的”。不断达成目标并不能自动满足内在渴望，更深的课题是理解行动、旅程和经验本身究竟服务于什么。"
+    },
+    {
+      "id": "knight-of-wands-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖骑士正位可能代表一位积极、热情、直接而喜欢征服和追求的年轻人。关系通常具有明显的行动力、激情和快速发展的倾向。"
+    },
+    {
+      "id": "knight-of-wands-upright-relationship-communication",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖骑士正位所代表的人通常偏好坦率和直接的沟通，而不是过度修饰或圆滑表达。这种方式可以带来明确和活力，但也可能显得冲动。"
+    },
+    {
+      "id": "knight-of-wands-upright-travel-romance",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "权杖骑士正位可以表示在旅行或移动过程中形成的感情关系，关系本身可能带有探索、短期移动或强烈新鲜感。"
+    },
+    {
+      "id": "knight-of-wands-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "权杖骑士逆位表示行动过快、缺乏思考、计划中断、延迟或整体失去协调。大量移动和行动并没有真正产生进展，反而容易让人重复同样的错误。"
+    },
+    {
+      "id": "knight-of-wands-reversed-restlessness",
+      "orientation": "reversed",
+      "topic": "energy",
+      "content": "权杖骑士逆位可能表现为持续需要刺激、移动或冲突来消耗精力。一个人很难停下来，因此不断寻找新的事情，却未必真正知道自己在寻找什么。"
+    },
+    {
+      "id": "knight-of-wands-reversed-action-without-thought",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "权杖骑士逆位强调未经充分思考就行动的问题。行动速度超过思考速度时，个人容易在匆忙中重复过去的错误，因此需要让思考和规划重新跟上行动。"
+    },
+    {
+      "id": "knight-of-wands-reversed-delay",
+      "orientation": "reversed",
+      "topic": "delay",
+      "content": "权杖骑士逆位可以表示延迟、计划中断或事情无法按照原定节奏推进。原本强烈的行动力可能因为缺乏协调和规划而无法有效转化为结果。"
+    },
+    {
+      "id": "knight-of-wands-reversed-incompletion",
+      "orientation": "reversed",
+      "topic": "completion",
+      "content": "权杖骑士逆位可能表示难以完成已经开始的事情。个人不断启动、移动或改变方向，却没有足够耐心和持续性把现有计划推进到完成。"
+    },
+    {
+      "id": "knight-of-wands-reversed-impatience",
+      "orientation": "reversed",
+      "topic": "attitude",
+      "content": "权杖骑士逆位可能表示遇到反对、延迟或阻碍时迅速失去耐心。缺乏耐心使其更容易改变方向或冲动行动，而不是稳定地解决问题。"
+    },
+    {
+      "id": "knight-of-wands-reversed-planning",
+      "orientation": "reversed",
+      "topic": "planning",
+      "content": "权杖骑士逆位提示在行动之前重新做好计划。问题不是完全缺少动力，而是行动缺乏足够的方向和准备，因此适当减速反而可能带来真正的成长。"
+    },
+    {
+      "id": "knight-of-wands-reversed-career",
+      "orientation": "reversed",
+      "topic": "career",
+      "content": "在事业问题中，权杖骑士逆位可能表示工作计划延迟、中断、频繁换方向或项目难以完成。比起继续增加新行动，更需要规划、协调和完成已经开始的事务。"
+    },
+    {
+      "id": "knight-of-wands-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖骑士逆位可能代表一个热情却不愿作出实际承诺的人。关系中可能存在强烈吸引力和追逐感，但缺乏成熟度和持续稳定的投入。"
+    },
+    {
+      "id": "knight-of-wands-reversed-commitment",
+      "orientation": "reversed",
+      "topic": "commitment",
+      "content": "权杖骑士逆位可以表示对长期承诺的抗拒。个人可能不断寻找新的对象、刺激或可能性，并认为选择越多越好，因此很难专注经营现有关系。"
+    },
+    {
+      "id": "knight-of-wands-reversed-more-is-better",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "该来源用“比较多就是比较好”的态度描述权杖骑士逆位在关系中的不成熟倾向：不断追求更多选择和新鲜感，可能使个人缺乏对单一关系持续投入的能力。"
+    },
+    {
+      "id": "knight-of-wands-elemental-combination",
+      "orientation": "neutral",
+      "topic": "element",
+      "content": "该来源认为权杖骑士代表“火中的火”，因此火元素的热情、行动、冒险、旅行和挑战特质在这张牌中被进一步强化。"
+    },
+    {
+      "id": "knight-of-wands-astrology-sagittarius",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "该来源将权杖骑士与射手座联系起来，并强调挑战、旅行、学习和教学等射手座特质。它也因此与节制牌在部分主题上形成关联。"
+    },
+    {
+      "id": "knight-of-wands-temperance-relationship",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该来源把权杖骑士和节制都与射手座联系起来。两张牌在事业层面都可能涉及教学、研究和学习，但权杖骑士更突出主动行动、旅行和追求挑战。"
+    },
+    {
+      "id": "knight-of-wands-symbolism-salamanders",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "权杖骑士衣服上的火精灵象征火元素。它们的尾巴尚未碰到嘴巴，暗示行动和计划仍未完全完成，与权杖国王更成熟和完整的状态形成对比。"
+    },
+    {
+      "id": "knight-of-wands-king-of-wands-contrast",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在该来源的宫廷牌发展体系中，权杖骑士尚未拥有权杖国王的成熟理解。骑士更关注不断追逐和完成目标，而国王则更能理解行动背后的目的以及旅程本身的意义。"
+    }
+  ]
+}

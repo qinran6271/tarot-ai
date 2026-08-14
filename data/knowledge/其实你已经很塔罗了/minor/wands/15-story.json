@@ -1,0 +1,170 @@
+{
+  "suitId": "wands",
+  "name": {
+    "zh": "权杖",
+    "en": "Wands"
+  },
+  "arcana": "minor",
+  "element": "fire",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/15-story.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "wands-story-general",
+      "orientation": "neutral",
+      "topic": "suit_story",
+      "content": "该来源把十四张权杖牌理解为一个连续的成长故事：一个充满火元素好奇心的年轻人，从侍卫时期对冒险的想象，发展为骑士时期的亲身行动，再经历王牌至权杖十所代表的一系列选择、旅行、冲突、成功、负担与学习，最终成长为能够驾驭自身火元素的权杖国王。"
+    },
+    {
+      "id": "wands-story-core-lesson",
+      "orientation": "neutral",
+      "topic": "suit_theme",
+      "content": "权杖牌组的发展课题并不是单纯追求更多行动和更多目标，而是学习如何驾驭火元素。早期阶段强调热情、行动、旅行和挑战，成熟阶段则逐渐加入选择、耐心、领导、自律、组织和对行动真正目的的理解。"
+    },
+    {
+      "id": "wands-story-court-family",
+      "orientation": "neutral",
+      "topic": "court_cards",
+      "content": "该来源把权杖四张宫廷牌比喻为一个家庭单位：国王代表父亲，皇后代表母亲，骑士和侍卫代表年轻一代。四张牌也象征四种不同的方式来处理火元素的热情、行动和挑战课题。"
+    },
+    {
+      "id": "wands-story-page",
+      "orientation": "neutral",
+      "topic": "court_development",
+      "content": "权杖侍卫象征成长故事的早期阶段。他尚未亲自经历父辈的冒险，而是对旅行、征战、探索和成就充满好奇与想象，代表火元素的理念、新鲜感和即将形成的行动冲动。"
+    },
+    {
+      "id": "wands-story-page-to-knight",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "从权杖侍卫成长为权杖骑士，象征从想象和听闻冒险，发展到必须亲自体验人生。骑士不再满足于听别人讲述旅行和挑战，而需要通过直接行动获得属于自己的经验。"
+    },
+    {
+      "id": "wands-story-knight",
+      "orientation": "neutral",
+      "topic": "court_development",
+      "content": "权杖骑士代表强烈需要亲身经历火元素课题的阶段。他渴望旅行、改变、冒险和挑战，也容易因为不愿被限制而与权威发生冲突。这个阶段强调行动经验，但成熟度仍不足。"
+    },
+    {
+      "id": "wands-story-knight-king-conflict",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "该故事用权杖骑士与权杖国王之间的父子冲突表现火元素的成长矛盾。国王希望凭经验管教年轻的骑士，而骑士坚持必须自己体验人生；这种冲突也映照国王年轻时曾经历过的同样阶段。"
+    },
+    {
+      "id": "wands-story-queen-role",
+      "orientation": "neutral",
+      "topic": "court_development",
+      "content": "在权杖宫廷牌的家庭故事中，皇后具有理解和调和的作用。她能够看到骑士当前的行为与国王年轻时的经历之间的相似之处，因此在冲突双方之间发挥较具感受力和理解力的力量。"
+    },
+    {
+      "id": "wands-story-ace",
+      "orientation": "neutral",
+      "topic": "card_sequence",
+      "content": "在权杖牌组的故事中，权杖王牌代表骑士意识到自己已经无法继续停留在原来的环境中。改变的欲望形成实际行动冲动，新的旅程由此真正开始。"
+    },
+    {
+      "id": "wands-story-two",
+      "orientation": "neutral",
+      "topic": "card_sequence",
+      "content": "权杖二代表离开原有环境之前的选择阶段。骑士虽然拥有安逸而熟悉的生活，但过度平顺已经不能满足他，因此开始展望未来并衡量不同的可能方向。"
+    },
+    {
+      "id": "wands-story-three",
+      "orientation": "neutral",
+      "topic": "card_sequence",
+      "content": "权杖三代表方向已经决定，接下来等待适当时机并为实际改变作准备。故事中的骑士开始寻找新住所或向别人表达自己准备进入新环境的意愿。"
+    },
+    {
+      "id": "wands-story-four",
+      "orientation": "neutral",
+      "topic": "card_sequence",
+      "content": "权杖四代表实际迁移并在新的环境中安顿下来。新的生活带来类似蜜月期的兴奋和快乐，也让骑士暂时体验到归属、自由和与相似的人共同生活的满足。"
+    },
+    {
+      "id": "wands-story-five",
+      "orientation": "neutral",
+      "topic": "card_sequence",
+      "content": "权杖五代表共同生活之后不同价值观和习惯之间出现冲突。每个人都按照自己过去被教导的方式行事，缺少协调，于是原本愉快的新环境逐渐产生紧张和意见分歧。"
+    },
+    {
+      "id": "wands-story-six",
+      "orientation": "neutral",
+      "topic": "card_sequence",
+      "content": "权杖六代表骑士开始学习领导。他发现单纯换环境不能避免冲突，于是主动集合目标一致的人，并让自己与周围的人朝共同方向行动。通过建立共同目标，他降低冲突并逐渐表现出类似权杖国王的领导能力。"
+    },
+    {
+      "id": "wands-story-seven",
+      "orientation": "neutral",
+      "topic": "card_sequence",
+      "content": "权杖七代表在取得一定优势之后继续寻求更大的挑战。骑士重新想起最初旅行的目标，并愿意承担更大的工作量，例如同时做两份工作，以换取未来行动所需要的资源。"
+    },
+    {
+      "id": "wands-story-eight",
+      "orientation": "neutral",
+      "topic": "card_sequence",
+      "content": "权杖八代表旅行真正展开，以及火元素获得自由流动的阶段。骑士体验到前所未有的自由、生命力和对世界的热爱，也开始理解此前权杖七中的坚持为什么值得。"
+    },
+    {
+      "id": "wands-story-nine",
+      "orientation": "neutral",
+      "topic": "card_sequence",
+      "content": "权杖九代表旅行和行动之后的重新评估。骑士开始检讨过去的成功和失败，并准备迎接新的挑战，但他仍然倾向于向外寻找冲突，而尚未完全意识到自己对刺激和斗争的需求也来自内在。"
+    },
+    {
+      "id": "wands-story-ten",
+      "orientation": "neutral",
+      "topic": "card_sequence",
+      "content": "权杖十代表不断接受挑战之后形成的责任和未完成事务最终变成负担。此阶段的课题不再是增加行动，而是学习组织、授权、计划、解决问题并减少不必要的负荷。"
+    },
+    {
+      "id": "wands-story-ten-to-king",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "当权杖人物能够掌握权杖十关于组织、授权、计划和责任的课题之后，他才真正成熟为权杖国王。成长的关键是驯服和修炼内在之火，而不是不断增加新的刺激和挑战。"
+    },
+    {
+      "id": "wands-story-king",
+      "orientation": "neutral",
+      "topic": "court_development",
+      "content": "权杖国王象征火元素的成熟阶段。他仍然会展望新的挑战并保有旅行和行动的热情，但已经能够驾驭自己的能量，知道什么时候行动、什么时候等待，也开始理解过程的重要性高于单纯追逐结果。"
+    },
+    {
+      "id": "wands-story-queen-king",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "在故事结尾，权杖皇后与权杖国王共同代表成熟的火元素关系。国王理解过程的重要性，而皇后通过内在力量、感受和生命力使这个过程更丰富，因此两者形成互补。"
+    },
+    {
+      "id": "wands-story-process-over-result",
+      "orientation": "neutral",
+      "topic": "philosophy",
+      "content": "权杖故事最终的重要认识是过程比结果更重要。年轻的权杖类型不断追逐目标、变化和刺激，而成熟之后会发现，真正的火元素课题来自行动和旅程本身所带来的成长，而不是不断抵达新的终点。"
+    },
+    {
+      "id": "wands-story-cycle",
+      "orientation": "neutral",
+      "topic": "cycle",
+      "content": "权杖故事具有循环结构。成熟的权杖国王最终会成为下一代侍卫眼中的冒险英雄，也会和进入骑士式叛逆阶段的年轻人发生冲突。新的年轻人仍然需要亲自经历同样的行动、旅行和成长过程。"
+    },
+    {
+      "id": "wands-story-generational-pattern",
+      "orientation": "neutral",
+      "topic": "court_cards",
+      "content": "权杖宫廷牌的父子故事强调经验无法完全通过说教传递。国王虽然已经理解许多火元素课题，但年轻的骑士仍坚持亲身尝试；而国王回想自己过去时，也会意识到自己曾经经历完全相似的阶段。"
+    },
+    {
+      "id": "wands-story-fire-maturation",
+      "orientation": "neutral",
+      "topic": "suit_theme",
+      "content": "整个权杖牌组可以理解为火元素从未经管理的热情逐渐走向成熟运用的过程：先产生欲望和行动，再经历选择、扩展、稳定、冲突、成功、挑战、自由、反思和负担，最终学会用自律、组织和理解来驾驭火。"
+    }
+  ]
+}

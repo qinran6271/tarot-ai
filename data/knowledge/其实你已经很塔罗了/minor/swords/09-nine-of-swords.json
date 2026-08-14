@@ -1,0 +1,177 @@
+{
+  "cardId": "nine-of-swords",
+  "cardNumber": 9,
+  "name": {
+    "zh": "宝剑九",
+    "en": "Nine of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/09-nine-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "nine-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑九正位表示强烈忧虑、情绪骚动、猜疑、羞愧或难以停止的反复思考。"
+    },
+    {
+      "id": "nine-of-swords-upright-anxiety",
+      "orientation": "upright",
+      "topic": "anxiety",
+      "content": "宝剑九正位可能表示对自己、关系或周围环境的担心，并需要区分现实风险与焦虑放大的最坏情境。"
+    },
+    {
+      "id": "nine-of-swords-upright-sleep",
+      "orientation": "upright",
+      "topic": "sleep",
+      "content": "宝剑九正位常与噩梦、睡眠困难及醒来后的疲惫感有关。"
+    },
+    {
+      "id": "nine-of-swords-upright-dreams",
+      "orientation": "upright",
+      "topic": "dreams",
+      "content": "鲜明梦境可能把白天未被注意的情绪、矛盾与需求带到意识层面，但不能作为未来事件的可靠预言。"
+    },
+    {
+      "id": "nine-of-swords-upright-dream-journal",
+      "orientation": "upright",
+      "topic": "self_reflection",
+      "content": "记录梦境、醒来后的感受和近期压力，有助于发现重复主题；重要决定仍应结合事实与现实信息。"
+    },
+    {
+      "id": "nine-of-swords-upright-overthinking",
+      "orientation": "upright",
+      "topic": "thought_pattern",
+      "content": "宝剑九正位可能表示注意力过度集中于思考，使人忽略身体、情绪和当下环境。"
+    },
+    {
+      "id": "nine-of-swords-upright-grounding",
+      "orientation": "upright",
+      "topic": "advice",
+      "content": "散步、适量运动、规律作息或亲近自然，有时有助于从反复思考回到当下，但不能替代必要的专业支持。"
+    },
+    {
+      "id": "nine-of-swords-upright-unsupportive-situation",
+      "orientation": "upright",
+      "topic": "self_awareness",
+      "content": "宝剑九正位提醒人检查自己是否仍在支持一种并不支持自己的处境、关系、信念或生活方式。"
+    },
+    {
+      "id": "nine-of-swords-symbolism-bed",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "坐在床上惊醒的人物象征噩梦、睡眠中断，以及忧虑侵入休息时间。"
+    },
+    {
+      "id": "nine-of-swords-symbolism-swords-heart",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "靠近人物心脏位置的剑象征思想与感情相连，忧虑会同时影响情绪和身体感受。"
+    },
+    {
+      "id": "nine-of-swords-symbolism-bedspread",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "床罩上的玫瑰与黄道图案象征时间流逝和生命周期，提醒人当前的不安并非永远不变。"
+    },
+    {
+      "id": "nine-of-swords-pentacles-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "宝剑九与星币牌共同出现时，忧虑主题可能集中于金钱、工作或物质安全。"
+    },
+    {
+      "id": "nine-of-swords-cups-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "宝剑九与圣杯牌共同出现时，忧虑主题可能集中于亲密关系、感受或其他情感问题。"
+    },
+    {
+      "id": "nine-of-swords-wands-combination",
+      "orientation": "neutral",
+      "topic": "card_relationship",
+      "content": "宝剑九与权杖牌共同出现时，忧虑可能涉及旅行、改变、行动压力或同时需要处理的过多事务。"
+    },
+    {
+      "id": "nine-of-swords-combination-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "牌组组合可以帮助确定忧虑所涉及的主题，但不能代替对财务、关系、工作或健康状况的现实评估。"
+    },
+    {
+      "id": "nine-of-swords-health-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "塔罗不能诊断失眠、头痛、心脏、颈部或上背部疾病；持续或急性症状应由医疗专业人员评估。"
+    },
+    {
+      "id": "nine-of-swords-mental-health-support",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "若焦虑、噩梦或羞愧持续影响生活，可寻求心理健康支持；若出现自伤或伤人念头，应立即联系当地紧急或危机援助资源。"
+    },
+    {
+      "id": "nine-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑九正位可能表示正在为关系烦恼，或尚未处理的不安全感通过梦境和反复念头浮现。"
+    },
+    {
+      "id": "nine-of-swords-upright-breakup-fear",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "宝剑九正位可能表示害怕关系破裂，但这种恐惧可能来自真实问题，也可能被过去经验或焦虑放大。"
+    },
+    {
+      "id": "nine-of-swords-upright-relationship-evidence",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "不能只凭宝剑九断定伴侣会离开或关系必然结束，应结合可观察行为、坦诚沟通与现实证据。"
+    },
+    {
+      "id": "nine-of-swords-upright-relationship-needs",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "宝剑九正位建议辨认恐惧背后的具体需要，再选择沟通、设立边界、咨询或其他现实行动。"
+    },
+    {
+      "id": "nine-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑九逆位表示开始理解梦境与反复念头所传达的情绪信息，并愿意处理现实问题。"
+    },
+    {
+      "id": "nine-of-swords-reversed-dream-caution",
+      "orientation": "reversed",
+      "topic": "dreams",
+      "content": "传统解读有时把宝剑九逆位视为预言式梦境；更稳妥的理解是梦境呈现恐惧、欲望和未解决经验，而非准确预告未来。"
+    },
+    {
+      "id": "nine-of-swords-reversed-face-fears",
+      "orientation": "reversed",
+      "topic": "self_awareness",
+      "content": "宝剑九逆位可能表示不再隐藏真实价值、恐惧或未实现的愿望，并开始直接面对它们。"
+    },
+    {
+      "id": "nine-of-swords-reversed-relief",
+      "orientation": "reversed",
+      "topic": "recovery",
+      "content": "随着问题被承认和处理，宝剑九逆位可能表示噩梦、忧虑与情绪压力逐渐减轻。"
+    },
+    {
+      "id": "nine-of-swords-reversed-reality-testing",
+      "orientation": "reversed",
+      "topic": "clarity",
+      "content": "宝剑九逆位可以表示更清楚地区分事实与想象，并通过支持、治疗或实际行动恢复睡眠和安全感。"
+    }
+  ]
+}

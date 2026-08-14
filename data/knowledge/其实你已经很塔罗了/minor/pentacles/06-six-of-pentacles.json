@@ -1,0 +1,213 @@
+{
+  "cardId": "six-of-pentacles",
+  "cardNumber": 6,
+  "name": {
+    "zh": "五角星六",
+    "en": "Six of Pentacles"
+  },
+  "arcana": "minor",
+  "suit": "pentacles",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/pentacles/06-six-of-pentacles.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "six-of-pentacles-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "五角星六正位表示给予、接受和资源交换，也揭示交换关系中可能存在的权力差异。"
+    },
+    {
+      "id": "six-of-pentacles-upright-generosity",
+      "orientation": "upright",
+      "topic": "generosity",
+      "content": "五角星六正位可能表示分享金钱、时间、知识或机会，也可能表示自己正在接受帮助。"
+    },
+    {
+      "id": "six-of-pentacles-upright-reciprocity",
+      "orientation": "upright",
+      "topic": "reciprocity",
+      "content": "五角星六正位可以象征公平报酬、互惠和各方认可的资源交换。"
+    },
+    {
+      "id": "six-of-pentacles-upright-power",
+      "orientation": "upright",
+      "topic": "power",
+      "content": "资源提供者通常拥有更大的决定权，因此给予关系可能同时包含依赖、条件和控制。"
+    },
+    {
+      "id": "six-of-pentacles-upright-power-caution",
+      "orientation": "upright",
+      "topic": "interpretation",
+      "content": "权力差异不自动等于剥削；应检查规则透明度、表达空间、拒绝权和交换是否真正公平。"
+    },
+    {
+      "id": "six-of-pentacles-symbolism-benefactor",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "站立的富人与跪下的接受者，象征资源分配者和需求者之间不对称的地位。"
+    },
+    {
+      "id": "six-of-pentacles-symbolism-scales",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "富人手中的天平象征衡量、公平和分配，也提醒人检查谁有权决定公平标准。"
+    },
+    {
+      "id": "six-of-pentacles-upright-work-exchange",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "在工作中，五角星六正位可能表示以时间、技能和劳动换取报酬。"
+    },
+    {
+      "id": "six-of-pentacles-upright-fair-work",
+      "orientation": "upright",
+      "topic": "career_advice",
+      "content": "合理工作安排应包含明确职责、公平薪资、可预测条件和双方同意。"
+    },
+    {
+      "id": "six-of-pentacles-upright-management",
+      "orientation": "upright",
+      "topic": "management",
+      "content": "管理者与员工可以承担不同责任，但角色差异不能成为拖欠报酬、过度监督或剥夺劳动权利的理由。"
+    },
+    {
+      "id": "six-of-pentacles-upright-hiring",
+      "orientation": "upright",
+      "topic": "hiring",
+      "content": "五角星六正位可能对应聘用员工、技术人员或专业服务，应明确范围、费用、期限、所有权与验收标准。"
+    },
+    {
+      "id": "six-of-pentacles-upright-job-change",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "五角星六正位可能表示换工作、获得新工作或进入新的雇佣与报酬安排。"
+    },
+    {
+      "id": "six-of-pentacles-upright-major-expense",
+      "orientation": "upright",
+      "topic": "finance",
+      "content": "五角星六正位可能表示为房屋、车辆、教育、医疗或其他重要事项支付较大金额。"
+    },
+    {
+      "id": "six-of-pentacles-upright-borrowing",
+      "orientation": "upright",
+      "topic": "business_finance",
+      "content": "在商业问题中，五角星六正位可能象征借款、融资、资助或通过他人资源启动事业。"
+    },
+    {
+      "id": "six-of-pentacles-upright-loan-obligations",
+      "orientation": "upright",
+      "topic": "finance",
+      "content": "借入资金会带来偿还义务、利息和权力关系，应评估条款、现金流和最坏情境。"
+    },
+    {
+      "id": "six-of-pentacles-financial-caution",
+      "orientation": "neutral",
+      "topic": "safety_caution",
+      "content": "五角星六不能证明财务稳定、贷款一定获批或投资必然成功；重大决定需要现实数据和独立专业意见。"
+    },
+    {
+      "id": "six-of-pentacles-upright-healthy-giving",
+      "orientation": "upright",
+      "topic": "support",
+      "content": "健康的给予尊重接受者自主权，不要求羞辱、服从或不相称的回报。"
+    },
+    {
+      "id": "six-of-pentacles-upright-healthy-receiving",
+      "orientation": "upright",
+      "topic": "support",
+      "content": "在需要时使用可获得的资源并不等于无能，接受帮助也可以是负责任的行动。"
+    },
+    {
+      "id": "six-of-pentacles-upright-limited-giving",
+      "orientation": "upright",
+      "topic": "generosity",
+      "content": "只分享不会影响自身稳定的资源仍可能有价值，但应诚实看待付出范围，不把有限支持包装成完全平等。"
+    },
+    {
+      "id": "six-of-pentacles-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，五角星六正位可能表示一方掌握更多金钱、经验、照护能力或决策权。"
+    },
+    {
+      "id": "six-of-pentacles-upright-care-as-control",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "以健康、安全或责任为理由限制伴侣活动、社交或选择，可能是关心，也可能夹带控制。"
+    },
+    {
+      "id": "six-of-pentacles-upright-consent",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "判断关系安排是否健康，应检查当事人是否拥有知情权、表达空间和拒绝权。"
+    },
+    {
+      "id": "six-of-pentacles-orientation-control-caution",
+      "orientation": "neutral",
+      "topic": "interpretation",
+      "content": "谁控制谁不能只由五角星六的正逆位决定，必须根据具体行为、资源分配和现实后果判断。"
+    },
+    {
+      "id": "six-of-pentacles-upright-intimacy-power",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "当一方拥有明显更大权力时，真正的亲密可能受影响，需要讨论透明度、共同决策、个人资源和自主边界。"
+    },
+    {
+      "id": "six-of-pentacles-upright-financial-control",
+      "orientation": "upright",
+      "topic": "safety_caution",
+      "content": "若金钱、住房、医疗或身份被用来威胁、隔离或迫使服从，可能属于财务或关系控制，应寻求现实与专业援助。"
+    },
+    {
+      "id": "six-of-pentacles-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "五角星六逆位可能表示原有稳定交换被打破，或给予与接受长期失衡。"
+    },
+    {
+      "id": "six-of-pentacles-reversed-ending",
+      "orientation": "reversed",
+      "topic": "change",
+      "content": "五角星六逆位可能对应辞职、裁员、合作终止、资助中断或关系角色改变。"
+    },
+    {
+      "id": "six-of-pentacles-reversed-finance",
+      "orientation": "reversed",
+      "topic": "finance",
+      "content": "五角星六逆位可能表示大量支出、入不敷出、债务增加或现金流失控。"
+    },
+    {
+      "id": "six-of-pentacles-reversed-relationship",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "在关系中，逆位可能表示处于弱势、需求长期未被满足、付出与回报不对等，或自己正在滥用资源优势。"
+    },
+    {
+      "id": "six-of-pentacles-reversed-conditional-help",
+      "orientation": "reversed",
+      "topic": "warning",
+      "content": "五角星六逆位可能提示附带不公平条件的援助、迟付报酬、不公平借贷，或接受者因压力难以拒绝。"
+    },
+    {
+      "id": "six-of-pentacles-reversed-advice",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "逆位建议明确实际贡献、权利和退出条件，并在必要时寻求独立财务、法律、劳动或关系支持。"
+    },
+    {
+      "id": "six-of-pentacles-reversed-equity",
+      "orientation": "reversed",
+      "topic": "fairness",
+      "content": "公平不只是每个人得到相同数量，也包括各方的需要、风险、贡献和选择权得到考虑。"
+    }
+  ]
+}

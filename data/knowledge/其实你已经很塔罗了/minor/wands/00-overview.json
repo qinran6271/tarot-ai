@@ -1,0 +1,86 @@
+{
+  "suitId": "wands",
+  "name": {
+    "zh": "权杖",
+    "en": "Wands"
+  },
+  "arcana": "minor",
+  "element": "fire",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/wands/00-overview.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "wands-general-element",
+      "orientation": "neutral",
+      "topic": "general",
+      "content": "权杖牌组对应火元素，主要与能量、热情、行动、生命力、挑战、旅行以及追求目标有关。它体现一种主动投入生命、不断向外探索和扩张的倾向。"
+    },
+    {
+      "id": "wands-fire-qualities",
+      "orientation": "neutral",
+      "topic": "element",
+      "content": "火元素象征乐观、自信和希望，并具有自然向上、寻找燃料和不断扩张的特征。权杖牌组因此常与渴望、行动、新视野以及主动追求经验联系在一起。"
+    },
+    {
+      "id": "wands-personality",
+      "orientation": "neutral",
+      "topic": "personality",
+      "content": "权杖类型的人通常需要通过行动、刺激或挑战感受到自己的活力。他们倾向于主动参与和亲自体验，而不是长时间停留在被动、停滞或消极的状态中。"
+    },
+    {
+      "id": "wands-goals",
+      "orientation": "neutral",
+      "topic": "progress",
+      "content": "对权杖类型而言，拥有一个值得追求的目标有时比真正完成目标更加重要。完成一个挑战之后，他们往往会继续寻找更大、更具前瞻性的目标。"
+    },
+    {
+      "id": "wands-action",
+      "orientation": "neutral",
+      "topic": "action",
+      "content": "权杖牌组强调通过实际行动获得理解和经验。将精力投入具体任务、目标或挑战，往往比被动等待更符合权杖所代表的生命方式。"
+    },
+    {
+      "id": "wands-relationship",
+      "orientation": "neutral",
+      "topic": "relationship",
+      "content": "在感情关系中，权杖类型倾向于受到追求、挑战和征服感驱动。他们可能享受关系中的活力、新鲜感和发展过程，并需要持续的目标感和互动来保持投入。"
+    },
+    {
+      "id": "wands-career",
+      "orientation": "neutral",
+      "topic": "career",
+      "content": "在事业层面，权杖类型通常受到目标、挑战和成长机会驱动。他们可能比最终奖赏本身更享受突破困难、追求新方向以及不断向更大目标发展的过程。"
+    },
+    {
+      "id": "wands-shadow-inactivity",
+      "orientation": "neutral",
+      "topic": "shadow",
+      "content": "当缺乏行动、刺激或目标时，权杖类型可能变得低落或失去活力。由于停滞、绝望和长期消极并不符合他们惯常的生命经验，他们有时也较难理解处于这些状态中的人。"
+    },
+    {
+      "id": "wands-spread-dominance",
+      "orientation": "neutral",
+      "topic": "spread_pattern",
+      "content": "当权杖牌在一个牌阵中大量出现或具有明显重要性时，可以优先关注火元素主题，例如行动、活力、挑战、旅行、目标追求、扩张以及探索新方向。它也可能提示问卜者或当前情境具有明显的权杖式特征。"
+    },
+    {
+      "id": "wands-astrology",
+      "orientation": "neutral",
+      "topic": "astrology",
+      "content": "权杖牌组对应火元素。在占星体系中，火象星座包括牧羊座、狮子座和射手座，因此这些星座所体现的热情、主动性、扩张和探索等特征，可以辅助理解权杖牌组。"
+    },
+    {
+      "id": "wands-learning-through-action",
+      "orientation": "neutral",
+      "topic": "philosophy",
+      "content": "该来源将权杖类型的生命理解概括为通过亲身行动获得真正理解：仅仅听到的信息容易忘记，看到的信息更容易记住，而真正做过的事情才会形成深刻理解。"
+    }
+  ]
+}

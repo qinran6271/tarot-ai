@@ -1,0 +1,162 @@
+{
+  "cardId": "four-of-swords",
+  "cardNumber": 4,
+  "name": {
+    "zh": "宝剑四",
+    "en": "Four of Swords"
+  },
+  "arcana": "minor",
+  "suit": "swords",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/swords/04-four-of-swords.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "four-of-swords-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "宝剑四正位表示隐退、休息和深思熟虑的一段时期，适合暂时减少外在行动并恢复力量与清晰。"
+    },
+    {
+      "id": "four-of-swords-upright-rest",
+      "orientation": "upright",
+      "topic": "rest",
+      "content": "宝剑四正位可能提示退下来把事情想清楚、休息、养病，或暂时离开日常活动与过量刺激。"
+    },
+    {
+      "id": "four-of-swords-upright-purposeful-retreat",
+      "orientation": "upright",
+      "topic": "reflection",
+      "content": "宝剑四正位的退隐是为了整理过去的行为、经验、思想和信念，而不是永久逃避生活。"
+    },
+    {
+      "id": "four-of-swords-upright-return-required",
+      "orientation": "upright",
+      "topic": "balance",
+      "content": "宝剑四正位的休息应最终恢复行动能力和判断力。若不再回到生活，退隐可能转为停滞。"
+    },
+    {
+      "id": "four-of-swords-upright-integration",
+      "orientation": "upright",
+      "topic": "integration",
+      "content": "塔罗中的四与稳定、强化和整合有关。宝剑四通过重新组织思想与信念，使个人立场更加稳固。"
+    },
+    {
+      "id": "four-of-swords-upright-physical-mental-withdrawal",
+      "orientation": "upright",
+      "topic": "withdrawal",
+      "content": "宝剑四正位可能表示身体上待在家中，或者精神上进入阅读、梦想、幻想与独处。"
+    },
+    {
+      "id": "four-of-swords-upright-low-energy",
+      "orientation": "upright",
+      "topic": "energy",
+      "content": "宝剑四正位可能出现于身体活力较低或恢复期，表示需要减少外部刺激并重新平衡精力。"
+    },
+    {
+      "id": "four-of-swords-upright-self-inquiry",
+      "orientation": "upright",
+      "topic": "inner_growth",
+      "content": "宝剑四正位提供安静环境，让人反思过去为何发生、自己从中学到什么，以及今后如何不同地行动。"
+    },
+    {
+      "id": "four-of-swords-ace-reflection",
+      "orientation": "upright",
+      "topic": "card_relationship",
+      "relatedCardIds": [
+        "ace-of-swords"
+      ],
+      "content": "宝剑四可能要求重新认识宝剑王牌所开启事件背后的基本思想、动机与意义，再决定下一步。"
+    },
+    {
+      "id": "four-of-swords-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，宝剑四正位可能表示暂时退开，以整合自己并重新理解人生或关系。"
+    },
+    {
+      "id": "four-of-swords-upright-partner-withdrawal",
+      "orientation": "upright",
+      "topic": "relationship_pattern",
+      "content": "宝剑四正位可能表示伴侣从日常生活和关系中抽离，并使另一方感到距离或受伤。"
+    },
+    {
+      "id": "four-of-swords-upright-avoidant-retreat",
+      "orientation": "upright",
+      "topic": "avoidance",
+      "content": "根据周围牌，宝剑四正位可能描述把自己埋进书本、睡眠、幻想或消极嗜好，不再参与关系和现实互动。"
+    },
+    {
+      "id": "four-of-swords-upright-relationship-boundary",
+      "orientation": "upright",
+      "topic": "relationship_advice",
+      "content": "关系中的健康暂停应有目的、边界和沟通，说明需要多少空间、原因及何时重新讨论，而不是让对方长期猜测。"
+    },
+    {
+      "id": "four-of-swords-symbolism-resting-figure",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "闭目躺在石棺上的人物象征停止外在行动、休息、沉思，以及暂时退出日常生活。"
+    },
+    {
+      "id": "four-of-swords-symbolism-four-swords",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "一把横剑与三把向下的剑象征行动被暂时放置，思想则集中于整理过去经验和当前压力。"
+    },
+    {
+      "id": "four-of-swords-symbolism-yellow",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "黄色前景象征正在使用的智慧，以及以知性、反思的态度理解生活。"
+    },
+    {
+      "id": "four-of-swords-symbolism-stained-glass",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "彩绘玻璃透入的光象征即使处于休养和隐退状态，内在仍有新的方向、祝福和理解逐渐出现。"
+    },
+    {
+      "id": "four-of-swords-health-caution",
+      "orientation": "neutral",
+      "topic": "health_caution",
+      "content": "传统来源有时把宝剑四与手术、恢复或身体低潮联系起来，但塔罗不能诊断或决定治疗。持续不适应由医疗人员评估。"
+    },
+    {
+      "id": "four-of-swords-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "宝剑四逆位表示改变和重新投入生活的时机，独处、平静或休养阶段正逐渐结束。"
+    },
+    {
+      "id": "four-of-swords-reversed-unclear-desire",
+      "orientation": "reversed",
+      "topic": "decision",
+      "content": "宝剑四逆位可能已经清楚自己不想要什么，却仍不完全知道想要什么，需要通过有限度尝试取得现实信息。"
+    },
+    {
+      "id": "four-of-swords-reversed-return-life",
+      "orientation": "reversed",
+      "topic": "action",
+      "content": "宝剑四逆位表示在独处或恢复后重返日常生活，把反思所得的新理解应用于行动。"
+    },
+    {
+      "id": "four-of-swords-reversed-use-insight",
+      "orientation": "reversed",
+      "topic": "inner_growth",
+      "content": "宝剑四逆位提醒人不要一直停留在准备和思考阶段，新的理解只有进入实际生活才具有价值。"
+    },
+    {
+      "id": "four-of-swords-reversed-gradual-return",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "宝剑四逆位适合循序渐进恢复参与，避免从完全静止突然回到过度忙碌，并保留休养时学到的界限和节奏。"
+    }
+  ]
+}

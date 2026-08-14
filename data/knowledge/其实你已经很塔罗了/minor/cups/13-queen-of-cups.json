@@ -1,0 +1,153 @@
+{
+  "cardId": "queen-of-cups",
+  "name": {
+    "zh": "圣杯皇后",
+    "en": "Queen of Cups"
+  },
+  "arcana": "minor",
+  "suit": "cups",
+  "courtRank": "queen",
+  "sources": [
+    {
+      "sourceId": "其实你已经很塔罗了",
+      "book": "其实你已经很塔罗了（简体版）",
+      "author": "Paul Fenton",
+      "translator": "許慈倩",
+      "sourceFile": "sources/其实你已经很塔罗了/minor/cups/13-queen-of-cups.md"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "queen-of-cups-upright-general",
+      "orientation": "upright",
+      "topic": "general",
+      "content": "圣杯皇后正位表示通过倾听感受、运用直觉，并以有训练的创造力行动而获得成果。"
+    },
+    {
+      "id": "queen-of-cups-upright-element",
+      "orientation": "upright",
+      "topic": "element",
+      "content": "圣杯皇后代表水元素中的水，是情感、直觉、想象与创造力的集中表现。"
+    },
+    {
+      "id": "queen-of-cups-upright-grounded-intuition",
+      "orientation": "upright",
+      "topic": "intuition",
+      "content": "圣杯皇后正位把情感和直觉连接到现实基础。敏锐感受需要与经验、结构和现实验证结合，才能产生可靠结果。"
+    },
+    {
+      "id": "queen-of-cups-upright-creative-discipline",
+      "orientation": "upright",
+      "topic": "creativity",
+      "content": "圣杯皇后正位理解杂乱想象难以产生价值，因此会以训练和纪律把灵感转化为对现实与内在生命有意义的创造。"
+    },
+    {
+      "id": "queen-of-cups-upright-will-compassion",
+      "orientation": "upright",
+      "topic": "personality",
+      "content": "圣杯皇后正位虽然温柔、安静和细心，却也具有坚强意志。爱调和她的力量，使行动更有同理心、怜悯和深度。"
+    },
+    {
+      "id": "queen-of-cups-upright-person",
+      "orientation": "upright",
+      "topic": "person",
+      "content": "圣杯皇后正位代表人物时，通常描述情感成熟、安静、富有直觉和创造力，并擅长认真倾听的人。"
+    },
+    {
+      "id": "queen-of-cups-upright-listening",
+      "orientation": "upright",
+      "topic": "communication",
+      "content": "圣杯皇后正位经常认真倾听而不急于表达。她能提供安全空间，让别人愿意说出困扰和真实感受。"
+    },
+    {
+      "id": "queen-of-cups-upright-career",
+      "orientation": "upright",
+      "topic": "career",
+      "content": "圣杯皇后的敏锐、倾听和创造能力适合咨询、心理支持、社会工作、儿童照顾、协作、医疗照护和创造性工作。"
+    },
+    {
+      "id": "queen-of-cups-upright-astrology",
+      "orientation": "upright",
+      "topic": "astrology",
+      "content": "圣杯皇后对应水象星座巨蟹座、天蝎座和双鱼座，但人物的情感与行为特质比星座对应更重要。"
+    },
+    {
+      "id": "queen-of-cups-upright-appearance-caution",
+      "orientation": "upright",
+      "topic": "court_card_interpretation",
+      "content": "传统外貌描述可能包括蓝色或浅褐色眼睛和金棕色头发，但圣杯皇后的本质与行为比外貌更重要。"
+    },
+    {
+      "id": "queen-of-cups-upright-relationship",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "在亲密关系中，圣杯皇后正位表示重视伴侣、家人和孩子，愿意投入大量时间与精力维持情感连接和团结。"
+    },
+    {
+      "id": "queen-of-cups-upright-hidden-needs",
+      "orientation": "upright",
+      "topic": "relationship",
+      "content": "圣杯皇后正位可能继续支持别人，却不直接表达自己的困扰。长期把自身需要放在一旁，可能造成情感积压。"
+    },
+    {
+      "id": "queen-of-cups-upright-decision",
+      "orientation": "upright",
+      "topic": "decision",
+      "content": "当圣杯皇后正位作为建议时，适合在决定行动前先倾听感受与直觉，再用现实信息确认方向。"
+    },
+    {
+      "id": "queen-of-cups-symbolism-feet-water-throne-land",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "脚浸在水中而王座位于陆地，象征情感与直觉具有现实根基，梦想因此能够被支持并逐渐实现。"
+    },
+    {
+      "id": "queen-of-cups-symbolism-ornate-cup",
+      "orientation": "neutral",
+      "topic": "symbolism",
+      "content": "华丽且由皇后自己掌握的杯子象征她主动发展内在容器，能够看清自己想要什么，并想象实现它的步骤。"
+    },
+    {
+      "id": "queen-of-cups-reversed-general",
+      "orientation": "reversed",
+      "topic": "general",
+      "content": "圣杯皇后逆位表示情感和想象失去现实支持，可能陷入旧伤、情绪封闭、创造力停滞，或以控制和冷酷掩饰痛苦。"
+    },
+    {
+      "id": "queen-of-cups-reversed-depression-isolation",
+      "orientation": "reversed",
+      "topic": "isolation",
+      "content": "圣杯皇后逆位可能切断朋友支持和内在爱的来源，沉浸在感伤或旧有失落中，因此看不清眼前的人与机会。"
+    },
+    {
+      "id": "queen-of-cups-reversed-anger-revenge",
+      "orientation": "reversed",
+      "topic": "relationship",
+      "content": "圣杯皇后逆位可能以冷酷、愤怒或控制掩饰曾经受伤的痛苦，并把过去伴侣造成的伤害带入新关系。"
+    },
+    {
+      "id": "queen-of-cups-reversed-power-struggle",
+      "orientation": "reversed",
+      "topic": "control",
+      "content": "圣杯皇后逆位可能下意识惩罚现在的人，使亲密关系从情感连接变成权力角逐。"
+    },
+    {
+      "id": "queen-of-cups-reversed-forgiveness",
+      "orientation": "reversed",
+      "topic": "forgiveness",
+      "content": "圣杯皇后逆位常提示需要原谅自己或过去的人。原谅不等于否认伤害，而是停止让旧伤持续决定现在的关系和行为。"
+    },
+    {
+      "id": "queen-of-cups-reversed-unresolved-grief",
+      "orientation": "reversed",
+      "topic": "grief",
+      "content": "圣杯皇后逆位可能表示一份需要认真处理的悲伤，或口头上已经原谅，却始终无法真正放下的状态。"
+    },
+    {
+      "id": "queen-of-cups-reversed-reconnection",
+      "orientation": "reversed",
+      "topic": "advice",
+      "content": "面对圣杯皇后逆位，重新连接朋友、身体活动、现实生活与创造实践，有助于让情感重新获得出口和稳定基础。"
+    }
+  ]
+}

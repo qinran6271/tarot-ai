@@ -1,0 +1,56 @@
+{
+  "guideId": "reversed-cards",
+  "name": { "zh": "倒立的牌", "en": "Reversed Cards" },
+  "scope": "guide",
+  "sources": [{
+    "sourceId": "其实你已经很塔罗了",
+    "book": "其实你已经很塔罗了（简体版）",
+    "author": "Paul Fenton",
+    "translator": "許慈倩",
+    "sourceFile": "sources/其实你已经很塔罗了/guides/03-reversed-cards.md"
+  }],
+  "knowledge": [
+    {
+      "id": "reversed-cards-general",
+      "orientation": "reversed",
+      "topic": "reversal_principle",
+      "content": "逆位不必然等于坏事，也可能表示延迟、内化、阻塞、过度、失衡或某种课题尚未完成。具体含义需要结合问题与牌阵位置。"
+    },
+    {
+      "id": "reversed-cards-previous-card-lesson",
+      "orientation": "reversed",
+      "topic": "sequence_relationship",
+      "content": "有数字顺序的牌出现逆位时，有时表示问卜者尚未掌握前一张牌正位所代表的课题，因此需要回到前一阶段重新理解或完成它。"
+    },
+    {
+      "id": "three-of-wands-reversed-previous-lesson",
+      "orientation": "reversed",
+      "topic": "delay",
+      "cardId": "three-of-wands",
+      "relatedCardIds": ["two-of-wands"],
+      "content": "权杖三逆位可能表示进展或计划延迟，需要回到权杖二正位的课题，重新确认自己真正想要的方向。"
+    },
+    {
+      "id": "ten-of-wands-reversed-previous-lesson",
+      "orientation": "reversed",
+      "topic": "burden",
+      "cardId": "ten-of-wands",
+      "relatedCardIds": ["nine-of-wands"],
+      "content": "权杖十逆位可能表示当事人忙于任务而看不清前路，需要回到权杖九正位，衡量过去的失败与成功，再决定保留什么、排除什么。"
+    },
+    {
+      "id": "reversed-cards-sequence-exceptions",
+      "orientation": "reversed",
+      "topic": "sequence_exception",
+      "content": "前一张牌课题的顺序原则不直接适用于小阿尔克纳王牌、宫廷牌、各牌组国王，以及大阿尔克纳中的教皇。"
+    },
+    {
+      "id": "ace-of-wands-reversed-ten-lesson",
+      "orientation": "reversed",
+      "topic": "unfinished_business",
+      "cardId": "ace-of-wands",
+      "relatedCardIds": ["ten-of-wands"],
+      "content": "在新关系问题中，权杖王牌逆位可能表示开始受到延迟，因为问卜者需要先处理权杖十所象征的旧责任、负担或未解决事务。"
+    }
+  ]
+}
